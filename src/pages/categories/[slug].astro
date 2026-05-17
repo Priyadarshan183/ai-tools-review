@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { itemListJsonLd } from '../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const categories = await getCollection('categories');
+  return categories.map((c) => ({ params: { slug: c.data.slug }, props: { category: c } }));
+}
+
+const { category } = Astro.props;
+const allTools = await getCollection('tools');
+const tools = allTools
+  .filter((t) => t.data.category.id === category.id)
+  .sort((a, b) => b.data.rating - a.data.rating);
+
+const title = category.data.seo?.title ?? `${category.data.h1} — Reviews & Comparisons`;
+const description = category.data.seo?.description ?? category.data.description;
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Categories', href: '/categories' },
+  { name: category.data.name, href: `/categories/${category.data.slug}` },
+];
+const jsonLd = itemListJsonLd({
+  name: category.data.h1,
+  description,
+  items: tools.map((t) => ({ name: t.data.name, url: `/tools/${t.data.slug}` })),
+});
+---
+<Layout title={title} description={description} breadcrumbs={breadcrumbs} jsonLd={jsonLd}>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={breadcrumbs} />
+    <header class="mt-6">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{category.data.h1}</h1>
+      <p class="mt-3 max-w-3xl text-zinc-600 dark:text-zinc-400">{category.data.intro}</p>
+    </header>
+
+    {tools.length === 0 ? (
+      <p class="mt-10 text-zinc-500">No tools reviewed in this category yet. Check back soon.</p>
+    ) : (
+      <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {tools.map((tool) => <ToolCard tool={tool} />)}
+      </div>
+    )}
+  </div>
+</Layout>

@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+<Layout
+  title="Search"
+  description="Search every AI tool review, comparison, and guide on the site."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Search', href: '/search' }]}
+  noindex={true}
+>
+  <div class="container-prose py-10">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Search', href: '/search' }]} />
+    <h1 class="mt-6 text-3xl font-bold tracking-tight">Search</h1>
+    <p class="mt-3 text-zinc-600 dark:text-zinc-400">Find any review, comparison, or guide on the site.</p>
+    <div id="search" class="mt-6"></div>
+  </div>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.PagefindUI) {
+        new window.PagefindUI({
+          element: '#search',
+          showSubResults: true,
+          // Tell Pagefind where its own bundle (index files) lives under the base path
+          bundlePath: (window.SITE_BASE || '') + '/pagefind/',
+        });
+      } else {
+        document.getElementById('search').innerHTML =
+          '<p class="text-sm text-zinc-500">Search index will be available after the first production build.</p>';
+      }
+    });
+  </script>
+</Layout>

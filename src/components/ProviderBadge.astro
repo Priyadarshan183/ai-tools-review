@@ -1,0 +1,13 @@
+---
+import { providerColor, providerInitials } from '../lib/models';
+export interface Props { provider: string; size?: 'sm' | 'md' | 'lg'; }
+const { provider, size = 'md' } = Astro.props;
+const dim = { sm: 'h-5 w-5 text-[10px]', md: 'h-7 w-7 text-xs', lg: 'h-9 w-9 text-sm' }[size];
+const color = providerColor(provider);
+---
+<span
+  class={`inline-flex shrink-0 items-center justify-center rounded-md font-semibold text-white ${dim}`}
+  style={`background: ${color}`}
+  aria-label={provider}
+  title={provider}
+>{providerInitials(provider)}</span>

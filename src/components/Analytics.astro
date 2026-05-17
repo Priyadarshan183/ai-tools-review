@@ -1,0 +1,15 @@
+---
+import { SITE } from '../config/site.mjs';
+const { plausibleDomain, umamiWebsiteId, umamiSrc } = SITE.analytics;
+---
+{plausibleDomain && (
+  <script
+    is:inline
+    defer
+    data-domain={plausibleDomain}
+    src="https://plausible.io/js/script.js"
+  ></script>
+)}
+{umamiWebsiteId && umamiSrc && (
+  <script is:inline defer data-website-id={umamiWebsiteId} src={umamiSrc}></script>
+)}

@@ -1,0 +1,266 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import {
+  MODELS,
+  CATEGORIES,
+  formatPrice,
+  formatTokens,
+  formatScore,
+  MODELS_GENERATED_AT,
+} from '../lib/models';
+import { itemListJsonLd } from '../lib/jsonld';
+import { formatDate } from '../lib/format';
+
+const title = `AI model leaderboard — ${MODELS.length} models compared`;
+const description = `Sortable leaderboard of ${MODELS.length} AI models with verified benchmark scores, live pricing from OpenRouter, context windows, and modality. Filter by use case.`;
+
+// Minimal payload for the client island. We render the static HTML below for SEO
+// and use the same data to power client-side sort/filter without re-querying.
+const rows = MODELS.map((m) => ({
+  slug: m.slug,
+  name: m.name,
+  provider: m.provider,
+  categories: m.categories,
+  context_window: m.context_window,
+  input: m.pricing.input_per_million,
+  output: m.pricing.output_per_million,
+  free_tier: m.pricing.has_free_tier,
+  open_weight: m.is_open_weight,
+  gpqa: m.benchmarks['gpqa_diamond']?.score ?? null,
+  swe_v: m.benchmarks['swe_bench_verified']?.score ?? null,
+  swe_p: m.benchmarks['swe_bench_pro']?.score ?? null,
+  arena: m.benchmarks['arena_elo']?.score ?? null,
+}));
+
+const jsonLd = itemListJsonLd({
+  name: title,
+  description,
+  items: rows.slice(0, 100).map((r) => ({ name: r.name, url: `/tools/${r.slug}` })),
+});
+---
+<Layout
+  title={title}
+  description={description}
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Leaderboard', href: '/leaderboard' }]}
+  jsonLd={jsonLd}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Leaderboard', href: '/leaderboard' }]} />
+    <header class="mt-6 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">AI model leaderboard</h1>
+        <p class="mt-2 max-w-2xl text-zinc-600 dark:text-zinc-400">{description}</p>
+        <p class="mt-2 text-xs text-zinc-500">Updated {formatDate(MODELS_GENERATED_AT)} · Pricing live from OpenRouter · Benchmarks hand-curated</p>
+      </div>
+      <button type="button" id="lb-export" class="btn-secondary">Export CSV</button>
+    </header>
+
+    <div class="mt-6 flex flex-wrap items-center gap-2" role="toolbar" aria-label="Filter">
+      <button type="button" data-cat="" class="lb-chip active">All</button>
+      {CATEGORIES.map((c) => (
+        <button type="button" data-cat={c.id} class="lb-chip">{c.emoji} {c.label}</button>
+      ))}
+    </div>
+
+    <div class="mt-4 flex flex-wrap items-center gap-3">
+      <label class="flex-1 min-w-[200px]">
+        <span class="sr-only">Filter models</span>
+        <input id="lb-search" type="search" placeholder="Filter by name or provider…" class="w-full rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 dark:border-zinc-700 dark:bg-zinc-900" />
+      </label>
+      <span id="lb-count" class="text-sm text-zinc-500">{MODELS.length} models</span>
+    </div>
+
+    <div class="mt-4 overflow-x-auto rounded-lg border border-zinc-200 dark:border-zinc-800">
+      <table id="lb-table" class="w-full min-w-[900px] border-collapse text-sm">
+        <thead class="sticky top-0 z-10 bg-zinc-50 dark:bg-zinc-900">
+          <tr class="border-b border-zinc-200 text-left dark:border-zinc-800">
+            <th class="px-3 py-2 font-medium text-zinc-500">#</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="name">Model</th>
+            <th class="px-3 py-2 font-semibold">Categories</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="context">Context</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="input">Input $/M</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="output">Output $/M</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="gpqa">GPQA</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="swe_v">SWE Verified</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="swe_p">SWE Pro</th>
+            <th class="cursor-pointer px-3 py-2 font-semibold" data-sort="arena">Arena Elo</th>
+            <th class="px-3 py-2 font-medium text-zinc-500"></th>
+          </tr>
+        </thead>
+        <tbody id="lb-body">
+          {rows.map((r, i) => (
+            <tr
+              class="border-b border-zinc-100 hover:bg-zinc-50/60 dark:border-zinc-900 dark:hover:bg-zinc-900/40"
+              data-row
+              data-slug={r.slug}
+              data-name={r.name.toLowerCase()}
+              data-provider={r.provider.toLowerCase()}
+              data-categories={r.categories.join(',')}
+            >
+              <td class="px-3 py-2 text-zinc-500">{i + 1}</td>
+              <td class="px-3 py-2">
+                <a href={`/tools/${r.slug}`} class="font-medium no-underline hover:underline">{r.name}</a>
+                <div class="text-xs text-zinc-500">{r.provider}{r.open_weight && ' · open weight'}</div>
+              </td>
+              <td class="px-3 py-2">
+                <div class="flex flex-wrap gap-1">
+                  {r.categories.slice(0, 3).map((cid) => {
+                    const c = CATEGORIES.find((x) => x.id === cid);
+                    return c ? <span class="pill text-[10px]">{c.emoji} {c.label}</span> : null;
+                  })}
+                </div>
+              </td>
+              <td class="px-3 py-2 tabular-nums">{formatTokens(r.context_window)}</td>
+              <td class="px-3 py-2 tabular-nums">{formatPrice(r.input)}</td>
+              <td class="px-3 py-2 tabular-nums">{formatPrice(r.output)}</td>
+              <td class="px-3 py-2 tabular-nums">{formatScore(r.gpqa)}</td>
+              <td class="px-3 py-2 tabular-nums">{formatScore(r.swe_v)}</td>
+              <td class="px-3 py-2 tabular-nums">{formatScore(r.swe_p)}</td>
+              <td class="px-3 py-2 tabular-nums">{r.arena != null ? r.arena.toFixed(0) : '—'}</td>
+              <td class="px-3 py-2"><a href={`/tools/${r.slug}`} class="text-brand-700 hover:underline dark:text-brand-300">view →</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <style>
+    .lb-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      border-radius: 9999px;
+      border: 1px solid rgb(228 228 231);
+      background: white;
+      padding: 0.25rem 0.75rem;
+      font-size: 12px;
+      font-weight: 500;
+      color: rgb(63 63 70);
+      transition: background 0.15s, color 0.15s;
+    }
+    :global(.dark) .lb-chip { background: rgb(24 24 27); border-color: rgb(63 63 70); color: rgb(212 212 216); }
+    .lb-chip:hover { background: rgb(244 244 245); }
+    :global(.dark) .lb-chip:hover { background: rgb(39 39 42); }
+    .lb-chip.active { background: rgb(91 92 246); border-color: rgb(91 92 246); color: white; }
+    :global(.dark) .lb-chip.active { background: rgb(91 92 246); border-color: rgb(91 92 246); color: white; }
+    #lb-table th[data-sort] { user-select: none; }
+    #lb-table th[data-sort]:hover { color: rgb(91 92 246); }
+    #lb-table th[data-sort][aria-sort="ascending"]::after { content: " ▲"; }
+    #lb-table th[data-sort][aria-sort="descending"]::after { content: " ▼"; }
+  </style>
+
+  <script is:inline>
+  (function () {
+    const tbody = document.getElementById('lb-body');
+    const search = document.getElementById('lb-search');
+    const countEl = document.getElementById('lb-count');
+    const exportBtn = document.getElementById('lb-export');
+    if (!tbody || !search || !countEl) return;
+
+    const allRows = Array.from(tbody.querySelectorAll('[data-row]'));
+    const chips = Array.from(document.querySelectorAll('.lb-chip'));
+    let activeCategory = '';
+    let sortKey = null;
+    let sortDir = 'desc';
+
+    // Read ?category= from URL
+    const params = new URLSearchParams(window.location.search);
+    const initialCat = params.get('category') || '';
+    if (initialCat) {
+      activeCategory = initialCat;
+      chips.forEach((c) => c.classList.toggle('active', c.dataset.cat === initialCat));
+    }
+
+    function num(td) {
+      const t = td.textContent.trim();
+      if (t === '—' || t === 'Free') return t === 'Free' ? 0 : Number.NEGATIVE_INFINITY;
+      const cleaned = t.replace(/[^0-9.\-]/g, '');
+      const n = parseFloat(cleaned);
+      return Number.isFinite(n) ? n : Number.NEGATIVE_INFINITY;
+    }
+    function colIndex(key) {
+      // matches the table column order above
+      return { name: 1, context: 3, input: 4, output: 5, gpqa: 6, swe_v: 7, swe_p: 8, arena: 9 }[key];
+    }
+
+    function apply() {
+      const q = search.value.trim().toLowerCase();
+      let visible = 0;
+      let visibleRows = [];
+      for (const row of allRows) {
+        const cats = row.dataset.categories || '';
+        const matchesCat = !activeCategory || cats.split(',').includes(activeCategory);
+        const matchesText = !q || row.dataset.name.includes(q) || row.dataset.provider.includes(q);
+        const show = matchesCat && matchesText;
+        row.style.display = show ? '' : 'none';
+        if (show) { visible++; visibleRows.push(row); }
+      }
+      if (sortKey) {
+        const idx = colIndex(sortKey);
+        const dir = sortDir === 'asc' ? 1 : -1;
+        visibleRows.sort((a, b) => {
+          if (sortKey === 'name') {
+            return a.dataset.name.localeCompare(b.dataset.name) * dir;
+          }
+          return (num(a.children[idx]) - num(b.children[idx])) * dir;
+        });
+        for (const row of visibleRows) tbody.appendChild(row);
+        // Renumber rank column for the visible set
+        visibleRows.forEach((row, i) => { row.children[0].textContent = String(i + 1); });
+      } else {
+        visibleRows.forEach((row, i) => { row.children[0].textContent = String(i + 1); });
+      }
+      countEl.textContent = visible + ' models';
+    }
+
+    search.addEventListener('input', apply);
+    chips.forEach((c) => c.addEventListener('click', () => {
+      activeCategory = c.dataset.cat || '';
+      chips.forEach((x) => x.classList.toggle('active', x === c));
+      const u = new URL(window.location.href);
+      if (activeCategory) u.searchParams.set('category', activeCategory);
+      else u.searchParams.delete('category');
+      window.history.replaceState({}, '', u);
+      apply();
+    }));
+
+    document.querySelectorAll('#lb-table th[data-sort]').forEach((th) => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+        else { sortKey = key; sortDir = key === 'name' ? 'asc' : 'desc'; }
+        document.querySelectorAll('#lb-table th[data-sort]').forEach((x) => x.removeAttribute('aria-sort'));
+        th.setAttribute('aria-sort', sortDir === 'asc' ? 'ascending' : 'descending');
+        apply();
+      });
+    });
+
+    if (exportBtn) exportBtn.addEventListener('click', () => {
+      const visible = allRows.filter((r) => r.style.display !== 'none');
+      const headers = ['rank','model','provider','categories','context','input_per_million','output_per_million','gpqa','swe_verified','swe_pro','arena_elo'];
+      const csv = [headers.join(',')];
+      visible.forEach((row, i) => {
+        const cells = row.children;
+        const text = (n) => '"' + cells[n].textContent.trim().replace(/"/g, '""').replace(/\s+/g, ' ') + '"';
+        csv.push([
+          i + 1,
+          '"' + row.dataset.name.replace(/"/g, '""') + '"',
+          '"' + row.dataset.provider.replace(/"/g, '""') + '"',
+          '"' + (row.dataset.categories || '') + '"',
+          text(3), text(4), text(5), text(6), text(7), text(8), text(9),
+        ].join(','));
+      });
+      const blob = new Blob([csv.join('\n')], { type: 'text/csv' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'ai-model-leaderboard.csv';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+
+    if (activeCategory) apply();
+  })();
+  </script>
+</Layout>

@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { TOP_BY_CATEGORY, getModel } from '../../lib/models';
+import { comparisonSlug } from '../../lib/format';
+
+// Mirror getStaticPaths logic in /compare/[slug].astro: every pair among top-by-category models that share a category.
+const topSlugs = new Set<string>();
+for (const slugs of Object.values(TOP_BY_CATEGORY)) for (const s of slugs) topSlugs.add(s);
+const topModels = [...topSlugs].map((s) => getModel(s)).filter((m): m is NonNullable<ReturnType<typeof getModel>> => !!m);
+
+const pairs: { a: typeof topModels[number]; b: typeof topModels[number] }[] = [];
+for (let i = 0; i < topModels.length; i++) {
+  for (let j = i + 1; j < topModels.length; j++) {
+    if (topModels[i].categories.some((c) => topModels[j].categories.includes(c))) {
+      pairs.push({ a: topModels[i], b: topModels[j] });
+    }
+  }
+}
+
+const manual = await getCollection('comparisons', ({ data }) => !data.draft);
+---
+<Layout
+  title="AI model comparisons"
+  description="Head-to-head comparisons of the top AI models — pricing, benchmarks, and a clear monthly-cost calculator."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Compare', href: '/compare' }]}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Compare', href: '/compare' }]} />
+    <header class="mt-6">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">All comparisons</h1>
+      <p class="mt-3 max-w-2xl text-zinc-600 dark:text-zinc-400">Side-by-side comparisons among our top-ranked models in each category.</p>
+    </header>
+
+    {manual.length > 0 && (
+      <section class="mt-8">
+        <h2 class="text-xl font-semibold">Editorial picks</h2>
+        <ul class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {manual.map((c) => (
+            <li>
+              <a href={`/compare/${comparisonSlug(c.data.tool_a, c.data.tool_b)}`} class="card block p-4 no-underline">
+                <div class="text-sm font-medium text-zinc-900 dark:text-zinc-100">{c.data.headline}</div>
+                <div class="mt-1 line-clamp-2 text-xs text-zinc-500">{c.data.intro}</div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <section class="mt-10">
+      <h2 class="text-xl font-semibold">Auto-generated</h2>
+      <p class="mt-1 text-sm text-zinc-500">Every pair of our top-by-category models with shared categories. Live data, no editorial verdict yet.</p>
+      <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {pairs.map(({ a, b }) => (
+          <li>
+            <a href={`/compare/${comparisonSlug(a.slug, b.slug)}`} class="card block p-4 no-underline">
+              <div class="text-sm font-medium text-zinc-900 dark:text-zinc-100">{a.name} <span class="text-zinc-400">vs</span> {b.name}</div>
+              <div class="mt-1 text-xs text-zinc-500">{a.provider} · {b.provider}</div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Layout>

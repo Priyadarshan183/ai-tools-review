@@ -1,0 +1,100 @@
+{/*
+  TEMPLATE: Tool review (1,500–2,500 words)
+  TARGET KEYWORD FORMAT: "<tool name> review"
+  PRIMARY INTENT: commercial / decision-stage
+  WHERE THE KEYWORD MUST APPEAR:
+    - The H1 (review title)
+    - The first paragraph of the intro
+    - At least one H2
+    - The URL slug
+    - The alt text of the tool's hero/logo image
+  HOW TO USE THIS TEMPLATE:
+    1. Copy the YAML frontmatter and the body into src/content/reviews/<slug>.mdx
+    2. Replace every TODO and the {/* ... */} comments (Astro hides them at build, but they cost bytes)
+    3. Keep H2/H3 hierarchy intact — Google rewards predictable structure for "review" queries
+    4. Final pass: read the verdict first, then the pros/cons. If they contradict, fix the verdict.
+*/}
+
+---
+tool_slug: TODO-slug
+headline: "TODO Name Review: <one-sentence value claim>"
+intro: "TODO 2–3 sentence intro. Include the target keyword in sentence one and signal why this review is trustworthy (hands-on, weeks of use, real workload)."
+verdict: "TODO one-sentence buy / skip / buy-with-caveats verdict."
+score_breakdown:
+  ease_of_use: 4.0
+  features: 4.0
+  value: 4.0
+  support: 4.0
+author: Editor
+publish_date: 2026-01-01
+updated_date: 2026-01-01
+target_keyword: "TODO name review"
+draft: true
+---
+
+## What is {TODO Name}?
+
+{/* H2 #1 — Restate the keyword naturally. One paragraph: who it's for, what category, what's distinctive. */}
+
+TODO.
+
+## How we tested {TODO Name}
+
+{/* H2 #2 — Anchors E-E-A-T. List concrete tests, hours of use, real tasks. */}
+
+- Spent N hours over N weeks on real work
+- Ran X, Y, and Z standard tests for this category
+- Compared output against [Competitor A] and [Competitor B]
+
+## What's great
+
+{/* Multiple H3s under this — each one a concrete claim with evidence. Avoid adjective-only copy. */}
+
+### TODO Specific strength #1
+
+TODO Evidence: a quote, a screenshot caption, a number.
+
+### TODO Specific strength #2
+
+TODO.
+
+## What's not great
+
+{/* Honesty is the SEO moat. Specific complaints beat generic ones. */}
+
+### TODO Specific weakness #1
+
+TODO.
+
+### TODO Specific weakness #2
+
+TODO.
+
+## Pricing
+
+{/* Plans + what's included + what isn't. A simple table works well here. */}
+
+| Plan | Price | Best for |
+| --- | --- | --- |
+| Free | $0 | Try-before-you-buy |
+| Pro | $TODO | Solo users |
+| Team | $TODO/seat | Small teams |
+
+## {TODO Name} vs alternatives
+
+{/* Internal links to 2–3 related tool pages and the head-to-head comparison */}
+
+- See our [TODO Name vs Competitor A](/compare/TODO) comparison
+- Browse all [TODO category](/categories/TODO)
+
+## FAQ
+
+{/* These are *also* defined in the tool's JSON for FAQPage schema. Keep them in sync. */}
+
+### TODO common buyer question?
+
+TODO answer.
+
+## Verdict
+
+TODO Restate the one-sentence verdict. Link to the affiliate / website CTA and to one alternative.

@@ -1,0 +1,113 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import Comments from '../../components/Comments.astro';
+import { itemListJsonLd, articleJsonLd } from '../../lib/jsonld';
+import { SITE } from '../../config/site.mjs';
+import { pricingLabel, formatDate, absUrl } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const lists = await getCollection('best', ({ data }) => !data.draft);
+  return lists.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const allTools = await getCollection('tools');
+const picks = entry.data.picks
+  .map((p) => ({ pick: p, tool: allTools.find((t) => t.data.slug === p.tool_slug) }))
+  .filter((x): x is { pick: typeof entry.data.picks[number]; tool: typeof allTools[number] } => !!x.tool)
+  .sort((a, b) => a.pick.rank - b.pick.rank);
+
+const url = absUrl(`/best/${entry.slug}`);
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Best lists', href: '/best' },
+  { name: entry.data.headline, href: `/best/${entry.slug}` },
+];
+
+const jsonLd: Record<string, unknown>[] = [
+  articleJsonLd({
+    headline: entry.data.headline,
+    description: entry.data.intro,
+    url,
+    datePublished: entry.data.publish_date,
+    dateModified: entry.data.updated_date,
+    authorName: entry.data.author,
+  }),
+  itemListJsonLd({
+    name: entry.data.headline,
+    description: entry.data.intro,
+    items: picks.map(({ tool }) => ({ name: tool.data.name, url: `/tools/${tool.data.slug}` })),
+  }),
+];
+
+const { Content } = await entry.render();
+---
+<Layout
+  title={entry.data.headline}
+  description={entry.data.intro}
+  ogType="article"
+  breadcrumbs={breadcrumbs}
+  jsonLd={jsonLd}
+  publishedTime={entry.data.publish_date.toISOString()}
+  modifiedTime={entry.data.updated_date.toISOString()}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={breadcrumbs} />
+    <header class="mt-6">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{entry.data.headline}</h1>
+      <p class="mt-3 max-w-3xl text-zinc-600 dark:text-zinc-400">{entry.data.intro}</p>
+      <p class="mt-2 text-sm text-zinc-500">Updated {formatDate(entry.data.updated_date)} by {entry.data.author}</p>
+    </header>
+
+    <div class="mt-10 grid gap-10 lg:grid-cols-[1fr_280px]">
+      <div>
+        <ol class="space-y-6">
+          {picks.map(({ pick, tool }) => (
+            <li class="card p-5">
+              <div class="flex items-start gap-4">
+                <div class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-brand-100 font-semibold text-brand-800 dark:bg-brand-900/40 dark:text-brand-200">{pick.rank}</div>
+                <div class="flex-1">
+                  <div class="flex flex-wrap items-baseline gap-2">
+                    <h2 class="text-xl font-semibold"><a href={`/tools/${tool.data.slug}`} class="no-underline hover:underline">{tool.data.name}</a></h2>
+                    <span class="text-sm text-zinc-500">— best for {pick.best_for}</span>
+                  </div>
+                  <div class="mt-1 flex flex-wrap items-center gap-2 text-xs text-zinc-600 dark:text-zinc-400">
+                    <RatingStars rating={tool.data.rating} size="sm" />
+                    <span class="pill">{pricingLabel(tool.data.pricing_model)}</span>
+                    <span>{tool.data.starting_price}</span>
+                  </div>
+                  <p class="mt-3 text-sm text-zinc-700 dark:text-zinc-300">{pick.one_liner}</p>
+                  <p class="mt-3 text-sm">
+                    <a href={`/tools/${tool.data.slug}`} class="font-medium">Read full review →</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+
+        <div class="prose prose-zinc mt-12 max-w-none dark:prose-invert">
+          <Content />
+        </div>
+
+        <Comments />
+      </div>
+
+      <aside class="space-y-6">
+        <div class="card p-5">
+          <div class="text-sm font-semibold">In this list</div>
+          <ol class="mt-3 space-y-2 text-sm">
+            {picks.map(({ pick, tool }) => (
+              <li>
+                <a href={`#${tool.data.slug}`} class="hover:underline">{pick.rank}. {tool.data.name}</a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-05-17T03:00:41.297Z",
+  "top": {
+    "coding": [
+      "claude-mythos-preview",
+      "grok-4",
+      "deepseek-v3-2"
+    ],
+    "reasoning": [
+      "kimi-k2-6",
+      "grok-4",
+      "deepseek-v3-2"
+    ],
+    "writing": [
+      "gemini-3-1-pro",
+      "claude-opus-4-7",
+      "gpt-5-5"
+    ],
+    "vision": [
+      "claude-mythos-preview",
+      "gemini-3-1-pro",
+      "claude-opus-4-7"
+    ],
+    "multimodal": [
+      "gemini-3-1-pro",
+      "gpt-5-5"
+    ],
+    "long_context": [
+      "gemini-3-1-pro",
+      "grok-4",
+      "deepseek-v4-flash"
+    ],
+    "budget": [
+      "llama-3-3-70b-instruct-free",
+      "gemma-4-31b-it-free",
+      "llama-3-2-3b-instruct-free"
+    ],
+    "free": [
+      "gemini-3-1-pro",
+      "deepseek-v3-2",
+      "llama-3-3-70b-instruct-free"
+    ],
+    "open_weight": [
+      "kimi-k2-6",
+      "deepseek-v3-2",
+      "deepseek-r1"
+    ],
+    "fast": [
+      "llama-4-scout",
+      "mistral-nemo",
+      "gemini-3-flash"
+    ]
+  }
+}

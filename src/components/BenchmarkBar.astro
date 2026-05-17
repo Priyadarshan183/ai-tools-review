@@ -1,0 +1,28 @@
+---
+import { percentileFor, formatScore } from '../lib/models';
+export interface Props { benchmark: string; label: string; score: number | null; source: string | null; note?: string; }
+const { benchmark, label, score, source, note } = Astro.props;
+const pct = typeof score === 'number' ? percentileFor(benchmark, score) : 0;
+---
+<div class="space-y-1">
+  <div class="flex items-baseline justify-between text-sm">
+    <div class="font-medium">{label}</div>
+    <div class="tabular-nums">
+      {score == null ? <span class="text-zinc-400">—</span> : (
+        <>
+          <span class="font-semibold">{formatScore(score)}</span>
+          <span class="ml-1 text-xs text-zinc-500">· P{pct}</span>
+        </>
+      )}
+    </div>
+  </div>
+  <div class="h-2 w-full rounded-full bg-zinc-100 dark:bg-zinc-800" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow={pct} aria-label={`${label} percentile`}>
+    <div class="h-2 rounded-full bg-brand-500" style={`width: ${pct}%`}></div>
+  </div>
+  {(source || note) && (
+    <div class="text-xs text-zinc-500">
+      {source && <a href={source} rel="noopener" target="_blank" class="hover:underline">source</a>}
+      {note && <span class="ml-2 italic">{note}</span>}
+    </div>
+  )}
+</div>

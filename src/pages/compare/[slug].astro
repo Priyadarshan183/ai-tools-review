@@ -1,0 +1,287 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProviderBadge from '../../components/ProviderBadge.astro';
+import CategoryBadge from '../../components/CategoryBadge.astro';
+import {
+  MODELS,
+  TOP_BY_CATEGORY,
+  CATEGORIES,
+  getModel,
+  formatPrice,
+  formatTokens,
+  formatScore,
+  type Model,
+} from '../../lib/models';
+import { articleJsonLd } from '../../lib/jsonld';
+import { SITE } from '../../config/site.mjs';
+import { comparisonSlug, parseComparisonSlug, absUrl } from '../../lib/format';
+
+export async function getStaticPaths() {
+  // 1. Every manually-authored comparison MDX
+  const manual = await getCollection('comparisons', ({ data }) => !data.draft);
+
+  // 2. Auto-generate pairs among "top-by-category" models that share at least one category
+  const topSlugs = new Set<string>();
+  for (const slugs of Object.values(TOP_BY_CATEGORY)) for (const s of slugs) topSlugs.add(s);
+  const topModels = [...topSlugs].map((s) => getModel(s)).filter((m): m is Model => !!m);
+
+  const seen = new Set<string>();
+  const paths: any[] = [];
+
+  for (const m of manual) {
+    const slug = comparisonSlug(m.data.tool_a, m.data.tool_b);
+    seen.add(slug);
+    paths.push({ params: { slug }, props: { manual: m, autoPair: null } });
+  }
+
+  for (let i = 0; i < topModels.length; i++) {
+    for (let j = i + 1; j < topModels.length; j++) {
+      const a = topModels[i], b = topModels[j];
+      const shared = a.categories.some((c) => b.categories.includes(c));
+      if (!shared) continue;
+      const slug = comparisonSlug(a.slug, b.slug);
+      if (seen.has(slug)) continue;
+      seen.add(slug);
+      paths.push({ params: { slug }, props: { manual: null, autoPair: { a: a.slug, b: b.slug } } });
+    }
+  }
+  return paths;
+}
+
+const { manual, autoPair } = Astro.props;
+const slug = Astro.params.slug!;
+const parsed = parseComparisonSlug(slug)!;
+const aSlug = manual?.data.tool_a ?? autoPair!.a;
+const bSlug = manual?.data.tool_b ?? autoPair!.b;
+
+const a = getModel(aSlug);
+const b = getModel(bSlug);
+if (!a || !b) throw new Error(`Comparison missing model: ${slug} (a=${aSlug}, b=${bSlug})`);
+
+const title = manual?.data.headline ?? `${a.name} vs ${b.name}`;
+const description =
+  manual?.data.intro ??
+  `Compare ${a.name} and ${b.name} on pricing, context, modality, and every benchmark we have for both models.`;
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Compare', href: '/compare' },
+  { name: `${a.name} vs ${b.name}`, href: `/compare/${slug}` },
+];
+
+const url = absUrl(`/compare/${slug}`);
+const publishDate = manual?.data.publish_date ?? new Date(a.last_updated);
+const updatedDate = manual?.data.updated_date ?? new Date();
+const jsonLd = articleJsonLd({
+  headline: title,
+  description,
+  url,
+  datePublished: publishDate,
+  dateModified: updatedDate,
+  authorName: manual?.data ? SITE.author.name : 'Auto-generated from public data',
+});
+
+const { Content } = manual ? await manual.render() : { Content: null };
+
+const benchKeys = [
+  ['gpqa_diamond', 'GPQA Diamond'],
+  ['swe_bench_verified', 'SWE-Bench Verified'],
+  ['swe_bench_pro', 'SWE-Bench Pro'],
+  ['humanitys_last_exam', 'Humanity’s Last Exam'],
+  ['terminal_bench_2', 'Terminal-Bench 2'],
+  ['aime_2025', 'AIME 2025'],
+  ['arena_elo', 'Arena Elo'],
+  ['output_throughput_tps', 'Throughput (tps)'],
+];
+
+const sharedBenches = benchKeys.filter(
+  ([k]) => a.benchmarks[k]?.score != null || b.benchmarks[k]?.score != null
+);
+
+function winnerCell(av: number | null | undefined, bv: number | null | undefined, side: 'a' | 'b'): string {
+  if (av == null && bv == null) return 'text-zinc-400';
+  if (av == null) return side === 'a' ? 'text-zinc-400' : 'font-semibold text-emerald-700 dark:text-emerald-400';
+  if (bv == null) return side === 'b' ? 'text-zinc-400' : 'font-semibold text-emerald-700 dark:text-emerald-400';
+  if (av === bv) return '';
+  const aWins = av > bv;
+  if ((side === 'a' && aWins) || (side === 'b' && !aWins)) return 'font-semibold text-emerald-700 dark:text-emerald-400';
+  return '';
+}
+---
+<Layout
+  title={title}
+  description={description}
+  ogType="article"
+  breadcrumbs={breadcrumbs}
+  jsonLd={jsonLd}
+  publishedTime={new Date(publishDate).toISOString()}
+  modifiedTime={new Date(updatedDate).toISOString()}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="mt-6">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{a.name} vs {b.name}</h1>
+      <p class="mt-3 max-w-3xl text-zinc-600 dark:text-zinc-400">{description}</p>
+    </header>
+
+    {/* Side-by-side header cards */}
+    <section class="mt-8 grid gap-5 md:grid-cols-2">
+      {[a, b].map((m) => (
+        <div class="card p-5">
+          <div class="flex items-center gap-3">
+            <ProviderBadge provider={m.provider} size="md" />
+            <div>
+              <h2 class="text-lg font-semibold"><a href={`/tools/${m.slug}`} class="no-underline hover:underline">{m.name}</a></h2>
+              <div class="text-xs text-zinc-500">{m.provider}{m.is_open_weight && ' · open weight'}</div>
+            </div>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            {m.categories.slice(0, 4).map((c) => <CategoryBadge id={c} />)}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    {/* Diff table */}
+    <section class="mt-8 card overflow-hidden p-0">
+      <h2 class="border-b border-zinc-200 px-5 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:border-zinc-800">Specs & pricing</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse text-sm">
+          <tbody>
+            {[
+              ['Context window', formatTokens(a.context_window), formatTokens(b.context_window), a.context_window, b.context_window],
+              ['Max output', formatTokens(a.max_output_tokens), formatTokens(b.max_output_tokens), a.max_output_tokens, b.max_output_tokens],
+              ['Input $/M', formatPrice(a.pricing.input_per_million), formatPrice(b.pricing.input_per_million), a.pricing.input_per_million != null ? -a.pricing.input_per_million : null, b.pricing.input_per_million != null ? -b.pricing.input_per_million : null],
+              ['Output $/M', formatPrice(a.pricing.output_per_million), formatPrice(b.pricing.output_per_million), a.pricing.output_per_million != null ? -a.pricing.output_per_million : null, b.pricing.output_per_million != null ? -b.pricing.output_per_million : null],
+              ['Free tier', a.pricing.has_free_tier ? 'Yes' : 'No', b.pricing.has_free_tier ? 'Yes' : 'No', a.pricing.has_free_tier ? 1 : 0, b.pricing.has_free_tier ? 1 : 0],
+              ['Modality', a.modality.join(', ') || '—', b.modality.join(', ') || '—', a.modality.length, b.modality.length],
+              ['Open weight', a.is_open_weight ? 'Yes' : 'No', b.is_open_weight ? 'Yes' : 'No', null, null],
+              ['License', a.license ?? '—', b.license ?? '—', null, null],
+              ['Released', a.release_date ?? '—', b.release_date ?? '—', null, null],
+            ].map(([label, av, bv, ar, br]) => (
+              <tr class="border-b border-zinc-100 dark:border-zinc-900">
+                <td class="px-5 py-2 text-zinc-500">{label}</td>
+                <td class={`px-5 py-2 tabular-nums ${winnerCell(ar as any, br as any, 'a')}`}>{av}</td>
+                <td class={`px-5 py-2 tabular-nums ${winnerCell(ar as any, br as any, 'b')}`}>{bv}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {sharedBenches.length > 0 && (
+        <>
+          <h3 class="border-y border-zinc-200 bg-zinc-50 px-5 py-2 text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900/50">Benchmarks</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse text-sm">
+              <thead>
+                <tr class="border-b border-zinc-200 text-left dark:border-zinc-800">
+                  <th class="px-5 py-2 font-medium text-zinc-500"></th>
+                  <th class="px-5 py-2 font-semibold">{a.name}</th>
+                  <th class="px-5 py-2 font-semibold">{b.name}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sharedBenches.map(([k, label]) => {
+                  const av = a.benchmarks[k]?.score ?? null;
+                  const bv = b.benchmarks[k]?.score ?? null;
+                  return (
+                    <tr class="border-b border-zinc-100 dark:border-zinc-900">
+                      <td class="px-5 py-2 text-zinc-500">{label}</td>
+                      <td class={`px-5 py-2 tabular-nums ${winnerCell(av, bv, 'a')}`}>{formatScore(av)}</td>
+                      <td class={`px-5 py-2 tabular-nums ${winnerCell(av, bv, 'b')}`}>{formatScore(bv)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </section>
+
+    {/* Monthly cost calculator */}
+    <section class="mt-8 card p-5" data-mcalc
+      data-a-name={a.name} data-b-name={b.name}
+      data-a-in={a.pricing.input_per_million ?? ''} data-a-out={a.pricing.output_per_million ?? ''}
+      data-b-in={b.pricing.input_per_million ?? ''} data-b-out={b.pricing.output_per_million ?? ''}>
+      <h2 class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Monthly cost</h2>
+      <p class="mt-1 text-xs text-zinc-500">Enter your expected monthly input/output token volume. We do the math at each model's current price.</p>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <label class="block text-xs text-zinc-500">
+          Monthly input tokens
+          <input type="number" min="0" step="100000" value="10000000" data-mcalc-in class="mt-1 block w-full rounded-md border border-zinc-300 bg-white px-2 py-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-900" />
+        </label>
+        <label class="block text-xs text-zinc-500">
+          Monthly output tokens
+          <input type="number" min="0" step="100000" value="2000000" data-mcalc-out class="mt-1 block w-full rounded-md border border-zinc-300 bg-white px-2 py-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-900" />
+        </label>
+      </div>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <div class="rounded-md bg-zinc-50 p-3 dark:bg-zinc-900/50">
+          <div class="text-xs text-zinc-500">{a.name}</div>
+          <div class="text-xl font-semibold tabular-nums" data-mcalc-a>$0</div>
+        </div>
+        <div class="rounded-md bg-zinc-50 p-3 dark:bg-zinc-900/50">
+          <div class="text-xs text-zinc-500">{b.name}</div>
+          <div class="text-xl font-semibold tabular-nums" data-mcalc-b>$0</div>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-zinc-500" data-mcalc-savings></p>
+    </section>
+
+    <script is:inline>
+    (function () {
+      const root = document.querySelector('[data-mcalc]');
+      if (!root) return;
+      const aIn = parseFloat(root.dataset.aIn || '0') || 0;
+      const aOut = parseFloat(root.dataset.aOut || '0') || 0;
+      const bIn = parseFloat(root.dataset.bIn || '0') || 0;
+      const bOut = parseFloat(root.dataset.bOut || '0') || 0;
+      const inField = root.querySelector('[data-mcalc-in]');
+      const outField = root.querySelector('[data-mcalc-out]');
+      const aDest = root.querySelector('[data-mcalc-a]');
+      const bDest = root.querySelector('[data-mcalc-b]');
+      const savings = root.querySelector('[data-mcalc-savings]');
+      const fmt = (n) => '$' + n.toLocaleString(undefined, { maximumFractionDigits: n < 10 ? 2 : 0 });
+      function update() {
+        const i = parseFloat(inField.value || '0') || 0;
+        const o = parseFloat(outField.value || '0') || 0;
+        const ac = (i / 1e6) * aIn + (o / 1e6) * aOut;
+        const bc = (i / 1e6) * bIn + (o / 1e6) * bOut;
+        aDest.textContent = aIn || aOut ? fmt(ac) : 'Pricing unknown';
+        bDest.textContent = bIn || bOut ? fmt(bc) : 'Pricing unknown';
+        if (aIn && bIn) {
+          const diff = ac - bc;
+          if (Math.abs(diff) < 0.01) savings.textContent = 'Tied on cost at this volume.';
+          else if (diff > 0) savings.textContent = root.dataset.bName + ' is ' + fmt(diff) + '/mo cheaper at this volume.';
+          else savings.textContent = root.dataset.aName + ' is ' + fmt(-diff) + '/mo cheaper at this volume.';
+        }
+      }
+      inField.addEventListener('input', update);
+      outField.addEventListener('input', update);
+      update();
+    })();
+    </script>
+
+    {Content && (
+      <section class="prose prose-zinc mt-12 max-w-none dark:prose-invert">
+        <Content />
+      </section>
+    )}
+
+    {!Content && (
+      <section class="mt-12 prose prose-zinc max-w-none dark:prose-invert">
+        <h2>Auto-generated comparison</h2>
+        <p>This page is auto-generated from our model catalog. Pricing comes from OpenRouter (refreshed daily); benchmarks come from our hand-curated source list. Editorial review hasn't been written yet — but the numbers above are live.</p>
+        <p>
+          Want our take? <a href="/contact">Drop us a line</a> and we'll prioritise this pair, or browse the
+          {' '}<a href="/leaderboard">full leaderboard</a> to see how they stack up against everything else.
+        </p>
+      </section>
+    )}
+  </div>
+</Layout>

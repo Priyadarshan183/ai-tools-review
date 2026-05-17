@@ -1,0 +1,38 @@
+---
+import { SITE, NAV } from '../config/site.mjs';
+import DarkModeToggle from './DarkModeToggle.astro';
+const pathname = Astro.url.pathname;
+---
+<header class="sticky top-0 z-40 border-b border-zinc-200/70 bg-white/80 backdrop-blur dark:border-zinc-800/70 dark:bg-zinc-950/80">
+  <div class="container-wide flex h-14 items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-2 font-semibold text-zinc-900 no-underline dark:text-zinc-100">
+      <span class="grid h-7 w-7 place-items-center rounded-md bg-brand-600 text-white">A</span>
+      <span>{SITE.name}</span>
+    </a>
+    <nav aria-label="Primary" class="hidden md:block">
+      <ul class="flex items-center gap-1 text-sm">
+        {NAV.map((item) => {
+          const active = pathname === item.href || pathname.startsWith(item.href + '/');
+          return (
+            <li>
+              <a
+                href={item.href}
+                class={`rounded-md px-3 py-2 no-underline transition ${
+                  active
+                    ? 'bg-zinc-100 font-medium text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100'
+                    : 'text-zinc-600 hover:bg-zinc-50 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-zinc-100'
+                }`}
+              >{item.label}</a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/search" aria-label="Search" class="inline-flex h-9 w-9 items-center justify-center rounded-md border border-zinc-200 bg-white text-zinc-700 hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </a>
+      <DarkModeToggle />
+    </div>
+  </div>
+</header>

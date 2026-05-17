@@ -1,0 +1,323 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProviderBadge from '../../components/ProviderBadge.astro';
+import CategoryBadge from '../../components/CategoryBadge.astro';
+import BenchmarkBar from '../../components/BenchmarkBar.astro';
+import PriceCalculator from '../../components/PriceCalculator.astro';
+import Comments from '../../components/Comments.astro';
+import {
+  MODELS,
+  getModel,
+  formatPrice,
+  formatTokens,
+  formatScore,
+  TOP_BY_CATEGORY,
+  type Model,
+} from '../../lib/models';
+import {
+  articleJsonLd,
+  reviewJsonLd,
+  aggregateRatingJsonLd,
+  faqJsonLd,
+} from '../../lib/jsonld';
+import { SITE } from '../../config/site.mjs';
+import { formatDate, comparisonSlug, absUrl } from '../../lib/format';
+
+export async function getStaticPaths() {
+  // Every model in the catalog gets a page.
+  return MODELS.map((m) => ({ params: { slug: m.slug }, props: { model: m } }));
+}
+
+interface Props { model: Model }
+const { model } = Astro.props as Props;
+
+// Optional MDX review keyed by tool_slug (existing reviews stay; new models have no review yet)
+const review = (await getCollection('reviews', ({ data }) => data.tool_slug === model.slug && !data.draft))[0];
+const { Content } = review ? await review.render() : { Content: null };
+
+// Optional legacy tools/*.json — pull in pros/cons/faq/affiliate if present
+let legacyTool: any = null;
+try {
+  const tools = await getCollection('tools', ({ data }) => data.slug === model.slug);
+  legacyTool = tools[0] ?? null;
+} catch {
+  legacyTool = null;
+}
+
+const url = absUrl(`/tools/${model.slug}`);
+const description = review?.data.intro
+  ?? legacyTool?.data?.our_take
+  ?? model.description
+  ?? `Hands-on review and live benchmark data for ${model.name} from ${model.provider}.`;
+const title = `${model.name} Review, Specs & Benchmarks`;
+
+// Related models: same provider OR overlapping category, exclude self
+const related = MODELS
+  .filter((m) => m.slug !== model.slug && (m.provider === model.provider || m.categories.some((c) => model.categories.includes(c))))
+  .slice(0, 6);
+
+// Compare pages exist only for pairs of top-by-category models that share a category.
+const topSlugs = new Set<string>();
+for (const slugs of Object.values(TOP_BY_CATEGORY)) for (const s of slugs) topSlugs.add(s);
+const modelIsTop = topSlugs.has(model.slug);
+const hasComparePage = (other: Model): boolean =>
+  modelIsTop && topSlugs.has(other.slug) && other.categories.some((c) => model.categories.includes(c));
+
+// JSON-LD: SoftwareApplication + AggregateRating + Article (if review) + FAQPage (if legacy)
+const benchmarkScores = Object.values(model.benchmarks)
+  .map((b) => b.score)
+  .filter((x): x is number => typeof x === 'number');
+const aggregateScore =
+  benchmarkScores.length > 0
+    ? benchmarkScores.reduce((a, b) => a + b, 0) / benchmarkScores.length / 20 // crude 0..5
+    : null;
+
+const jsonLd: Record<string, unknown>[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: model.name,
+    applicationCategory: 'AIApplication',
+    operatingSystem: 'Web',
+    url: model.website ?? url,
+    description,
+    offers: model.pricing.input_per_million != null ? {
+      '@type': 'Offer',
+      price: model.pricing.input_per_million,
+      priceCurrency: model.pricing.currency,
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: model.pricing.input_per_million,
+        priceCurrency: model.pricing.currency,
+        unitText: '1M input tokens',
+      },
+    } : undefined,
+    ...(aggregateScore != null && benchmarkScores.length >= 2 ? {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: Math.min(5, Math.max(0, aggregateScore)).toFixed(2),
+        reviewCount: benchmarkScores.length,
+        bestRating: 5,
+        worstRating: 0,
+      },
+    } : {}),
+  },
+];
+
+if (review) {
+  jsonLd.push(
+    reviewJsonLd({
+      toolName: model.name,
+      toolUrl: url,
+      rating: legacyTool?.data?.rating ?? aggregateScore ?? 4,
+      reviewBody: review.data.intro,
+      authorName: review.data.author,
+      datePublished: review.data.publish_date,
+    }),
+    articleJsonLd({
+      headline: review.data.headline,
+      description: review.data.intro,
+      url,
+      datePublished: review.data.publish_date,
+      dateModified: review.data.updated_date,
+      authorName: review.data.author,
+    })
+  );
+}
+if (legacyTool?.data?.faq?.length) jsonLd.push(faqJsonLd(legacyTool.data.faq));
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Leaderboard', href: '/leaderboard' },
+  { name: model.name, href: `/tools/${model.slug}` },
+];
+
+const orHref = model.openrouter_id ? `https://openrouter.ai/${model.openrouter_id}` : null;
+const benchmarkLabels: Record<string, string> = {
+  gpqa_diamond: 'GPQA Diamond',
+  swe_bench_verified: 'SWE-Bench Verified',
+  swe_bench_pro: 'SWE-Bench Pro',
+  humanitys_last_exam: 'Humanity’s Last Exam',
+  terminal_bench_2: 'Terminal-Bench 2',
+  aime_2025: 'AIME 2025',
+  arena_elo: 'Arena Elo',
+  mmlu_pro: 'MMLU Pro',
+  humaneval_plus: 'HumanEval+',
+  output_throughput_tps: 'Throughput (tps)',
+};
+const orderedBenches = [
+  'swe_bench_pro', 'swe_bench_verified', 'gpqa_diamond', 'humanitys_last_exam',
+  'terminal_bench_2', 'aime_2025', 'arena_elo', 'mmlu_pro', 'humaneval_plus', 'output_throughput_tps',
+];
+---
+<Layout
+  title={title}
+  description={description}
+  ogType="article"
+  breadcrumbs={breadcrumbs}
+  jsonLd={jsonLd}
+  publishedTime={review?.data.publish_date.toISOString()}
+  modifiedTime={review?.data.updated_date.toISOString() ?? model.last_updated}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={breadcrumbs} />
+
+    {/* Header */}
+    <header class="mt-6 flex flex-wrap items-start justify-between gap-6">
+      <div class="flex items-start gap-4">
+        <ProviderBadge provider={model.provider} size="lg" />
+        <div>
+          <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{model.name}</h1>
+          <div class="mt-2 flex flex-wrap items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
+            <span class="font-medium text-zinc-800 dark:text-zinc-200">{model.provider}</span>
+            {model.release_date && <><span>·</span><span>Released {model.release_date}</span></>}
+            {model.license && <><span>·</span><span>{model.license}</span></>}
+            {model.is_open_weight && <><span>·</span><span class="pill bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">Open weight</span></>}
+          </div>
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            {model.categories.map((c) => <CategoryBadge id={c} />)}
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        {model.website && <a href={model.website} rel="noopener" target="_blank" class="btn-primary">Visit official site</a>}
+        {model.api_docs && <a href={model.api_docs} rel="noopener" target="_blank" class="btn-secondary">Read API docs</a>}
+        {orHref && <a href={orHref} rel="noopener" target="_blank" class="btn-secondary">Try on OpenRouter</a>}
+      </div>
+    </header>
+
+    {/* Specs at a glance */}
+    <section aria-label="Specs" class="mt-8 grid gap-5 lg:grid-cols-[1fr_320px]">
+      <div class="card p-5">
+        <h2 class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Specs at a glance</h2>
+        <dl class="mt-3 grid grid-cols-2 gap-x-6 gap-y-3 text-sm sm:grid-cols-3">
+          <div><dt class="text-zinc-500">Context window</dt><dd class="font-semibold tabular-nums">{formatTokens(model.context_window)}</dd></div>
+          <div><dt class="text-zinc-500">Max output</dt><dd class="font-semibold tabular-nums">{formatTokens(model.max_output_tokens)}</dd></div>
+          <div><dt class="text-zinc-500">Modality</dt><dd class="font-semibold">{model.modality.join(', ') || '—'}</dd></div>
+          <div><dt class="text-zinc-500">Input $/M</dt><dd class="font-semibold tabular-nums">{formatPrice(model.pricing.input_per_million)}</dd></div>
+          <div><dt class="text-zinc-500">Output $/M</dt><dd class="font-semibold tabular-nums">{formatPrice(model.pricing.output_per_million)}</dd></div>
+          <div><dt class="text-zinc-500">Free tier</dt><dd class="font-semibold">{model.pricing.has_free_tier ? 'Yes' : 'No'}</dd></div>
+        </dl>
+        {model.supported_features.length > 0 && (
+          <div class="mt-4">
+            <div class="text-xs uppercase tracking-wide text-zinc-500">Features</div>
+            <div class="mt-2 flex flex-wrap gap-1.5">
+              {model.supported_features.map((f) => <span class="pill">{f}</span>)}
+            </div>
+          </div>
+        )}
+        <p class="mt-4 text-xs text-zinc-500">Last verified {model.last_verified ?? formatDate(model.last_updated)} · Pricing source: {(() => {
+          const src = model.pricing.source;
+          try {
+            if (src && /^https?:\/\//.test(src)) {
+              const h = new URL(src).hostname;
+              return <a href={src} rel="noopener" target="_blank" class="hover:underline">{h}</a>;
+            }
+            if (src) return <span>{src}</span>;
+            return <a href="https://openrouter.ai/api/v1/models" rel="noopener" target="_blank" class="hover:underline">openrouter.ai</a>;
+          } catch { return <span>{src ?? '—'}</span>; }
+        })()}</p>
+      </div>
+
+      <PriceCalculator input={model.pricing.input_per_million} output={model.pricing.output_per_million} modelName={model.name} />
+    </section>
+
+    {/* Benchmarks */}
+    {Object.keys(model.benchmarks).length > 0 && (
+      <section class="mt-8 card p-5">
+        <h2 class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Benchmarks</h2>
+        <p class="mt-1 text-xs text-zinc-500">Percentile rank shown relative to all {MODELS.length} models in our catalog. Bars empty = no published score.</p>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          {orderedBenches.filter((k) => model.benchmarks[k]).map((k) => (
+            <BenchmarkBar
+              benchmark={k}
+              label={benchmarkLabels[k] ?? k}
+              score={model.benchmarks[k].score}
+              source={model.benchmarks[k].source}
+              note={model.benchmarks[k].note}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Review prose (if any) */}
+    <section class="mt-10 grid gap-10 lg:grid-cols-[1fr_280px]">
+      <div class="prose prose-zinc max-w-none dark:prose-invert">
+        {Content ? <Content /> : (
+          <>
+            <h2>Review coming soon</h2>
+            <p>
+              We're testing {model.name} as part of our standard review battery. In the meantime, the data above is automatically refreshed daily — pricing and modality from OpenRouter, benchmarks from our hand-curated source list.
+            </p>
+            <p>
+              Need to decide today? Try the <a href="/leaderboard">leaderboard</a> filtered to <a href={`/leaderboard?category=${model.categories[0] ?? 'reasoning'}`}>{model.categories[0] ?? 'reasoning'}</a>, or open a head-to-head comparison from a related model below.
+            </p>
+          </>
+        )}
+
+        {legacyTool?.data?.pros && (
+          <>
+            <h2 id="pros-cons">Pros and cons</h2>
+            <div class="not-prose grid gap-4 sm:grid-cols-2">
+              <div class="card p-5">
+                <div class="text-sm font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400">Pros</div>
+                <ul class="mt-3 space-y-2 text-sm">
+                  {legacyTool.data.pros.map((p: string) => <li class="flex gap-2"><span aria-hidden="true">✓</span><span>{p}</span></li>)}
+                </ul>
+              </div>
+              <div class="card p-5">
+                <div class="text-sm font-semibold uppercase tracking-wide text-rose-700 dark:text-rose-400">Cons</div>
+                <ul class="mt-3 space-y-2 text-sm">
+                  {legacyTool.data.cons.map((p: string) => <li class="flex gap-2"><span aria-hidden="true">✕</span><span>{p}</span></li>)}
+                </ul>
+              </div>
+            </div>
+          </>
+        )}
+
+        {legacyTool?.data?.faq?.length > 0 && (
+          <>
+            <h2 id="faq">Frequently asked questions</h2>
+            {legacyTool.data.faq.map((q: any) => (
+              <details class="mb-3 rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
+                <summary class="cursor-pointer font-medium">{q.question}</summary>
+                <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300">{q.answer}</p>
+              </details>
+            ))}
+          </>
+        )}
+
+        {related.length > 0 && (
+          <>
+            <h2 id="related">Related models</h2>
+            <ul>
+              {related.map((r) => (
+                <li>
+                  <a href={`/tools/${r.slug}`}>{r.name}</a>
+                  {hasComparePage(r) && <> · <a href={`/compare/${comparisonSlug(model.slug, r.slug)}`}>compare</a></>}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        <Comments />
+      </div>
+
+      <aside class="space-y-4">
+        <div class="card p-5">
+          <div class="text-sm font-semibold">Quick links</div>
+          <ul class="mt-3 space-y-2 text-sm">
+            {model.website && <li><a href={model.website} rel="noopener" target="_blank">Official site →</a></li>}
+            {model.api_docs && <li><a href={model.api_docs} rel="noopener" target="_blank">API docs →</a></li>}
+            {orHref && <li><a href={orHref} rel="noopener" target="_blank">OpenRouter →</a></li>}
+            <li><a href={`/leaderboard?category=${model.categories[0] ?? ''}`}>Leaderboard{model.categories[0] && ` (${model.categories[0]})`} →</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </div>
+</Layout>

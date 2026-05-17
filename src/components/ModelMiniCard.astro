@@ -1,0 +1,30 @@
+---
+import ProviderBadge from './ProviderBadge.astro';
+import { formatPrice, formatScore, type Model, type CategoryMeta } from '../lib/models';
+export interface Props {
+  model: Model;
+  category: CategoryMeta;
+  rank: number;
+}
+const { model, category, rank } = Astro.props;
+const metric = category.metricKey ? model.benchmarks[category.metricKey]?.score ?? null : null;
+let primary: { label: string; value: string };
+if (category.id === 'long_context') {
+  const n = model.context_window;
+  primary = { label: 'Context', value: n ? `${(n / 1000).toFixed(0)}K` : '—' };
+} else if (category.id === 'budget') {
+  primary = { label: 'Input $/M', value: formatPrice(model.pricing.input_per_million) };
+} else if (category.id === 'fast' && model.benchmarks['output_throughput_tps']?.score) {
+  primary = { label: 'Throughput', value: `${model.benchmarks['output_throughput_tps']!.score!.toFixed(0)} tps` };
+} else {
+  primary = { label: category.metricLabel, value: formatScore(metric) };
+}
+---
+<a href={`/tools/${model.slug}`} class="card flex items-center gap-3 p-3 no-underline">
+  <span class="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-brand-100 text-xs font-semibold text-brand-800 dark:bg-brand-900/40 dark:text-brand-200">{rank}</span>
+  <ProviderBadge provider={model.provider} size="sm" />
+  <div class="min-w-0 flex-1">
+    <div class="truncate text-sm font-semibold text-zinc-900 dark:text-zinc-100">{model.name}</div>
+    <div class="truncate text-xs text-zinc-500">{primary.label}: <span class="font-medium text-zinc-700 dark:text-zinc-300">{primary.value}</span>{model.pricing.input_per_million != null && <> · in {formatPrice(model.pricing.input_per_million)}</>}</div>
+  </div>
+</a>

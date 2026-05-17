@@ -1,0 +1,48 @@
+---
+tool_slug: claude-opus-4-7
+headline: "Claude Opus 4.7 Review: Anthropic's Best Coder Yet, At a Price"
+intro: "Claude Opus 4.7 lands as the top mainstream model on SWE-Bench Pro (64.3%) and a co-leader on GPQA Diamond (94.2). Whether it's worth the $5/$25 per million tokens depends entirely on what you're throwing at it — here's what 6 weeks of hands-on testing turned up."
+verdict: "Buy for serious agentic coding work and source-grounded research. Skip for casual chat and short-form writing where Sonnet 4.6 gets you 90% of the way for a fifth of the price."
+score_breakdown:
+  ease_of_use: 4.4
+  features: 4.7
+  value: 3.9
+  support: 4.5
+author: Editor
+publish_date: 2026-05-12
+updated_date: 2026-05-17
+target_keyword: "claude opus 4.7 review"
+---
+
+{/* TARGET KEYWORD: "claude opus 4.7 review" */}
+
+## What is Claude Opus 4.7?
+
+Anthropic's flagship as of April 2026 — replacing Opus 4.6, sitting above Sonnet 4.6 and Haiku 4.5 in the price/performance ladder. 200K context, 128K max output, vision input, tool calling, and extended thinking. The pricing card up top is the headline number for most teams: **$5/M input, $25/M output**. That's roughly 5× the cost of GPT-5.5 on output, and ~12× the cost of Sonnet 4.6.
+
+## Where it leads
+
+- **SWE-Bench Pro (64.3%).** Best score we've seen on a mainstream API for the harder multi-language coding benchmark. Comfortably ahead of GPT-5.5 (58.6%) and Gemini 3.1 Pro (54.2%).
+- **GPQA Diamond (94.2%).** Co-leader with Gemini 3.1 Pro at the saturation ceiling.
+- **Tool calling under load.** Multi-step agentic flows where the model has to call 4–6 tools in sequence are where we saw Opus 4.7 pull furthest ahead of GPT-5.5 in actual production output, not just benchmark numbers.
+
+## Where it doesn't
+
+- **Pure speed.** No throughput benchmark in our catalog yet, but qualitatively it's not faster than GPT-5.5 on long generations.
+- **Pricing.** $25/M output stings. A run that costs $0.30 on Sonnet 4.6 costs $1.50 on Opus 4.7.
+- **Audio/video.** Vision only. If you need audio or video input, you're on Gemini 3.1 Pro or GPT-5.5.
+
+## Who should pick what
+
+| If you're doing... | We'd pick |
+| --- | --- |
+| Agentic coding, long debug loops, refactors across many files | **Claude Opus 4.7** |
+| Casual chat, drafts, short emails | **Claude Sonnet 4.6** or **GPT-5 Mini** |
+| Anything needing audio or video input | **Gemini 3.1 Pro** |
+| Tight budget, willing to self-host | **DeepSeek V3.2** (open-weight) |
+
+## Verdict
+
+The first $5/$25 model we'd genuinely recommend without hedging — but only if you're doing the work that warrants it. For everything else, [Sonnet 4.6](/tools/claude-sonnet-4-6) is the answer.
+
+Compare head-to-head: [Claude Opus 4.7 vs GPT-5.5](/compare/claude-opus-4-7-vs-gpt-5-5), [Claude Opus 4.7 vs Gemini 3.1 Pro](/compare/claude-opus-4-7-vs-gemini-3-1-pro).

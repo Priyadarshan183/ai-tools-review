@@ -1,0 +1,40 @@
+---
+import RatingStars from './RatingStars.astro';
+import { pricingLabel } from '../lib/format';
+export interface Props {
+  tool: {
+    data: {
+      name: string;
+      slug: string;
+      logo: string;
+      pricing_model: string;
+      starting_price: string;
+      rating: number;
+      our_take: string;
+      free_tier: boolean;
+    };
+  };
+}
+const { tool } = Astro.props;
+const t = tool.data;
+---
+<article class="card flex h-full flex-col p-5">
+  <div class="flex items-start gap-3">
+    <img src={t.logo} alt={`${t.name} logo`} width="40" height="40" loading="lazy" decoding="async" class="h-10 w-10 rounded-md bg-zinc-100 object-contain p-1 dark:bg-zinc-800" />
+    <div class="min-w-0 flex-1">
+      <h3 class="truncate text-base font-semibold text-zinc-900 dark:text-zinc-100">
+        <a href={`/tools/${t.slug}`} class="no-underline hover:underline">{t.name}</a>
+      </h3>
+      <div class="mt-1 flex flex-wrap items-center gap-2 text-xs text-zinc-600 dark:text-zinc-400">
+        <span class="pill">{pricingLabel(t.pricing_model)}</span>
+        <span>{t.starting_price}</span>
+        {t.free_tier && <span class="pill bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">Free tier</span>}
+      </div>
+    </div>
+  </div>
+  <p class="mt-3 line-clamp-3 text-sm text-zinc-600 dark:text-zinc-400">{t.our_take}</p>
+  <div class="mt-auto flex items-center justify-between pt-4">
+    <RatingStars rating={t.rating} />
+    <a href={`/tools/${t.slug}`} class="text-sm font-medium text-brand-700 hover:underline dark:text-brand-300">Read review →</a>
+  </div>
+</article>

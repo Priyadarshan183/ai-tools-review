@@ -1,0 +1,34 @@
+---
+import { SITE, FOOTER_LINKS } from '../config/site.mjs';
+import Newsletter from './Newsletter.astro';
+const groups = Object.entries(FOOTER_LINKS);
+---
+<footer class="mt-24 border-t border-zinc-200 bg-zinc-50/60 py-12 dark:border-zinc-800 dark:bg-zinc-900/60">
+  <div class="container-wide grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+    <div>
+      <div class="font-semibold text-zinc-900 dark:text-zinc-100">{SITE.name}</div>
+      <p class="mt-2 max-w-sm text-sm text-zinc-600 dark:text-zinc-400">{SITE.description}</p>
+      <Newsletter compact={true} />
+    </div>
+    {groups.map(([heading, links]) => (
+      <div>
+        <div class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">{heading}</div>
+        <ul class="mt-3 space-y-2 text-sm">
+          {links.map((l) => (
+            <li><a href={l.href} class="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100">{l.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+  <div class="container-wide mt-10 flex flex-col items-start justify-between gap-2 border-t border-zinc-200 pt-6 text-xs text-zinc-500 dark:border-zinc-800 dark:text-zinc-500 sm:flex-row sm:items-center">
+    <div>© {SITE.publishedYear} {SITE.organization.legalName}. All rights reserved.</div>
+    <div>
+      <a href="/disclosure" class="hover:underline">Disclosure</a>
+      <span class="mx-2">·</span>
+      <a href="/methodology" class="hover:underline">Methodology</a>
+      <span class="mx-2">·</span>
+      <a href="/rss.xml" class="hover:underline">RSS</a>
+    </div>
+  </div>
+</footer>

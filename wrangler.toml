@@ -1,0 +1,5 @@
+# Cloudflare Pages config
+# Deploy: npx wrangler pages deploy dist --project-name=ai-tools-review
+name = "ai-tools-review"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"

@@ -1,0 +1,40 @@
+---
+import ProseLayout from '../layouts/ProseLayout.astro';
+---
+<ProseLayout
+  title="Methodology"
+  description="How we test, score, and update every AI tool review on this site."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Methodology', href: '/methodology' }]}
+>
+  <h1>How we review AI tools</h1>
+  <p>
+    Every review on this site follows the same six-step process. We do this because consistency matters more than cleverness when readers are comparing tools.
+  </p>
+
+  <h2>1. We pay for our own accounts</h2>
+  <p>No vendor-provided demo accounts. We sign up like a regular user — usually on the cheapest paid plan, plus the free tier if there is one — so we see what you'll see.</p>
+
+  <h2>2. We use the tool on a fixed test battery</h2>
+  <p>Each category has a standard set of tasks we throw at every tool in that category. This is the only way "X is better than Y" claims become meaningful.</p>
+
+  <h2>3. We score four dimensions</h2>
+  <ul>
+    <li><strong>Ease of use</strong> — onboarding, UI, learning curve</li>
+    <li><strong>Features</strong> — depth and breadth versus what's needed for the use case</li>
+    <li><strong>Value</strong> — output quality per dollar at realistic usage</li>
+    <li><strong>Support</strong> — docs, response times, community</li>
+  </ul>
+  <p>The headline rating is a weighted average; we lean heavier on Value and Features for paid tools.</p>
+
+  <h2>4. We write the verdict before the marketing bullets</h2>
+  <p>The "our take" goes first. Pros and cons come second. This forces us to commit to an opinion rather than hedging.</p>
+
+  <h2>5. We re-test on a schedule</h2>
+  <p>Every tool is re-checked at least every 90 days. Pricing and major feature changes trigger an immediate update. The "Last tested" date on every review is the truth, not the publish date.</p>
+
+  <h2>6. We disclose conflicts</h2>
+  <p>If we have an affiliate relationship with a tool, that link is marked <code>rel="sponsored"</code> and disclosed on the <a href="/disclosure">disclosure page</a>. Affiliate status never affects rating.</p>
+
+  <h2>Corrections</h2>
+  <p>If something is wrong, email us via the <a href="/contact">contact page</a>. We update reviews in place and note the change in the "Updated" date.</p>
+</ProseLayout>

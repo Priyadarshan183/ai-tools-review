@@ -1,0 +1,12 @@
+---
+import { getCategory, type CategoryId } from '../lib/models';
+export interface Props { id: CategoryId; size?: 'sm' | 'md'; }
+const { id, size = 'sm' } = Astro.props;
+const c = getCategory(id);
+const cls = size === 'sm'
+  ? 'inline-flex items-center gap-1 rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300'
+  : 'inline-flex items-center gap-1.5 rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300';
+---
+<a href={`/leaderboard?category=${c.id}`} class={cls + ' no-underline hover:bg-zinc-200 dark:hover:bg-zinc-700'}>
+  <span aria-hidden="true">{c.emoji}</span>{c.label}
+</a>

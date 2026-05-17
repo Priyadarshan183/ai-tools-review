@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProviderBadge from '../../components/ProviderBadge.astro';
+import { MODELS, formatPrice, formatTokens, formatScore, CATEGORIES } from '../../lib/models';
+import { itemListJsonLd } from '../../lib/jsonld';
+
+// Sort: benchmarked first (GPQA desc), then alphabetical
+const sorted = [...MODELS].sort((a, b) => {
+  const sa = a.benchmarks['gpqa_diamond']?.score ?? -1;
+  const sb = b.benchmarks['gpqa_diamond']?.score ?? -1;
+  if (sb !== sa) return sb - sa;
+  return a.name.localeCompare(b.name);
+});
+
+const title = 'All AI models';
+const description = `Browse every AI model in our catalog — ${MODELS.length} models with live pricing, modality, and benchmark scores where available.`;
+const jsonLd = itemListJsonLd({
+  name: title,
+  description,
+  items: sorted.slice(0, 100).map((m) => ({ name: m.name, url: `/tools/${m.slug}` })),
+});
+---
+<Layout
+  title={title}
+  description={description}
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Models', href: '/tools' }]}
+  jsonLd={jsonLd}
+>
+  <div class="container-wide py-10">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Models', href: '/tools' }]} />
+    <header class="mt-6 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">All AI models</h1>
+        <p class="mt-3 max-w-2xl text-zinc-600 dark:text-zinc-400">{description} For the sortable, filterable view, see the <a href="/leaderboard">leaderboard</a>.</p>
+      </div>
+      <a href="/leaderboard" class="btn-secondary">Open leaderboard →</a>
+    </header>
+
+    <ul class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {sorted.map((m) => (
+        <li>
+          <a href={`/tools/${m.slug}`} class="card flex items-start gap-3 p-4 no-underline">
+            <ProviderBadge provider={m.provider} size="md" />
+            <div class="min-w-0 flex-1">
+              <div class="truncate text-sm font-semibold text-zinc-900 dark:text-zinc-100">{m.name}</div>
+              <div class="truncate text-xs text-zinc-500">{m.provider}{m.is_open_weight && ' · open weight'}</div>
+              <div class="mt-1 flex flex-wrap items-center gap-2 text-xs text-zinc-500">
+                <span>{formatTokens(m.context_window)} ctx</span>
+                <span>·</span>
+                <span>{formatPrice(m.pricing.input_per_million)} in</span>
+                {m.benchmarks['gpqa_diamond']?.score != null && <><span>·</span><span>GPQA {formatScore(m.benchmarks['gpqa_diamond'].score)}</span></>}
+              </div>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>

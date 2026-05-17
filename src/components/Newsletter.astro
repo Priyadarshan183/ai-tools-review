@@ -1,0 +1,24 @@
+---
+import { SITE } from '../config/site.mjs';
+export interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+<form
+  action={SITE.newsletter.actionUrl}
+  method="post"
+  target="popupwindow"
+  class={compact ? 'mt-4 flex max-w-sm gap-2' : 'mt-6 flex max-w-md gap-2'}
+>
+  <label for="newsletter-email" class="sr-only">Email address</label>
+  <input
+    type="email"
+    name="email"
+    id="newsletter-email"
+    required
+    placeholder="you@example.com"
+    class="flex-1 rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+  />
+  <input type="hidden" name="embed" value="1" />
+  <button type="submit" class="btn-primary">Subscribe</button>
+</form>
+<p class="mt-2 text-xs text-zinc-500 dark:text-zinc-400">One short email per week. No spam. Unsubscribe anytime.</p>

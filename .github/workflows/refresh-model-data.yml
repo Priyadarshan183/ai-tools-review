@@ -1,0 +1,91 @@
+name: Refresh model data
+
+# Runs daily at 03:00 UTC to fetch the latest model metadata from FREE,
+# UNAUTHENTICATED public APIs. Commits the refreshed JSON back to main and
+# triggers the Pages deploy workflow.
+#
+# APIs used (all free, no key required):
+#   - https://openrouter.ai/api/v1/models     -> model catalog, pricing, context
+#   - https://huggingface.co/api/models/{id}  -> open-weight community signals
+#
+# benchmarks.json is hand-curated and NOT touched by this workflow.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC daily
+  workflow_dispatch:       # allow manual runs from the Actions tab
+
+permissions:
+  contents: write          # to commit refreshed JSON
+  actions: write           # to dispatch the deploy workflow
+
+concurrency:
+  group: refresh-model-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Fetch model data and commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest model data
+        run: npm run fetch-model-data
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet -- src/data/models.json src/data/top-by-category.json src/data/openrouter-models.raw.json src/data/hf-enrichment.raw.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes today."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Model data updated."
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/models.json src/data/top-by-category.json src/data/openrouter-models.raw.json src/data/hf-enrichment.raw.json
+          git commit -m "chore(data): refresh model catalog $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Trigger Pages deploy
+        # GITHUB_TOKEN-authored commits do not trigger workflows by default,
+        # so we dispatch the deploy workflow explicitly.
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Refresh result"
+            echo ""
+            if [ "${{ steps.diff.outputs.changed }}" = "true" ]; then
+              echo "✅ Model data updated, committed, and deploy dispatched."
+            else
+              echo "ℹ️ No changes. Catalog already up to date."
+            fi
+            echo ""
+            echo "Sources hit: OpenRouter \`/api/v1/models\` (free), Hugging Face \`/api/models\` (free)."
+          } >> "$GITHUB_STEP_SUMMARY"

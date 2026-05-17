@@ -1,0 +1,61 @@
+name: Weekly link check & rebuild
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check every tool's website
+        id: linkcheck
+        run: npm run check-links
+        continue-on-error: true
+
+      - name: Commit updated last_verified timestamps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain src/content/tools)" ]]; then
+            git add src/content/tools
+            git commit -m "chore: weekly link check ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Open issue if any tool is broken
+        if: steps.linkcheck.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0,10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Weekly link check: broken tool URLs (${today})`,
+              body: `The weekly link check returned a non-200 status for one or more tools. See the [workflow run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}) for details. Each affected tool's \`verified_status\` is now \`broken\` in \`src/content/tools/\`.`,
+              labels: ['link-check', 'needs-review'],
+            });
+
+      - name: Trigger deploy hook (Vercel / Cloudflare)
+        if: env.DEPLOY_HOOK != ''
+        env:
+          DEPLOY_HOOK: ${{ secrets.DEPLOY_HOOK }}
+        run: |
+          curl -X POST "$DEPLOY_HOOK" -m 30

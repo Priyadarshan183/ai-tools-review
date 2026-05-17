@@ -1,0 +1,67 @@
+---
+import { SITE } from '../config/site.mjs';
+import { absUrl } from '../lib/format';
+
+export interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+  noindex?: boolean;
+  publishedTime?: string;
+  modifiedTime?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage,
+  ogType = 'website',
+  noindex = false,
+  publishedTime,
+  modifiedTime,
+} = Astro.props;
+
+// Astro.url.pathname already includes the base prefix in production, so just
+// resolve it against the origin (no need to add base again).
+const pageUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).toString();
+const fullTitle =
+  title === SITE.name ? title : `${title} | ${SITE.name}`;
+const image = absUrl(ogImage ?? SITE.defaultOgImage);
+---
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={pageUrl} />
+{noindex && <meta name="robots" content="noindex,nofollow" />}
+
+{/* Open Graph */}
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={pageUrl} />
+<meta property="og:type" content={ogType} />
+<meta property="og:image" content={image} />
+<meta property="og:locale" content="en_US" />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+{/* Twitter */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+{SITE.twitterHandle && <meta name="twitter:site" content={SITE.twitterHandle} />}
+
+{/* Search engine verification */}
+{SITE.verification.google && (
+  <meta name="google-site-verification" content={SITE.verification.google} />
+)}
+{SITE.verification.bing && (
+  <meta name="msvalidate.01" content={SITE.verification.bing} />
+)}
+
+{/* Feeds & sitemap */}
+<link rel="alternate" type="application/rss+xml" title={`${SITE.name} RSS`} href="/rss.xml" />
+<link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />

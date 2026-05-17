@@ -1,0 +1,38 @@
+{
+  "name": "ai-tools-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "prebuild": "npm run fetch-model-data",
+    "build": "astro build && node scripts/rewrite-base.mjs && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-model-data": "tsx scripts/fetch-model-data.ts",
+    "new-tool": "node scripts/new-tool.mjs",
+    "generate-comparisons": "node scripts/generate-comparisons.mjs",
+    "keyword-report": "node scripts/keyword-report.mjs",
+    "audit-seo": "node scripts/audit-seo.mjs",
+    "check-links": "node scripts/check-links.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.0.3",
+    "@astrojs/rss": "^4.0.10",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.4",
+    "astro": "^5.0.5",
+    "pagefind": "^1.2.0",
+    "tailwindcss": "^3.4.17",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^22.10.2",
+    "cheerio": "^1.0.0",
+    "globby": "^14.0.2",
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.19.2"
+  }
+}
