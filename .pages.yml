@@ -12,11 +12,15 @@ content:
     label: Blog posts
     path: src/content/blog
     type: collection
-    format: mdx
+    format: yaml-frontmatter
+    extension: mdx
     view:
       fields: [title, publish_date, author, draft]
       primary: title
-      sort: [{ field: publish_date, direction: desc }]
+      sort: [publish_date]
+      default:
+        sort: publish_date
+        order: desc
     fields:
       - name: title
         label: Title
@@ -54,24 +58,28 @@ content:
         type: boolean
         default: true
       - name: body
-        label: Body (Markdown / MDX)
+        label: Body
         type: rich-text
 
   - name: reviews
     label: Model reviews
     path: src/content/reviews
     type: collection
-    format: mdx
+    format: yaml-frontmatter
+    extension: mdx
     view:
       fields: [headline, tool_slug, publish_date, draft]
       primary: headline
-      sort: [{ field: publish_date, direction: desc }]
+      sort: [publish_date]
+      default:
+        sort: publish_date
+        order: desc
     fields:
       - name: tool_slug
         label: Model slug
         type: string
         required: true
-        description: Must match a slug in src/data/models.json — e.g. claude-opus-4-7, gemini-3-1-pro, grok-4
+        description: Must match a slug in src/data/models.json — e.g. claude-opus-4-7, gemini-3-1-pro
       - name: headline
         label: Headline
         type: string
@@ -88,10 +96,18 @@ content:
         label: Score breakdown (0–5 each)
         type: object
         fields:
-          - { name: ease_of_use, label: Ease of use, type: number }
-          - { name: features, label: Features, type: number }
-          - { name: value, label: Value, type: number }
-          - { name: support, label: Support, type: number }
+          - name: ease_of_use
+            label: Ease of use
+            type: number
+          - name: features
+            label: Features
+            type: number
+          - name: value
+            label: Value
+            type: number
+          - name: support
+            label: Support
+            type: number
       - name: author
         label: Author
         type: string
@@ -117,11 +133,5 @@ content:
         type: boolean
         default: true
       - name: body
-        label: Body (Markdown / MDX)
+        label: Body
         type: rich-text
-
-  - name: site-config
-    label: Site config
-    path: src/config/site.mjs
-    type: file
-    format: code
