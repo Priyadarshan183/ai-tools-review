@@ -15,7 +15,7 @@ tags:
   - AI Models
 cover_image: /uploads/download.jpg
 target_keyword: ai model pricing 2026
-draft: true
+draft: false
 ---
 # What Does AI Actually Cost in 2026?
 
