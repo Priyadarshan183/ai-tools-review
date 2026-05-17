@@ -1,0 +1,127 @@
+# Pages CMS configuration (https://pagescms.org/docs)
+# Lets you write blog posts and model reviews via a web UI at pagescms.org
+# without touching the repo locally. Every save is a git commit on main,
+# which triggers the Deploy to GitHub Pages workflow.
+
+media:
+  input: public/uploads
+  output: /uploads
+
+content:
+  - name: blog
+    label: Blog posts
+    path: src/content/blog
+    type: collection
+    format: mdx
+    view:
+      fields: [title, publish_date, author, draft]
+      primary: title
+      sort: [{ field: publish_date, direction: desc }]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description (SEO meta, ~155 chars)
+        type: text
+        required: true
+      - name: author
+        label: Author
+        type: string
+        default: Editor
+        required: true
+      - name: publish_date
+        label: Publish date
+        type: date
+        required: true
+      - name: updated_date
+        label: Updated date
+        type: date
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: target_keyword
+        label: Target SEO keyword
+        type: string
+        description: The one keyword phrase this post is meant to rank for.
+      - name: draft
+        label: Draft (not published)
+        type: boolean
+        default: true
+      - name: body
+        label: Body (Markdown / MDX)
+        type: rich-text
+
+  - name: reviews
+    label: Model reviews
+    path: src/content/reviews
+    type: collection
+    format: mdx
+    view:
+      fields: [headline, tool_slug, publish_date, draft]
+      primary: headline
+      sort: [{ field: publish_date, direction: desc }]
+    fields:
+      - name: tool_slug
+        label: Model slug
+        type: string
+        required: true
+        description: Must match a slug in src/data/models.json — e.g. claude-opus-4-7, gemini-3-1-pro, grok-4
+      - name: headline
+        label: Headline
+        type: string
+        required: true
+      - name: intro
+        label: Intro paragraph
+        type: text
+        required: true
+      - name: verdict
+        label: Verdict (one-sentence buy / skip)
+        type: text
+        required: true
+      - name: score_breakdown
+        label: Score breakdown (0–5 each)
+        type: object
+        fields:
+          - { name: ease_of_use, label: Ease of use, type: number }
+          - { name: features, label: Features, type: number }
+          - { name: value, label: Value, type: number }
+          - { name: support, label: Support, type: number }
+      - name: author
+        label: Author
+        type: string
+        default: Editor
+        required: true
+      - name: publish_date
+        label: Publish date
+        type: date
+        required: true
+      - name: updated_date
+        label: Updated date
+        type: date
+        required: true
+      - name: target_keyword
+        label: Target SEO keyword
+        type: string
+        description: Usually "<model name> review"
+      - name: og_image
+        label: OG image
+        type: image
+      - name: draft
+        label: Draft (not published)
+        type: boolean
+        default: true
+      - name: body
+        label: Body (Markdown / MDX)
+        type: rich-text
+
+  - name: site-config
+    label: Site config
+    path: src/config/site.mjs
+    type: file
+    format: code
