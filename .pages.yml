@@ -13,7 +13,7 @@ content:
     path: src/content/blog
     type: collection
     format: yaml-frontmatter
-    extension: mdx
+    extension: md
     view:
       fields: [title, publish_date, author, draft]
       primary: title
