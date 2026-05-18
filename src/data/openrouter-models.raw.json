@@ -2565,12 +2565,12 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000034"
+        "prompt": "0.00000006",
+        "completion": "0.00000033"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -3784,17 +3784,18 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000005"
+        "prompt": "0.00000009",
+        "completion": "0.00000045"
       },
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -3807,6 +3808,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
@@ -11357,12 +11359,12 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
         "prompt": "0.000000039",
-        "completion": "0.00000019"
+        "completion": "0.00000018"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -17868,12 +17870,12 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
         "prompt": "0.00000002",
-        "completion": "0.00000004"
+        "completion": "0.00000003"
       },
       "supported_parameters": [
         "frequency_penalty",
