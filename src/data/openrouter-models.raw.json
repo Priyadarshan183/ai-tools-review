@@ -1,6 +1,64 @@
 {
   "data": [
     {
+      "id": "qwen/qwen3.7-max",
+      "canonical_slug": "qwen/qwen3.7-max-20260520",
+      "name": "Qwen: Qwen3.7 Max",
+      "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
+      "context_length": 1000000,
+      "created": 1779376861,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000075"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "hugging_face_id": null,
+      "per_request_limits": null,
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.7-max-20260520/endpoints"
+      }
+    },
+    {
       "id": "x-ai/grok-build-0.1",
       "canonical_slug": "x-ai/grok-build-0.1-20260520",
       "name": "xAI: Grok Build 0.1",
@@ -1355,8 +1413,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000001875",
-        "completion": "0.000001125"
+        "prompt": "0.00000012375",
+        "completion": "0.0000007425"
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1402,11 +1460,11 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000149",
+        "prompt": "0.00000015",
         "completion": "0.000001"
       },
       "supported_parameters": [
@@ -1516,11 +1574,11 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 81920,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000032",
+        "prompt": "0.0000003",
         "completion": "0.0000032"
       },
       "supported_parameters": [
@@ -2357,7 +2415,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-05-28",
       "links": {
         "details": "/api/v1/models/baidu/qianfan-ocr-fast-20260420/endpoints"
       }
@@ -2550,7 +2608,7 @@
       "canonical_slug": "z-ai/glm-5.1-20260406",
       "name": "Z.ai: GLM 5.1",
       "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
-      "context_length": 202800,
+      "context_length": 202752,
       "created": 1775578025,
       "architecture": {
         "modality": "text->text",
@@ -2563,13 +2621,13 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 202800,
-        "max_completion_tokens": 202800,
+        "context_length": 202752,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0",
-        "completion": "0"
+        "prompt": "0.00000098",
+        "completion": "0.00000308"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -2874,8 +2932,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000325",
-        "completion": "0.00000195"
+        "prompt": "0.0000001794",
+        "completion": "0.00000107315"
       },
       "supported_parameters": [
         "include_reasoning",
@@ -4623,7 +4681,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "pricing": {
@@ -5651,58 +5709,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
-      }
-    },
-    {
-      "id": "arcee-ai/trinity-large-preview",
-      "canonical_slug": "arcee-ai/trinity-large-preview",
-      "name": "Arcee AI: Trinity Large Preview",
-      "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. It excels in creative writing,...",
-      "context_length": 131000,
-      "created": 1769552670,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 131000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000045"
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "structured_outputs",
-        "temperature",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "arcee-ai/Trinity-Large-Preview",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": 0.8,
-        "top_p": 0.8,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-05-21",
-      "links": {
-        "details": "/api/v1/models/arcee-ai/trinity-large-preview/endpoints"
       }
     },
     {
