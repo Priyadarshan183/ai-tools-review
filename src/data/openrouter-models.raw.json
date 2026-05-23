@@ -1413,8 +1413,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000012375",
-        "completion": "0.0000007425"
+        "prompt": "0.0000001875",
+        "completion": "0.000001125"
       },
       "supported_parameters": [
         "include_reasoning",
@@ -1459,8 +1459,8 @@
         "tokenizer": "Qwen"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 262140,
+        "max_completion_tokens": 262140,
         "is_moderated": false
       },
       "pricing": {
@@ -1863,13 +1863,13 @@
         "tokenizer": "DeepSeek"
       },
       "top_provider": {
-        "context_length": 1048575,
-        "max_completion_tokens": null,
+        "context_length": 1048576,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000112",
-        "completion": "0.000000224"
+        "prompt": "0.0000001",
+        "completion": "0.0000002"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -2932,8 +2932,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000001794",
-        "completion": "0.00000107315"
+        "prompt": "0.000000325",
+        "completion": "0.00000195"
       },
       "supported_parameters": [
         "include_reasoning",
