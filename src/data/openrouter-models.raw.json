@@ -23,8 +23,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000075"
+        "prompt": "0.00000125",
+        "completion": "0.00000375"
       },
       "supported_parameters": [
         "include_reasoning",
@@ -456,7 +456,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-05-27",
       "links": {
         "details": "/api/v1/models/baidu/cobuddy-20260430/endpoints"
       }
@@ -813,7 +813,7 @@
       "canonical_slug": "poolside/laguna-xs.2-20260421",
       "name": "Poolside: Laguna XS.2 (free)",
       "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
-      "context_length": 131072,
+      "context_length": 262144,
       "created": 1777389604,
       "architecture": {
         "modality": "text->text",
@@ -826,8 +826,8 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "pricing": {
@@ -864,7 +864,7 @@
       "canonical_slug": "poolside/laguna-m.1-20260312",
       "name": "Poolside: Laguna M.1 (free)",
       "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
-      "context_length": 131072,
+      "context_length": 262144,
       "created": 1777388504,
       "architecture": {
         "modality": "text->text",
@@ -877,8 +877,8 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "pricing": {
@@ -1464,7 +1464,7 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001"
       },
       "supported_parameters": [
@@ -1573,12 +1573,12 @@
         "tokenizer": "Qwen3"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 262140,
+        "max_completion_tokens": 262140,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000003",
+        "prompt": "0.00000029",
         "completion": "0.0000032"
       },
       "supported_parameters": [
@@ -2042,12 +2042,12 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000003"
+        "prompt": "0.000000435",
+        "completion": "0.00000087"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -2111,8 +2111,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002"
+        "prompt": "0.00000014",
+        "completion": "0.00000028"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -3018,59 +3018,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-5v-turbo-20260401/endpoints"
-      }
-    },
-    {
-      "id": "arcee-ai/trinity-large-thinking:free",
-      "canonical_slug": "arcee-ai/trinity-large-thinking",
-      "name": "Arcee AI: Trinity Large Thinking (free)",
-      "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
-      "context_length": 262144,
-      "created": 1775058318,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 80000,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": 0.3,
-        "top_p": 0.8,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/arcee-ai/trinity-large-thinking/endpoints"
       }
     },
     {
@@ -11930,13 +11877,13 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 98304,
+        "context_length": 131070,
+        "max_completion_tokens": 131070,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000085"
+        "prompt": "0.000000125",
+        "completion": "0.00000084"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -12981,7 +12928,10 @@
       "default_parameters": {
         "temperature": null,
         "top_p": null,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-01-31",
@@ -13794,7 +13744,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-06-05",
       "links": {
         "details": "/api/v1/models/qwen/qwen3-30b-a3b-04-28/endpoints"
       }
@@ -18210,7 +18160,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-06-05",
       "links": {
         "details": "/api/v1/models/sao10k/l3-euryale-70b/endpoints"
       }
@@ -18259,7 +18209,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-06-05",
       "links": {
         "details": "/api/v1/models/nousresearch/hermes-2-pro-llama-3-8b/endpoints"
       }
