@@ -2122,12 +2122,12 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000066",
-        "completion": "0.00000026"
+        "prompt": "0.000000063",
+        "completion": "0.00000021"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -3572,11 +3572,11 @@
       },
       "top_provider": {
         "context_length": 196608,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000026",
+        "prompt": "0.000000279",
         "completion": "0.0000012"
       },
       "supported_parameters": [
@@ -7507,13 +7507,13 @@
         "tokenizer": "DeepSeek"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 65536,
+        "context_length": 128000,
+        "max_completion_tokens": 64000,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000252",
-        "completion": "0.000000378"
+        "prompt": "0.0000002288",
+        "completion": "0.0000003432"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -11455,7 +11455,7 @@
       "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and...",
-      "context_length": 262144,
+      "context_length": 131072,
       "created": 1753806965,
       "architecture": {
         "modality": "text->text",
@@ -11468,13 +11468,13 @@
         "tokenizer": "Qwen3"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 128000,
+        "max_completion_tokens": 32000,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003"
+        "prompt": "0.0000000428",
+        "completion": "0.0000001716"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -12359,54 +12359,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/baidu/ernie-4.5-vl-424b-a47b/endpoints"
-      }
-    },
-    {
-      "id": "baidu/ernie-4.5-300b-a47b",
-      "canonical_slug": "baidu/ernie-4.5-300b-a47b",
-      "name": "Baidu: ERNIE 4.5 300B A47B ",
-      "description": "ERNIE-4.5-300B-A47B is a 300B parameter Mixture-of-Experts (MoE) language model developed by Baidu as part of the ERNIE 4.5 series. It activates 47B parameters per token and supports text generation in...",
-      "context_length": 131072,
-      "created": 1751300139,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 123000,
-        "max_completion_tokens": 12000,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.00000028",
-        "completion": "0.0000011"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "baidu/ERNIE-4.5-300B-A47B-PT",
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/baidu/ernie-4.5-300b-a47b/endpoints"
       }
     },
     {
@@ -14722,64 +14674,6 @@
       }
     },
     {
-      "id": "google/gemini-2.0-flash-lite-001",
-      "canonical_slug": "google/gemini-2.0-flash-lite-001",
-      "name": "Google: Gemini 2.0 Flash Lite",
-      "description": "Gemini 2.0 Flash Lite offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5),...",
-      "context_length": 1048576,
-      "created": 1740506212,
-      "architecture": {
-        "modality": "text+image+file+audio+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Gemini"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
-        "image": "0.000000075",
-        "web_search": "0.014",
-        "internal_reasoning": "0.0000003"
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "hugging_face_id": "",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-08-31",
-      "expiration_date": "2026-06-01",
-      "links": {
-        "details": "/api/v1/models/google/gemini-2.0-flash-lite-001/endpoints"
-      }
-    },
-    {
       "id": "mistralai/mistral-saba",
       "canonical_slug": "mistralai/mistral-saba-2502",
       "name": "Mistral: Saba",
@@ -14930,64 +14824,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openai/o3-mini-high-2025-01-31/endpoints"
-      }
-    },
-    {
-      "id": "google/gemini-2.0-flash-001",
-      "canonical_slug": "google/gemini-2.0-flash-001",
-      "name": "Google: Gemini 2.0 Flash",
-      "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-      "context_length": 1048576,
-      "created": 1738769413,
-      "architecture": {
-        "modality": "text+image+file+audio+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Gemini"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000004",
-        "image": "0.0000001",
-        "web_search": "0.014",
-        "internal_reasoning": "0.0000004"
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "hugging_face_id": "",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-08-31",
-      "expiration_date": "2026-06-01",
-      "links": {
-        "details": "/api/v1/models/google/gemini-2.0-flash-001/endpoints"
       }
     },
     {
@@ -15707,8 +15543,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000002288",
-        "completion": "0.0000009144"
+        "prompt": "0.0000002002",
+        "completion": "0.0000008001"
       },
       "supported_parameters": [
         "frequency_penalty",
