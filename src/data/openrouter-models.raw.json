@@ -1,6 +1,58 @@
 {
   "data": [
     {
+      "id": "qwen/qwen3.7-plus",
+      "canonical_slug": "qwen/qwen3.7-plus-20260602",
+      "name": "Qwen: Qwen3.7 Plus",
+      "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+      "context_length": 1000000,
+      "created": 1780491783,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.0000016"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "hugging_face_id": null,
+      "per_request_limits": null,
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.7-plus-20260602/endpoints"
+      }
+    },
+    {
       "id": "minimax/minimax-m3",
       "canonical_slug": "minimax/minimax-m3-20260531",
       "name": "MiniMax: MiniMax M3",
@@ -2811,10 +2863,8 @@
         "logprobs",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
-        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -11517,8 +11567,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000000428",
-        "completion": "0.0000001716"
+        "prompt": "0.00000004815",
+        "completion": "0.00000019305"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -16756,56 +16806,6 @@
       }
     },
     {
-      "id": "cohere/command-r-plus-08-2024",
-      "canonical_slug": "cohere/command-r-plus-08-2024",
-      "name": "Cohere: Command R+ (08-2024)",
-      "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
-      "context_length": 128000,
-      "created": 1724976000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Cohere"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 4000,
-        "is_moderated": true
-      },
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": null,
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/cohere/command-r-plus-08-2024/endpoints"
-      }
-    },
-    {
       "id": "cohere/command-r-08-2024",
       "canonical_slug": "cohere/command-r-08-2024",
       "name": "Cohere: Command R (08-2024)",
@@ -16853,6 +16853,56 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/cohere/command-r-08-2024/endpoints"
+      }
+    },
+    {
+      "id": "cohere/command-r-plus-08-2024",
+      "canonical_slug": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
+      "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
+      "context_length": 128000,
+      "created": 1724976000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Cohere"
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 4000,
+        "is_moderated": true
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "hugging_face_id": null,
+      "per_request_limits": null,
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2024-03-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/cohere/command-r-plus-08-2024/endpoints"
       }
     },
     {
@@ -17163,59 +17213,6 @@
       }
     },
     {
-      "id": "meta-llama/llama-3.1-70b-instruct",
-      "canonical_slug": "meta-llama/llama-3.1-70b-instruct",
-      "name": "Meta: Llama 3.1 70B Instruct",
-      "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
-      "context_length": 131072,
-      "created": 1721692800,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 16384,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000004"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3.1-70b-instruct/endpoints"
-      }
-    },
-    {
       "id": "meta-llama/llama-3.1-8b-instruct",
       "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
       "name": "Meta: Llama 3.1 8B Instruct",
@@ -17266,6 +17263,59 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.1-8b-instruct/endpoints"
+      }
+    },
+    {
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "canonical_slug": "meta-llama/llama-3.1-70b-instruct",
+      "name": "Meta: Llama 3.1 70B Instruct",
+      "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
+      "context_length": 131072,
+      "created": 1721692800,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Llama3"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.0000004"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "hugging_face_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "per_request_limits": null,
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2023-12-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta-llama/llama-3.1-70b-instruct/endpoints"
       }
     },
     {
@@ -17693,54 +17743,6 @@
       }
     },
     {
-      "id": "meta-llama/llama-3-70b-instruct",
-      "canonical_slug": "meta-llama/llama-3-70b-instruct",
-      "name": "Meta: Llama 3 70B Instruct",
-      "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
-      "context_length": 8192,
-      "created": 1713398400,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3"
-      },
-      "top_provider": {
-        "context_length": 8192,
-        "max_completion_tokens": 8000,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.00000051",
-        "completion": "0.00000074"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "meta-llama/Meta-Llama-3-70B-Instruct",
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3-70b-instruct/endpoints"
-      }
-    },
-    {
       "id": "meta-llama/llama-3-8b-instruct",
       "canonical_slug": "meta-llama/llama-3-8b-instruct",
       "name": "Meta: Llama 3 8B Instruct",
@@ -17788,6 +17790,54 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3-8b-instruct/endpoints"
+      }
+    },
+    {
+      "id": "meta-llama/llama-3-70b-instruct",
+      "canonical_slug": "meta-llama/llama-3-70b-instruct",
+      "name": "Meta: Llama 3 70B Instruct",
+      "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
+      "context_length": 8192,
+      "created": 1713398400,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Llama3"
+      },
+      "top_provider": {
+        "context_length": 8192,
+        "max_completion_tokens": 8000,
+        "is_moderated": false
+      },
+      "pricing": {
+        "prompt": "0.00000051",
+        "completion": "0.00000074"
+      },
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "hugging_face_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "per_request_limits": null,
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2023-12-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta-llama/llama-3-70b-instruct/endpoints"
       }
     },
     {
@@ -18534,11 +18584,11 @@
       }
     },
     {
-      "id": "openai/gpt-4-0314",
-      "canonical_slug": "openai/gpt-4-0314",
-      "name": "OpenAI: GPT-4 (older v0314)",
-      "description": "GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.",
-      "context_length": 8191,
+      "id": "openai/gpt-3.5-turbo",
+      "canonical_slug": "openai/gpt-3.5-turbo",
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+      "context_length": 16385,
       "created": 1685232000,
       "architecture": {
         "modality": "text->text",
@@ -18551,13 +18601,13 @@
         "tokenizer": "GPT"
       },
       "top_provider": {
-        "context_length": 8191,
+        "context_length": 16385,
         "max_completion_tokens": 4096,
         "is_moderated": true
       },
       "pricing": {
-        "prompt": "0.00003",
-        "completion": "0.00006"
+        "prompt": "0.0000005",
+        "completion": "0.0000015"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -18582,7 +18632,7 @@
       "knowledge_cutoff": "2021-09-30",
       "expiration_date": null,
       "links": {
-        "details": "/api/v1/models/openai/gpt-4-0314/endpoints"
+        "details": "/api/v1/models/openai/gpt-3.5-turbo/endpoints"
       }
     },
     {
@@ -18636,58 +18686,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openai/gpt-4/endpoints"
-      }
-    },
-    {
-      "id": "openai/gpt-3.5-turbo",
-      "canonical_slug": "openai/gpt-3.5-turbo",
-      "name": "OpenAI: GPT-3.5 Turbo",
-      "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-      "context_length": 16385,
-      "created": 1685232000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT"
-      },
-      "top_provider": {
-        "context_length": 16385,
-        "max_completion_tokens": 4096,
-        "is_moderated": true
-      },
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000015"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "hugging_face_id": null,
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2021-09-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/gpt-3.5-turbo/endpoints"
       }
     }
   ]
