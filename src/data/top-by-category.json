@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T07:27:16.392Z",
+  "generated_at": "2026-06-05T07:14:42.118Z",
   "top": {
     "coding": [
       "claude-mythos-preview",
@@ -27,24 +27,28 @@
     ],
     "long_context": [
       "gemini-3-1-pro",
-      "grok-4"
+      "grok-4",
+      "deepseek-v4-flash"
     ],
     "budget": [
-      "deepseek-v3-2",
-      "kimi-k2-6"
+      "llama-3-1-8b-instruct",
+      "gemma-4-31b-it-free",
+      "llama-3-3-70b-instruct-free"
     ],
     "free": [
       "gemini-3-1-pro",
-      "deepseek-v3-2"
+      "deepseek-v3-2",
+      "gemma-4-31b-it-free"
     ],
     "open_weight": [
       "kimi-k2-6",
-      "deepseek-v3-2"
+      "deepseek-v3-2",
+      "deepseek-r1"
     ],
     "fast": [
       "llama-4-scout",
-      "gemini-3-flash",
-      "gpt-5-mini"
+      "mistral-nemo",
+      "gemini-3-flash"
     ]
   }
 }
