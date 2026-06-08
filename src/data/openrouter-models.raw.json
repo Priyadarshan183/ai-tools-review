@@ -1556,13 +1556,13 @@
         "tokenizer": "Router"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 262142,
+        "max_completion_tokens": 262142,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000684",
-        "completion": "0.00000342"
+        "prompt": "0.00000068",
+        "completion": "0.00000341"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -2833,13 +2833,13 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 262142,
+        "max_completion_tokens": 262142,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000684",
-        "completion": "0.00000342"
+        "prompt": "0.00000068",
+        "completion": "0.00000341"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -4312,11 +4312,11 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 81920,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000004",
+        "prompt": "0.0000001",
         "completion": "0.00000015"
       },
       "supported_parameters": [
@@ -9285,7 +9285,7 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000001",
+        "prompt": "0.0000004",
         "completion": "0.0000004"
       },
       "supported_parameters": [
@@ -12210,7 +12210,7 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000071",
+        "prompt": "0.00000009",
         "completion": "0.0000001"
       },
       "supported_parameters": [
@@ -13464,8 +13464,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000045"
+        "prompt": "0.00000012",
+        "completion": "0.0000005"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -14103,7 +14103,7 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000008",
+        "prompt": "0.0000001",
         "completion": "0.0000003"
       },
       "supported_parameters": [
@@ -14309,8 +14309,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000008"
+        "prompt": "0.00000005",
+        "completion": "0.0000001"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -14361,8 +14361,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000013"
+        "prompt": "0.00000005",
+        "completion": "0.00000015"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -16790,8 +16790,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000245",
-        "completion": "0.000000245"
+        "prompt": "0.000000345",
+        "completion": "0.000000345"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -17046,8 +17046,8 @@
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000003"
+        "prompt": "0.0000007",
+        "completion": "0.0000007"
       },
       "supported_parameters": [
         "frequency_penalty",
