@@ -1,6 +1,122 @@
 {
   "data": [
     {
+      "id": "~anthropic/claude-fable-latest",
+      "canonical_slug": "~anthropic/claude-fable-latest",
+      "name": "Anthropic: Claude Fable Latest",
+      "description": "This model always redirects to the latest model in the Claude Fable family.",
+      "context_length": 1000000,
+      "created": 1781029944,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Router"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "web_search": "0.01"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "hugging_face_id": null,
+      "per_request_limits": null,
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/~anthropic/claude-fable-latest/endpoints"
+      }
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "canonical_slug": "anthropic/claude-5-fable-20260609",
+      "name": "Anthropic: Claude Fable 5",
+      "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+      "context_length": 1000000,
+      "created": 1781007515,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Claude"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "web_search": "0.01"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "hugging_face_id": null,
+      "per_request_limits": null,
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/anthropic/claude-5-fable-20260609/endpoints"
+      }
+    },
+    {
       "id": "nex-agi/nex-n2-pro:free",
       "canonical_slug": "nex-agi/nex-n2-pro",
       "name": "Nex AGI: Nex-N2-Pro (free)",
@@ -32,12 +148,8 @@
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
-        "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -3423,61 +3535,6 @@
       }
     },
     {
-      "id": "z-ai/glm-5v-turbo",
-      "canonical_slug": "z-ai/glm-5v-turbo-20260401",
-      "name": "Z.ai: GLM 5V Turbo",
-      "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
-      "context_length": 202752,
-      "created": 1775061458,
-      "architecture": {
-        "modality": "text+image+video->text",
-        "input_modalities": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 202752,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.0000012",
-        "completion": "0.000004"
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "hugging_face_id": "",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/z-ai/glm-5v-turbo-20260401/endpoints"
-      }
-    },
-    {
       "id": "arcee-ai/trinity-large-thinking",
       "canonical_slug": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
@@ -3896,13 +3953,13 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 196608,
-        "max_completion_tokens": 196608,
+        "context_length": 204800,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.000000279",
-        "completion": "0.0000012"
+        "prompt": "0.00000027",
+        "completion": "0.00000108"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -4121,7 +4178,7 @@
       "canonical_slug": "z-ai/glm-5-turbo-20260315",
       "name": "Z.ai: GLM 5 Turbo",
       "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
-      "context_length": 202752,
+      "context_length": 262144,
       "created": 1773583573,
       "architecture": {
         "modality": "text->text",
@@ -4134,7 +4191,7 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 202752,
+        "context_length": 262144,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -5558,7 +5615,7 @@
       },
       "pricing": {
         "prompt": "0.00000015",
-        "completion": "0.00000115"
+        "completion": "0.0000009"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -5970,13 +6027,13 @@
         "tokenizer": "Other"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 256000,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000019"
+        "prompt": "0.00000035",
+        "completion": "0.00000189"
       },
       "supported_parameters": [
         "frequency_penalty",
@@ -7238,7 +7295,7 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 24000,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "pricing": {
@@ -11780,55 +11837,6 @@
       }
     },
     {
-      "id": "z-ai/glm-4.5-air:free",
-      "canonical_slug": "z-ai/glm-4.5-air",
-      "name": "Z.ai: GLM 4.5 Air (free)",
-      "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter...",
-      "context_length": 131072,
-      "created": 1753471258,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 96000,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "hugging_face_id": "zai-org/GLM-4.5-Air",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": 0.75,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/z-ai/glm-4.5-air/endpoints"
-      }
-    },
-    {
       "id": "z-ai/glm-4.5-air",
       "canonical_slug": "z-ai/glm-4.5-air",
       "name": "Z.ai: GLM 4.5 Air",
@@ -11941,53 +11949,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/qwen/qwen3-235b-a22b-thinking-2507/endpoints"
-      }
-    },
-    {
-      "id": "z-ai/glm-4-32b",
-      "canonical_slug": "z-ai/glm-4-32b-0414",
-      "name": "Z.ai: GLM 4 32B ",
-      "description": "GLM 4 32B is a cost-effective foundation language model. It can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks. It...",
-      "context_length": 128000,
-      "created": 1753376617,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000001"
-      },
-      "supported_parameters": [
-        "max_tokens",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "hugging_face_id": "",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": 0.75,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/z-ai/glm-4-32b-0414/endpoints"
       }
     },
     {
@@ -13254,54 +13215,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/gemini-2.5-pro-preview-03-25/endpoints"
-      }
-    },
-    {
-      "id": "arcee-ai/maestro-reasoning",
-      "canonical_slug": "arcee-ai/maestro-reasoning",
-      "name": "Arcee AI: Maestro Reasoning",
-      "description": "Maestro Reasoning is Arcee's flagship analysis model: a 32 B‑parameter derivative of Qwen 2.5‑32 B tuned with DPO and chain‑of‑thought RL for step‑by‑step logic. Compared to the earlier 7 B...",
-      "context_length": 131072,
-      "created": 1746481269,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32000,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.0000033"
-      },
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "hugging_face_id": "",
-      "per_request_limits": null,
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/arcee-ai/maestro-reasoning/endpoints"
       }
     },
     {
@@ -17995,7 +17908,8 @@
       },
       "pricing": {
         "prompt": "0.00000025",
-        "completion": "0.00000125"
+        "completion": "0.00000125",
+        "web_search": "0.01"
       },
       "supported_parameters": [
         "max_tokens",
