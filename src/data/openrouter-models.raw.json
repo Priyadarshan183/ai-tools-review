@@ -2081,12 +2081,12 @@
         "tokenizer": "Qwen"
       },
       "top_provider": {
-        "context_length": 262140,
-        "max_completion_tokens": 262140,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "pricing": {
-        "prompt": "0.00000014",
+        "prompt": "0.00000015",
         "completion": "0.000001"
       },
       "supported_parameters": [
@@ -2936,56 +2936,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openrouter/pareto-code/endpoints"
-      }
-    },
-    {
-      "id": "moonshotai/kimi-k2.6:free",
-      "canonical_slug": "moonshotai/kimi-k2.6-20260420",
-      "name": "MoonshotAI: Kimi K2.6 (free)",
-      "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-      "context_length": 262144,
-      "created": 1776699402,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "supported_parameters": [
-        "include_reasoning",
-        "reasoning",
-        "tool_choice",
-        "tools"
-      ],
-      "hugging_face_id": "moonshotai/Kimi-K2.6",
-      "per_request_limits": null,
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/moonshotai/kimi-k2.6-20260420/endpoints"
       }
     },
     {
@@ -4328,6 +4278,7 @@
         "response_format",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -11865,6 +11816,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logprobs",
         "max_tokens",
         "presence_penalty",
         "reasoning",
@@ -11876,6 +11828,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "hugging_face_id": "zai-org/GLM-4.5-Air",
@@ -14063,7 +14016,7 @@
       "canonical_slug": "deepseek/deepseek-chat-v3-0324",
       "name": "DeepSeek: DeepSeek V3 0324",
       "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
-      "context_length": 163840,
+      "context_length": 131072,
       "created": 1742824755,
       "architecture": {
         "modality": "text->text",
@@ -14076,7 +14029,7 @@
         "tokenizer": "DeepSeek"
       },
       "top_provider": {
-        "context_length": 163840,
+        "context_length": 32768,
         "max_completion_tokens": 16384,
         "is_moderated": false
       },
