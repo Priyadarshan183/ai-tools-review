@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-07-01T07:17:31.424Z",
+  "fetched_at": "2026-07-03T06:38:05.464Z",
   "data": {
     "cohere/north-mini-code:free": {
       "id": "CohereLabs/North-Mini-Code-1.0",
-      "downloads": 31940,
-      "likes": 507,
+      "downloads": 34610,
+      "likes": 508,
       "lastModified": "2026-06-15T04:32:41.000Z",
       "tags": [
         "transformers",
@@ -282,9 +282,9 @@
     },
     "z-ai/glm-5.2": {
       "id": "zai-org/GLM-5.2",
-      "downloads": 142547,
-      "likes": 3086,
-      "lastModified": "2026-06-23T03:56:16.000Z",
+      "downloads": 176154,
+      "likes": 3274,
+      "lastModified": "2026-07-02T08:08:14.000Z",
       "tags": [
         "transformers",
         "safetensors",
@@ -306,7 +306,7 @@
       "library_name": "transformers",
       "modelId": "zai-org/GLM-5.2",
       "author": "zai-org",
-      "sha": "f2263102df303b2faa54a6861a29d1770ce846c0",
+      "sha": "b4734de4facf877f85769a911abafc5283eab3d9",
       "gated": false,
       "disabled": false,
       "widgetData": [
@@ -1240,11 +1240,13 @@
       "spaces": [
         "smolagents/ml-intern",
         "akhaliq/GLM-5.2",
-        "angelorovatti/zai-org-GLM-5.2",
+        "NishanthVijay/Career_Chatbot",
         "antares2/zai-org-GLM-5.2",
         "shruhood/zai-org-GLM-5.2",
         "zoom-ai/hle-leaderboard",
+        "angelorovatti/zai-org-GLM-5.2",
         "luizfelipelima/zai-org-GLM-5.2",
+        "Malaji71/Prompteador",
         "Malaji71/Tramoya",
         "ghetto9912/zai-org-GLM-5.2",
         "junjiek/zai-org-GLM-5.2",
@@ -1303,7 +1305,17 @@
         "TacoManAI/zai-org-GLM-5.2",
         "Codexcoder/sovereign-3-0-0-chat-ui",
         "mohmmed5787/zai-org-GLM-5.2",
-        "mmrech/ml-intern"
+        "mmrech/ml-intern",
+        "seraku/zai-org-GLM-5.2",
+        "Suwahas321/zai-org-GLM-5.2",
+        "almbarmg/zai-org-GLM-5.2",
+        "powerfuladder/Terminal-Mind",
+        "Mp3Wav/Sky-AI",
+        "Aryansoni27/GLM-5.2",
+        "nxnikhil7/zai-org-GLM-5.2",
+        "avzkaiq/zai-org-GLM-5.200",
+        "subjectid/GLM-5.2",
+        "NishanthVijay/ChatBI"
       ],
       "createdAt": "2026-06-16T07:39:20.000Z",
       "safetensors": {
@@ -1318,8 +1330,8 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "id": "moonshotai/Kimi-K2.7-Code",
-      "downloads": 706580,
-      "likes": 1021,
+      "downloads": 833394,
+      "likes": 1035,
       "lastModified": "2026-06-15T07:49:29.000Z",
       "tags": [
         "transformers",
@@ -1680,7 +1692,6 @@
         "Juanito01013/moonshotai-Kimi-K2.7-Code",
         "Rtendry81/moonshotai-Kimi-K2.7-Code",
         "steve20400/moonshotai-Kimi-K2.7-Code",
-        "AdhyanshVerma/codeforces-atcoder-solver-scrapper",
         "mmrech/ml-intern"
       ],
       "createdAt": "2026-06-11T07:51:47.000Z",
@@ -1697,8 +1708,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "id": "Qwen/Qwen3.6-35B-A3B",
-      "downloads": 5656573,
-      "likes": 2292,
+      "downloads": 5685931,
+      "likes": 2305,
       "lastModified": "2026-04-24T02:53:42.000Z",
       "tags": [
         "transformers",
@@ -1935,12 +1946,14 @@
         "kodeezabdullah/impact",
         "gridforce/satellite",
         "gridforce/report",
-        "kevinestrada16/CoquiAI-Traning-MGMT",
         "HelsYuk/Qwen-Qwen3.6-35B-A3B",
         "Emmanueel/LLM_tryout",
         "rayline-ai/rayline-router-trainer",
         "ErtugrulDemir/sentiment-analyzer",
-        "martinggg/resume_chat"
+        "martinggg/resume_chat",
+        "almsms/Qwen-Qwen3.6-35B-A3B",
+        "almsms/Qwen-Qwen3.6-35B-A3B_2",
+        "subjectid/Qwen3.6"
       ],
       "createdAt": "2026-04-15T05:59:19.000Z",
       "safetensors": {
@@ -1954,8 +1967,8 @@
     },
     "qwen/qwen3.6-27b": {
       "id": "Qwen/Qwen3.6-27B",
-      "downloads": 5260258,
-      "likes": 1858,
+      "downloads": 5062336,
+      "likes": 1870,
       "lastModified": "2026-04-24T02:39:16.000Z",
       "tags": [
         "transformers",
@@ -2108,10 +2121,11 @@
         }
       ],
       "spaces": [
-        "build-small-hackathon/jackailocal",
+        "VIDraft/vkae",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
         "build-small-hackathon/ouroboros-kernel-mint",
         "Jackrong/qwopus36-eval",
+        "build-small-hackathon/jackailocal",
         "KyleHessling1/qwopus36-eval",
         "build-small-hackathon/borderless",
         "KyleHessling1/qwopus36-27b-v2-eval",
@@ -2136,7 +2150,9 @@
         "m97j/pragmatic-agent",
         "benjamin5607/my_fortune_project",
         "saintjimmyu-dev/NovaKnowledge",
+        "pinopenaricardo/Mi-IA-Creadora",
         "boywonder777/prototype_nashkun",
+        "matei21/chessformer-api",
         "julien-c/copy-to-bucket-v2",
         "caiovicentino1/openinterp",
         "caiovicentino1/qwen36-sae-demo",
@@ -2145,8 +2161,10 @@
         "afif-ahmed/recap",
         "Sudais682002/sudais",
         "tony-dev1/finetuning_space",
+        "RaniaAbderrazek/SOD",
         "lablab-ai-amd-developer-hackathon/recap",
         "getalvi/rubra-v3",
+        "KarthikP-Mac/Banking-AI-Copilot",
         "FriedestOne/Qwen-Qwen3.6-27B",
         "Plant-Doctor/plant-doctor",
         "chintu4/documentation-crawler-rag",
@@ -2170,10 +2188,10 @@
         "KarthikP-Mac/Jarvis-Ai-Assistant",
         "openaibot/thousand-token-terrarium",
         "RodrigoC3805/asheninka-rag-chatbot",
+        "englishq/href-api",
         "Madni2025/O-Level-Math-Tutor",
         "Xroxx/emo-online-api",
         "pge-spd-dev/pge-vector-rag",
-        "kevinestrada16/CoquiAI-Traning-MGMT",
         "vipcafe1994/Whisper-Auto-Subtitled-Video-Generator",
         "ROMANLEX/snowboard-ai-pricing",
         "FelipeAraujoBS/RAG-de-Gelo-e-Fogo",
@@ -2190,14 +2208,19 @@
         "gggkyghgghy/PharmaLens",
         "BGUST/challenge-alura-agente",
         "PRG145/chatbot_RAG",
+        "thanhtainetc/ChatBOT",
         "Pracill/secure-enterprise-knowledge-copilot",
         "Adi080122/local-rag-voice-ai-assistant",
         "pthakker/twin",
+        "altafhussain345/qnh-backend",
         "earn120/vision-radar-api",
         "huangzhihong/sentiment-entropy",
         "dhanyamankad/hybridsight",
         "athenachu/llm_tutor",
-        "TestFGCU/ask-the-eagle-backend"
+        "TestFGCU/ask-the-eagle-backend",
+        "mehdimachat/sici-chatbot",
+        "Mehdi1364/payapro",
+        "Vanshi25/Hybridsight"
       ],
       "createdAt": "2026-04-21T07:50:43.000Z",
       "safetensors": {
@@ -2211,8 +2234,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
-      "downloads": 1154610,
-      "likes": 5120,
+      "downloads": 1140384,
+      "likes": 5133,
       "lastModified": "2026-06-22T12:12:50.000Z",
       "tags": [
         "transformers",
@@ -2691,8 +2714,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
-      "downloads": 1882337,
-      "likes": 1659,
+      "downloads": 1998000,
+      "likes": 1678,
       "lastModified": "2026-06-22T12:12:13.000Z",
       "tags": [
         "transformers",
@@ -3014,6 +3037,7 @@
         "ovokeomovie/agentic-leverage-hub",
         "x1001000/YouTube-Comments-Analyzer",
         "StudentCompanion/alu-chatbot",
+        "Malaji71/Prompteador",
         "aisvarya-adeseye/hes1",
         "bhavesh122/super_AI",
         "juanvilla/AgroDecisiones_Colombia",
@@ -3063,7 +3087,6 @@
         "Samarthmalik/Ai-caption-Generator",
         "Tesfa-AI/hello",
         "tojonatolotra/GenerateurDeRecette",
-        "UNI12345/ScaleAI",
         "huyhh/deepseek-ai-DeepSeek-V4-Flash",
         "bep40/Space-Mutiverse-Control",
         "tianmingyun/songmp3",
@@ -3087,15 +3110,16 @@
         "Dbdjdbbd824/Deepseek-V4-Flash",
         "nickong4134/moa-fusion",
         "ARGON-TG/deepseek-ai-DeepSeek-V4-Pro",
-        "nodl2049/LaciaV6",
         "pcmak999/hermes-ci",
         "jmgaooo/First_agent_template",
         "harrytyp/voltpolicies",
-        "nodl2049/LaciaV7",
         "caodudu/pxfquery-web",
         "Wimmboo2/OpenAIProxy",
         "anssi-kokkonen/brand-agent-poc",
-        "augment17/agentscope"
+        "augment17/agentscope",
+        "Mohsin73/research-paper-rag-chatbot",
+        "Ueeus5sh/Deepseek-V4-Flash",
+        "hf1024/ds-nl"
       ],
       "createdAt": "2026-04-22T06:04:20.000Z",
       "safetensors": {
@@ -3114,8 +3138,8 @@
     },
     "moonshotai/kimi-k2.6": {
       "id": "moonshotai/Kimi-K2.6",
-      "downloads": 2302910,
-      "likes": 1496,
+      "downloads": 2263344,
+      "likes": 1499,
       "lastModified": "2026-05-19T09:01:54.000Z",
       "tags": [
         "transformers",
@@ -3495,6 +3519,7 @@
         "RehamAAhmed/Matching_and_Damage",
         "Ego999/my-manga-bot",
         "Reja1/jee-neet-benchmark-leaderboard",
+        "Malaji71/Prompteador",
         "mmrech/NeuroSAM3",
         "qpluslab/OpenRA-Bench",
         "Nothkly/test-logic-01",
@@ -3576,8 +3601,7 @@
         "boda/llm-paper-intro-builder-dev",
         "EfraMLG/moonshotai-Kimi-K2.6",
         "BodyaPigodiya/PIPIPI",
-        "factorstudios/content_gen",
-        "JULEShuman/deepsite-project-8sa6l"
+        "factorstudios/content_gen"
       ],
       "createdAt": "2026-04-14T04:23:36.000Z",
       "safetensors": {
@@ -3593,8 +3617,8 @@
     },
     "z-ai/glm-5.1": {
       "id": "zai-org/GLM-5.1",
-      "downloads": 93343,
-      "likes": 1829,
+      "downloads": 99169,
+      "likes": 1830,
       "lastModified": "2026-05-13T08:10:58.000Z",
       "tags": [
         "transformers",
@@ -4575,6 +4599,7 @@
         "yobro4619/tradebench",
         "SrRooT/Tokenizer-Visualizer",
         "RockSky1/zai-org-GLM-5.1",
+        "Malaji71/Prompteador",
         "apoc4lypse/First_agent_template",
         "Blackx2/zai-org-GLM-5.1",
         "ehsaaniqbal/invoiceops-env",
@@ -4656,8 +4681,8 @@
     },
     "google/gemma-4-26b-a4b-it:free": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 13082323,
-      "likes": 1210,
+      "downloads": 13457975,
+      "likes": 1221,
       "lastModified": "2026-06-03T08:49:38.000Z",
       "tags": [
         "transformers",
@@ -4765,7 +4790,7 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "VIDraft/vkae",
+        "build-small-hackathon/grid-royale",
         "FINAL-Bench/Gemma-4-Multi",
         "pcuenq/gemma-4-object-detection",
         "Mohitrai11/DeepDub",
@@ -4798,7 +4823,6 @@
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
-        "build-small-hackathon/grid-royale",
         "build-small-hackathon/dual-lens",
         "build-small-hackathon/comicx",
         "build-small-hackathon/board-game-genie",
@@ -4863,7 +4887,8 @@
         "kundhan3232/Agent-Hire-Arena",
         "yzdengteng/openclaw-research",
         "sujon2005/gooseberry-ai-backend",
-        "Xueqijun/google-gemma-4-26B-A4B-it"
+        "Xueqijun/google-gemma-4-26B-A4B-it",
+        "mekosotto/hackathon"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -4877,8 +4902,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 13082323,
-      "likes": 1210,
+      "downloads": 13457975,
+      "likes": 1221,
       "lastModified": "2026-06-03T08:49:38.000Z",
       "tags": [
         "transformers",
@@ -4986,7 +5011,7 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "VIDraft/vkae",
+        "build-small-hackathon/grid-royale",
         "FINAL-Bench/Gemma-4-Multi",
         "pcuenq/gemma-4-object-detection",
         "Mohitrai11/DeepDub",
@@ -5019,7 +5044,6 @@
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
-        "build-small-hackathon/grid-royale",
         "build-small-hackathon/dual-lens",
         "build-small-hackathon/comicx",
         "build-small-hackathon/board-game-genie",
@@ -5084,7 +5108,8 @@
         "kundhan3232/Agent-Hire-Arena",
         "yzdengteng/openclaw-research",
         "sujon2005/gooseberry-ai-backend",
-        "Xueqijun/google-gemma-4-26B-A4B-it"
+        "Xueqijun/google-gemma-4-26B-A4B-it",
+        "mekosotto/hackathon"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -5098,8 +5123,8 @@
     },
     "google/gemma-4-31b-it:free": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 10921186,
-      "likes": 3097,
+      "downloads": 11150767,
+      "likes": 3112,
       "lastModified": "2026-06-03T08:50:40.000Z",
       "tags": [
         "transformers",
@@ -5206,15 +5231,15 @@
         }
       ],
       "spaces": [
-        "multimodalart/krea2-lora-trainer",
+        "smolagents/hf-realtime-voice",
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "VIDraft/vkae",
-        "HPAI-BSC/TuRTLe-Leaderboard",
-        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
-        "NipuDas/PA",
-        "Hscsgs/ilova_kodini_beruvchi",
-        "xota1999/MedPlain",
+        "multimodalart/krea2-lora-trainer",
         "huggingface-projects/gemma-4-31b-it",
+        "HPAI-BSC/TuRTLe-Leaderboard",
+        "NipuDas/PA",
+        "praiseogooluwa118/youtube-bot",
+        "xota1999/MedPlain",
+        "vineet88/support-docs-copilot",
         "FINAL-Bench/Gemma-4-Multi",
         "FINAL-Bench/Darwin-31B-Opus",
         "eduagarcia/multilingual-tokenizer-leaderboard",
@@ -5226,6 +5251,7 @@
         "Um34ER/bazaar-bridge-ocr",
         "quickgrid/Tokenizer-Visualizer",
         "lablab-ai-amd-developer-hackathon/lysos",
+        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
         "lgusm/gemma4vramestimator",
         "Samarth-Health-AI/clinical-intelligence-rag",
         "MashaKenzie/vk-ai-bot",
@@ -5277,6 +5303,7 @@
         "yahiadeveloper5106/erirebots",
         "Samra82/ubl-saathi-api",
         "Shaurya04289/iWEBIFY",
+        "Hscsgs/ilova_kodini_beruvchi",
         "edmiranda2301/Energy_gt_demo",
         "minhvtt/EBD_Fest",
         "Wesleykkkk/Letrando",
@@ -5303,9 +5330,7 @@
         "lord13/google-gemma-4-31B-it",
         "Muhammadbek3101/google-gemma-4-31B-it",
         "aura-alm/cco",
-        "Strider234/google-gemma-4-31B-it",
-        "xor1212/google-gemma-4-31B-it",
-        "abmSS/google-gemma-4-31B-it"
+        "Strider234/google-gemma-4-31B-it"
       ],
       "createdAt": "2026-03-11T18:22:36.000Z",
       "safetensors": {
@@ -5319,8 +5344,8 @@
     },
     "google/gemma-4-31b-it": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 10921186,
-      "likes": 3097,
+      "downloads": 11150767,
+      "likes": 3112,
       "lastModified": "2026-06-03T08:50:40.000Z",
       "tags": [
         "transformers",
@@ -5427,15 +5452,15 @@
         }
       ],
       "spaces": [
-        "multimodalart/krea2-lora-trainer",
+        "smolagents/hf-realtime-voice",
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "VIDraft/vkae",
-        "HPAI-BSC/TuRTLe-Leaderboard",
-        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
-        "NipuDas/PA",
-        "Hscsgs/ilova_kodini_beruvchi",
-        "xota1999/MedPlain",
+        "multimodalart/krea2-lora-trainer",
         "huggingface-projects/gemma-4-31b-it",
+        "HPAI-BSC/TuRTLe-Leaderboard",
+        "NipuDas/PA",
+        "praiseogooluwa118/youtube-bot",
+        "xota1999/MedPlain",
+        "vineet88/support-docs-copilot",
         "FINAL-Bench/Gemma-4-Multi",
         "FINAL-Bench/Darwin-31B-Opus",
         "eduagarcia/multilingual-tokenizer-leaderboard",
@@ -5447,6 +5472,7 @@
         "Um34ER/bazaar-bridge-ocr",
         "quickgrid/Tokenizer-Visualizer",
         "lablab-ai-amd-developer-hackathon/lysos",
+        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
         "lgusm/gemma4vramestimator",
         "Samarth-Health-AI/clinical-intelligence-rag",
         "MashaKenzie/vk-ai-bot",
@@ -5498,6 +5524,7 @@
         "yahiadeveloper5106/erirebots",
         "Samra82/ubl-saathi-api",
         "Shaurya04289/iWEBIFY",
+        "Hscsgs/ilova_kodini_beruvchi",
         "edmiranda2301/Energy_gt_demo",
         "minhvtt/EBD_Fest",
         "Wesleykkkk/Letrando",
@@ -5524,9 +5551,7 @@
         "lord13/google-gemma-4-31B-it",
         "Muhammadbek3101/google-gemma-4-31B-it",
         "aura-alm/cco",
-        "Strider234/google-gemma-4-31B-it",
-        "xor1212/google-gemma-4-31B-it",
-        "abmSS/google-gemma-4-31B-it"
+        "Strider234/google-gemma-4-31B-it"
       ],
       "createdAt": "2026-03-11T18:22:36.000Z",
       "safetensors": {
@@ -5540,8 +5565,8 @@
     },
     "mistralai/mistral-small-2603": {
       "id": "mistralai/Mistral-Small-4-119B-2603",
-      "downloads": 131384,
-      "likes": 402,
+      "downloads": 139701,
+      "likes": 403,
       "lastModified": "2026-05-31T13:57:57.000Z",
       "tags": [
         "safetensors",
@@ -5741,8 +5766,7 @@
         "Antoniocd/clipping-psd",
         "Dreamyear12/nvidia-litellm-router",
         "Jarvis2345/jarvis-cloud",
-        "FreshPixels/PinkSky",
-        "lolWut2/ai-video-generator"
+        "FreshPixels/PinkSky"
       ],
       "createdAt": "2026-01-23T13:14:14.000Z",
       "safetensors": {
@@ -5756,8 +5780,8 @@
     },
     "qwen/qwen3.5-9b": {
       "id": "Qwen/Qwen3.5-9B",
-      "downloads": 8914120,
-      "likes": 1646,
+      "downloads": 9092275,
+      "likes": 1651,
       "lastModified": "2026-03-02T00:51:43.000Z",
       "tags": [
         "transformers",
@@ -5877,15 +5901,16 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
+        "VIDraft/vkae",
         "pliny-the-prompter/obliteratus",
         "sean96t/flux2-try-on",
-        "prithivMLmods/NAVA-Text-to-Video",
         "xota1999/MedPlain",
         "artificialguybr/qwen-chat-demo",
         "FINAL-Bench/all-bench-leaderboard",
         "ginigen-ai/smol-worldcup",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
         "CalvinU/writing-prototypes",
+        "prithivMLmods/NAVA-Text-to-Video",
         "arudradey/all-bench-leaderboard",
         "KyleHessling1/jackrong-deepseek-9b-eval",
         "YogeshRana/career_conversations",
@@ -5913,12 +5938,12 @@
         "sushantkshirsagar/career_conversations",
         "build-small-hackathon/Council-of-Tiny-Minds",
         "sqswpaez/convo_sqswpaez",
-        "PandaWorld14/Jabotbot",
         "build-small-hackathon/paperlens-lab",
         "build-small-hackathon/thousand-token-terrarium",
         "build-small-hackathon/midnight_mystery",
         "osolmaz/leaderboard",
         "gugi123/career_conversation",
+        "Malaji71/Prompteador",
         "swapnilsinha99/career_conversations",
         "JanickVision/career_conversations",
         "dtometzki/vLLMFLux",
@@ -5974,8 +5999,7 @@
         "cypher109/obliteratus",
         "Chr1s1423/Qwen-Qwen3.5-9B",
         "LogitCode/FlexChat-Warm",
-        "LogitCode/FlexChat-terminal",
-        "LogitCode/FlexChat-Gold"
+        "LogitCode/FlexChat-terminal"
       ],
       "createdAt": "2026-02-27T12:58:26.000Z",
       "safetensors": {
@@ -5990,8 +6014,8 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "id": "Qwen/Qwen3.5-35B-A3B",
-      "downloads": 1955420,
-      "likes": 1451,
+      "downloads": 1944337,
+      "likes": 1455,
       "lastModified": "2026-04-24T02:38:38.000Z",
       "tags": [
         "transformers",
@@ -6144,11 +6168,12 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "Jackrong/qwen36-eval",
+        "VIDraft/vkae",
         "FINAL-Bench/all-bench-leaderboard",
         "ginigen-ai/smol-worldcup",
         "MAYA-AI/QWEN-3_5-CHAT",
         "davanstrien/ocr-bench-britannica-results-qwen35-viewer",
+        "Jackrong/qwen36-eval",
         "arudradey/all-bench-leaderboard",
         "Floncer/Qwen-Qwen3.5-35B-A3B",
         "Chris4K/agent-forge",
@@ -6229,8 +6254,8 @@
     },
     "qwen/qwen3.5-27b": {
       "id": "Qwen/Qwen3.5-27B",
-      "downloads": 2560332,
-      "likes": 997,
+      "downloads": 2545580,
+      "likes": 996,
       "lastModified": "2026-04-24T02:54:49.000Z",
       "tags": [
         "transformers",
@@ -6369,11 +6394,11 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "Jackrong/qwen36-eval",
         "NDIF/aletheias-leaderboard",
         "FINAL-Bench/all-bench-leaderboard",
         "MAYA-AI/QWEN-3_5-CHAT",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
+        "Jackrong/qwen36-eval",
         "arudradey/all-bench-leaderboard",
         "build-small-hackathon/WitGym",
         "segoedu/botpoet",
@@ -6437,7 +6462,7 @@
     },
     "qwen/qwen3.5-122b-a10b": {
       "id": "Qwen/Qwen3.5-122B-A10B",
-      "downloads": 766175,
+      "downloads": 785693,
       "likes": 580,
       "lastModified": "2026-04-24T03:55:23.000Z",
       "tags": [
@@ -6707,7 +6732,7 @@
         "wanyucarlos/discord-manager",
         "saitejatirunagari/JAA-ATS-Tool",
         "Jarvis2345/jarvis-cloud",
-        "lolWut2/ai-video-generator"
+        "hadisghafouri/NutriChat-Paper"
       ],
       "createdAt": "2026-02-24T09:43:37.000Z",
       "safetensors": {
@@ -6722,8 +6747,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "id": "Qwen/Qwen3.5-397B-A17B",
-      "downloads": 522491,
-      "likes": 1524,
+      "downloads": 480819,
+      "likes": 1525,
       "lastModified": "2026-04-24T05:51:23.000Z",
       "tags": [
         "transformers",
@@ -7111,6 +7136,7 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "OpenEvals/every-leaderboards",
+        "abdelfetteh/medical-chatbot-doctor",
         "hadadxyz/ai",
         "FINAL-Bench/all-bench-leaderboard",
         "GenAISecurityProject/OWASP-AIBOM-Generator",
@@ -7124,7 +7150,6 @@
         "YuZijie123/myyy-woof",
         "Wckd314/Pundit_Feynman",
         "Kodacoda/obliteratus",
-        "PandaWorld14/Jabotbot",
         "build-small-hackathon/letxinet-lat",
         "aisvarya-adeseye/chainofthoughts",
         "stellan0945/Qwen-Qwen3.5-397B-A17B",
@@ -7223,8 +7248,8 @@
     },
     "z-ai/glm-5": {
       "id": "zai-org/GLM-5",
-      "downloads": 65213,
-      "likes": 2108,
+      "downloads": 69813,
+      "likes": 2109,
       "lastModified": "2026-04-05T07:48:51.000Z",
       "tags": [
         "transformers",
@@ -8217,7 +8242,6 @@
         "PARZ2344/PNGTECH",
         "Rikishini/anycoder",
         "chddddq/any",
-        "PandaWorld14/Jabotbot",
         "Superwolff/anycoder",
         "shreerambhakt/anycoder",
         "Joshua0918/zai-org-GLM-5",
@@ -8289,7 +8313,8 @@
         "ankur030685/coder1",
         "ashlarch100/anycoder",
         "ankur030685/anycoder",
-        "ashlarch100/anycoder2"
+        "ashlarch100/anycoder2",
+        "AIMLAtul/anycoder"
       ],
       "createdAt": "2026-02-11T04:55:46.000Z",
       "safetensors": {
@@ -8304,8 +8329,8 @@
     },
     "qwen/qwen3-coder-next": {
       "id": "Qwen/Qwen3-Coder-Next",
-      "downloads": 1238264,
-      "likes": 1495,
+      "downloads": 1272766,
+      "likes": 1504,
       "lastModified": "2026-02-03T16:16:38.000Z",
       "tags": [
         "transformers",
@@ -8528,6 +8553,7 @@
       ],
       "spaces": [
         "akhaliq/anycoder",
+        "almsms/Qwen-Qwen3-Coder-Next",
         "hadadxyz/ai",
         "hfmlsoc/different-flops",
         "lalopenguin/Qwen-Qwen3-Coder-Next",
@@ -8625,8 +8651,7 @@
         "Easywealth/anycoder",
         "ahmeddw/Qwen-Qwen3-Coder-Next",
         "kkristlin/Qwen-Qwen3-Coder-Next",
-        "ilmanaljata/Qwen-Qwen3-Coder-Next",
-        "yl1234/Qwen-Qwen3-Coder-Next"
+        "ilmanaljata/Qwen-Qwen3-Coder-Next"
       ],
       "createdAt": "2026-01-30T15:08:18.000Z",
       "safetensors": {
@@ -8640,8 +8665,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/Kimi-K2.5",
-      "downloads": 1557319,
-      "likes": 2826,
+      "downloads": 1471171,
+      "likes": 2827,
       "lastModified": "2026-04-30T03:56:40.000Z",
       "tags": [
         "transformers",
@@ -9024,12 +9049,12 @@
         "sushantkshirsagar/career_conversations",
         "chddddq/any",
         "sqswpaez/convo_sqswpaez",
-        "PandaWorld14/Jabotbot",
         "Superwolff/anycoder",
         "build-small-hackathon/letxinet-lat",
         "Reja1/jee-neet-benchmark-leaderboard",
         "gugi123/career_conversation",
         "OllieCentral/rheoneiro2",
+        "Malaji71/Prompteador",
         "swapnilsinha99/career_conversations",
         "JanickVision/career_conversations",
         "reflectiveattention/prompt-prix",
@@ -9093,8 +9118,8 @@
     },
     "z-ai/glm-4.7-flash": {
       "id": "zai-org/GLM-4.7-Flash",
-      "downloads": 2354280,
-      "likes": 1765,
+      "downloads": 2480280,
+      "likes": 1766,
       "lastModified": "2026-01-29T08:06:19.000Z",
       "tags": [
         "transformers",
@@ -9357,7 +9382,6 @@
         "PARZ2344/PNGTECH",
         "Rikishini/anycoder",
         "tillu-AI/tillu-unified",
-        "PandaWorld14/Jabotbot",
         "Superwolff/anycoder",
         "rlearsch/LyricsChatBot",
         "PedroM2626/virtual-assistent",
@@ -9437,7 +9461,8 @@
         "milkygingers/obliteratus",
         "Lx4n/anycoder",
         "impresionist/OBLITERATUS",
-        "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/VOODOO.CO.OLDOlIUX"
+        "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/VOODOO.CO.OLDOlIUX",
+        "Adarshu07/LS"
       ],
       "createdAt": "2026-01-19T06:28:10.000Z",
       "safetensors": {
@@ -9452,8 +9477,8 @@
     },
     "z-ai/glm-4.7": {
       "id": "zai-org/GLM-4.7",
-      "downloads": 62606,
-      "likes": 2043,
+      "downloads": 60406,
+      "likes": 2042,
       "lastModified": "2026-01-29T08:05:58.000Z",
       "tags": [
         "transformers",
@@ -9859,8 +9884,8 @@
         "ZENLLC/anycoder",
         "PARZ2344/PNGTECH",
         "Rikishini/anycoder",
-        "PandaWorld14/Jabotbot",
         "Superwolff/anycoder",
+        "Malaji71/Prompteador",
         "feiqi33474/zai-org-GLM-4.7",
         "Keoso/zai-org-GLM-4.7",
         "network01/anycoder",
@@ -9947,8 +9972,8 @@
     },
     "mistralai/devstral-2512": {
       "id": "mistralai/Devstral-2-123B-Instruct-2512",
-      "downloads": 19425,
-      "likes": 324,
+      "downloads": 24343,
+      "likes": 325,
       "lastModified": "2026-06-30T15:20:41.000Z",
       "tags": [
         "vllm",
@@ -10205,13 +10230,13 @@
         }
       ],
       "spaces": [
+        "build-small-hackathon/grid-royale",
         "hadadxyz/ai",
         "hfmlsoc/different-flops",
         "Shiva-teja-chary/test",
         "AdarshJi/FALTU_ADARSH",
         "LAI-TEQUMSA/TEQUMSA-Interstellar-Conduit",
         "YuZijie123/myyy-woof",
-        "build-small-hackathon/grid-royale",
         "vakilrathod67/ai",
         "Dar1us-Khan/ai",
         "robetfluz/ai",
@@ -10266,7 +10291,7 @@
     },
     "z-ai/glm-4.6v": {
       "id": "zai-org/GLM-4.6V",
-      "downloads": 3733,
+      "downloads": 3748,
       "likes": 393,
       "lastModified": "2025-12-09T05:34:59.000Z",
       "tags": [
@@ -10588,7 +10613,7 @@
     },
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/Ministral-3-14B-Instruct-2512",
-      "downloads": 119316,
+      "downloads": 133277,
       "likes": 296,
       "lastModified": "2026-06-30T15:21:39.000Z",
       "tags": [
@@ -10744,8 +10769,8 @@
     },
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "downloads": 110756,
-      "likes": 178,
+      "downloads": 101433,
+      "likes": 180,
       "lastModified": "2026-06-30T15:20:14.000Z",
       "tags": [
         "vllm",
@@ -10895,8 +10920,8 @@
     },
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/Ministral-3-3B-Instruct-2512",
-      "downloads": 1185626,
-      "likes": 255,
+      "downloads": 1223021,
+      "likes": 257,
       "lastModified": "2026-06-30T15:21:31.000Z",
       "tags": [
         "vllm",
@@ -11049,8 +11074,8 @@
     },
     "deepseek/deepseek-v3.2": {
       "id": "deepseek-ai/DeepSeek-V3.2",
-      "downloads": 2391599,
-      "likes": 1452,
+      "downloads": 2230017,
+      "likes": 1453,
       "lastModified": "2025-12-01T11:04:59.000Z",
       "tags": [
         "transformers",
@@ -11719,6 +11744,7 @@
         }
       ],
       "spaces": [
+        "build-small-hackathon/grid-royale",
         "enzostvs/deepsite",
         "hadadxyz/ai",
         "FINAL-Bench/Leaderboard",
@@ -11746,7 +11772,6 @@
         "Ruhivig65/Ruhiaiinst",
         "Otter21/OPENENV_RL_01",
         "shiva0013/YT-AI-Automation",
-        "build-small-hackathon/grid-royale",
         "build-small-hackathon/letxinet-lat",
         "UoS-HGIG/HPOmapper",
         "Bencolliss/deepseek-ai-DeepSeek-V3.2",
@@ -11834,7 +11859,7 @@
     },
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/Kimi-K2-Thinking",
-      "downloads": 145901,
+      "downloads": 139457,
       "likes": 1706,
       "lastModified": "2026-01-30T04:49:39.000Z",
       "tags": [
@@ -12160,6 +12185,7 @@
       ],
       "spaces": [
         "akhaliq/anycoder",
+        "build-small-hackathon/grid-royale",
         "hadadxyz/ai",
         "umint/ai",
         "llamameta/Free-kimi-k2-thinking",
@@ -12176,7 +12202,7 @@
         "Shirochi/Glossarion",
         "KushagraKantSaxena1101/KushagraaKanth-Chatbot-AI",
         "rhodes97/moonshotai-Kimi-K2-Thinking",
-        "Lesterchia1/Princess_Yacht_VR_Experience_Chatbot",
+        "Lesterchia1/Princess_Yacht_VR_Experience_LLM_Chatbot",
         "aigos/anycoder",
         "HI7RAI/anycoder",
         "Highgroundbkk/anycoder",
@@ -12195,7 +12221,6 @@
         "XzaimX/moonshotai-Kimi-K2-Thinking",
         "Rikishini/anycoder",
         "Tensaikai/My-boti",
-        "build-small-hackathon/grid-royale",
         "Superwolff/anycoder",
         "kcrobot102/kcdocker-ai",
         "nexus-owner-1234/moonshotai-Kimi-K2-Thinking3",
@@ -12274,8 +12299,8 @@
     },
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/Voxtral-Small-24B-2507",
-      "downloads": 103396,
-      "likes": 501,
+      "downloads": 101519,
+      "likes": 503,
       "lastModified": "2025-12-20T23:34:49.000Z",
       "tags": [
         "vllm",
@@ -12400,8 +12425,8 @@
       ],
       "spaces": [
         "hf-audio/open_asr_leaderboard",
-        "RyeAI/danish-asr-leaderboard",
         "elmresearchcenter/open_universal_arabic_asr_leaderboard",
+        "RyeAI/danish-asr-leaderboard",
         "MohamedRashad/Voxtral",
         "yangzhang33/GreekMMLU-Leaderboard",
         "VincentGOURBIN/MeetingNotes-Voxtral-Analysis",
@@ -12428,8 +12453,8 @@
     },
     "qwen/qwen3-vl-32b-instruct": {
       "id": "Qwen/Qwen3-VL-32B-Instruct",
-      "downloads": 5081597,
-      "likes": 208,
+      "downloads": 4876057,
+      "likes": 211,
       "lastModified": "2025-10-21T18:26:34.000Z",
       "tags": [
         "transformers",
@@ -12616,8 +12641,8 @@
     },
     "qwen/qwen3-vl-8b-thinking": {
       "id": "Qwen/Qwen3-VL-8B-Thinking",
-      "downloads": 174611,
-      "likes": 214,
+      "downloads": 128599,
+      "likes": 215,
       "lastModified": "2025-11-26T13:18:14.000Z",
       "tags": [
         "transformers",
@@ -12757,8 +12782,8 @@
     },
     "qwen/qwen3-vl-8b-instruct": {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "downloads": 5180106,
-      "likes": 975,
+      "downloads": 5126449,
+      "likes": 977,
       "lastModified": "2025-10-15T16:16:59.000Z",
       "tags": [
         "transformers",
@@ -12878,9 +12903,9 @@
       ],
       "spaces": [
         "nvidia/Cosmos3-Action-Viewer",
-        "prithivMLmods/Qwen3-VL-Outpost",
-        "amewebstudio/medhemo-backend",
         "smolagents/computer-use-agent",
+        "amewebstudio/medhemo-backend",
+        "prithivMLmods/Qwen3-VL-Outpost",
         "artificialguybr/qwen-vl",
         "modelscope/modelscope-studio",
         "wjbmattingly/caracal",
@@ -12990,7 +13015,7 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "downloads": 15747,
+      "downloads": 16690,
       "likes": 199,
       "lastModified": "2025-11-26T13:18:00.000Z",
       "tags": [
@@ -13153,13 +13178,12 @@
         },
         "total": 31070754032
       },
-      "inference": "warm",
       "usedStorage": 62141618016
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
-      "downloads": 596204,
-      "likes": 581,
+      "downloads": 544899,
+      "likes": 582,
       "lastModified": "2025-11-26T13:18:04.000Z",
       "tags": [
         "transformers",
@@ -13367,7 +13391,7 @@
     },
     "z-ai/glm-4.6": {
       "id": "zai-org/GLM-4.6",
-      "downloads": 13506,
+      "downloads": 13804,
       "likes": 1231,
       "lastModified": "2025-09-30T10:17:45.000Z",
       "tags": [
@@ -13853,7 +13877,7 @@
     },
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
-      "downloads": 223392,
+      "downloads": 228713,
       "likes": 989,
       "lastModified": "2025-11-18T02:39:54.000Z",
       "tags": [
@@ -14506,7 +14530,7 @@
         "rdone4425/deepseek-ai-DeepSeek-V3.2-Exp",
         "ehtesham99/deepseek-ai-DeepSeek-V3.2-Exp",
         "zade-frontier/andrej-karpathy-llm-council",
-        "Lesterchia1/Princess_Yacht_VR_Experience_Chatbot",
+        "Lesterchia1/Princess_Yacht_VR_Experience_LLM_Chatbot",
         "taha454/CodeBuddyAI",
         "maucdev/Deepsite",
         "Alae65/deepsite",
@@ -14602,8 +14626,8 @@
     },
     "qwen/qwen3-vl-235b-a22b-thinking": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
-      "downloads": 10999,
-      "likes": 398,
+      "downloads": 11090,
+      "likes": 399,
       "lastModified": "2025-11-26T13:18:17.000Z",
       "tags": [
         "transformers",
@@ -15074,8 +15098,8 @@
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
-      "downloads": 1667459,
-      "likes": 399,
+      "downloads": 1673002,
+      "likes": 400,
       "lastModified": "2025-11-26T13:18:18.000Z",
       "tags": [
         "transformers",
@@ -15469,9 +15493,9 @@
       ],
       "spaces": [
         "nvidia/Cosmos3-Action-Viewer",
+        "smolagents/computer-use-agent",
         "hadadxyz/ai",
         "umint/ai",
-        "smolagents/computer-use-agent",
         "burtenshaw/qwen-atari",
         "weathon/VSF",
         "Elysia-Suite/elysia-markdown-studio",
@@ -15555,7 +15579,8 @@
         "hacktogone/cadrimages-saas",
         "artmyvibe/art-my-vibe-api",
         "nvidia/Cosmos3-Action-Viewer-Prerelease",
-        "Hdhdhyd/computer-use-agent"
+        "Hdhdhyd/computer-use-agent",
+        "Fahad0saad/arabic-ocr-v2"
       ],
       "createdAt": "2025-09-22T03:54:32.000Z",
       "safetensors": {
@@ -15569,7 +15594,7 @@
     },
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
-      "downloads": 13192,
+      "downloads": 11135,
       "likes": 366,
       "lastModified": "2025-09-29T01:52:07.000Z",
       "tags": [
@@ -16329,7 +16354,7 @@
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "downloads": 26859,
+      "downloads": 26966,
       "likes": 489,
       "lastModified": "2025-09-15T09:12:48.000Z",
       "tags": [
@@ -16661,12 +16686,11 @@
         },
         "total": 81324862720
       },
-      "inference": "warm",
       "usedStorage": 162670584182
     },
     "qwen/qwen3-next-80b-a3b-instruct:free": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "downloads": 255569,
+      "downloads": 248775,
       "likes": 1032,
       "lastModified": "2025-09-17T06:57:40.000Z",
       "tags": [
@@ -17002,7 +17026,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "downloads": 255569,
+      "downloads": 248775,
       "likes": 1032,
       "lastModified": "2025-09-17T06:57:40.000Z",
       "tags": [
@@ -17338,8 +17362,8 @@
     },
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
-      "downloads": 1661261,
-      "likes": 760,
+      "downloads": 1523477,
+      "likes": 763,
       "lastModified": "2026-01-30T04:50:25.000Z",
       "tags": [
         "transformers",
@@ -17766,7 +17790,7 @@
     },
     "qwen/qwen3-30b-a3b-thinking-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
-      "downloads": 217695,
+      "downloads": 213106,
       "likes": 377,
       "lastModified": "2025-08-17T08:20:51.000Z",
       "tags": [
@@ -17950,7 +17974,7 @@
     },
     "nousresearch/hermes-4-70b": {
       "id": "NousResearch/Hermes-4-70B",
-      "downloads": 3851,
+      "downloads": 3852,
       "likes": 200,
       "lastModified": "2025-09-02T06:40:36.000Z",
       "tags": [
@@ -18220,8 +18244,8 @@
     },
     "nousresearch/hermes-4-405b": {
       "id": "NousResearch/Hermes-4-405B",
-      "downloads": 259,
-      "likes": 91,
+      "downloads": 330,
+      "likes": 92,
       "lastModified": "2025-09-02T04:17:04.000Z",
       "tags": [
         "transformers",
@@ -18974,7 +18998,7 @@
     },
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek-ai/DeepSeek-V3.1",
-      "downloads": 251261,
+      "downloads": 252422,
       "likes": 825,
       "lastModified": "2025-09-05T11:30:15.000Z",
       "tags": [
@@ -19607,7 +19631,6 @@
         }
       ],
       "spaces": [
-        "AbdullahKhanSherwani/BlackBox",
         "eduagarcia/open_pt_llm_leaderboard",
         "dropkickJesus999/deepsiteV3",
         "2025-ai-timeline/2025-ai-timeline",
@@ -19617,6 +19640,7 @@
         "ReallyFloppyPenguin/DeepSeek-V3.1-Superintell",
         "nazdridoy/inferoxy-hub",
         "Jakob08/moneychatbot",
+        "AbdullahKhanSherwani/BlackBox",
         "Humbl3m33/deepseek-ai-DeepSeek-V3.1",
         "leohellmark/deepsite",
         "PrinceZaman/DeepSeek_Coder",
@@ -19722,7 +19746,7 @@
     },
     "z-ai/glm-4.5v": {
       "id": "zai-org/GLM-4.5V",
-      "downloads": 126448,
+      "downloads": 129686,
       "likes": 719,
       "lastModified": "2025-10-25T13:20:10.000Z",
       "tags": [
@@ -19995,8 +20019,8 @@
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "downloads": 1748535,
-      "likes": 1137,
+      "downloads": 1700160,
+      "likes": 1139,
       "lastModified": "2025-12-03T08:05:17.000Z",
       "tags": [
         "transformers",
@@ -20147,6 +20171,7 @@
       ],
       "spaces": [
         "bobber/Z-Image-to-LoRA",
+        "build-small-hackathon/6ixPulse",
         "enzostvs/deepsite",
         "AiSudo/Qwen-Image-to-LoRA",
         "infinite-dataset-hub/infinite-dataset-hub",
@@ -20166,7 +20191,6 @@
         "Ishangtxl/mainframe-modernization-openenv",
         "Yash030/claude-code-proxy",
         "madDegen/Agent-Q3",
-        "build-small-hackathon/6ixPulse",
         "srinjoyMukherjee/First_agent_template",
         "romain-fayoux/Final_Assignment_Template",
         "RaulGuo1/ttt1",
@@ -20259,8 +20283,8 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "downloads": 713155,
-      "likes": 819,
+      "downloads": 907757,
+      "likes": 820,
       "lastModified": "2025-09-17T06:56:43.000Z",
       "tags": [
         "transformers",
@@ -20475,7 +20499,8 @@
         "YiruSHA/job-search-agent",
         "G-SaiVishwas/dronecaptureops-gym",
         "mmrech/AttrLLM",
-        "jw-tools/jw-search"
+        "jw-tools/jw-search",
+        "pawarbi/axis-fabric-data-agent"
       ],
       "createdAt": "2025-07-28T07:31:27.000Z",
       "safetensors": {
@@ -20489,7 +20514,7 @@
     },
     "z-ai/glm-4.5": {
       "id": "zai-org/GLM-4.5",
-      "downloads": 170959,
+      "downloads": 161111,
       "likes": 1403,
       "lastModified": "2025-08-11T13:27:03.000Z",
       "tags": [
@@ -20976,7 +21001,7 @@
     },
     "z-ai/glm-4.5-air": {
       "id": "zai-org/GLM-4.5-Air",
-      "downloads": 393902,
+      "downloads": 389618,
       "likes": 611,
       "lastModified": "2025-08-11T13:25:37.000Z",
       "tags": [
@@ -21250,7 +21275,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "downloads": 56206,
+      "downloads": 53172,
       "likes": 407,
       "lastModified": "2025-08-17T08:20:17.000Z",
       "tags": [
@@ -21765,7 +21790,8 @@
         "LogitCode/FlexChat-blue",
         "shmr90661/haven-ai-backend",
         "hugh007/OpenWolf-Agent",
-        "shazhass/bacpilot-backend"
+        "shazhass/bacpilot-backend",
+        "Jelisaveta/llm-judge-reliability-auditor"
       ],
       "createdAt": "2025-07-25T04:59:05.000Z",
       "safetensors": {
@@ -21779,8 +21805,8 @@
     },
     "qwen/qwen3-coder:free": {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "downloads": 43211,
-      "likes": 1347,
+      "downloads": 43195,
+      "likes": 1348,
       "lastModified": "2025-08-21T10:18:07.000Z",
       "tags": [
         "transformers",
@@ -22606,6 +22632,7 @@
       ],
       "spaces": [
         "HPAI-BSC/TuRTLe-Leaderboard",
+        "build-small-hackathon/grid-royale",
         "hadadxyz/ai",
         "umint/ai",
         "lvwerra/jupyter-agent-2",
@@ -22640,7 +22667,6 @@
         "aidn/PromptPlenum42",
         "colesr/insight-engine-docker",
         "Yash030/claude-code-proxy",
-        "build-small-hackathon/grid-royale",
         "Elias-CIC/Final_Assignment_Template",
         "WilliamRabuel/GAIA_Agent",
         "gad1226/Qwen-Qwen3-Coder-480B-A35B-Instruct",
@@ -22718,8 +22744,8 @@
     },
     "qwen/qwen3-coder": {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "downloads": 43211,
-      "likes": 1347,
+      "downloads": 43195,
+      "likes": 1348,
       "lastModified": "2025-08-21T10:18:07.000Z",
       "tags": [
         "transformers",
@@ -23545,6 +23571,7 @@
       ],
       "spaces": [
         "HPAI-BSC/TuRTLe-Leaderboard",
+        "build-small-hackathon/grid-royale",
         "hadadxyz/ai",
         "umint/ai",
         "lvwerra/jupyter-agent-2",
@@ -23579,7 +23606,6 @@
         "aidn/PromptPlenum42",
         "colesr/insight-engine-docker",
         "Yash030/claude-code-proxy",
-        "build-small-hackathon/grid-royale",
         "Elias-CIC/Final_Assignment_Template",
         "WilliamRabuel/GAIA_Agent",
         "gad1226/Qwen-Qwen3-Coder-480B-A35B-Instruct",
@@ -23657,8 +23683,8 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "downloads": 89610,
-      "likes": 784,
+      "downloads": 87031,
+      "likes": 786,
       "lastModified": "2025-09-17T06:52:55.000Z",
       "tags": [
         "transformers",
@@ -24230,7 +24256,7 @@
     },
     "moonshotai/kimi-k2": {
       "id": "moonshotai/Kimi-K2-Instruct",
-      "downloads": 462511,
+      "downloads": 420260,
       "likes": 2363,
       "lastModified": "2026-04-23T02:08:36.000Z",
       "tags": [
@@ -24556,10 +24582,10 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "huggingface-projects/ai-video-composer",
         "ISEEKYAN/megatron_memory_estimator",
         "nlopes90/kimi-k2-mcp",
         "hadadxyz/ai",
-        "huggingface-projects/ai-video-composer",
         "umint/ai",
         "eduagarcia/open_pt_llm_leaderboard",
         "huggingface/2025-wrapped",
@@ -24620,7 +24646,6 @@
         "adesh01/civicsetu",
         "iwashere99/nseai",
         "madDegen/Agent-Q3",
-        "PandaWorld14/Jabotbot",
         "SpinozaProject/spinoza_public",
         "akiko19191/Better_tool_calling",
         "Quliyev/NeuroX",
@@ -24654,7 +24679,8 @@
         "nikhildhawan/moonshotai-Kimi-K2-Instruct",
         "johnwilliamholt07/Kimi-K2-Instruct",
         "johnwilliamholt07/moonshotai-Kimi-K2-Instruct",
-        "Clark1234577/moonshotai-Kimi-K2-Instruct"
+        "Clark1234577/moonshotai-Kimi-K2-Instruct",
+        "dncnutehdum/BotThing"
       ],
       "createdAt": "2025-07-11T00:55:12.000Z",
       "safetensors": {
@@ -24670,7 +24696,7 @@
     },
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "downloads": 672176,
+      "downloads": 653075,
       "likes": 596,
       "lastModified": "2025-12-22T10:16:55.000Z",
       "tags": [
@@ -24825,6 +24851,7 @@
         "CultriX/CodeConverter",
         "multimodalart/mistral-text-encoder",
         "openenv-community/KantBench-Dashboard",
+        "datacipen/ifisia",
         "parkuman/gaia-agent",
         "macilAI/Trumpslator",
         "bhutesh65/jupiter-faq-bot",
@@ -24847,6 +24874,7 @@
         "jtowarek/KantBench-Dashboard",
         "Vixhal/govt-services-navigator",
         "djstrong/bielik-tokenizers",
+        "aetherbase/llm-ready-data",
         "andreiaalexa/debate-arena-agents",
         "skilledu/LLM-Settings-Guide",
         "frogleo/mistral-text-encoder",
@@ -24863,7 +24891,7 @@
     },
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek-ai/DeepSeek-R1-0528",
-      "downloads": 3586665,
+      "downloads": 2995175,
       "likes": 2454,
       "lastModified": "2025-05-29T11:37:44.000Z",
       "tags": [
@@ -25490,8 +25518,8 @@
         "ongudidan/deepsite-v2",
         "dropkickJesus999/deepsiteV3",
         "clem/deepseek-ai-DeepSeek-R1-0528_demo",
-        "Agents-MCP-Hackathon/SlideDeck-AI",
         "jairwaal/image",
+        "Agents-MCP-Hackathon/SlideDeck-AI",
         "viktor-hu/novita-anysite",
         "tommytracx/deepsite",
         "kalhdrawi/omnidev",
@@ -25597,8 +25625,8 @@
     },
     "google/gemma-3n-e4b-it": {
       "id": "google/gemma-3n-E4B-it",
-      "downloads": 20252,
-      "likes": 919,
+      "downloads": 20296,
+      "likes": 918,
       "lastModified": "2025-07-14T13:56:17.000Z",
       "tags": [
         "transformers",
@@ -25858,8 +25886,8 @@
     },
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/Llama-Guard-4-12B",
-      "downloads": 152237,
-      "likes": 107,
+      "downloads": 153573,
+      "likes": 108,
       "lastModified": "2025-04-29T18:14:44.000Z",
       "tags": [
         "transformers",
@@ -26137,8 +26165,8 @@
     },
     "qwen/qwen3-30b-a3b": {
       "id": "Qwen/Qwen3-30B-A3B",
-      "downloads": 2808933,
-      "likes": 904,
+      "downloads": 2813029,
+      "likes": 905,
       "lastModified": "2025-07-26T03:45:17.000Z",
       "tags": [
         "transformers",
@@ -26304,7 +26332,6 @@
         "Kodacoda/obliteratus",
         "bk2007/SocialGuard-RL",
         "tillu-AI/tillu-unified",
-        "PandaWorld14/Jabotbot",
         "robomotic/world-cup-oracle",
         "Unknown504/web-ui",
         "kschuette/Final_Assignment_Template",
@@ -26369,7 +26396,8 @@
         "chenpotatos/Qwen-Qwen3-30B-A3B",
         "Alex549/Final_Assignment_Agents_Course",
         "Ridler001/Deb-AI-table",
-        "edgemate/edgellm"
+        "edgemate/edgellm",
+        "giangpt-212/Browser_Automation"
       ],
       "createdAt": "2025-04-27T03:43:05.000Z",
       "safetensors": {
@@ -26382,8 +26410,8 @@
     },
     "qwen/qwen3-8b": {
       "id": "Qwen/Qwen3-8B",
-      "downloads": 13672043,
-      "likes": 1171,
+      "downloads": 14829147,
+      "likes": 1172,
       "lastModified": "2025-07-26T03:49:13.000Z",
       "tags": [
         "transformers",
@@ -26396,6 +26424,7 @@
         "base_model:Qwen/Qwen3-8B-Base",
         "base_model:finetune:Qwen/Qwen3-8B-Base",
         "license:apache-2.0",
+        "eval-results",
         "text-generation-inference",
         "endpoints_compatible",
         "deploy:azure",
@@ -26500,18 +26529,17 @@
         }
       ],
       "spaces": [
+        "VIDraft/vkae",
         "pliny-the-prompter/obliteratus",
         "multimodalart/SenseNova-U1-Infographic",
         "tencent/HY-Motion-1.0",
         "yasserrmd/VibeVoice",
         "multimodalart/SenseNova-U1",
         "ISEEKYAN/megatron_memory_estimator",
-        "dqy08/InfoLens",
         "HPAI-BSC/TuRTLe-Leaderboard",
-        "prithivMLmods/NAVA-Text-to-Video",
-        "build-small-hackathon/hollow",
         "Girlz/TokenTrace",
         "xota1999/MedPlain",
+        "benjaminnigjeh/proteoagent-core-platform",
         "Qwen/Qwen3-Demo",
         "multimodalart/self-forcing",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -26525,6 +26553,7 @@
         "aiqtech/LLM-Token-Visual",
         "lablab-ai-amd-developer-hackathon/DrRetina",
         "MCP-1st-Birthday/TraceMind",
+        "dqy08/InfoLens",
         "ISEEKYAN/megatron_memory_estimator_old",
         "Tinkering/Pytorch-day-prez",
         "Skywork/SkyCaptioner-V1",
@@ -26532,6 +26561,7 @@
         "artificialguybr/CanIRunThisLLM",
         "VIDraft/Qwen3",
         "shenyunhang/VITA-Audio",
+        "prithivMLmods/NAVA-Text-to-Video",
         "filbench/filbench-leaderboard",
         "VIDraft/Qwen3-8B",
         "build-small-hackathon/vivamais",
@@ -26539,6 +26569,7 @@
         "Agents-MCP-Hackathon/ad-guardian",
         "ElvisWang111/AutoSTAT",
         "build-small-hackathon/emoji_studio",
+        "build-small-hackathon/hollow",
         "kebeliu/KVCacheSizeCalculator",
         "nazdridoy/inferoxy-hub",
         "bartduis/modality_forcing",
@@ -26586,7 +26617,6 @@
         "daniel8919/limbic-reasoning-agent",
         "kaori02/arm-gym",
         "tillu-AI/tillu-unified",
-        "PandaWorld14/Jabotbot",
         "Pabloler21/hollow",
         "build-small-hackathon/poetic",
         "build-small-hackathon/news_gloss",
@@ -26598,8 +26628,7 @@
         "VIDraft/Local-RAG-Qwen3-8b",
         "xe1phix/Qwen3-Demo",
         "MicoGuild/Olubakka",
-        "KraTUZen/LogicLink-Project-Space",
-        "pietroorlandi/First_agent_template"
+        "KraTUZen/LogicLink-Project-Space"
       ],
       "createdAt": "2025-04-27T03:42:21.000Z",
       "safetensors": {
@@ -26613,7 +26642,7 @@
     },
     "qwen/qwen3-14b": {
       "id": "Qwen/Qwen3-14B",
-      "downloads": 3651617,
+      "downloads": 3783113,
       "likes": 417,
       "lastModified": "2025-07-26T03:49:23.000Z",
       "tags": [
@@ -26852,8 +26881,8 @@
     },
     "qwen/qwen3-32b": {
       "id": "Qwen/Qwen3-32B",
-      "downloads": 4276519,
-      "likes": 708,
+      "downloads": 4709223,
+      "likes": 709,
       "lastModified": "2025-07-26T03:45:22.000Z",
       "tags": [
         "transformers",
@@ -27002,9 +27031,12 @@
         }
       ],
       "spaces": [
+        "VIDraft/vkae",
         "pliny-the-prompter/obliteratus",
+        "brk9999/bal-chatbot",
         "Nymbo/Serverless-TextGen-Hub",
         "ISEEKYAN/megatron_memory_estimator",
+        "NoirHuy/glucologic-cdss",
         "xota1999/MedPlain",
         "Qwen/Qwen3-Demo",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -27098,10 +27130,7 @@
         "wan9yu/argus-me",
         "webmazta/contentai",
         "AREEBAFATIMA12/anne-frank-rag",
-        "RuchirKadam1729/bertopic-agentic-ai",
-        "legitey01/List-Coder-Maestro",
-        "iamayur/hr-copilot",
-        "qyam23/pulse-cv"
+        "RuchirKadam1729/bertopic-agentic-ai"
       ],
       "createdAt": "2025-04-27T03:52:59.000Z",
       "safetensors": {
@@ -27115,7 +27144,7 @@
     },
     "qwen/qwen3-235b-a22b": {
       "id": "Qwen/Qwen3-235B-A22B",
-      "downloads": 804328,
+      "downloads": 848692,
       "likes": 1100,
       "lastModified": "2025-07-26T03:45:13.000Z",
       "tags": [
@@ -27632,7 +27661,6 @@
         "Erog0291/my-stew-agent-space",
         "madDegen/Agent-Q3",
         "snygginghani/kasitbot",
-        "PandaWorld14/Jabotbot",
         "robomotic/world-cup-oracle",
         "MaryEremikhina/First_agent_template",
         "znacer/Final_Assignment",
@@ -27667,7 +27695,8 @@
         "kingarnica/Qwen3-Demo",
         "drecokie/dre",
         "chandugeesala0/Qwen-Qwen3-235B-A22B",
-        "TejAndrewsACC/ChatACC"
+        "TejAndrewsACC/ChatACC",
+        "mfoud444/aiai"
       ],
       "createdAt": "2025-04-27T03:53:46.000Z",
       "safetensors": {
@@ -27681,7 +27710,7 @@
     },
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-      "downloads": 45972,
+      "downloads": 45475,
       "likes": 499,
       "lastModified": "2025-05-22T23:46:12.000Z",
       "tags": [
@@ -28006,6 +28035,8 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "brk9999/bal-chatbot",
+        "kishanpariharcars/Orginal",
         "eduagarcia/open_pt_llm_leaderboard",
         "openfree/Llama-4-Maverick-17B-Research",
         "hadadrjt/ai",
@@ -28062,7 +28093,6 @@
         "rayy5/AutoInsight",
         "jawad-zaheer2024/AI-vision-and-voice-DOCTOR",
         "madDegen/Agent-Q3",
-        "PandaWorld14/Jabotbot",
         "hienluu/chatzaroni",
         "chuyk/destiny",
         "holyhigh666/RAG-chalcogenide-perovskite",
@@ -28103,8 +28133,7 @@
         "SkinCancerDiagnosis/SkinCancerDiagnosis",
         "swarnendub30/akaike-proj",
         "Macmill/Final_Assignment_Template",
-        "MrObiKenobi/Final_Assignment",
-        "Spenumatcha/MyFirstStockAPI"
+        "MrObiKenobi/Final_Assignment"
       ],
       "createdAt": "2025-04-01T22:17:20.000Z",
       "safetensors": {
@@ -28117,8 +28146,8 @@
     },
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "downloads": 737226,
-      "likes": 1315,
+      "downloads": 747307,
+      "likes": 1316,
       "lastModified": "2025-05-22T23:44:50.000Z",
       "tags": [
         "transformers",
@@ -28427,7 +28456,10 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "brk9999/bal-chatbot",
+        "McLoviniTtt/Reasoner4All",
         "Diwashbarla/s2v",
+        "kishanpariharcars/Orginal",
         "xota1999/MedPlain",
         "eduagarcia/open_pt_llm_leaderboard",
         "hadadrjt/ai",
@@ -28441,7 +28473,6 @@
         "Agents-MCP-Hackathon/meme-context-protocol",
         "bartar/tokenizers",
         "SustainabilityLabIITGN/VayuChat",
-        "McLoviniTtt/Reasoner4All",
         "jairwaal/image",
         "Tinkering/Pytorch-day-prez",
         "Sebastiankay/bilder-builder",
@@ -28523,9 +28554,7 @@
         "Yinchun/Travel_Assistant",
         "Agents-MCP-Hackathon/mcp_drawittome",
         "grohiit/llm_evaluator",
-        "sachinbareth/AI-Doctor-vision-voice",
-        "RameshJ/Invoices_to_Table",
-        "RameshJ/Invoices_to_Table_lp"
+        "sachinbareth/AI-Doctor-vision-voice"
       ],
       "createdAt": "2025-04-02T13:34:17.000Z",
       "safetensors": {
@@ -28539,7 +28568,7 @@
     },
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek-ai/DeepSeek-V3-0324",
-      "downloads": 1145666,
+      "downloads": 1108710,
       "likes": 3132,
       "lastModified": "2025-03-27T04:01:53.000Z",
       "tags": [
@@ -29155,6 +29184,7 @@
         }
       ],
       "spaces": [
+        "Greff3/deepsite",
         "enzostvs/deepsite",
         "eduagarcia/open_pt_llm_leaderboard",
         "openfree/Deepseek-v3-0324-Research",
@@ -29162,7 +29192,6 @@
         "jbilcke-hf/ai-app-factory",
         "linusorii/deepsite-v2",
         "akhaliq/deepsearch",
-        "Greff3/deepsite",
         "clem/deepseek-ai-DeepSeek-V3-0324",
         "Rubenhugging/deepsite",
         "ongudidan/deepsite-v2",
@@ -29170,8 +29199,8 @@
         "MCP-1st-Birthday/TraceMind",
         "openfree/Deepseek-v3-0324-Research-korea",
         "Agents-MCP-Hackathon/Website_Generator",
-        "Agents-MCP-Hackathon/SlideDeck-AI",
         "jairwaal/image",
+        "Agents-MCP-Hackathon/SlideDeck-AI",
         "viktor-hu/novita-anysite",
         "tommytracx/deepsite",
         "kalhdrawi/omnidev",
@@ -29270,8 +29299,8 @@
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-      "downloads": 164665,
-      "likes": 1368,
+      "downloads": 159603,
+      "likes": 1370,
       "lastModified": "2025-12-22T10:15:41.000Z",
       "tags": [
         "vllm",
@@ -29478,7 +29507,6 @@
         "multimodalart/mistral-text-encoder",
         "ellamind/sui-demo",
         "Kodacoda/obliteratus",
-        "PandaWorld14/Jabotbot",
         "mrbeliever/Im-prmpt-im",
         "roychen22/smolagents-gradio",
         "www-wassim/TMPCHAT",
@@ -29548,7 +29576,8 @@
         "aaahmet/obliteratus",
         "kirikir13/obliteratus",
         "RaccoonStampede/obliteratus",
-        "armaansingh752k1/Image_generator_Docker"
+        "armaansingh752k1/Image_generator_Docker",
+        "charconnai/obliteratus"
       ],
       "createdAt": "2025-03-11T17:04:58.000Z",
       "safetensors": {
@@ -29562,8 +29591,8 @@
     },
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
-      "downloads": 1725495,
-      "likes": 1386,
+      "downloads": 1838997,
+      "likes": 1388,
       "lastModified": "2025-03-21T20:20:53.000Z",
       "tags": [
         "transformers",
@@ -29710,7 +29739,6 @@
         }
       ],
       "spaces": [
-        "build-small-hackathon/HearthNet",
         "Jasmineame/detect-LLM-tokens",
         "ajsbsd/gemma-3-4b-it",
         "ginigen/VEO3-Free",
@@ -29730,9 +29758,10 @@
         "kairusama/gemma-3-4b-it-qat",
         "AC2513/gemma-translate",
         "umint/openwebui",
-        "stiv14/pdf-multilanguage-qa-role",
+        "build-small-hackathon/HearthNet",
         "Tomoniai/gemma-3-chat",
         "konieshadow/podcast-transcriber",
+        "stiv14/pdf-multilanguage-qa-role",
         "team-wonders/internal-v0",
         "hanzla/PlaygroundGemma3",
         "halfacupoftea/Gemma_Calorai",
@@ -29823,7 +29852,7 @@
     },
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
-      "downloads": 1774663,
+      "downloads": 1623279,
       "likes": 769,
       "lastModified": "2025-03-21T20:28:56.000Z",
       "tags": [
@@ -29981,9 +30010,9 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "Jasmineame/detect-LLM-tokens",
         "huggingface-projects/gemma-3-12b-it",
         "MCP-1st-Birthday/the-emergent-show",
-        "Jasmineame/detect-LLM-tokens",
         "xota1999/MedPlain",
         "eduagarcia/open_pt_llm_leaderboard",
         "build-small-hackathon/claim-ready",
@@ -30035,7 +30064,6 @@
         "devani18/industri-fix-rag",
         "F4biian/RAGognizer",
         "Nipun/agent-101",
-        "PandaWorld14/Jabotbot",
         "cyberray6801/joyai-echo-zerogpu",
         "build-small-hackathon/letxinet-lat",
         "CognitiveScience/gemma-3-chat",
@@ -30079,7 +30107,8 @@
         "Mohit0199/chatrouter",
         "presteezy/mcq_apush_sh",
         "omniverse1/gemma-tuner",
-        "ramonneirao/emotion-mining"
+        "ramonneirao/emotion-mining",
+        "mmrech/NeuroSAM3"
       ],
       "createdAt": "2025-03-01T19:11:34.000Z",
       "safetensors": {
@@ -30093,7 +30122,7 @@
     },
     "cohere/command-a": {
       "id": "CohereLabs/c4ai-command-a-03-2025",
-      "downloads": 1499,
+      "downloads": 1583,
       "likes": 393,
       "lastModified": "2025-10-30T06:37:15.000Z",
       "tags": [
@@ -30427,8 +30456,8 @@
     },
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
-      "downloads": 996093,
-      "likes": 1986,
+      "downloads": 962269,
+      "likes": 1987,
       "lastModified": "2025-03-21T20:29:02.000Z",
       "tags": [
         "transformers",
@@ -30607,7 +30636,7 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "amewebstudio/medhemo-backend",
-        "circuit-detection-team/circuit-detector",
+        "samnathanswarna/Webpage-Summarizer",
         "NDIF/aletheias-leaderboard",
         "xota1999/MedPlain",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -30718,8 +30747,8 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "downloads": 427364,
-      "likes": 631,
+      "downloads": 419895,
+      "likes": 632,
       "lastModified": "2025-06-06T02:48:50.000Z",
       "tags": [
         "transformers",
@@ -30952,16 +30981,18 @@
       "spaces": [
         "signsur4739379373/qwen-image-edit-rapid-aio-nsfw-v23",
         "linoyts/Qwen-Image-Edit-2511-AnyPose",
-        "JournalistsonHF/ai-toolkit",
         "savvyaiagency/qwen-image-edit-rapid-aio-sfw-v23",
         "dosesnrolls1/qwen-image-edit-rapid-aio-nsfw-v23",
         "Fighterdan/Nsfw_image_editor",
+        "BIGJUTT/qwen-image-edit-rapid-aio-nsfw-v23",
         "h4sch/qwen-image-edit-rapid-aio-v23",
+        "aaaa113/qwen-image-edit-rapid-aio-nsfw-v23",
         "smolagents/computer-agent",
         "linoyts/Qwen-Image-Edit-2511-Fast",
         "eduagarcia/open_pt_llm_leaderboard",
         "linoyts/Qwen-Image-Edit-next-scene",
         "linoyts/Qwen-Image-Edit-2509-Fast",
+        "JournalistsonHF/ai-toolkit",
         "IllyaS08/qwen-image-edit-rapid-aio-sfw-v23",
         "hadadrjt/ai",
         "FINAL-Bench/all-bench-leaderboard",
@@ -31047,9 +31078,7 @@
         "evapilotno17/codeforces_api_abuser",
         "wBfvtNqNhb/JJeDIkUYeCqVU7B",
         "samlax12/agent",
-        "sandsiv/Dashboard_Narrator_Openrouter",
-        "sierrafr/test",
-        "Sanjeev23oct/browser-use-sg"
+        "sandsiv/Dashboard_Narrator_Openrouter"
       ],
       "createdAt": "2025-01-27T04:12:04.000Z",
       "safetensors": {
@@ -31063,7 +31092,7 @@
     },
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "downloads": 51494,
+      "downloads": 50448,
       "likes": 960,
       "lastModified": "2025-07-28T17:26:22.000Z",
       "tags": [
@@ -31202,10 +31231,10 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "McLoviniTtt/Reasoner4All",
         "eduagarcia/open_pt_llm_leaderboard",
         "KBaba7/Quant",
         "Agents-MCP-Hackathon/KGB-mcp",
-        "McLoviniTtt/Reasoner4All",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
@@ -31231,7 +31260,6 @@
         "Peterase/rag-api-node-1",
         "ENC-PSL/lrec2026-llm-annotator",
         "noahmclaughlin/Are.na_Pairings",
-        "PandaWorld14/Jabotbot",
         "BICORP/Lake-Chatbot",
         "BostjanSpar/remote",
         "bchud/pizda",
@@ -31300,7 +31328,8 @@
         "grahamom/leaderboard_yourbench_grahamom_yourbench-rc-doc-demo",
         "aircpm2025/leaderboard_yourbench_aircpm2025_the_wandering_earth",
         "Natchapat/leaderboard_yourbench_Natchapat_yourbench",
-        "Manifestacja/mistralai-Mistral-Small-24B-Instruct-2501"
+        "Manifestacja/mistralai-Mistral-Small-24B-Instruct-2501",
+        "Vijay6167/PdfChatBot"
       ],
       "createdAt": "2025-01-28T13:30:13.000Z",
       "safetensors": {
@@ -31313,7 +31342,7 @@
     },
     "deepseek/deepseek-r1-distill-llama-70b": {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "downloads": 389714,
+      "downloads": 462622,
       "likes": 782,
       "lastModified": "2025-02-24T03:31:15.000Z",
       "tags": [
@@ -31477,6 +31506,7 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "McLoviniTtt/Reasoner4All",
         "eduagarcia/open_pt_llm_leaderboard",
         "hadadrjt/ai",
         "logikon/open_cot_leaderboard",
@@ -31484,7 +31514,6 @@
         "KBaba7/Quant",
         "ruslanmv/DeepSeek-R1-Chatbot",
         "ngebodh/SimpleChatbot",
-        "McLoviniTtt/Reasoner4All",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
@@ -31528,7 +31557,6 @@
         "sathyadexter10/dexter-index",
         "soonvalley04/split-brain-training",
         "tillu-AI/tillu-unified",
-        "PandaWorld14/Jabotbot",
         "Gttfhuss/Catbot_c6.0_8b_MLL",
         "ark590/structured-cot-reasoner",
         "migueldeguzmandev/migueldeguzmandev-papercliptodd_v2",
@@ -31575,7 +31603,8 @@
         "jakal24/leaderboard_yourbench_jakal24_yourbench",
         "LiangGou/leaderboard_yourbench_LeonGou_yourbench",
         "stevevaius/leaderboard_yourbench_stevevaius_yourbench",
-        "dongXL/leaderboard_yourbench_dongXL_yourbench"
+        "dongXL/leaderboard_yourbench_dongXL_yourbench",
+        "heboya8/demo"
       ],
       "createdAt": "2025-01-20T09:13:33.000Z",
       "safetensors": {
@@ -31589,8 +31618,8 @@
     },
     "deepseek/deepseek-r1": {
       "id": "deepseek-ai/DeepSeek-R1",
-      "downloads": 7483926,
-      "likes": 13424,
+      "downloads": 7849894,
+      "likes": 13429,
       "lastModified": "2025-03-27T04:01:59.000Z",
       "tags": [
         "transformers",
@@ -32211,6 +32240,7 @@
         "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
         "HPAI-BSC/TuRTLe-Leaderboard",
+        "McLoviniTtt/Reasoner4All",
         "llamameta/DeepSeek-R1-Chat-Assistant-Web-Search",
         "hadadrjt/ai",
         "FINAL-Bench/all-bench-leaderboard",
@@ -32223,7 +32253,6 @@
         "newmindai/Mezura",
         "2025-ai-timeline/2025-ai-timeline",
         "bartar/tokenizers",
-        "McLoviniTtt/Reasoner4All",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
@@ -32323,8 +32352,8 @@
     },
     "deepseek/deepseek-chat": {
       "id": "deepseek-ai/DeepSeek-V3",
-      "downloads": 1118088,
-      "likes": 4092,
+      "downloads": 1113089,
+      "likes": 4093,
       "lastModified": "2025-03-27T04:01:45.000Z",
       "tags": [
         "transformers",
@@ -32976,10 +33005,10 @@
         "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
         "Oysiyl/AI-QR-code-generator",
-        "barunsaha/slide-deck-ai",
         "ISEEKYAN/megatron_memory_estimator",
         "gokaygokay/Chroma",
         "blanchon/HiDream-ai-full",
+        "barunsaha/slide-deck-ai",
         "FINAL-Bench/all-bench-leaderboard",
         "KBaba7/Quant",
         "silveroxides/Chroma-Extra",
@@ -33088,8 +33117,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct:free": {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
-      "downloads": 712448,
-      "likes": 2864,
+      "downloads": 761521,
+      "likes": 2865,
       "lastModified": "2024-12-21T18:28:01.000Z",
       "tags": [
         "transformers",
@@ -33372,7 +33401,7 @@
         "HPAI-BSC/TuRTLe-Leaderboard",
         "Granther/try-this-model",
         "elprofessor15/ai-interviewer",
-        "saishankar1/dynamic-faq",
+        "praiseogooluwa118/youtube-bot",
         "sammoftah/OKF-Screener",
         "gabrielchua/open-notebooklm",
         "featherless-ai/try-this-model",
@@ -33386,8 +33415,8 @@
         "MaziyarPanahi/FACTS-Leaderboard",
         "newmindai/Mezura",
         "llamameta/Reflection-Llama-3.3-70B",
-        "bethgelab/lm-similarity",
         "bilgeyucel/captionate",
+        "bethgelab/lm-similarity",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
@@ -33481,8 +33510,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
-      "downloads": 712448,
-      "likes": 2864,
+      "downloads": 761521,
+      "likes": 2865,
       "lastModified": "2024-12-21T18:28:01.000Z",
       "tags": [
         "transformers",
@@ -33765,7 +33794,7 @@
         "HPAI-BSC/TuRTLe-Leaderboard",
         "Granther/try-this-model",
         "elprofessor15/ai-interviewer",
-        "saishankar1/dynamic-faq",
+        "praiseogooluwa118/youtube-bot",
         "sammoftah/OKF-Screener",
         "gabrielchua/open-notebooklm",
         "featherless-ai/try-this-model",
@@ -33779,8 +33808,8 @@
         "MaziyarPanahi/FACTS-Leaderboard",
         "newmindai/Mezura",
         "llamameta/Reflection-Llama-3.3-70B",
-        "bethgelab/lm-similarity",
         "bilgeyucel/captionate",
+        "bethgelab/lm-similarity",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
@@ -33874,8 +33903,8 @@
     },
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "downloads": 1474623,
-      "likes": 2060,
+      "downloads": 1445760,
+      "likes": 2059,
       "lastModified": "2025-01-12T02:02:22.000Z",
       "tags": [
         "transformers",
@@ -34039,13 +34068,13 @@
         "agents-course/First_agent_template",
         "Nymbo/Serverless-TextGen-Hub",
         "HPAI-BSC/TuRTLe-Leaderboard",
-        "YashashviAlva/codeSentry",
         "SZLHOLDINGS/killinchu",
-        "innalhy/First_agent_template",
-        "fenomenog4/First_agent_template",
+        "dishikalla/First_agent_template",
+        "Aser4trfr/Godot-Visual-Shader-Pro",
         "HOhus/First_agent_template_10_2_v1",
         "ikmehar/First_agent_template",
         "Alireza1913/enterprise-maintenance-agent",
+        "MayanklearningAI/First_agent_template",
         "bigcode/bigcode-models-leaderboard",
         "Vokturz/can-it-run-llm",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -34084,6 +34113,7 @@
         "BoltzmannEntropy/QuantumLLMInstruct",
         "Sg-at-srijan-us-kg/Qwen2.5-Coder",
         "Nymbo/Qwen2.5-Coder-32B-Instruct-Serverless",
+        "YashashviAlva/codeSentry",
         "ysharma/anychat",
         "Gradio-Community/hyperbolic-qwen2.5Coder-32B",
         "JeCabrera/anychat",
@@ -34134,8 +34164,7 @@
         "paulofroes/First_agent_template",
         "Stemat15/First_agent_template",
         "uasername/First_agent_uasername",
-        "Giuliano/First_agent_template",
-        "Tera-Byte/Opti-Flight"
+        "Giuliano/First_agent_template"
       ],
       "createdAt": "2024-11-06T07:49:50.000Z",
       "safetensors": {
@@ -34149,8 +34178,8 @@
     },
     "qwen/qwen-2.5-7b-instruct": {
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "downloads": 12723410,
-      "likes": 1392,
+      "downloads": 12878382,
+      "likes": 1395,
       "lastModified": "2025-01-12T02:10:10.000Z",
       "tags": [
         "transformers",
@@ -34273,18 +34302,23 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "alexnasa/Wan2.2-Animate-ZEROGPU",
+        "multimodalart/LiveEdit",
         "build-small-hackathon/French-Coach",
-        "geraldamasi/agentworld-demo",
+        "fffiloni/SCAIL-2",
         "HPAI-BSC/TuRTLe-Leaderboard",
         "Agnuxo/OpenCLAW-Agent",
-        "prithivMLmods/NAVA-Text-to-Video",
         "build-small-hackathon/interview-coach",
+        "build-small-hackathon/gitopadesh",
         "Hypxr7/legal-aid-rag",
         "build-small-hackathon/dempsters-court",
-        "build-small-hackathon/anti-ill-comix",
+        "geraldamasi/agentworld-demo",
+        "MindMateProject/MindMate",
+        "Abdoasd/DrugExplore_Ai",
+        "Shubham71205/RA2",
         "RahulKiran2222/llm-cognitive-bias",
+        "samnathanswarna/Webpage-Summarizer",
         "baryonlabs/open-ko-s2s-leaderboard",
-        "multimodalart/LiveEdit",
+        "RahulKiran2222/prompt-injection-lab",
         "Wan-AI/Wan-2.2-5B",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
@@ -34325,6 +34359,7 @@
         "rubenroy/Zurich-7B",
         "YinmingHuang/StableAvatar",
         "Adityahars/Sanskrit-env",
+        "prithivMLmods/NAVA-Text-to-Video",
         "filbench/filbench-leaderboard",
         "Westlake-AGI-Lab/FlowDirector",
         "Agents-MCP-Hackathon/Aura_AI_Scan",
@@ -34364,13 +34399,7 @@
         "build-small-hackathon/feelin",
         "build-small-hackathon/piper-assistant",
         "build-small-hackathon/reachy-mini-interpreter",
-        "Pulkit-exe/Course_Recommendation_System",
-        "pateljee/Qwen-Qwen2.5-7B-Instruct",
-        "UltraRonin/LR2Bench_old",
-        "nuojohnchen/JudgeLRMDemo",
-        "zhwang4ai/GenerativeReasoningBenchmark",
-        "chenzihong/GraphGen",
-        "shmuelamar/igcs-demo"
+        "Pulkit-exe/Course_Recommendation_System"
       ],
       "createdAt": "2024-09-16T11:55:40.000Z",
       "safetensors": {
@@ -34382,10 +34411,564 @@
       "inference": "warm",
       "usedStorage": 15231271888
     },
+    "meta-llama/llama-3.2-3b-instruct:free": {
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "downloads": 2215308,
+      "likes": 2293,
+      "lastModified": "2024-10-24T15:07:29.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "arxiv:2405.16406",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation",
+      "_id": "66eaef786865fea1324edb5d",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "meta-llama/Llama-3.2-3B-Instruct",
+      "author": "meta-llama",
+      "sha": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "gated": "manual",
+      "disabled": false,
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "model_type": "llama",
+        "tokenizer_config": {
+          "bos_token": "<|begin_of_text|>",
+          "chat_template": "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now(\"%d %b %Y\") %}\n    {%- else %}\n        {%- set date_string = \"26 Jul 2024\" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n        {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n        {{- '\"parameters\": ' }}\n        {{- tool_call.arguments | tojson }}\n        {{- \"}\" }}\n        {{- \"<|eot_id|>\" }}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
+          "eos_token": "<|eot_id|>"
+        }
+      },
+      "cardData": {
+        "language": [
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th"
+        ],
+        "library_name": "transformers",
+        "pipeline_tag": "text-generation",
+        "tags": [
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama",
+          "llama-3"
+        ],
+        "license": "llama3.2",
+        "extra_gated_prompt": "### LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\n\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution  and modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2 distributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are  entering into this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by Meta at  https://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and  any portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or,  if you are an entity, your principal place of business is in the EEA or Switzerland)  and Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials, you agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\na. Grant of Rights. You are granted a non-exclusive, worldwide,  non-transferable and royalty-free limited license under Meta’s intellectual property or other rights  owned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works  of, and make modifications to the Llama Materials.  \nb. Redistribution and Use.  \ni. If you distribute or make available the Llama Materials (or any derivative works thereof),  or a product or service (including another AI model) that contains any of them, you shall (A) provide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama” on a related website, user interface, blogpost, about page, or product documentation. If you use the Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or otherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at the beginning of any such AI model name.\nii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part of an integrated end user product, then Section 2 of this Agreement will not apply to you. \niii. You must retain in all copies of the Llama Materials that you distribute the  following attribution notice within a “Notice” text file distributed as a part of such copies:  “Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.”\niv. Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby  incorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users of the products or services made available by or for Licensee, or Licensee’s affiliates,  is greater than 700 million monthly active users in the preceding calendar month, you must request  a license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND  RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY,  WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT,  FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN  IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n5. Intellectual Property.\na. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials,  neither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates,  except as required for reasonable and customary use in describing and redistributing the Llama Materials or as  set forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required  to comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible  at https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark  will inure to the benefit of Meta.\nb. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any derivative works and modifications of the Llama Materials that are made by you, as between you and Meta, you are and will be the owner of such derivative works and modifications.\nc. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third party arising out of or related to your use or distribution of the Llama Materials.\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access to the Llama Materials and will continue in full force and effect until terminated in accordance with the terms and conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this Agreement. \n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of  California without regard to choice of law principles, and the UN Convention on Contracts for the International Sale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of any dispute arising out of this Agreement. \n### Llama 3.2 Acceptable Use Policy\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2.  If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”).  The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n#### Prohibited Uses\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta \n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement \n4. Fail to appropriately disclose to end users any known dangers of your AI system 5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com",
+        "extra_gated_fields": {
+          "First Name": "text",
+          "Last Name": "text",
+          "Date of birth": "date_picker",
+          "Country": "country",
+          "Affiliation": "text",
+          "Job title": {
+            "type": "select",
+            "options": [
+              "Student",
+              "Research Graduate",
+              "AI researcher",
+              "AI developer/engineer",
+              "Reporter",
+              "Other"
+            ]
+          },
+          "geo": "ip_location",
+          "By clicking Submit below I accept the terms of the license and acknowledge that the information I provide will be collected stored processed and shared in accordance with the Meta Privacy Policy": "checkbox"
+        },
+        "extra_gated_description": "The information you provide will be collected, stored, processed and shared in accordance with the [Meta Privacy Policy](https://www.facebook.com/privacy/policy/).",
+        "extra_gated_button_content": "Submit"
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForCausalLM",
+        "pipeline_tag": "text-generation",
+        "processor": "AutoTokenizer"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE.txt"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "USE_POLICY.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "original/consolidated.00.pth"
+        },
+        {
+          "rfilename": "original/orig_params.json"
+        },
+        {
+          "rfilename": "original/params.json"
+        },
+        {
+          "rfilename": "original/tokenizer.model"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "pliny-the-prompter/obliteratus",
+        "Nymbo/Serverless-TextGen-Hub",
+        "amewebstudio/medhemo-backend",
+        "Siggmoid/NewsLetter",
+        "Kartiiiik/aplomb",
+        "cvachet/pdf-chatbot",
+        "jupyter-agent/jupyter-agent",
+        "eduagarcia/open_pt_llm_leaderboard",
+        "baconnier/prompt-plus-plus",
+        "huggingface-projects/llama-3.2-3B-Instruct",
+        "hadadrjt/ai",
+        "chuanli11/Chat-Llama-3.2-3B-Instruct-uncensored",
+        "logikon/open_cot_leaderboard",
+        "DawnC/VisionScout",
+        "KBaba7/Quant",
+        "aizip-dev/SLM-RAG-Arena",
+        "whitecircle/circle-guard-bench",
+        "algorithmicsuperintelligence/OptiLLM",
+        "Claudz163/Image-To-Character-Text",
+        "ysharma/Llama3-2_with_Gradio-5",
+        "AiActivity/AI-Assistant",
+        "newmindai/Mezura",
+        "FallnAI/Quantize-HF-Models",
+        "KwabsHug/GameConfigIdea",
+        "openfree/LLM_Quantization",
+        "jairwaal/image",
+        "bhaskartripathi/LLM_Quantization",
+        "Intel/synthetic-data-generator",
+        "Agents-MCP-Hackathon/Art-Historian-AI",
+        "ruslanmv/convert_to_gguf",
+        "kz-transformers/kaz-offline-arena",
+        "NiansuhAI/Main",
+        "huggingface/keras-chatbot-arena",
+        "cot-leaderboard/open-cot-dashboard",
+        "lightmate/llm-chatbot",
+        "BoltzmannEntropy/QuantumLLMInstruct",
+        "eltorio/Llama-3.2-3B-appreciation",
+        "duckdb-nsql-hub/DuckDB-SQL-Eval",
+        "Judicaeld17/Doctor_Assistant_and_Medical_Image_Analyst",
+        "eromanova115/CyberSecurityAssistantLLMSecurity",
+        "umint/openwebui",
+        "build-small-hackathon/HearthNet",
+        "dwb2023/hf_extractor",
+        "seawolf2357/LLM_Quantization",
+        "GT4SD/PatentToolkit",
+        "totolook/Quant",
+        "fastrtc/talk-to-sambanova-gradio",
+        "BarBar288/Chatbot",
+        "MCP-1st-Birthday/Round_2",
+        "chyams/llm-explorer",
+        "benjamin-paine/anachrovox-v0.1-azure",
+        "rjaved/DictionaryTest02",
+        "fastrtc/talk-to-sambanova",
+        "K00B404/LLM_Quantization",
+        "keeperballon/multi-llm",
+        "mcjhn/ai",
+        "Jakob08/moneychatbot",
+        "TTimur/OpenLLMKyrgyzLeaderboard_v0.1",
+        "MCP-1st-Birthday/cluas_huginn_by_eightzerofoursix",
+        "Forked-Recipe-Pal/CTP-Project",
+        "retvq/Question-Paper-Generator",
+        "yasserrmd/FocusFlow",
+        "K00B404/chatQwenne",
+        "Deep0306/Talk-With-Death",
+        "bhuvanmdev/QA_document",
+        "benjamin-paine/anachrovox-v0.1-emerald",
+        "benjamin-paine/anachrovox-v0.1-amber",
+        "Aarvee320/Short-Story-Generator",
+        "Steven10429/apply_lora_and_quantize",
+        "fastrtc/talk-to-sambanova-cloudflare-gradio",
+        "zhwang4ai/GenerativeReasoningBenchmark",
+        "gizemsarsinlar/Art-Historian-AI",
+        "Deddy/PromptSuite-AI",
+        "danhtran2mind/Vietnamese-Health-Chat-LoRA",
+        "tigeryfan/Anything2Cal",
+        "synthetic-data-universe/synth",
+        "bkhmsi/cognitive-reasoners",
+        "SanaAdeel/Creative_Writing_Assistant_Chatbot",
+        "qstn/qstn_gui",
+        "ngeb25/SpotChatbot",
+        "Secondprinsipal/image",
+        "abuelzoz33/vram-calculator",
+        "Shasidharyadavr/netweaver_sre",
+        "CPater/nwo-agent-graph",
+        "kbsss/healthcare-qa-api",
+        "build-small-hackathon/AI-agent-Evaluation-pipeline",
+        "build-small-hackathon/picklld",
+        "build-small-hackathon/wpl-discovery",
+        "build-small-hackathon/kazakh-summarization-TinyAutoScientist",
+        "Riswan-Nopiyar/Chat-Bot-Indonesia-Nopiyar.my.id",
+        "eidoc/HMA",
+        "Wedyan2023/Data_Generation_LabelingCopy",
+        "wendellast/GUI",
+        "xMBx/meta-llama-Llama-3.2-3B-Instruct",
+        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct",
+        "Hashim-dotcom/new-space",
+        "ehristoforu/llama-3.2-3B-Instruct",
+        "khushwant04/meta-llama-Llama-3.2-3B-Instruct",
+        "Chris4K/Events",
+        "mannadamay12/rag-ros2"
+      ],
+      "createdAt": "2024-09-18T15:19:20.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 3212749824
+        },
+        "total": 3212749824
+      },
+      "inference": "warm",
+      "usedStorage": 12853298144
+    },
+    "meta-llama/llama-3.2-3b-instruct": {
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "downloads": 2215308,
+      "likes": 2293,
+      "lastModified": "2024-10-24T15:07:29.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "arxiv:2405.16406",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation",
+      "_id": "66eaef786865fea1324edb5d",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "meta-llama/Llama-3.2-3B-Instruct",
+      "author": "meta-llama",
+      "sha": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "gated": "manual",
+      "disabled": false,
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "model_type": "llama",
+        "tokenizer_config": {
+          "bos_token": "<|begin_of_text|>",
+          "chat_template": "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now(\"%d %b %Y\") %}\n    {%- else %}\n        {%- set date_string = \"26 Jul 2024\" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n        {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n        {{- '\"parameters\": ' }}\n        {{- tool_call.arguments | tojson }}\n        {{- \"}\" }}\n        {{- \"<|eot_id|>\" }}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
+          "eos_token": "<|eot_id|>"
+        }
+      },
+      "cardData": {
+        "language": [
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th"
+        ],
+        "library_name": "transformers",
+        "pipeline_tag": "text-generation",
+        "tags": [
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama",
+          "llama-3"
+        ],
+        "license": "llama3.2",
+        "extra_gated_prompt": "### LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\n\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution  and modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2 distributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are  entering into this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by Meta at  https://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and  any portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or,  if you are an entity, your principal place of business is in the EEA or Switzerland)  and Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials, you agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\na. Grant of Rights. You are granted a non-exclusive, worldwide,  non-transferable and royalty-free limited license under Meta’s intellectual property or other rights  owned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works  of, and make modifications to the Llama Materials.  \nb. Redistribution and Use.  \ni. If you distribute or make available the Llama Materials (or any derivative works thereof),  or a product or service (including another AI model) that contains any of them, you shall (A) provide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama” on a related website, user interface, blogpost, about page, or product documentation. If you use the Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or otherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at the beginning of any such AI model name.\nii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part of an integrated end user product, then Section 2 of this Agreement will not apply to you. \niii. You must retain in all copies of the Llama Materials that you distribute the  following attribution notice within a “Notice” text file distributed as a part of such copies:  “Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.”\niv. Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby  incorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users of the products or services made available by or for Licensee, or Licensee’s affiliates,  is greater than 700 million monthly active users in the preceding calendar month, you must request  a license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND  RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY,  WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT,  FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN  IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n5. Intellectual Property.\na. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials,  neither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates,  except as required for reasonable and customary use in describing and redistributing the Llama Materials or as  set forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required  to comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible  at https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark  will inure to the benefit of Meta.\nb. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any derivative works and modifications of the Llama Materials that are made by you, as between you and Meta, you are and will be the owner of such derivative works and modifications.\nc. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third party arising out of or related to your use or distribution of the Llama Materials.\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access to the Llama Materials and will continue in full force and effect until terminated in accordance with the terms and conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this Agreement. \n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of  California without regard to choice of law principles, and the UN Convention on Contracts for the International Sale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of any dispute arising out of this Agreement. \n### Llama 3.2 Acceptable Use Policy\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2.  If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”).  The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n#### Prohibited Uses\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta \n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement \n4. Fail to appropriately disclose to end users any known dangers of your AI system 5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com",
+        "extra_gated_fields": {
+          "First Name": "text",
+          "Last Name": "text",
+          "Date of birth": "date_picker",
+          "Country": "country",
+          "Affiliation": "text",
+          "Job title": {
+            "type": "select",
+            "options": [
+              "Student",
+              "Research Graduate",
+              "AI researcher",
+              "AI developer/engineer",
+              "Reporter",
+              "Other"
+            ]
+          },
+          "geo": "ip_location",
+          "By clicking Submit below I accept the terms of the license and acknowledge that the information I provide will be collected stored processed and shared in accordance with the Meta Privacy Policy": "checkbox"
+        },
+        "extra_gated_description": "The information you provide will be collected, stored, processed and shared in accordance with the [Meta Privacy Policy](https://www.facebook.com/privacy/policy/).",
+        "extra_gated_button_content": "Submit"
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForCausalLM",
+        "pipeline_tag": "text-generation",
+        "processor": "AutoTokenizer"
+      },
+      "siblings": [
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE.txt"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "USE_POLICY.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "original/consolidated.00.pth"
+        },
+        {
+          "rfilename": "original/orig_params.json"
+        },
+        {
+          "rfilename": "original/params.json"
+        },
+        {
+          "rfilename": "original/tokenizer.model"
+        },
+        {
+          "rfilename": "special_tokens_map.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "pliny-the-prompter/obliteratus",
+        "Nymbo/Serverless-TextGen-Hub",
+        "amewebstudio/medhemo-backend",
+        "Siggmoid/NewsLetter",
+        "Kartiiiik/aplomb",
+        "cvachet/pdf-chatbot",
+        "jupyter-agent/jupyter-agent",
+        "eduagarcia/open_pt_llm_leaderboard",
+        "baconnier/prompt-plus-plus",
+        "huggingface-projects/llama-3.2-3B-Instruct",
+        "hadadrjt/ai",
+        "chuanli11/Chat-Llama-3.2-3B-Instruct-uncensored",
+        "logikon/open_cot_leaderboard",
+        "DawnC/VisionScout",
+        "KBaba7/Quant",
+        "aizip-dev/SLM-RAG-Arena",
+        "whitecircle/circle-guard-bench",
+        "algorithmicsuperintelligence/OptiLLM",
+        "Claudz163/Image-To-Character-Text",
+        "ysharma/Llama3-2_with_Gradio-5",
+        "AiActivity/AI-Assistant",
+        "newmindai/Mezura",
+        "FallnAI/Quantize-HF-Models",
+        "KwabsHug/GameConfigIdea",
+        "openfree/LLM_Quantization",
+        "jairwaal/image",
+        "bhaskartripathi/LLM_Quantization",
+        "Intel/synthetic-data-generator",
+        "Agents-MCP-Hackathon/Art-Historian-AI",
+        "ruslanmv/convert_to_gguf",
+        "kz-transformers/kaz-offline-arena",
+        "NiansuhAI/Main",
+        "huggingface/keras-chatbot-arena",
+        "cot-leaderboard/open-cot-dashboard",
+        "lightmate/llm-chatbot",
+        "BoltzmannEntropy/QuantumLLMInstruct",
+        "eltorio/Llama-3.2-3B-appreciation",
+        "duckdb-nsql-hub/DuckDB-SQL-Eval",
+        "Judicaeld17/Doctor_Assistant_and_Medical_Image_Analyst",
+        "eromanova115/CyberSecurityAssistantLLMSecurity",
+        "umint/openwebui",
+        "build-small-hackathon/HearthNet",
+        "dwb2023/hf_extractor",
+        "seawolf2357/LLM_Quantization",
+        "GT4SD/PatentToolkit",
+        "totolook/Quant",
+        "fastrtc/talk-to-sambanova-gradio",
+        "BarBar288/Chatbot",
+        "MCP-1st-Birthday/Round_2",
+        "chyams/llm-explorer",
+        "benjamin-paine/anachrovox-v0.1-azure",
+        "rjaved/DictionaryTest02",
+        "fastrtc/talk-to-sambanova",
+        "K00B404/LLM_Quantization",
+        "keeperballon/multi-llm",
+        "mcjhn/ai",
+        "Jakob08/moneychatbot",
+        "TTimur/OpenLLMKyrgyzLeaderboard_v0.1",
+        "MCP-1st-Birthday/cluas_huginn_by_eightzerofoursix",
+        "Forked-Recipe-Pal/CTP-Project",
+        "retvq/Question-Paper-Generator",
+        "yasserrmd/FocusFlow",
+        "K00B404/chatQwenne",
+        "Deep0306/Talk-With-Death",
+        "bhuvanmdev/QA_document",
+        "benjamin-paine/anachrovox-v0.1-emerald",
+        "benjamin-paine/anachrovox-v0.1-amber",
+        "Aarvee320/Short-Story-Generator",
+        "Steven10429/apply_lora_and_quantize",
+        "fastrtc/talk-to-sambanova-cloudflare-gradio",
+        "zhwang4ai/GenerativeReasoningBenchmark",
+        "gizemsarsinlar/Art-Historian-AI",
+        "Deddy/PromptSuite-AI",
+        "danhtran2mind/Vietnamese-Health-Chat-LoRA",
+        "tigeryfan/Anything2Cal",
+        "synthetic-data-universe/synth",
+        "bkhmsi/cognitive-reasoners",
+        "SanaAdeel/Creative_Writing_Assistant_Chatbot",
+        "qstn/qstn_gui",
+        "ngeb25/SpotChatbot",
+        "Secondprinsipal/image",
+        "abuelzoz33/vram-calculator",
+        "Shasidharyadavr/netweaver_sre",
+        "CPater/nwo-agent-graph",
+        "kbsss/healthcare-qa-api",
+        "build-small-hackathon/AI-agent-Evaluation-pipeline",
+        "build-small-hackathon/picklld",
+        "build-small-hackathon/wpl-discovery",
+        "build-small-hackathon/kazakh-summarization-TinyAutoScientist",
+        "Riswan-Nopiyar/Chat-Bot-Indonesia-Nopiyar.my.id",
+        "eidoc/HMA",
+        "Wedyan2023/Data_Generation_LabelingCopy",
+        "wendellast/GUI",
+        "xMBx/meta-llama-Llama-3.2-3B-Instruct",
+        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct",
+        "Hashim-dotcom/new-space",
+        "ehristoforu/llama-3.2-3B-Instruct",
+        "khushwant04/meta-llama-Llama-3.2-3B-Instruct",
+        "Chris4K/Events",
+        "mannadamay12/rag-ros2"
+      ],
+      "createdAt": "2024-09-18T15:19:20.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 3212749824
+        },
+        "total": 3212749824
+      },
+      "inference": "warm",
+      "usedStorage": 12853298144
+    },
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "downloads": 8583830,
-      "likes": 1503,
+      "downloads": 8768440,
+      "likes": 1504,
       "lastModified": "2024-10-24T15:07:51.000Z",
       "tags": [
         "transformers",
@@ -34653,8 +35236,8 @@
     },
     "meta-llama/llama-3.2-11b-vision-instruct": {
       "id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
-      "downloads": 51028,
-      "likes": 1610,
+      "downloads": 56094,
+      "likes": 1609,
       "lastModified": "2024-12-04T01:35:48.000Z",
       "tags": [
         "transformers",
@@ -35078,563 +35661,9 @@
       },
       "usedStorage": 42618467462
     },
-    "meta-llama/llama-3.2-3b-instruct:free": {
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "downloads": 2056857,
-      "likes": 2285,
-      "lastModified": "2024-10-24T15:07:29.000Z",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama-3",
-        "conversational",
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th",
-        "arxiv:2204.05149",
-        "arxiv:2405.16406",
-        "license:llama3.2",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "pipeline_tag": "text-generation",
-      "_id": "66eaef786865fea1324edb5d",
-      "private": false,
-      "library_name": "transformers",
-      "modelId": "meta-llama/Llama-3.2-3B-Instruct",
-      "author": "meta-llama",
-      "sha": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
-      "gated": "manual",
-      "disabled": false,
-      "widgetData": [
-        {
-          "text": "Hi, what can you help me with?"
-        },
-        {
-          "text": "What is 84 * 3 / 2?"
-        },
-        {
-          "text": "Tell me an interesting fact about the universe!"
-        },
-        {
-          "text": "Explain quantum computing in simple terms."
-        }
-      ],
-      "model-index": null,
-      "config": {
-        "architectures": [
-          "LlamaForCausalLM"
-        ],
-        "model_type": "llama",
-        "tokenizer_config": {
-          "bos_token": "<|begin_of_text|>",
-          "chat_template": "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now(\"%d %b %Y\") %}\n    {%- else %}\n        {%- set date_string = \"26 Jul 2024\" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n        {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n        {{- '\"parameters\": ' }}\n        {{- tool_call.arguments | tojson }}\n        {{- \"}\" }}\n        {{- \"<|eot_id|>\" }}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
-          "eos_token": "<|eot_id|>"
-        }
-      },
-      "cardData": {
-        "language": [
-          "en",
-          "de",
-          "fr",
-          "it",
-          "pt",
-          "hi",
-          "es",
-          "th"
-        ],
-        "library_name": "transformers",
-        "pipeline_tag": "text-generation",
-        "tags": [
-          "facebook",
-          "meta",
-          "pytorch",
-          "llama",
-          "llama-3"
-        ],
-        "license": "llama3.2",
-        "extra_gated_prompt": "### LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\n\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution  and modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2 distributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are  entering into this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by Meta at  https://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and  any portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or,  if you are an entity, your principal place of business is in the EEA or Switzerland)  and Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials, you agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\na. Grant of Rights. You are granted a non-exclusive, worldwide,  non-transferable and royalty-free limited license under Meta’s intellectual property or other rights  owned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works  of, and make modifications to the Llama Materials.  \nb. Redistribution and Use.  \ni. If you distribute or make available the Llama Materials (or any derivative works thereof),  or a product or service (including another AI model) that contains any of them, you shall (A) provide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama” on a related website, user interface, blogpost, about page, or product documentation. If you use the Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or otherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at the beginning of any such AI model name.\nii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part of an integrated end user product, then Section 2 of this Agreement will not apply to you. \niii. You must retain in all copies of the Llama Materials that you distribute the  following attribution notice within a “Notice” text file distributed as a part of such copies:  “Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.”\niv. Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby  incorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users of the products or services made available by or for Licensee, or Licensee’s affiliates,  is greater than 700 million monthly active users in the preceding calendar month, you must request  a license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND  RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY,  WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT,  FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN  IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n5. Intellectual Property.\na. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials,  neither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates,  except as required for reasonable and customary use in describing and redistributing the Llama Materials or as  set forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required  to comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible  at https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark  will inure to the benefit of Meta.\nb. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any derivative works and modifications of the Llama Materials that are made by you, as between you and Meta, you are and will be the owner of such derivative works and modifications.\nc. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third party arising out of or related to your use or distribution of the Llama Materials.\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access to the Llama Materials and will continue in full force and effect until terminated in accordance with the terms and conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this Agreement. \n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of  California without regard to choice of law principles, and the UN Convention on Contracts for the International Sale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of any dispute arising out of this Agreement. \n### Llama 3.2 Acceptable Use Policy\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2.  If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”).  The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n#### Prohibited Uses\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta \n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement \n4. Fail to appropriately disclose to end users any known dangers of your AI system 5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com",
-        "extra_gated_fields": {
-          "First Name": "text",
-          "Last Name": "text",
-          "Date of birth": "date_picker",
-          "Country": "country",
-          "Affiliation": "text",
-          "Job title": {
-            "type": "select",
-            "options": [
-              "Student",
-              "Research Graduate",
-              "AI researcher",
-              "AI developer/engineer",
-              "Reporter",
-              "Other"
-            ]
-          },
-          "geo": "ip_location",
-          "By clicking Submit below I accept the terms of the license and acknowledge that the information I provide will be collected stored processed and shared in accordance with the Meta Privacy Policy": "checkbox"
-        },
-        "extra_gated_description": "The information you provide will be collected, stored, processed and shared in accordance with the [Meta Privacy Policy](https://www.facebook.com/privacy/policy/).",
-        "extra_gated_button_content": "Submit"
-      },
-      "transformersInfo": {
-        "auto_model": "AutoModelForCausalLM",
-        "pipeline_tag": "text-generation",
-        "processor": "AutoTokenizer"
-      },
-      "siblings": [
-        {
-          "rfilename": ".gitattributes"
-        },
-        {
-          "rfilename": "LICENSE.txt"
-        },
-        {
-          "rfilename": "README.md"
-        },
-        {
-          "rfilename": "USE_POLICY.md"
-        },
-        {
-          "rfilename": "config.json"
-        },
-        {
-          "rfilename": "generation_config.json"
-        },
-        {
-          "rfilename": "model-00001-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model-00002-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model.safetensors.index.json"
-        },
-        {
-          "rfilename": "original/consolidated.00.pth"
-        },
-        {
-          "rfilename": "original/orig_params.json"
-        },
-        {
-          "rfilename": "original/params.json"
-        },
-        {
-          "rfilename": "original/tokenizer.model"
-        },
-        {
-          "rfilename": "special_tokens_map.json"
-        },
-        {
-          "rfilename": "tokenizer.json"
-        },
-        {
-          "rfilename": "tokenizer_config.json"
-        }
-      ],
-      "spaces": [
-        "pliny-the-prompter/obliteratus",
-        "Nymbo/Serverless-TextGen-Hub",
-        "build-small-hackathon/HearthNet",
-        "amewebstudio/medhemo-backend",
-        "Siggmoid/NewsLetter",
-        "Kartiiiik/aplomb",
-        "cvachet/pdf-chatbot",
-        "jupyter-agent/jupyter-agent",
-        "eduagarcia/open_pt_llm_leaderboard",
-        "baconnier/prompt-plus-plus",
-        "huggingface-projects/llama-3.2-3B-Instruct",
-        "hadadrjt/ai",
-        "chuanli11/Chat-Llama-3.2-3B-Instruct-uncensored",
-        "logikon/open_cot_leaderboard",
-        "DawnC/VisionScout",
-        "KBaba7/Quant",
-        "aizip-dev/SLM-RAG-Arena",
-        "whitecircle/circle-guard-bench",
-        "algorithmicsuperintelligence/OptiLLM",
-        "Claudz163/Image-To-Character-Text",
-        "ysharma/Llama3-2_with_Gradio-5",
-        "AiActivity/AI-Assistant",
-        "newmindai/Mezura",
-        "FallnAI/Quantize-HF-Models",
-        "KwabsHug/GameConfigIdea",
-        "openfree/LLM_Quantization",
-        "jairwaal/image",
-        "bhaskartripathi/LLM_Quantization",
-        "Intel/synthetic-data-generator",
-        "Agents-MCP-Hackathon/Art-Historian-AI",
-        "ruslanmv/convert_to_gguf",
-        "kz-transformers/kaz-offline-arena",
-        "NiansuhAI/Main",
-        "huggingface/keras-chatbot-arena",
-        "cot-leaderboard/open-cot-dashboard",
-        "lightmate/llm-chatbot",
-        "BoltzmannEntropy/QuantumLLMInstruct",
-        "eltorio/Llama-3.2-3B-appreciation",
-        "duckdb-nsql-hub/DuckDB-SQL-Eval",
-        "Judicaeld17/Doctor_Assistant_and_Medical_Image_Analyst",
-        "eromanova115/CyberSecurityAssistantLLMSecurity",
-        "umint/openwebui",
-        "GT4SD/PatentToolkit",
-        "dwb2023/hf_extractor",
-        "seawolf2357/LLM_Quantization",
-        "totolook/Quant",
-        "fastrtc/talk-to-sambanova-gradio",
-        "BarBar288/Chatbot",
-        "MCP-1st-Birthday/Round_2",
-        "chyams/llm-explorer",
-        "benjamin-paine/anachrovox-v0.1-azure",
-        "rjaved/DictionaryTest02",
-        "fastrtc/talk-to-sambanova",
-        "K00B404/LLM_Quantization",
-        "keeperballon/multi-llm",
-        "mcjhn/ai",
-        "Jakob08/moneychatbot",
-        "TTimur/OpenLLMKyrgyzLeaderboard_v0.1",
-        "MCP-1st-Birthday/cluas_huginn_by_eightzerofoursix",
-        "Forked-Recipe-Pal/CTP-Project",
-        "retvq/Question-Paper-Generator",
-        "yasserrmd/FocusFlow",
-        "K00B404/chatQwenne",
-        "Deep0306/Talk-With-Death",
-        "bhuvanmdev/QA_document",
-        "benjamin-paine/anachrovox-v0.1-emerald",
-        "benjamin-paine/anachrovox-v0.1-amber",
-        "Aarvee320/Short-Story-Generator",
-        "Steven10429/apply_lora_and_quantize",
-        "fastrtc/talk-to-sambanova-cloudflare-gradio",
-        "zhwang4ai/GenerativeReasoningBenchmark",
-        "gizemsarsinlar/Art-Historian-AI",
-        "Deddy/PromptSuite-AI",
-        "danhtran2mind/Vietnamese-Health-Chat-LoRA",
-        "tigeryfan/Anything2Cal",
-        "synthetic-data-universe/synth",
-        "bkhmsi/cognitive-reasoners",
-        "SanaAdeel/Creative_Writing_Assistant_Chatbot",
-        "qstn/qstn_gui",
-        "ngeb25/SpotChatbot",
-        "Secondprinsipal/image",
-        "abuelzoz33/vram-calculator",
-        "Shasidharyadavr/netweaver_sre",
-        "CPater/nwo-agent-graph",
-        "kbsss/healthcare-qa-api",
-        "build-small-hackathon/AI-agent-Evaluation-pipeline",
-        "build-small-hackathon/picklld",
-        "build-small-hackathon/wpl-discovery",
-        "build-small-hackathon/kazakh-summarization-TinyAutoScientist",
-        "Riswan-Nopiyar/Chat-Bot-Indonesia-Nopiyar.my.id",
-        "eidoc/HMA",
-        "Wedyan2023/Data_Generation_LabelingCopy",
-        "wendellast/GUI",
-        "xMBx/meta-llama-Llama-3.2-3B-Instruct",
-        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct",
-        "Hashim-dotcom/new-space",
-        "ehristoforu/llama-3.2-3B-Instruct",
-        "khushwant04/meta-llama-Llama-3.2-3B-Instruct",
-        "Chris4K/Events",
-        "mannadamay12/rag-ros2"
-      ],
-      "createdAt": "2024-09-18T15:19:20.000Z",
-      "safetensors": {
-        "parameters": {
-          "BF16": 3212749824
-        },
-        "total": 3212749824
-      },
-      "inference": "warm",
-      "usedStorage": 12853298144
-    },
-    "meta-llama/llama-3.2-3b-instruct": {
-      "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "downloads": 2056857,
-      "likes": 2285,
-      "lastModified": "2024-10-24T15:07:29.000Z",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama-3",
-        "conversational",
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th",
-        "arxiv:2204.05149",
-        "arxiv:2405.16406",
-        "license:llama3.2",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "pipeline_tag": "text-generation",
-      "_id": "66eaef786865fea1324edb5d",
-      "private": false,
-      "library_name": "transformers",
-      "modelId": "meta-llama/Llama-3.2-3B-Instruct",
-      "author": "meta-llama",
-      "sha": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
-      "gated": "manual",
-      "disabled": false,
-      "widgetData": [
-        {
-          "text": "Hi, what can you help me with?"
-        },
-        {
-          "text": "What is 84 * 3 / 2?"
-        },
-        {
-          "text": "Tell me an interesting fact about the universe!"
-        },
-        {
-          "text": "Explain quantum computing in simple terms."
-        }
-      ],
-      "model-index": null,
-      "config": {
-        "architectures": [
-          "LlamaForCausalLM"
-        ],
-        "model_type": "llama",
-        "tokenizer_config": {
-          "bos_token": "<|begin_of_text|>",
-          "chat_template": "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- if strftime_now is defined %}\n        {%- set date_string = strftime_now(\"%d %b %Y\") %}\n    {%- else %}\n        {%- set date_string = \"26 Jul 2024\" %}\n    {%- endif %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n        {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n        {{- '\"parameters\": ' }}\n        {{- tool_call.arguments | tojson }}\n        {{- \"}\" }}\n        {{- \"<|eot_id|>\" }}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
-          "eos_token": "<|eot_id|>"
-        }
-      },
-      "cardData": {
-        "language": [
-          "en",
-          "de",
-          "fr",
-          "it",
-          "pt",
-          "hi",
-          "es",
-          "th"
-        ],
-        "library_name": "transformers",
-        "pipeline_tag": "text-generation",
-        "tags": [
-          "facebook",
-          "meta",
-          "pytorch",
-          "llama",
-          "llama-3"
-        ],
-        "license": "llama3.2",
-        "extra_gated_prompt": "### LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\n\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution  and modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2 distributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are  entering into this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by Meta at  https://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and  any portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or,  if you are an entity, your principal place of business is in the EEA or Switzerland)  and Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials, you agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\na. Grant of Rights. You are granted a non-exclusive, worldwide,  non-transferable and royalty-free limited license under Meta’s intellectual property or other rights  owned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works  of, and make modifications to the Llama Materials.  \nb. Redistribution and Use.  \ni. If you distribute or make available the Llama Materials (or any derivative works thereof),  or a product or service (including another AI model) that contains any of them, you shall (A) provide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama” on a related website, user interface, blogpost, about page, or product documentation. If you use the Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or otherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at the beginning of any such AI model name.\nii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part of an integrated end user product, then Section 2 of this Agreement will not apply to you. \niii. You must retain in all copies of the Llama Materials that you distribute the  following attribution notice within a “Notice” text file distributed as a part of such copies:  “Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.”\niv. Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby  incorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users of the products or services made available by or for Licensee, or Licensee’s affiliates,  is greater than 700 million monthly active users in the preceding calendar month, you must request  a license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND  RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY,  WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT,  FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN  IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n5. Intellectual Property.\na. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials,  neither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates,  except as required for reasonable and customary use in describing and redistributing the Llama Materials or as  set forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required  to comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible  at https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark  will inure to the benefit of Meta.\nb. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any derivative works and modifications of the Llama Materials that are made by you, as between you and Meta, you are and will be the owner of such derivative works and modifications.\nc. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third party arising out of or related to your use or distribution of the Llama Materials.\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access to the Llama Materials and will continue in full force and effect until terminated in accordance with the terms and conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this Agreement. \n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of  California without regard to choice of law principles, and the UN Convention on Contracts for the International Sale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of any dispute arising out of this Agreement. \n### Llama 3.2 Acceptable Use Policy\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2.  If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”).  The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n#### Prohibited Uses\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta \n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement \n4. Fail to appropriately disclose to end users any known dangers of your AI system 5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com",
-        "extra_gated_fields": {
-          "First Name": "text",
-          "Last Name": "text",
-          "Date of birth": "date_picker",
-          "Country": "country",
-          "Affiliation": "text",
-          "Job title": {
-            "type": "select",
-            "options": [
-              "Student",
-              "Research Graduate",
-              "AI researcher",
-              "AI developer/engineer",
-              "Reporter",
-              "Other"
-            ]
-          },
-          "geo": "ip_location",
-          "By clicking Submit below I accept the terms of the license and acknowledge that the information I provide will be collected stored processed and shared in accordance with the Meta Privacy Policy": "checkbox"
-        },
-        "extra_gated_description": "The information you provide will be collected, stored, processed and shared in accordance with the [Meta Privacy Policy](https://www.facebook.com/privacy/policy/).",
-        "extra_gated_button_content": "Submit"
-      },
-      "transformersInfo": {
-        "auto_model": "AutoModelForCausalLM",
-        "pipeline_tag": "text-generation",
-        "processor": "AutoTokenizer"
-      },
-      "siblings": [
-        {
-          "rfilename": ".gitattributes"
-        },
-        {
-          "rfilename": "LICENSE.txt"
-        },
-        {
-          "rfilename": "README.md"
-        },
-        {
-          "rfilename": "USE_POLICY.md"
-        },
-        {
-          "rfilename": "config.json"
-        },
-        {
-          "rfilename": "generation_config.json"
-        },
-        {
-          "rfilename": "model-00001-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model-00002-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model.safetensors.index.json"
-        },
-        {
-          "rfilename": "original/consolidated.00.pth"
-        },
-        {
-          "rfilename": "original/orig_params.json"
-        },
-        {
-          "rfilename": "original/params.json"
-        },
-        {
-          "rfilename": "original/tokenizer.model"
-        },
-        {
-          "rfilename": "special_tokens_map.json"
-        },
-        {
-          "rfilename": "tokenizer.json"
-        },
-        {
-          "rfilename": "tokenizer_config.json"
-        }
-      ],
-      "spaces": [
-        "pliny-the-prompter/obliteratus",
-        "Nymbo/Serverless-TextGen-Hub",
-        "build-small-hackathon/HearthNet",
-        "amewebstudio/medhemo-backend",
-        "Siggmoid/NewsLetter",
-        "Kartiiiik/aplomb",
-        "cvachet/pdf-chatbot",
-        "jupyter-agent/jupyter-agent",
-        "eduagarcia/open_pt_llm_leaderboard",
-        "baconnier/prompt-plus-plus",
-        "huggingface-projects/llama-3.2-3B-Instruct",
-        "hadadrjt/ai",
-        "chuanli11/Chat-Llama-3.2-3B-Instruct-uncensored",
-        "logikon/open_cot_leaderboard",
-        "DawnC/VisionScout",
-        "KBaba7/Quant",
-        "aizip-dev/SLM-RAG-Arena",
-        "whitecircle/circle-guard-bench",
-        "algorithmicsuperintelligence/OptiLLM",
-        "Claudz163/Image-To-Character-Text",
-        "ysharma/Llama3-2_with_Gradio-5",
-        "AiActivity/AI-Assistant",
-        "newmindai/Mezura",
-        "FallnAI/Quantize-HF-Models",
-        "KwabsHug/GameConfigIdea",
-        "openfree/LLM_Quantization",
-        "jairwaal/image",
-        "bhaskartripathi/LLM_Quantization",
-        "Intel/synthetic-data-generator",
-        "Agents-MCP-Hackathon/Art-Historian-AI",
-        "ruslanmv/convert_to_gguf",
-        "kz-transformers/kaz-offline-arena",
-        "NiansuhAI/Main",
-        "huggingface/keras-chatbot-arena",
-        "cot-leaderboard/open-cot-dashboard",
-        "lightmate/llm-chatbot",
-        "BoltzmannEntropy/QuantumLLMInstruct",
-        "eltorio/Llama-3.2-3B-appreciation",
-        "duckdb-nsql-hub/DuckDB-SQL-Eval",
-        "Judicaeld17/Doctor_Assistant_and_Medical_Image_Analyst",
-        "eromanova115/CyberSecurityAssistantLLMSecurity",
-        "umint/openwebui",
-        "GT4SD/PatentToolkit",
-        "dwb2023/hf_extractor",
-        "seawolf2357/LLM_Quantization",
-        "totolook/Quant",
-        "fastrtc/talk-to-sambanova-gradio",
-        "BarBar288/Chatbot",
-        "MCP-1st-Birthday/Round_2",
-        "chyams/llm-explorer",
-        "benjamin-paine/anachrovox-v0.1-azure",
-        "rjaved/DictionaryTest02",
-        "fastrtc/talk-to-sambanova",
-        "K00B404/LLM_Quantization",
-        "keeperballon/multi-llm",
-        "mcjhn/ai",
-        "Jakob08/moneychatbot",
-        "TTimur/OpenLLMKyrgyzLeaderboard_v0.1",
-        "MCP-1st-Birthday/cluas_huginn_by_eightzerofoursix",
-        "Forked-Recipe-Pal/CTP-Project",
-        "retvq/Question-Paper-Generator",
-        "yasserrmd/FocusFlow",
-        "K00B404/chatQwenne",
-        "Deep0306/Talk-With-Death",
-        "bhuvanmdev/QA_document",
-        "benjamin-paine/anachrovox-v0.1-emerald",
-        "benjamin-paine/anachrovox-v0.1-amber",
-        "Aarvee320/Short-Story-Generator",
-        "Steven10429/apply_lora_and_quantize",
-        "fastrtc/talk-to-sambanova-cloudflare-gradio",
-        "zhwang4ai/GenerativeReasoningBenchmark",
-        "gizemsarsinlar/Art-Historian-AI",
-        "Deddy/PromptSuite-AI",
-        "danhtran2mind/Vietnamese-Health-Chat-LoRA",
-        "tigeryfan/Anything2Cal",
-        "synthetic-data-universe/synth",
-        "bkhmsi/cognitive-reasoners",
-        "SanaAdeel/Creative_Writing_Assistant_Chatbot",
-        "qstn/qstn_gui",
-        "ngeb25/SpotChatbot",
-        "Secondprinsipal/image",
-        "abuelzoz33/vram-calculator",
-        "Shasidharyadavr/netweaver_sre",
-        "CPater/nwo-agent-graph",
-        "kbsss/healthcare-qa-api",
-        "build-small-hackathon/AI-agent-Evaluation-pipeline",
-        "build-small-hackathon/picklld",
-        "build-small-hackathon/wpl-discovery",
-        "build-small-hackathon/kazakh-summarization-TinyAutoScientist",
-        "Riswan-Nopiyar/Chat-Bot-Indonesia-Nopiyar.my.id",
-        "eidoc/HMA",
-        "Wedyan2023/Data_Generation_LabelingCopy",
-        "wendellast/GUI",
-        "xMBx/meta-llama-Llama-3.2-3B-Instruct",
-        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct",
-        "Hashim-dotcom/new-space",
-        "ehristoforu/llama-3.2-3B-Instruct",
-        "khushwant04/meta-llama-Llama-3.2-3B-Instruct",
-        "Chris4K/Events",
-        "mannadamay12/rag-ros2"
-      ],
-      "createdAt": "2024-09-18T15:19:20.000Z",
-      "safetensors": {
-        "parameters": {
-          "BF16": 3212749824
-        },
-        "total": 3212749824
-      },
-      "inference": "warm",
-      "usedStorage": 12853298144
-    },
     "qwen/qwen-2.5-72b-instruct": {
       "id": "Qwen/Qwen2.5-72B-Instruct",
-      "downloads": 637646,
+      "downloads": 626383,
       "likes": 960,
       "lastModified": "2025-01-12T02:07:38.000Z",
       "tags": [
@@ -35855,8 +35884,8 @@
         }
       ],
       "spaces": [
-        "Intel/low_bit_open_llm_leaderboard",
         "jaymeen1405/text2sql-ai-agent",
+        "Intel/low_bit_open_llm_leaderboard",
         "Nymbo/Serverless-TextGen-Hub",
         "HPAI-BSC/TuRTLe-Leaderboard",
         "agent-zero/meta-ads-attribution-env",
@@ -35864,6 +35893,7 @@
         "Hypxr7/legal-aid-rag",
         "bnwailab/StagChat",
         "omaiyamah/Aivideocallpro",
+        "mehwishafsa/product_description",
         "gokaygokay/FLUX-Prompt-Generator",
         "allenai/reward-bench",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -35953,8 +35983,7 @@
         "Agents-MCP-Hackathon/DocuCite-Agent",
         "BudgetBot/BudgetBot",
         "Deddy/PromptSuite-AI",
-        "ReStitch/ReStitch",
-        "akra35567/akira"
+        "ReStitch/ReStitch"
       ],
       "createdAt": "2024-09-16T11:56:31.000Z",
       "safetensors": {
@@ -35968,7 +35997,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-70b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-70B",
-      "downloads": 131599,
+      "downloads": 131623,
       "likes": 129,
       "lastModified": "2024-09-08T07:51:00.000Z",
       "tags": [
@@ -36268,7 +36297,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-405b:free": {
       "id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "downloads": 470,
+      "downloads": 496,
       "likes": 270,
       "lastModified": "2024-10-08T08:01:44.000Z",
       "tags": [
@@ -36998,6 +37027,7 @@
         }
       ],
       "spaces": [
+        "praiseogooluwa118/youtube-bot",
         "Nymbo/overthink-1",
         "algorithmicsuperintelligence/OptiLLM",
         "wenbopan/overthink-1",
@@ -37088,6 +37118,7 @@
         "shmr90661/haven-ai-backend",
         "alexander20055/deepsite-project-qek0h",
         "mekosotto/hackathon",
+        "madhu31b/med_navigator",
         "rameshmoorthy/Time_release_Study_simulator",
         "poweramanita/MEXC-proghnoz",
         "cntalk/hermes",
@@ -37095,9 +37126,7 @@
         "patocalher/rico-kotai",
         "hugh007/openwolf-hermes",
         "pymite6941/Data-Analyst-AI-Agent",
-        "sagharrabiei/tax-assistant",
-        "Oracle16/zai-agent",
-        "espacodocente01/api"
+        "sagharrabiei/tax-assistant"
       ],
       "createdAt": "2024-08-13T04:57:53.000Z",
       "safetensors": {
@@ -37110,7 +37139,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "downloads": 470,
+      "downloads": 496,
       "likes": 270,
       "lastModified": "2024-10-08T08:01:44.000Z",
       "tags": [
@@ -37840,6 +37869,7 @@
         }
       ],
       "spaces": [
+        "praiseogooluwa118/youtube-bot",
         "Nymbo/overthink-1",
         "algorithmicsuperintelligence/OptiLLM",
         "wenbopan/overthink-1",
@@ -37930,6 +37960,7 @@
         "shmr90661/haven-ai-backend",
         "alexander20055/deepsite-project-qek0h",
         "mekosotto/hackathon",
+        "madhu31b/med_navigator",
         "rameshmoorthy/Time_release_Study_simulator",
         "poweramanita/MEXC-proghnoz",
         "cntalk/hermes",
@@ -37937,9 +37968,7 @@
         "patocalher/rico-kotai",
         "hugh007/openwolf-hermes",
         "pymite6941/Data-Analyst-AI-Agent",
-        "sagharrabiei/tax-assistant",
-        "Oracle16/zai-agent",
-        "espacodocente01/api"
+        "sagharrabiei/tax-assistant"
       ],
       "createdAt": "2024-08-13T04:57:53.000Z",
       "safetensors": {
@@ -37952,8 +37981,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "downloads": 10008529,
-      "likes": 6191,
+      "downloads": 9688941,
+      "likes": 6209,
       "lastModified": "2024-09-25T17:00:57.000Z",
       "tags": [
         "transformers",
@@ -38122,16 +38151,19 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "pollen-robotics/Reachy_Mini",
         "Nymbo/Serverless-TextGen-Hub",
         "ysharma/Chat_with_Meta_llama3_1_8b",
         "Granther/try-this-model",
         "syed0786-s/SellSpark",
         "SZLHOLDINGS/killinchu",
         "build-small-hackathon/Structured-Data-Rescuer",
-        "peytonramsey/MacroSentinel-Anomaly-Detection",
         "SamiranPantheon/Aleth",
+        "Arjanit98/Terminal",
+        "RazaZaidi/SheetAgent",
         "RahulKiran2222/llm-cognitive-bias",
         "goh-chunlin/hsr-lore",
+        "samnathanswarna/Webpage-Summarizer",
         "sammoftah/OKF-Screener",
         "KingNish/OpenGPT-4o",
         "allenai/reward-bench",
@@ -38140,7 +38172,6 @@
         "featherless-ai/try-this-model",
         "eduagarcia/open_pt_llm_leaderboard",
         "baconnier/prompt-plus-plus",
-        "pollen-robotics/Reachy_Mini",
         "hadadrjt/ai",
         "blanchon/HiDream-ai-full",
         "fdaudens/podcast-jobs",
@@ -38186,10 +38217,10 @@
         "davanstrien/would-you-read-it",
         "ruslanmv/convert_to_gguf",
         "wenbopan/overthink-1",
-        "Agents-MCP-Hackathon/magical-tales",
         "NiansuhAI/Main",
         "huggingface/keras-chatbot-arena",
         "rahul7star/ai-toolkit",
+        "Agents-MCP-Hackathon/magical-tales",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
         "cot-leaderboard/open-cot-dashboard",
         "cryptocalypse/sophia_ai_robot_prophet",
@@ -38209,7 +38240,6 @@
         "HathoraResearch/LLM-KV-cache-calculator",
         "merve/gradio-tgi-2",
         "davidberenstein1957/llm-human-feedback-collector-chat-interface-kto",
-        "stiv14/pdf-multilanguage-qa-role",
         "VIDraft/Local-RAG-llama-3-8b",
         "seawolf2357/LLM_Quantization",
         "Agents-MCP-Hackathon/CourseCrafter",
@@ -38219,8 +38249,7 @@
         "awacke1/ChatStreamlitMultiplayer",
         "argilla/distilabel-argilla-labeller",
         "gaverfraxz/Weight_Comparator",
-        "totolook/Quant",
-        "NandanData/Indian_Stock_analysis"
+        "totolook/Quant"
       ],
       "createdAt": "2024-07-18T08:56:00.000Z",
       "safetensors": {
@@ -38234,7 +38263,7 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
-      "downloads": 737626,
+      "downloads": 1122207,
       "likes": 927,
       "lastModified": "2024-12-15T01:55:33.000Z",
       "tags": [
@@ -38533,9 +38562,9 @@
         "MCP-1st-Birthday/DETERMINATOR",
         "bhaskartripathi/LLM_Quantization",
         "feel-fl/open-human-feedback-chat",
-        "orionai/llama-3.1-70b-demo",
         "osanseviero/distilabel-dataset-generator",
         "nvidia/judges-verdict",
+        "orionai/llama-3.1-70b-demo",
         "ruslanmv/convert_to_gguf",
         "NiansuhAI/Main",
         "cot-leaderboard/open-cot-dashboard",
@@ -38617,8 +38646,8 @@
     },
     "mistralai/mistral-nemo": {
       "id": "mistralai/Mistral-Nemo-Instruct-2407",
-      "downloads": 124381,
-      "likes": 1686,
+      "downloads": 132545,
+      "likes": 1687,
       "lastModified": "2025-07-28T17:16:02.000Z",
       "tags": [
         "vllm",
@@ -38741,6 +38770,7 @@
         "pliny-the-prompter/obliteratus",
         "overhead520/LLM-Settings-Guide",
         "Nymbo/Serverless-TextGen-Hub",
+        "McLoviniTtt/Reasoner4All",
         "Granther/try-this-model",
         "SZLHOLDINGS/killinchu",
         "Deddy/FLUX-Prompt-Maker",
@@ -38756,7 +38786,6 @@
         "CZLC/BenCzechMark",
         "K00B404/FluxCapacitor",
         "Neopix/Mistral-Nemo-Uncensored",
-        "McLoviniTtt/Reasoner4All",
         "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
@@ -38775,10 +38804,10 @@
         "waloneai/PowerPoint-AI-basic",
         "asigalov61/MIDI-Identification",
         "Ivan000/Voice-Assistant",
-        "stiv14/pdf-multilanguage-qa-role",
         "seawolf2357/LLM_Quantization",
         "eduagarcia/multilingual-tokenizer-leaderboard",
         "totolook/Quant",
+        "stiv14/pdf-multilanguage-qa-role",
         "tonyassi/bot-vs-bot",
         "saikub/chatB",
         "Ffftdtd5dtft/gfgf",
@@ -38831,13 +38860,13 @@
         "Kodacoda/obliteratus",
         "DarDrax/incident-triage-env",
         "Peterase/rag-api-node-1",
-        "PandaWorld14/Jabotbot",
         "venkatasai0852/Mistral-Refusal-Control",
         "Niansuh/HFLLMAPI",
         "Ctaake/FranziBot2",
         "huedaya/llm-fastapi-1",
         "nestole/Chaetti",
-        "wannaphong/Mistral-Nemo-Instruct"
+        "wannaphong/Mistral-Nemo-Instruct",
+        "MartinChrastek/mistralai-Mistral-Nemo-Instruct-2407"
       ],
       "createdAt": "2024-07-17T17:26:49.000Z",
       "safetensors": {
@@ -38850,7 +38879,7 @@
     },
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
-      "downloads": 36542,
+      "downloads": 39234,
       "likes": 567,
       "lastModified": "2024-08-27T19:41:54.000Z",
       "tags": [
@@ -39124,8 +39153,8 @@
     },
     "meta-llama/llama-3-8b-instruct": {
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "downloads": 1289409,
-      "likes": 4659,
+      "downloads": 1306206,
+      "likes": 4666,
       "lastModified": "2025-06-18T23:49:51.000Z",
       "tags": [
         "transformers",
@@ -39439,8 +39468,8 @@
     },
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-      "downloads": 57365,
-      "likes": 752,
+      "downloads": 62330,
+      "likes": 753,
       "lastModified": "2025-07-24T16:41:56.000Z",
       "tags": [
         "vllm",
