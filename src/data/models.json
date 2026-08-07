@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T05:55:27.101Z",
+  "generated_at": "2026-08-07T04:57:15.167Z",
   "openrouter_source": "fresh",
-  "count": 347,
+  "count": 407,
   "models": [
     {
       "slug": "claude-mythos-preview",
@@ -66,7 +66,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -141,7 +141,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "free",
@@ -216,7 +216,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -290,7 +290,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -359,7 +359,7 @@
       },
       "hf_downloads": 877474,
       "hf_likes": 1587,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -429,7 +429,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "long_context",
@@ -498,7 +498,7 @@
       },
       "hf_downloads": 1246445,
       "hf_likes": 1463,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -544,7 +544,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -586,7 +586,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -626,7 +626,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -663,7 +663,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -724,7 +724,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -788,7 +788,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -824,7 +824,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -866,7 +866,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -915,7 +915,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-fable-5-batch",
+      "name": "Anthropic: Claude Fable 5 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-fable-5:batch",
+      "release_date": "2026-06-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 5,
+        "output_per_million": 25,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -964,7 +1012,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1013,7 +1061,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-haiku-4-5-batch",
+      "name": "Anthropic: Claude Haiku 4.5 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-haiku-4.5:batch",
+      "release_date": "2025-10-15",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.5,
+        "output_per_million": 2.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1063,7 +1160,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1108,7 +1205,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1135,12 +1232,9 @@
       ],
       "supported_features": [
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "reasoning",
-        "response_format",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -1157,7 +1251,53 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-4-1-batch",
+      "name": "Anthropic: Claude Opus 4.1 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-4.1:batch",
+      "release_date": "2025-08-05",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 32000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 7.5,
+        "output_per_million": 37.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1206,7 +1346,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-4-5-batch",
+      "name": "Anthropic: Claude Opus 4.5 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-4.5:batch",
+      "release_date": "2025-11-24",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 12.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1257,7 +1444,105 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-4-6-batch",
+      "name": "Anthropic: Claude Opus 4.6 (batch)",
+      "provider": "Anthropic",
+      "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-4.6:batch",
+      "release_date": "2026-02-04",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 12.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-4-7-batch",
+      "name": "Anthropic: Claude Opus 4.7 (batch)",
+      "provider": "Anthropic",
+      "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-4.7:batch",
+      "release_date": "2026-04-16",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 12.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1305,7 +1590,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1355,7 +1640,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-4-8-batch",
+      "name": "Anthropic: Claude Opus 4.8 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-4.8:batch",
+      "release_date": "2026-05-27",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 12.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1403,7 +1736,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1453,7 +1786,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-opus-5-batch",
+      "name": "Claude Opus 5 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-opus-5:batch",
+      "release_date": "2026-07-24",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 12.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1501,7 +1882,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1551,7 +1932,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1597,7 +1978,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1647,7 +2028,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-sonnet-4-5-batch",
+      "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+      "provider": "Anthropic",
+      "description": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-sonnet-4.5:batch",
+      "release_date": "2025-09-29",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 64000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 1.5,
+        "output_per_million": 7.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1717,9 +2147,59 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-sonnet-4-6-batch",
+      "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+      "provider": "Anthropic",
+      "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-sonnet-4.6:batch",
+      "release_date": "2026-02-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 1.5,
+        "output_per_million": 7.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
         "vision",
         "writing"
       ]
@@ -1765,9 +2245,58 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "claude-sonnet-5-batch",
+      "name": "Anthropic: Claude Sonnet 5 (batch)",
+      "provider": "Anthropic",
+      "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "anthropic/claude-sonnet-5:batch",
+      "release_date": "2026-06-30",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "writing"
@@ -1814,7 +2343,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1862,7 +2391,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -1910,7 +2439,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -1952,7 +2481,7 @@
       "benchmarks": {},
       "hf_downloads": 1816,
       "hf_likes": 394,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -1999,7 +2528,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2046,7 +2575,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -2090,7 +2619,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2139,7 +2668,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -2188,7 +2717,7 @@
       "benchmarks": {},
       "hf_downloads": 1211587,
       "hf_likes": 4169,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2238,7 +2767,7 @@
       "benchmarks": {},
       "hf_downloads": 930156,
       "hf_likes": 3152,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2292,7 +2821,7 @@
       "benchmarks": {},
       "hf_downloads": 267744,
       "hf_likes": 826,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2343,7 +2872,7 @@
       "benchmarks": {},
       "hf_downloads": 9934359,
       "hf_likes": 13544,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2397,7 +2926,7 @@
       "benchmarks": {},
       "hf_downloads": 209538,
       "hf_likes": 2457,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2443,7 +2972,7 @@
       "benchmarks": {},
       "hf_downloads": 512372,
       "hf_likes": 794,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2495,7 +3024,7 @@
       "benchmarks": {},
       "hf_downloads": 17376,
       "hf_likes": 366,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2549,7 +3078,7 @@
       "benchmarks": {},
       "hf_downloads": 251826,
       "hf_likes": 993,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2605,7 +3134,7 @@
       "benchmarks": {},
       "hf_downloads": 2737621,
       "hf_likes": 2033,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2662,7 +3191,7 @@
       "benchmarks": {},
       "hf_downloads": 433284,
       "hf_likes": 2527,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2719,7 +3248,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2774,7 +3303,7 @@
       "benchmarks": {},
       "hf_downloads": 1616503,
       "hf_likes": 5387,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2818,7 +3347,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -2864,7 +3393,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2918,7 +3447,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -2962,7 +3491,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2996,7 +3525,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3046,7 +3575,60 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-2-5-flash-batch",
+      "name": "Google: Gemini 2.5 Flash (batch)",
+      "provider": "Google",
+      "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-2.5-flash:batch",
+      "release_date": "2025-06-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65535,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.15,
+        "output_per_million": 1.25,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3092,7 +3674,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3143,7 +3725,60 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-2-5-flash-lite-batch",
+      "name": "Google: Gemini 2.5 Flash Lite (batch)",
+      "provider": "Google",
+      "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-2.5-flash-lite:batch",
+      "release_date": "2025-07-22",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65535,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.05,
+        "output_per_million": 0.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3196,9 +3831,62 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-2-5-pro-batch",
+      "name": "Google: Gemini 2.5 Pro (batch)",
+      "provider": "Google",
+      "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-2.5-pro:batch",
+      "release_date": "2025-06-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.625,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "multimodal",
@@ -3247,7 +3935,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -3299,7 +3987,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -3346,7 +4034,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3392,7 +4080,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3444,7 +4132,61 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-1-flash-lite-batch",
+      "name": "Google: Gemini 3.1 Flash Lite (batch)",
+      "provider": "Google",
+      "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3.1-flash-lite:batch",
+      "release_date": "2026-05-07",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.125,
+        "output_per_million": 0.75,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3491,7 +4233,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3542,7 +4284,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3596,9 +4338,63 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-1-pro-preview-batch",
+      "name": "Google: Gemini 3.1 Pro Preview (batch)",
+      "provider": "Google",
+      "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3.1-pro-preview:batch",
+      "release_date": "2026-02-19",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "multimodal",
@@ -3648,7 +4444,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -3701,9 +4497,63 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-5-flash-batch",
+      "name": "Google: Gemini 3.5 Flash (batch)",
+      "provider": "Google",
+      "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3.5-flash:batch",
+      "release_date": "2026-05-19",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.75,
+        "output_per_million": 4.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "multimodal",
@@ -3754,7 +4604,59 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-5-flash-lite-batch",
+      "name": "Google: Gemini 3.5 Flash Lite (batch)",
+      "provider": "Google",
+      "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3.5-flash-lite:batch",
+      "release_date": "2026-07-21",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.15,
+        "output_per_million": 1.25,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3808,9 +4710,61 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-6-flash-batch",
+      "name": "Google: Gemini 3.6 Flash (batch)",
+      "provider": "Google",
+      "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3.6-flash:batch",
+      "release_date": "2026-07-21",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.75,
+        "output_per_million": 3.75,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "multimodal",
@@ -3882,7 +4836,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "free",
@@ -3906,7 +4860,7 @@
       "is_open_weight": false,
       "license": null,
       "context_window": 1048576,
-      "max_output_tokens": 65535,
+      "max_output_tokens": 65536,
       "modality": [
         "text",
         "file",
@@ -3938,7 +4892,61 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gemini-3-flash-preview-batch",
+      "name": "Google: Gemini 3 Flash Preview (batch)",
+      "provider": "Google",
+      "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "google/gemini-3-flash-preview:batch",
+      "release_date": "2025-12-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "modality": [
+        "text",
+        "file",
+        "audio",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3988,7 +4996,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -4033,7 +5041,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -4084,7 +5092,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4136,7 +5144,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4182,7 +5190,7 @@
       "benchmarks": {},
       "hf_downloads": 118996,
       "hf_likes": 568,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4233,7 +5241,7 @@
       "benchmarks": {},
       "hf_downloads": 1303239,
       "hf_likes": 797,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4287,7 +5295,7 @@
       "benchmarks": {},
       "hf_downloads": 845814,
       "hf_likes": 2006,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4337,7 +5345,7 @@
       "benchmarks": {},
       "hf_downloads": 1819143,
       "hf_likes": 1443,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4385,7 +5393,7 @@
       "benchmarks": {},
       "hf_downloads": 37214,
       "hf_likes": 919,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4441,7 +5449,7 @@
       "benchmarks": {},
       "hf_downloads": 11748521,
       "hf_likes": 1354,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4497,7 +5505,7 @@
       "benchmarks": {},
       "hf_downloads": 11748521,
       "hf_likes": 1354,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4557,7 +5565,7 @@
       "benchmarks": {},
       "hf_downloads": 11885389,
       "hf_likes": 3461,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4605,7 +5613,7 @@
       "benchmarks": {},
       "hf_downloads": 11885389,
       "hf_likes": 3461,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4652,7 +5660,7 @@
       "benchmarks": {},
       "hf_downloads": 127115,
       "hf_likes": 1408,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4700,7 +5708,7 @@
       "benchmarks": {},
       "hf_downloads": 433068,
       "hf_likes": 628,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4750,7 +5758,7 @@
       "benchmarks": {},
       "hf_downloads": 150699,
       "hf_likes": 719,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4803,7 +5811,7 @@
       "benchmarks": {},
       "hf_downloads": 27595,
       "hf_likes": 1229,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4854,7 +5862,7 @@
       "benchmarks": {},
       "hf_downloads": 7335,
       "hf_likes": 394,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -4924,7 +5932,7 @@
       },
       "hf_downloads": 72913,
       "hf_likes": 2050,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -4979,7 +5987,7 @@
       "benchmarks": {},
       "hf_downloads": 2067510,
       "hf_likes": 1802,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -5033,7 +6041,7 @@
       "benchmarks": {},
       "hf_downloads": 156225,
       "hf_likes": 2119,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -5087,7 +6095,7 @@
       "benchmarks": {},
       "hf_downloads": 75124,
       "hf_likes": 1840,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -5106,7 +6114,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 1048576,
-      "max_output_tokens": 262144,
+      "max_output_tokens": 131072,
       "modality": [
         "text"
       ],
@@ -5134,8 +6142,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.76,
-        "output_per_million": 2.42,
+        "input_per_million": 0.6958,
+        "output_per_million": 2.1868,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -5143,10 +6151,62 @@
       "benchmarks": {},
       "hf_downloads": 2234662,
       "hf_likes": 4853,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
+        "budget",
+        "long_context"
+      ]
+    },
+    {
+      "slug": "glm-5-2-batch",
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "provider": "Z-ai",
+      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "z-ai/glm-5.2:batch",
+      "release_date": "2026-06-16",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 512000,
+      "max_output_tokens": null,
+      "modality": [
+        "text"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.7,
+        "output_per_million": 2.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
         "budget",
         "long_context"
       ]
@@ -5188,7 +6248,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -5231,7 +6291,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5280,7 +6340,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5329,7 +6389,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5379,9 +6439,58 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-3-5-turbo-batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "provider": "Openai",
+      "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-3.5-turbo:batch",
+      "release_date": "2023-05-28",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 16385,
+      "max_output_tokens": 4096,
+      "modality": [
+        "text"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.25,
+        "output_per_million": 0.75,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "writing"
       ]
     },
@@ -5425,7 +6534,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -5474,7 +6583,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -5519,9 +6628,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4-1-batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "provider": "Openai",
+      "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4.1:batch",
+      "release_date": "2025-04-14",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 4,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "long_context",
         "vision",
         "writing"
@@ -5566,7 +6722,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4-1-mini-batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "provider": "Openai",
+      "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4.1-mini:batch",
+      "release_date": "2025-04-14",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.8,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5614,7 +6817,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4-1-nano-batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "provider": "Openai",
+      "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4.1-nano:batch",
+      "release_date": "2025-04-14",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1047576,
+      "max_output_tokens": 32768,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.05,
+        "output_per_million": 0.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5666,7 +6916,57 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4-turbo-batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "provider": "Openai",
+      "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4-turbo:batch",
+      "release_date": "2024-04-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 128000,
+      "max_output_tokens": 4096,
+      "modality": [
+        "text",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 5,
+        "output_per_million": 15,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5715,7 +7015,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -5768,7 +7068,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5822,7 +7122,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5876,7 +7176,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5929,7 +7229,60 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4o-batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "provider": "Openai",
+      "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4o:batch",
+      "release_date": "2024-05-13",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 128000,
+      "max_output_tokens": 16384,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "pricing": {
+        "input_per_million": 1.25,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5983,7 +7336,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6037,7 +7390,61 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-4o-mini-batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "provider": "Openai",
+      "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-4o-mini:batch",
+      "release_date": "2024-07-18",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 128000,
+      "max_output_tokens": 16384,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "pricing": {
+        "input_per_million": 0.075,
+        "output_per_million": 0.3,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6085,7 +7492,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6132,9 +7539,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-1-batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.1:batch",
+      "release_date": "2025-11-13",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.625,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -6177,7 +7631,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6222,7 +7676,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6267,7 +7721,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6315,9 +7769,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-2-batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.2:batch",
+      "release_date": "2025-12-10",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.875,
+        "output_per_million": 7,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -6359,7 +7860,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6404,7 +7905,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6450,7 +7951,53 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-2-pro-batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.2-pro:batch",
+      "release_date": "2025-12-10",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 10.5,
+        "output_per_million": 84,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6494,7 +8041,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6541,7 +8088,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6588,7 +8135,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-4-batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.4:batch",
+      "release_date": "2026-03-05",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 1.25,
+        "output_per_million": 7.5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -6639,7 +8233,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6686,7 +8280,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-4-mini-batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.4-mini:batch",
+      "release_date": "2026-03-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.375,
+        "output_per_million": 2.25,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6734,7 +8375,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-4-nano-batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.4-nano:batch",
+      "release_date": "2026-03-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.625,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6782,7 +8470,101 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-4-pro-batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.4-pro:batch",
+      "release_date": "2026-03-05",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 15,
+        "output_per_million": 90,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-5-batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.5:batch",
+      "release_date": "2026-04-24",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 15,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -6829,7 +8611,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-5-pro-batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.5-pro:batch",
+      "release_date": "2026-04-24",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 15,
+        "output_per_million": 90,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -6877,7 +8706,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-luna-batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-luna:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6926,7 +8803,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-luna-pro-batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-luna-pro:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6975,7 +8900,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-sol-batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-sol:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 15,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -7023,7 +8995,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-sol-pro-batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-sol-pro:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 2.5,
+        "output_per_million": 15,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -7071,7 +9090,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-terra-batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-terra:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7120,11 +9187,151 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
         "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-6-terra-pro-batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5.6-terra-pro:batch",
+      "release_date": "2026-07-09",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "provider": "Openai",
+      "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5:batch",
+      "release_date": "2025-08-07",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.625,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-codex-batch",
+      "name": "OpenAI: GPT-5 Codex (batch)",
+      "provider": "Openai",
+      "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks....",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5-codex:batch",
+      "release_date": "2025-09-23",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.625,
+        "output_per_million": 5,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -7173,7 +9380,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -7224,7 +9431,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -7292,13 +9499,60 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "budget",
         "vision",
         "writing",
         "fast"
+      ]
+    },
+    {
+      "slug": "gpt-5-mini-batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "provider": "Openai",
+      "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5-mini:batch",
+      "release_date": "2025-08-07",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.125,
+        "output_per_million": 1,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
       ]
     },
     {
@@ -7341,7 +9595,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-nano-batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "provider": "Openai",
+      "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5-nano:batch",
+      "release_date": "2025-08-07",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.025,
+        "output_per_million": 0.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7388,7 +9689,53 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "gpt-5-pro-batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "provider": "Openai",
+      "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/gpt-5-pro:batch",
+      "release_date": "2025-10-06",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 400000,
+      "max_output_tokens": 128000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 7.5,
+        "output_per_million": 60,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -7438,7 +9785,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "multimodal",
@@ -7488,7 +9835,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7532,7 +9879,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -7579,7 +9926,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -7626,7 +9973,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7682,7 +10029,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7737,7 +10084,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7790,7 +10137,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -7837,7 +10184,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7886,7 +10233,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -7935,7 +10282,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -7983,7 +10330,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -8031,7 +10378,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -8084,7 +10431,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -8137,7 +10484,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -8189,7 +10536,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8242,7 +10589,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -8290,7 +10637,7 @@
       "benchmarks": {},
       "hf_downloads": 687,
       "hf_likes": 272,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -8338,7 +10685,7 @@
       "benchmarks": {},
       "hf_downloads": 10725,
       "hf_likes": 133,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -8383,7 +10730,7 @@
       "benchmarks": {},
       "hf_downloads": 639,
       "hf_likes": 94,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -8428,7 +10775,7 @@
       "benchmarks": {},
       "hf_downloads": 2774,
       "hf_likes": 206,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -8472,7 +10819,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8525,7 +10872,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8568,7 +10915,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8621,7 +10968,61 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal"
+      ]
+    },
+    {
+      "slug": "inkling-batch",
+      "name": "Thinking Machines: Inkling (batch)",
+      "provider": "Thinkingmachines",
+      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "thinkingmachines/inkling:batch",
+      "release_date": "2026-07-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 524288,
+      "max_output_tokens": null,
+      "modality": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.5,
+        "output_per_million": 2.025,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8678,7 +11079,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8722,7 +11123,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -8766,7 +11167,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8817,7 +11218,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8863,7 +11264,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -8908,7 +11309,7 @@
       "benchmarks": {},
       "hf_downloads": 182313,
       "hf_likes": 2372,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -8956,7 +11357,7 @@
       "benchmarks": {},
       "hf_downloads": 67499,
       "hf_likes": 787,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9011,7 +11412,7 @@
       "benchmarks": {},
       "hf_downloads": 966316,
       "hf_likes": 2860,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9068,10 +11469,62 @@
       "benchmarks": {},
       "hf_downloads": 694880,
       "hf_likes": 1352,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
+        "budget",
+        "vision"
+      ]
+    },
+    {
+      "slug": "kimi-k2-7-code-batch",
+      "name": "MoonshotAI: Kimi K2.7 Code (batch)",
+      "provider": "Moonshotai",
+      "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "moonshotai/kimi-k2.7-code:batch",
+      "release_date": "2026-06-12",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 262144,
+      "max_output_tokens": null,
+      "modality": [
+        "text",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.475,
+        "output_per_million": 2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
         "budget",
         "vision"
       ]
@@ -9121,7 +11574,7 @@
       "benchmarks": {},
       "hf_downloads": 56858,
       "hf_likes": 1714,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9177,7 +11630,7 @@
       "benchmarks": {},
       "hf_downloads": 1125935,
       "hf_likes": 10140,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9234,7 +11687,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9284,7 +11737,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9330,7 +11783,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9379,7 +11832,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9419,7 +11872,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9460,7 +11913,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -9501,7 +11954,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9541,7 +11994,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -9591,7 +12044,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9640,7 +12093,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -9657,8 +12110,8 @@
       "release_date": "2026-07-23",
       "is_open_weight": false,
       "license": null,
-      "context_window": 131072,
-      "max_output_tokens": 16384,
+      "context_window": 262144,
+      "max_output_tokens": 32768,
       "modality": [
         "text"
       ],
@@ -9666,6 +12119,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -9677,11 +12131,12 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.075,
-        "output_per_million": 0.22,
+        "input_per_million": 0.021,
+        "output_per_million": 0.063,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -9689,21 +12144,21 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
       ]
     },
     {
-      "slug": "ling-3-0-flash-free",
-      "name": "Ling-3.0-flash (free)",
+      "slug": "ling-3-0-tiny-free",
+      "name": "inclusionAI: Ling 3.0 Tiny (free)",
       "provider": "Inclusionai",
-      "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
+      "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
       "website": null,
       "api_docs": null,
-      "openrouter_id": "inclusionai/ling-3.0-flash:free",
-      "release_date": "2026-07-23",
+      "openrouter_id": "inclusionai/ling-3.0-tiny:free",
+      "release_date": "2026-08-06",
       "is_open_weight": false,
       "license": null,
       "context_window": 262144,
@@ -9738,7 +12193,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -9790,7 +12245,7 @@
       "benchmarks": {},
       "hf_downloads": 813492,
       "hf_likes": 938,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9842,7 +12297,7 @@
       "benchmarks": {},
       "hf_downloads": 8014793,
       "hf_likes": 6537,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9888,7 +12343,7 @@
       "benchmarks": {},
       "hf_downloads": 10412058,
       "hf_likes": 1554,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9937,7 +12392,7 @@
       "benchmarks": {},
       "hf_downloads": 1466504,
       "hf_likes": 2390,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -9989,7 +12444,7 @@
       "benchmarks": {},
       "hf_downloads": 463790,
       "hf_likes": 2942,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -10042,7 +12497,7 @@
       "benchmarks": {},
       "hf_downloads": 43619,
       "hf_likes": 505,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -10118,7 +12573,7 @@
       },
       "hf_downloads": 499180,
       "hf_likes": 1331,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -10170,7 +12625,7 @@
       "benchmarks": {},
       "hf_downloads": 235019,
       "hf_likes": 116,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -10222,7 +12677,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10264,7 +12719,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -10309,7 +12764,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -10363,7 +12818,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -10405,7 +12860,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10461,7 +12916,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10517,7 +12972,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10556,7 +13011,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10605,7 +13060,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10657,7 +13112,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10705,7 +13160,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10759,7 +13214,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10812,7 +13267,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10849,7 +13304,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -10904,7 +13359,62 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context",
+        "vision",
+        "multimodal"
+      ]
+    },
+    {
+      "slug": "minimax-m3-batch",
+      "name": "MiniMax: MiniMax M3 (batch)",
+      "provider": "Minimax",
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "minimax/minimax-m3:batch",
+      "release_date": "2026-05-31",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 524288,
+      "max_output_tokens": null,
+      "modality": [
+        "text",
+        "video",
+        "vision"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10953,7 +13463,7 @@
       "benchmarks": {},
       "hf_downloads": 215718,
       "hf_likes": 312,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11001,7 +13511,7 @@
       "benchmarks": {},
       "hf_downloads": 476923,
       "hf_likes": 272,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11049,7 +13559,7 @@
       "benchmarks": {},
       "hf_downloads": 99630,
       "hf_likes": 192,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11097,7 +13607,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -11143,7 +13653,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -11190,7 +13700,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11259,7 +13769,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -11307,7 +13817,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11355,7 +13865,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11406,7 +13916,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -11457,7 +13967,7 @@
       "benchmarks": {},
       "hf_downloads": 477536,
       "hf_likes": 1693,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11505,7 +14015,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -11552,7 +14062,7 @@
       "benchmarks": {},
       "hf_downloads": 74751,
       "hf_likes": 964,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11603,7 +14113,7 @@
       "benchmarks": {},
       "hf_downloads": 182356,
       "hf_likes": 413,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11653,7 +14163,7 @@
       "benchmarks": {},
       "hf_downloads": 298064,
       "hf_likes": 1378,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11707,7 +14217,7 @@
       "benchmarks": {},
       "hf_downloads": 314137,
       "hf_likes": 601,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -11755,7 +14265,7 @@
       "benchmarks": {},
       "hf_downloads": 63284,
       "hf_likes": 756,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight"
@@ -11792,7 +14302,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -11833,7 +14343,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -11883,7 +14393,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11935,7 +14445,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11987,7 +14497,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -12028,7 +14538,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12083,7 +14593,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -12125,7 +14635,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12171,7 +14681,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12192,7 +14702,7 @@
       "is_open_weight": false,
       "license": null,
       "context_window": 1000000,
-      "max_output_tokens": 16384,
+      "max_output_tokens": null,
       "modality": [
         "text"
       ],
@@ -12219,8 +14729,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.085,
-        "output_per_million": 0.4,
+        "input_per_million": 0.3,
+        "output_per_million": 0.9,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -12228,7 +14738,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12274,7 +14784,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12327,7 +14837,59 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
+        "long_context"
+      ]
+    },
+    {
+      "slug": "nemotron-3-ultra-550b-a55b-batch",
+      "name": "NVIDIA: Nemotron 3 Ultra (batch)",
+      "provider": "Nvidia",
+      "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+      "release_date": "2026-06-04",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 512288,
+      "max_output_tokens": null,
+      "modality": [
+        "text"
+      ],
+      "supported_features": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "pricing": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.8,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12371,7 +14933,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12417,7 +14979,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12464,7 +15026,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -12512,7 +15074,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12559,7 +15121,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12606,7 +15168,7 @@
       "benchmarks": {},
       "hf_downloads": 18935,
       "hf_likes": 547,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -12654,7 +15216,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12698,7 +15260,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12739,7 +15301,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -12780,7 +15342,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12822,7 +15384,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12867,7 +15429,52 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o1-batch",
+      "name": "OpenAI: o1 (batch)",
+      "provider": "Openai",
+      "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o1:batch",
+      "release_date": "2024-12-17",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 7.5,
+        "output_per_million": 30,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -12910,7 +15517,50 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o1-pro-batch",
+      "name": "OpenAI: o1-pro (batch)",
+      "provider": "Openai",
+      "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o1-pro:batch",
+      "release_date": "2025-03-19",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs"
+      ],
+      "pricing": {
+        "input_per_million": 75,
+        "output_per_million": 300,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -12955,9 +15605,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o3-batch",
+      "name": "OpenAI: o3 (batch)",
+      "provider": "Openai",
+      "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o3:batch",
+      "release_date": "2025-04-16",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 1,
+        "output_per_million": 4,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -12999,9 +15695,53 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "writing"
+      ]
+    },
+    {
+      "slug": "o3-mini-batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "provider": "Openai",
+      "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o3-mini:batch",
+      "release_date": "2025-01-31",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.55,
+        "output_per_million": 2.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "writing"
       ]
     },
@@ -13043,9 +15783,54 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "writing"
+      ]
+    },
+    {
+      "slug": "o3-mini-high-batch",
+      "name": "OpenAI: o3 Mini High (batch)",
+      "provider": "Openai",
+      "description": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o3-mini-high:batch",
+      "release_date": "2025-02-12",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.55,
+        "output_per_million": 2.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "writing"
       ]
     },
@@ -13087,7 +15872,52 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o3-pro-batch",
+      "name": "OpenAI: o3 Pro (batch)",
+      "provider": "Openai",
+      "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o3-pro:batch",
+      "release_date": "2025-06-10",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 10,
+        "output_per_million": 40,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -13132,9 +15962,55 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o4-mini-batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "provider": "Openai",
+      "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o4-mini:batch",
+      "release_date": "2025-04-16",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.55,
+        "output_per_million": 2.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -13178,9 +16054,56 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
+        "vision",
+        "writing"
+      ]
+    },
+    {
+      "slug": "o4-mini-high-batch",
+      "name": "OpenAI: o4 Mini High (batch)",
+      "provider": "Openai",
+      "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining...",
+      "website": null,
+      "api_docs": null,
+      "openrouter_id": "openai/o4-mini-high:batch",
+      "release_date": "2025-04-16",
+      "is_open_weight": false,
+      "license": null,
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modality": [
+        "text",
+        "file",
+        "vision"
+      ],
+      "supported_features": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "pricing": {
+        "input_per_million": 0.55,
+        "output_per_million": 2.2,
+        "currency": "USD",
+        "has_free_tier": false,
+        "source": null
+      },
+      "benchmarks": {},
+      "hf_downloads": null,
+      "hf_likes": null,
+      "last_updated": "2026-08-07T04:57:15.167Z",
+      "last_verified": null,
+      "categories": [
+        "budget",
         "vision",
         "writing"
       ]
@@ -13227,7 +16150,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13266,7 +16189,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13300,7 +16223,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13346,7 +16269,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13395,7 +16318,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13444,7 +16367,7 @@
       "benchmarks": {},
       "hf_downloads": 434617,
       "hf_likes": 970,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13494,7 +16417,7 @@
       "benchmarks": {},
       "hf_downloads": 12117940,
       "hf_likes": 1528,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13540,7 +16463,7 @@
       "benchmarks": {},
       "hf_downloads": 1198653,
       "hf_likes": 2096,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13605,7 +16528,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -13656,7 +16579,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13705,7 +16628,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13756,7 +16679,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13806,7 +16729,7 @@
       "benchmarks": {},
       "hf_downloads": 572592,
       "hf_likes": 645,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13861,7 +16784,7 @@
       "benchmarks": {},
       "hf_downloads": 2832870,
       "hf_likes": 437,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13909,7 +16832,7 @@
       "benchmarks": {},
       "hf_downloads": 694579,
       "hf_likes": 1106,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13961,7 +16884,7 @@
       "benchmarks": {},
       "hf_downloads": 59472,
       "hf_likes": 793,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14014,7 +16937,7 @@
       "benchmarks": {},
       "hf_downloads": 31661,
       "hf_likes": 408,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14065,7 +16988,7 @@
       "benchmarks": {},
       "hf_downloads": 3060898,
       "hf_likes": 916,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14116,7 +17039,7 @@
       "benchmarks": {},
       "hf_downloads": 1903736,
       "hf_likes": 824,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14164,7 +17087,7 @@
       "benchmarks": {},
       "hf_downloads": 127555,
       "hf_likes": 377,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14218,7 +17141,7 @@
       "benchmarks": {},
       "hf_downloads": 8346113,
       "hf_likes": 728,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14237,7 +17160,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 262144,
-      "max_output_tokens": 65536,
+      "max_output_tokens": 81920,
       "modality": [
         "text",
         "video",
@@ -14265,8 +17188,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.26,
-        "output_per_million": 2.08,
+        "input_per_million": 0.29,
+        "output_per_million": 2.4,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -14274,7 +17197,7 @@
       "benchmarks": {},
       "hf_downloads": 2246460,
       "hf_likes": 605,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14332,7 +17255,7 @@
       "benchmarks": {},
       "hf_downloads": 2666761,
       "hf_likes": 1025,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14390,7 +17313,7 @@
       "benchmarks": {},
       "hf_downloads": 2581162,
       "hf_likes": 1481,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14448,7 +17371,7 @@
       "benchmarks": {},
       "hf_downloads": 412542,
       "hf_likes": 1547,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14506,7 +17429,7 @@
       "benchmarks": {},
       "hf_downloads": 12403996,
       "hf_likes": 1791,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14559,7 +17482,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14614,7 +17537,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14669,7 +17592,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14727,7 +17650,7 @@
       "benchmarks": {},
       "hf_downloads": 6984872,
       "hf_likes": 2182,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14785,7 +17708,7 @@
       "benchmarks": {},
       "hf_downloads": 5906365,
       "hf_likes": 2637,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14840,7 +17763,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14893,7 +17816,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -14943,7 +17866,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14994,7 +17917,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15047,7 +17970,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context"
@@ -15098,7 +18021,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15153,7 +18076,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -15202,7 +18125,7 @@
       "benchmarks": {},
       "hf_downloads": 16272885,
       "hf_likes": 1276,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15254,7 +18177,7 @@
       "benchmarks": {},
       "hf_downloads": 91687,
       "hf_likes": 1357,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15304,7 +18227,7 @@
       "benchmarks": {},
       "hf_downloads": 1468236,
       "hf_likes": 1189,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15371,7 +18294,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -15420,7 +18343,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15471,7 +18394,7 @@
       "benchmarks": {},
       "hf_downloads": 554323,
       "hf_likes": 1569,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15520,7 +18443,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15569,7 +18492,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15619,7 +18542,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15670,7 +18593,7 @@
       "benchmarks": {},
       "hf_downloads": 286679,
       "hf_likes": 1042,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15723,7 +18646,7 @@
       "benchmarks": {},
       "hf_downloads": 37044,
       "hf_likes": 492,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15776,7 +18699,7 @@
       "benchmarks": {},
       "hf_downloads": 1791484,
       "hf_likes": 412,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15821,8 +18744,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.98,
-        "output_per_million": 3.95,
+        "input_per_million": 0.4,
+        "output_per_million": 4,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -15830,7 +18753,7 @@
       "benchmarks": {},
       "hf_downloads": 12421,
       "hf_likes": 400,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15884,7 +18807,7 @@
       "benchmarks": {},
       "hf_downloads": 786475,
       "hf_likes": 590,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15937,7 +18860,7 @@
       "benchmarks": {},
       "hf_downloads": 63041,
       "hf_likes": 200,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15988,7 +18911,7 @@
       "benchmarks": {},
       "hf_downloads": 2832213,
       "hf_likes": 221,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16041,7 +18964,7 @@
       "benchmarks": {},
       "hf_downloads": 4880071,
       "hf_likes": 1030,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16094,7 +19017,7 @@
       "benchmarks": {},
       "hf_downloads": 132283,
       "hf_likes": 219,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16145,7 +19068,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16194,7 +19117,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16231,7 +19154,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16273,7 +19196,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16323,7 +19246,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16372,7 +19295,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16420,7 +19343,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16467,7 +19390,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16516,7 +19439,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16566,7 +19489,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16616,7 +19539,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16666,7 +19589,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16711,7 +19634,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16753,7 +19676,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16797,7 +19720,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": []
     },
@@ -16837,7 +19760,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -16882,7 +19805,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -16926,7 +19849,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -16969,7 +19892,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17025,7 +19948,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17079,7 +20002,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17127,7 +20050,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17178,7 +20101,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17225,7 +20148,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17272,7 +20195,7 @@
       "benchmarks": {},
       "hf_downloads": 276405,
       "hf_likes": 519,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -17324,7 +20247,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17368,7 +20291,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-08-06T05:55:27.101Z",
+      "last_updated": "2026-08-07T04:57:15.167Z",
       "last_verified": null,
       "categories": [
         "budget"
