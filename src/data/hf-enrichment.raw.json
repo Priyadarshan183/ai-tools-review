@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-09-07T08:06:56.815Z",
+  "fetched_at": "2026-09-09T08:01:01.658Z",
   "data": {
     "qwen/qwen3.8-flash": {
       "id": "Qwen/Qwen3.8-Flash-Next",
-      "downloads": 432966,
-      "likes": 4955,
+      "downloads": 503263,
+      "likes": 5024,
       "lastModified": "2026-08-27T05:03:36.000Z",
       "tags": [
         "transformers",
@@ -503,8 +503,8 @@
       ],
       "spaces": [
         "victor/Qwen3.8-Flash-Next-free-endpoint",
-        "apathy-exe/Qwen3.8-Flash-Next",
         "bored10/qwen3-8-flash-next-demo",
+        "apathy-exe/Qwen3.8-Flash-Next",
         "click6067/fitllm",
         "2ldolar777/SAQR_OS",
         "V12nm/Qwen3.8-Flash-Next-Demo",
@@ -526,9 +526,9 @@
     },
     "z-ai/glm-5.3-flash": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 761364,
-      "likes": 2111,
-      "lastModified": "2026-09-04T06:45:04.000Z",
+      "downloads": 826875,
+      "likes": 2184,
+      "lastModified": "2026-09-07T12:13:47.000Z",
       "tags": [
         "transformers",
         "safetensors",
@@ -550,7 +550,7 @@
       "library_name": "transformers",
       "modelId": "zai-org/GLM-5.3-Flash",
       "author": "zai-org",
-      "sha": "690b705278a3a58e538fcb37c2ca8b5f9511213c",
+      "sha": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
       "gated": false,
       "disabled": false,
       "widgetData": [
@@ -2109,6 +2109,9 @@
       },
       "siblings": [
         {
+          "rfilename": ".eval_results/GLM-5.3-Flash.yaml"
+        },
+        {
           "rfilename": ".gitattributes"
         },
         {
@@ -2328,15 +2331,19 @@
       "spaces": [
         "akhaliq/GLM-5.3-Flash",
         "hemantkumar30590/GLM-5.3-Flash",
-        "abonaie222263/hf-openai-proxy",
         "HorizonRobotics/EmbodiedGen-Gallery-Explorer",
+        "abonaie222263/hf-openai-proxy",
         "scikit-plots/ai",
         "bep40/Space-Mutiverse-Control",
         "irfannkhan/GLM-5.3-Flash-demo",
         "akrett/cs553-ml-ops",
+        "ChandraPrakashBathula/test-time-compute",
         "Im3cb/asistente-im3cb",
+        "SZLHOLDINGS/szl-frontier",
         "developerjeremylive/hf-openai-proxy-etheroi",
-        "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX"
+        "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX",
+        "malaiwah/qfs-explorer",
+        "abelardo8574/GAIA_Agent"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -2352,9 +2359,9 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 761364,
-      "likes": 2111,
-      "lastModified": "2026-09-04T06:45:04.000Z",
+      "downloads": 826875,
+      "likes": 2184,
+      "lastModified": "2026-09-07T12:13:47.000Z",
       "tags": [
         "transformers",
         "safetensors",
@@ -2376,7 +2383,7 @@
       "library_name": "transformers",
       "modelId": "zai-org/GLM-5.3-Flash",
       "author": "zai-org",
-      "sha": "690b705278a3a58e538fcb37c2ca8b5f9511213c",
+      "sha": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
       "gated": false,
       "disabled": false,
       "widgetData": [
@@ -3935,6 +3942,9 @@
       },
       "siblings": [
         {
+          "rfilename": ".eval_results/GLM-5.3-Flash.yaml"
+        },
+        {
           "rfilename": ".gitattributes"
         },
         {
@@ -4154,15 +4164,19 @@
       "spaces": [
         "akhaliq/GLM-5.3-Flash",
         "hemantkumar30590/GLM-5.3-Flash",
-        "abonaie222263/hf-openai-proxy",
         "HorizonRobotics/EmbodiedGen-Gallery-Explorer",
+        "abonaie222263/hf-openai-proxy",
         "scikit-plots/ai",
         "bep40/Space-Mutiverse-Control",
         "irfannkhan/GLM-5.3-Flash-demo",
         "akrett/cs553-ml-ops",
+        "ChandraPrakashBathula/test-time-compute",
         "Im3cb/asistente-im3cb",
+        "SZLHOLDINGS/szl-frontier",
         "developerjeremylive/hf-openai-proxy-etheroi",
-        "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX"
+        "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX",
+        "malaiwah/qfs-explorer",
+        "abelardo8574/GAIA_Agent"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -4178,8 +4192,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "downloads": 209191,
-      "likes": 765,
+      "downloads": 313547,
+      "likes": 827,
       "lastModified": "2026-09-01T09:22:10.000Z",
       "tags": [
         "transformers",
@@ -4521,6 +4535,369 @@
         }
       ],
       "spaces": [
+        "omarahmed176/alzheimer-detection-api",
+        "ava161/deepseek-v4-flash-vision-exp-demo"
+      ],
+      "createdAt": "2026-08-31T06:16:18.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 1949960576,
+          "F32": 37754174,
+          "F8_E4M3": 6304038912,
+          "I8": 296352743424,
+          "I64": 2327040
+        },
+        "total": 304646824126
+      },
+      "inference": "warm",
+      "usedStorage": 167819616863
+    },
+    "deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "downloads": 313547,
+      "likes": 827,
+      "lastModified": "2026-09-01T09:22:10.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "image-text-to-text",
+        "license:mit",
+        "eval-results",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "_id": "6a951c32379de35b0d189f6e",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "author": "deepseek-ai",
+      "sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
+      "gated": false,
+      "disabled": false,
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "DeepseekV4ForCausalLM"
+        ],
+        "expert_dtype": "fp4",
+        "model_type": "deepseek_v4",
+        "num_experts_per_tok": 6,
+        "quantization_config": {
+          "quant_method": "fp8"
+        },
+        "tokenizer_config": {
+          "bos_token": {
+            "__type": "AddedToken",
+            "content": "<｜begin▁of▁sentence｜>",
+            "lstrip": false,
+            "normalized": true,
+            "rstrip": false,
+            "single_word": false
+          },
+          "eos_token": {
+            "__type": "AddedToken",
+            "content": "<｜end▁of▁sentence｜>",
+            "lstrip": false,
+            "normalized": true,
+            "rstrip": false,
+            "single_word": false
+          },
+          "pad_token": {
+            "__type": "AddedToken",
+            "content": "<｜end▁of▁sentence｜>",
+            "lstrip": false,
+            "normalized": true,
+            "rstrip": false,
+            "single_word": false
+          },
+          "unk_token": null
+        }
+      },
+      "cardData": {
+        "license": "mit",
+        "library_name": "transformers",
+        "pipeline_tag": "image-text-to-text"
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForCausalLM",
+        "pipeline_tag": "text-generation",
+        "processor": "AutoTokenizer"
+      },
+      "siblings": [
+        {
+          "rfilename": ".eval_results/deep-swe.yaml"
+        },
+        {
+          "rfilename": ".eval_results/terminal-bench-2.1.yaml"
+        },
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": ".gitignore"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "encoding/README.md"
+        },
+        {
+          "rfilename": "encoding/encoding_dsv4.py"
+        },
+        {
+          "rfilename": "encoding/test_encoding_dsv4.py"
+        },
+        {
+          "rfilename": "encoding/tests/test_input_1.json"
+        },
+        {
+          "rfilename": "encoding/tests/test_input_2.json"
+        },
+        {
+          "rfilename": "encoding/tests/test_input_3.json"
+        },
+        {
+          "rfilename": "encoding/tests/test_input_4.json"
+        },
+        {
+          "rfilename": "encoding/tests/test_output_1.txt"
+        },
+        {
+          "rfilename": "encoding/tests/test_output_2.txt"
+        },
+        {
+          "rfilename": "encoding/tests/test_output_3.txt"
+        },
+        {
+          "rfilename": "encoding/tests/test_output_4.txt"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "inference/README.md"
+        },
+        {
+          "rfilename": "inference/config.json"
+        },
+        {
+          "rfilename": "inference/convert.py"
+        },
+        {
+          "rfilename": "inference/examples/example_vl.txt"
+        },
+        {
+          "rfilename": "inference/examples/example_vl_harmony.json"
+        },
+        {
+          "rfilename": "inference/examples/images/carrots.jpeg"
+        },
+        {
+          "rfilename": "inference/examples/images/corn.jpeg"
+        },
+        {
+          "rfilename": "inference/generate.py"
+        },
+        {
+          "rfilename": "inference/image_processor.py"
+        },
+        {
+          "rfilename": "inference/kernel.py"
+        },
+        {
+          "rfilename": "inference/model.py"
+        },
+        {
+          "rfilename": "inference/requirements.txt"
+        },
+        {
+          "rfilename": "inference/run.sh"
+        },
+        {
+          "rfilename": "inference/vision.py"
+        },
+        {
+          "rfilename": "model-00001-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00005-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00006-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00007-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00008-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00009-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00010-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00011-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00012-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00013-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00014-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00015-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00016-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00017-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00018-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00019-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00020-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00021-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00022-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00023-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00024-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00025-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00026-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00027-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00028-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00029-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00030-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00031-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00032-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00033-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00034-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00035-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00036-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00037-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00038-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00039-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00040-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00041-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00042-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00043-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00044-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00045-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00046-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00047-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model-00048-of-00048.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "omarahmed176/alzheimer-detection-api",
         "ava161/deepseek-v4-flash-vision-exp-demo"
       ],
       "createdAt": "2026-08-31T06:16:18.000Z",
@@ -4539,8 +4916,8 @@
     },
     "z-ai/glm-5.3": {
       "id": "zai-org/GLM-5.3",
-      "downloads": 410074,
-      "likes": 1740,
+      "downloads": 474141,
+      "likes": 1778,
       "lastModified": "2026-09-04T06:41:23.000Z",
       "tags": [
         "transformers",
@@ -5622,14 +5999,1126 @@
         }
       ],
       "spaces": [
-        "akhaliq/GLM-5.3",
+        "VIDraft/global-llm-leaderboard",
         "llamameta/glm5.3-xliberated-free",
+        "akhaliq/GLM-5.3",
         "Jindrich3/openajaj",
         "adamm-hf/P-NP",
         "abonaie222263/hf-openai-proxy",
         "Prekzursil/GLM-5.3",
         "DeeSin/TestDeploy",
-        "developerjeremylive/hf-openai-proxy-etheroi"
+        "SZLHOLDINGS/szl-frontier",
+        "developerjeremylive/hf-openai-proxy-etheroi",
+        "malaiwah/qfs-explorer"
+      ],
+      "createdAt": "2026-08-25T06:42:50.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 2103729152,
+          "F8_E4M3": 751226191872,
+          "F32": 19456
+        },
+        "total": 753329940480
+      },
+      "inference": "warm",
+      "usedStorage": 755681496428
+    },
+    "z-ai/glm-5.3:batch": {
+      "id": "zai-org/GLM-5.3",
+      "downloads": 474141,
+      "likes": 1778,
+      "lastModified": "2026-09-04T06:41:23.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "glm_moe_dsa",
+        "text-generation",
+        "conversational",
+        "en",
+        "zh",
+        "arxiv:2602.15763",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation",
+      "_id": "6a8d396a6f0233a6c0d8c4f2",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "zai-org/GLM-5.3",
+      "author": "zai-org",
+      "sha": "aca966e4e02791568aa6a4ced368624b3d897f42",
+      "gated": false,
+      "disabled": false,
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "GlmMoeDsaForCausalLM"
+        ],
+        "model_type": "glm_moe_dsa",
+        "num_experts_per_tok": 8,
+        "quantization_config": {
+          "quant_method": "fp8",
+          "modules_to_not_convert": [
+            "model.layers.59.post_attention_layernorm",
+            "model.layers.47.mlp.gate.e_score_correction_bias",
+            "model.layers.71.self_attn.kv_a_layernorm",
+            "model.layers.46.mlp.gate.e_score_correction_bias",
+            "model.layers.30.self_attn.kv_a_layernorm",
+            "model.layers.23.self_attn.kv_a_layernorm",
+            "model.layers.73.mlp.gate.e_score_correction_bias",
+            "model.layers.36.mlp.gate",
+            "model.layers.12.self_attn.q_a_layernorm",
+            "model.layers.51.mlp.gate",
+            "model.layers.47.self_attn.kv_a_layernorm",
+            "model.layers.45.self_attn.q_a_layernorm",
+            "model.layers.15.self_attn.q_a_layernorm",
+            "model.layers.39.input_layernorm",
+            "model.layers.50.self_attn.kv_a_layernorm",
+            "model.layers.19.post_attention_layernorm",
+            "model.layers.71.input_layernorm",
+            "model.layers.72.self_attn.kv_a_layernorm",
+            "model.layers.70.mlp.gate",
+            "model.layers.52.input_layernorm",
+            "model.layers.78.self_attn.kv_a_layernorm",
+            "model.layers.48.post_attention_layernorm",
+            "model.layers.4.self_attn.q_a_layernorm",
+            "model.layers.62.self_attn.q_a_layernorm",
+            "model.layers.4.post_attention_layernorm",
+            "model.layers.38.self_attn.indexers_proj",
+            "model.layers.61.mlp.gate.e_score_correction_bias",
+            "model.layers.14.mlp.gate.e_score_correction_bias",
+            "model.layers.36.self_attn.kv_a_layernorm",
+            "model.layers.65.mlp.gate",
+            "model.layers.13.self_attn.kv_a_layernorm",
+            "model.layers.57.mlp.gate",
+            "model.layers.65.self_attn.kv_a_layernorm",
+            "model.layers.68.input_layernorm",
+            "model.layers.70.self_attn.kv_a_layernorm",
+            "model.layers.24.mlp.gate.e_score_correction_bias",
+            "model.layers.4.input_layernorm",
+            "model.layers.20.input_layernorm",
+            "model.layers.65.self_attn.q_a_layernorm",
+            "model.layers.38.mlp.gate",
+            "model.layers.76.mlp.gate.e_score_correction_bias",
+            "model.layers.62.input_layernorm",
+            "model.layers.45.input_layernorm",
+            "model.layers.68.post_attention_layernorm",
+            "model.layers.72.input_layernorm",
+            "model.layers.32.mlp.gate.e_score_correction_bias",
+            "model.layers.27.input_layernorm",
+            "model.layers.16.post_attention_layernorm",
+            "model.layers.35.self_attn.q_a_layernorm",
+            "model.layers.58.self_attn.indexers_proj",
+            "model.layers.3.mlp.gate.e_score_correction_bias",
+            "model.layers.49.self_attn.q_a_layernorm",
+            "model.layers.66.mlp.gate.e_score_correction_bias",
+            "model.layers.10.self_attn.q_a_layernorm",
+            "model.layers.51.mlp.gate.e_score_correction_bias",
+            "model.layers.64.self_attn.q_a_layernorm",
+            "model.layers.70.input_layernorm",
+            "model.layers.71.post_attention_layernorm",
+            "model.layers.67.post_attention_layernorm",
+            "model.layers.6.self_attn.indexer.k_norm",
+            "model.layers.3.mlp.gate",
+            "model.layers.11.mlp.gate",
+            "model.layers.17.input_layernorm",
+            "model.layers.13.mlp.gate",
+            "model.layers.15.mlp.gate",
+            "model.layers.71.self_attn.q_a_layernorm",
+            "model.layers.33.mlp.gate.e_score_correction_bias",
+            "model.layers.72.mlp.gate.e_score_correction_bias",
+            "model.layers.65.post_attention_layernorm",
+            "model.layers.78.hnorm",
+            "model.layers.40.post_attention_layernorm",
+            "model.layers.12.mlp.gate.e_score_correction_bias",
+            "model.layers.8.input_layernorm",
+            "model.layers.73.mlp.gate",
+            "model.layers.11.post_attention_layernorm",
+            "model.layers.61.input_layernorm",
+            "model.layers.14.self_attn.kv_a_layernorm",
+            "model.layers.39.self_attn.kv_a_layernorm",
+            "model.layers.70.self_attn.indexer.k_norm",
+            "model.layers.45.mlp.gate",
+            "model.layers.51.self_attn.q_a_layernorm",
+            "model.layers.64.post_attention_layernorm",
+            "model.layers.20.post_attention_layernorm",
+            "model.layers.66.self_attn.kv_a_layernorm",
+            "model.layers.10.self_attn.indexer.k_norm.bias",
+            "model.layers.23.input_layernorm",
+            "model.layers.38.self_attn.indexer.k_norm",
+            "model.layers.19.self_attn.kv_a_layernorm",
+            "model.layers.40.self_attn.q_a_layernorm",
+            "model.layers.10.self_attn.indexer.k_norm",
+            "model.layers.44.post_attention_layernorm",
+            "model.layers.70.post_attention_layernorm",
+            "model.layers.41.mlp.gate.e_score_correction_bias",
+            "model.layers.36.post_attention_layernorm",
+            "model.layers.30.self_attn.indexer.k_norm.bias",
+            "model.layers.54.self_attn.q_a_layernorm",
+            "model.layers.59.mlp.gate",
+            "model.layers.69.post_attention_layernorm",
+            "lm_head",
+            "model.layers.77.self_attn.kv_a_layernorm",
+            "model.layers.75.self_attn.q_a_layernorm",
+            "model.layers.56.self_attn.q_a_layernorm",
+            "model.layers.50.self_attn.indexer.k_norm.bias",
+            "model.layers.54.mlp.gate",
+            "model.layers.6.self_attn.indexer.k_norm.bias",
+            "model.layers.15.input_layernorm",
+            "model.layers.29.self_attn.q_a_layernorm",
+            "model.layers.54.self_attn.indexers_proj",
+            "model.layers.73.self_attn.kv_a_layernorm",
+            "model.layers.0.self_attn.indexer.k_norm",
+            "model.layers.58.self_attn.indexer.k_norm",
+            "model.layers.36.input_layernorm",
+            "model.layers.47.self_attn.q_a_layernorm",
+            "model.layers.26.mlp.gate.e_score_correction_bias",
+            "model.layers.50.input_layernorm",
+            "model.layers.16.self_attn.q_a_layernorm",
+            "model.layers.19.mlp.gate.e_score_correction_bias",
+            "model.layers.78.input_layernorm",
+            "model.layers.27.mlp.gate",
+            "model.layers.19.self_attn.q_a_layernorm",
+            "model.layers.25.input_layernorm",
+            "model.layers.33.self_attn.kv_a_layernorm",
+            "model.layers.32.mlp.gate",
+            "model.layers.61.self_attn.kv_a_layernorm",
+            "model.layers.50.self_attn.indexers_proj",
+            "model.layers.34.self_attn.indexers_proj",
+            "model.layers.4.mlp.gate.e_score_correction_bias",
+            "model.layers.76.post_attention_layernorm",
+            "model.layers.57.post_attention_layernorm",
+            "model.layers.73.post_attention_layernorm",
+            "model.layers.68.mlp.gate.e_score_correction_bias",
+            "model.layers.34.self_attn.kv_a_layernorm",
+            "model.layers.78.enorm",
+            "model.layers.30.mlp.gate",
+            "model.layers.10.self_attn.indexers_proj",
+            "model.layers.34.input_layernorm",
+            "model.layers.34.post_attention_layernorm",
+            "model.layers.20.mlp.gate.e_score_correction_bias",
+            "model.layers.54.self_attn.indexer.k_norm.bias",
+            "model.layers.44.mlp.gate",
+            "model.layers.25.mlp.gate.e_score_correction_bias",
+            "model.layers.26.self_attn.indexers_proj",
+            "model.layers.66.self_attn.indexer.k_norm.bias",
+            "model.layers.41.post_attention_layernorm",
+            "model.layers.51.post_attention_layernorm",
+            "model.layers.22.self_attn.indexer.k_norm.bias",
+            "model.layers.21.mlp.gate.e_score_correction_bias",
+            "model.layers.15.self_attn.kv_a_layernorm",
+            "model.layers.25.self_attn.kv_a_layernorm",
+            "model.layers.55.mlp.gate",
+            "model.layers.11.self_attn.q_a_layernorm",
+            "model.layers.72.mlp.gate",
+            "model.layers.21.self_attn.kv_a_layernorm",
+            "model.layers.59.mlp.gate.e_score_correction_bias",
+            "model.layers.2.input_layernorm",
+            "model.layers.5.mlp.gate",
+            "model.layers.54.self_attn.kv_a_layernorm",
+            "model.layers.0.self_attn.indexers_proj",
+            "model.layers.71.mlp.gate.e_score_correction_bias",
+            "model.layers.6.self_attn.q_a_layernorm",
+            "model.layers.14.mlp.gate",
+            "model.layers.44.self_attn.kv_a_layernorm",
+            "model.layers.61.post_attention_layernorm",
+            "model.layers.64.self_attn.kv_a_layernorm",
+            "model.layers.1.post_attention_layernorm",
+            "model.layers.4.mlp.gate",
+            "model.layers.22.post_attention_layernorm",
+            "model.layers.21.self_attn.q_a_layernorm",
+            "model.layers.74.self_attn.q_a_layernorm",
+            "model.layers.18.self_attn.indexers_proj",
+            "model.layers.75.input_layernorm",
+            "model.layers.70.self_attn.q_a_layernorm",
+            "model.layers.22.self_attn.indexer.k_norm",
+            "model.layers.42.mlp.gate.e_score_correction_bias",
+            "model.layers.5.self_attn.kv_a_layernorm",
+            "model.layers.31.mlp.gate.e_score_correction_bias",
+            "model.layers.62.self_attn.indexer.k_norm.bias",
+            "model.layers.29.post_attention_layernorm",
+            "model.layers.6.self_attn.kv_a_layernorm",
+            "model.layers.48.input_layernorm",
+            "model.layers.74.self_attn.indexer.k_norm.bias",
+            "model.layers.7.input_layernorm",
+            "model.layers.39.self_attn.q_a_layernorm",
+            "model.layers.41.input_layernorm",
+            "model.layers.54.self_attn.indexer.k_norm",
+            "model.layers.32.self_attn.q_a_layernorm",
+            "model.layers.39.mlp.gate.e_score_correction_bias",
+            "model.layers.42.input_layernorm",
+            "model.layers.43.mlp.gate",
+            "model.layers.72.self_attn.q_a_layernorm",
+            "model.layers.37.mlp.gate.e_score_correction_bias",
+            "model.layers.5.post_attention_layernorm",
+            "model.layers.28.mlp.gate",
+            "model.layers.2.post_attention_layernorm",
+            "model.layers.49.post_attention_layernorm",
+            "model.layers.43.self_attn.kv_a_layernorm",
+            "model.layers.12.input_layernorm",
+            "model.layers.56.mlp.gate",
+            "model.layers.5.input_layernorm",
+            "model.layers.29.mlp.gate.e_score_correction_bias",
+            "model.layers.4.self_attn.kv_a_layernorm",
+            "model.layers.20.self_attn.q_a_layernorm",
+            "model.layers.59.self_attn.q_a_layernorm",
+            "model.layers.68.mlp.gate",
+            "model.layers.21.post_attention_layernorm",
+            "model.layers.26.self_attn.q_a_layernorm",
+            "model.layers.52.self_attn.q_a_layernorm",
+            "model.layers.29.self_attn.kv_a_layernorm",
+            "model.layers.24.input_layernorm",
+            "model.layers.34.self_attn.indexer.k_norm.bias",
+            "model.layers.43.input_layernorm",
+            "model.layers.27.self_attn.kv_a_layernorm",
+            "model.layers.31.input_layernorm",
+            "model.layers.69.mlp.gate",
+            "model.layers.26.post_attention_layernorm",
+            "model.layers.3.self_attn.q_a_layernorm",
+            "model.layers.37.post_attention_layernorm",
+            "model.layers.52.mlp.gate",
+            "model.layers.73.input_layernorm",
+            "model.layers.19.input_layernorm",
+            "model.layers.13.self_attn.q_a_layernorm",
+            "model.layers.76.input_layernorm",
+            "model.layers.8.mlp.gate",
+            "model.layers.63.post_attention_layernorm",
+            "model.layers.58.mlp.gate",
+            "model.layers.31.post_attention_layernorm",
+            "model.layers.23.mlp.gate.e_score_correction_bias",
+            "model.layers.34.self_attn.q_a_layernorm",
+            "model.layers.78.self_attn.indexer.k_norm.bias",
+            "model.layers.13.mlp.gate.e_score_correction_bias",
+            "model.layers.71.mlp.gate",
+            "model.layers.14.input_layernorm",
+            "model.layers.17.mlp.gate.e_score_correction_bias",
+            "model.layers.8.post_attention_layernorm",
+            "model.layers.45.self_attn.kv_a_layernorm",
+            "model.layers.46.self_attn.indexer.k_norm",
+            "model.layers.20.self_attn.kv_a_layernorm",
+            "model.layers.78.self_attn.indexer.k_norm",
+            "model.layers.37.mlp.gate",
+            "model.layers.7.mlp.gate",
+            "model.layers.30.mlp.gate.e_score_correction_bias",
+            "model.layers.67.mlp.gate",
+            "model.layers.73.self_attn.q_a_layernorm",
+            "model.layers.10.self_attn.kv_a_layernorm",
+            "model.layers.61.mlp.gate",
+            "model.layers.22.mlp.gate.e_score_correction_bias",
+            "model.layers.58.input_layernorm",
+            "model.layers.8.self_attn.kv_a_layernorm",
+            "model.layers.33.self_attn.q_a_layernorm",
+            "model.layers.55.self_attn.q_a_layernorm",
+            "model.layers.32.input_layernorm",
+            "model.layers.17.self_attn.kv_a_layernorm",
+            "model.layers.46.self_attn.indexer.k_norm.bias",
+            "model.layers.11.mlp.gate.e_score_correction_bias",
+            "model.layers.9.input_layernorm",
+            "model.layers.77.input_layernorm",
+            "model.layers.16.self_attn.kv_a_layernorm",
+            "model.layers.45.post_attention_layernorm",
+            "model.layers.74.mlp.gate",
+            "model.layers.68.self_attn.q_a_layernorm",
+            "model.layers.55.self_attn.kv_a_layernorm",
+            "model.layers.44.input_layernorm",
+            "model.layers.60.self_attn.kv_a_layernorm",
+            "model.layers.14.post_attention_layernorm",
+            "model.layers.62.self_attn.indexers_proj",
+            "model.layers.0.self_attn.q_a_layernorm",
+            "model.layers.72.post_attention_layernorm",
+            "model.layers.78.post_attention_layernorm",
+            "model.layers.60.mlp.gate.e_score_correction_bias",
+            "model.layers.26.self_attn.indexer.k_norm.bias",
+            "model.layers.38.post_attention_layernorm",
+            "model.layers.50.post_attention_layernorm",
+            "model.layers.28.input_layernorm",
+            "model.layers.30.self_attn.indexer.k_norm",
+            "model.layers.37.self_attn.q_a_layernorm",
+            "model.layers.56.input_layernorm",
+            "model.layers.27.post_attention_layernorm",
+            "model.layers.74.input_layernorm",
+            "model.layers.78.self_attn.q_a_layernorm",
+            "model.layers.42.self_attn.q_a_layernorm",
+            "model.layers.26.self_attn.indexer.k_norm",
+            "model.layers.42.self_attn.kv_a_layernorm",
+            "model.layers.1.self_attn.indexer.k_norm",
+            "model.layers.39.post_attention_layernorm",
+            "model.layers.48.mlp.gate.e_score_correction_bias",
+            "model.layers.74.post_attention_layernorm",
+            "model.layers.69.self_attn.q_a_layernorm",
+            "model.layers.13.input_layernorm",
+            "model.layers.74.self_attn.indexer.k_norm",
+            "model.layers.29.mlp.gate",
+            "model.layers.7.mlp.gate.e_score_correction_bias",
+            "model.layers.3.self_attn.kv_a_layernorm",
+            "model.layers.35.self_attn.kv_a_layernorm",
+            "model.layers.46.self_attn.indexers_proj",
+            "model.layers.0.self_attn.kv_a_layernorm",
+            "model.layers.43.self_attn.q_a_layernorm",
+            "model.norm",
+            "model.layers.1.self_attn.kv_a_layernorm",
+            "model.layers.38.self_attn.indexer.k_norm.bias",
+            "model.layers.30.self_attn.q_a_layernorm",
+            "model.layers.0.input_layernorm",
+            "model.layers.47.input_layernorm",
+            "model.layers.8.self_attn.q_a_layernorm",
+            "model.layers.61.self_attn.q_a_layernorm",
+            "model.layers.1.self_attn.indexer.k_norm.bias",
+            "model.layers.62.mlp.gate.e_score_correction_bias",
+            "model.layers.66.self_attn.q_a_layernorm",
+            "model.layers.46.self_attn.kv_a_layernorm",
+            "model.layers.66.mlp.gate",
+            "model.layers.69.input_layernorm",
+            "model.layers.69.self_attn.kv_a_layernorm",
+            "model.layers.22.input_layernorm",
+            "model.layers.30.post_attention_layernorm",
+            "model.layers.24.self_attn.q_a_layernorm",
+            "model.layers.48.mlp.gate",
+            "model.layers.7.self_attn.kv_a_layernorm",
+            "model.layers.67.input_layernorm",
+            "model.layers.27.self_attn.q_a_layernorm",
+            "model.layers.23.mlp.gate",
+            "model.layers.45.mlp.gate.e_score_correction_bias",
+            "model.layers.76.self_attn.kv_a_layernorm",
+            "model.layers.22.self_attn.q_a_layernorm",
+            "model.layers.78.mlp.gate",
+            "model.layers.9.mlp.gate",
+            "model.layers.57.self_attn.q_a_layernorm",
+            "model.layers.78.mlp.gate.e_score_correction_bias",
+            "model.layers.23.post_attention_layernorm",
+            "model.layers.38.self_attn.q_a_layernorm",
+            "model.layers.53.mlp.gate",
+            "model.layers.77.self_attn.q_a_layernorm",
+            "model.layers.62.self_attn.kv_a_layernorm",
+            "model.layers.12.mlp.gate",
+            "model.layers.34.self_attn.indexer.k_norm",
+            "model.layers.46.self_attn.q_a_layernorm",
+            "model.layers.36.self_attn.q_a_layernorm",
+            "model.layers.58.self_attn.indexer.k_norm.bias",
+            "model.layers.60.post_attention_layernorm",
+            "model.layers.28.post_attention_layernorm",
+            "model.layers.2.self_attn.kv_a_layernorm",
+            "model.layers.70.self_attn.indexers_proj",
+            "model.layers.16.mlp.gate.e_score_correction_bias",
+            "model.layers.2.self_attn.indexer.k_norm",
+            "model.layers.31.self_attn.kv_a_layernorm",
+            "model.layers.64.input_layernorm",
+            "model.layers.6.mlp.gate.e_score_correction_bias",
+            "model.layers.50.self_attn.indexer.k_norm",
+            "model.layers.58.self_attn.q_a_layernorm",
+            "model.layers.57.mlp.gate.e_score_correction_bias",
+            "model.layers.13.post_attention_layernorm",
+            "model.layers.28.self_attn.kv_a_layernorm",
+            "model.layers.31.self_attn.q_a_layernorm",
+            "model.layers.1.self_attn.q_a_layernorm",
+            "model.layers.17.mlp.gate",
+            "model.layers.15.post_attention_layernorm",
+            "model.layers.18.self_attn.indexer.k_norm.bias",
+            "model.layers.18.self_attn.indexer.k_norm",
+            "model.layers.43.mlp.gate.e_score_correction_bias",
+            "model.layers.11.input_layernorm",
+            "model.layers.9.post_attention_layernorm",
+            "model.layers.33.input_layernorm",
+            "model.layers.66.input_layernorm",
+            "model.layers.78.self_attn.indexers_proj",
+            "model.layers.54.post_attention_layernorm",
+            "model.layers.53.mlp.gate.e_score_correction_bias",
+            "model.layers.5.mlp.gate.e_score_correction_bias",
+            "model.layers.19.mlp.gate",
+            "model.layers.49.mlp.gate",
+            "model.layers.66.self_attn.indexers_proj",
+            "model.layers.14.self_attn.indexer.k_norm.bias",
+            "model.layers.41.mlp.gate",
+            "model.layers.42.self_attn.indexer.k_norm.bias",
+            "model.layers.65.input_layernorm",
+            "model.layers.75.mlp.gate",
+            "model.layers.12.self_attn.kv_a_layernorm",
+            "model.layers.53.input_layernorm",
+            "model.layers.58.self_attn.kv_a_layernorm",
+            "model.layers.60.self_attn.q_a_layernorm",
+            "model.layers.6.mlp.gate",
+            "model.layers.49.self_attn.kv_a_layernorm",
+            "model.layers.16.mlp.gate",
+            "model.layers.22.mlp.gate",
+            "model.layers.58.post_attention_layernorm",
+            "model.layers.15.mlp.gate.e_score_correction_bias",
+            "model.layers.26.input_layernorm",
+            "model.layers.3.post_attention_layernorm",
+            "model.layers.6.input_layernorm",
+            "model.layers.22.self_attn.kv_a_layernorm",
+            "model.layers.16.input_layernorm",
+            "model.layers.33.post_attention_layernorm",
+            "model.layers.17.post_attention_layernorm",
+            "model.layers.35.mlp.gate",
+            "model.layers.56.post_attention_layernorm",
+            "model.layers.7.self_attn.q_a_layernorm",
+            "model.layers.24.mlp.gate",
+            "model.layers.24.post_attention_layernorm",
+            "model.layers.36.mlp.gate.e_score_correction_bias",
+            "model.layers.56.mlp.gate.e_score_correction_bias",
+            "model.layers.32.post_attention_layernorm",
+            "model.layers.47.post_attention_layernorm",
+            "model.layers.40.mlp.gate",
+            "model.layers.41.self_attn.kv_a_layernorm",
+            "model.layers.52.self_attn.kv_a_layernorm",
+            "model.layers.9.self_attn.kv_a_layernorm",
+            "model.layers.77.mlp.gate.e_score_correction_bias",
+            "model.layers.78.shared_head.norm",
+            "model.layers.53.post_attention_layernorm",
+            "model.layers.63.self_attn.kv_a_layernorm",
+            "model.layers.48.self_attn.kv_a_layernorm",
+            "model.layers.28.mlp.gate.e_score_correction_bias",
+            "model.layers.8.mlp.gate.e_score_correction_bias",
+            "model.layers.52.mlp.gate.e_score_correction_bias",
+            "model.layers.52.post_attention_layernorm",
+            "model.layers.18.self_attn.q_a_layernorm",
+            "model.layers.50.mlp.gate.e_score_correction_bias",
+            "model.layers.64.mlp.gate.e_score_correction_bias",
+            "model.layers.38.mlp.gate.e_score_correction_bias",
+            "model.layers.59.input_layernorm",
+            "model.layers.21.input_layernorm",
+            "model.layers.39.mlp.gate",
+            "model.layers.77.post_attention_layernorm",
+            "model.layers.76.self_attn.q_a_layernorm",
+            "model.layers.12.post_attention_layernorm",
+            "model.layers.43.post_attention_layernorm",
+            "model.layers.35.input_layernorm",
+            "model.layers.62.mlp.gate",
+            "model.layers.38.self_attn.kv_a_layernorm",
+            "model.layers.63.mlp.gate",
+            "model.layers.27.mlp.gate.e_score_correction_bias",
+            "model.layers.18.mlp.gate",
+            "model.layers.25.post_attention_layernorm",
+            "model.layers.55.mlp.gate.e_score_correction_bias",
+            "model.layers.66.self_attn.indexer.k_norm",
+            "model.layers.48.self_attn.q_a_layernorm",
+            "model.layers.78.eh_proj",
+            "model.layers.77.mlp.gate",
+            "model.layers.6.self_attn.indexers_proj",
+            "model.layers.14.self_attn.q_a_layernorm",
+            "model.layers.2.self_attn.q_a_layernorm",
+            "model.layers.42.mlp.gate",
+            "model.layers.54.mlp.gate.e_score_correction_bias",
+            "model.layers.60.input_layernorm",
+            "model.layers.40.self_attn.kv_a_layernorm",
+            "model.layers.51.self_attn.kv_a_layernorm",
+            "model.layers.18.input_layernorm",
+            "model.layers.30.self_attn.indexers_proj",
+            "model.layers.53.self_attn.kv_a_layernorm",
+            "model.layers.6.post_attention_layernorm",
+            "model.layers.70.self_attn.indexer.k_norm.bias",
+            "model.layers.54.input_layernorm",
+            "model.layers.41.self_attn.q_a_layernorm",
+            "model.layers.18.mlp.gate.e_score_correction_bias",
+            "model.layers.34.mlp.gate.e_score_correction_bias",
+            "model.layers.47.mlp.gate",
+            "model.layers.46.mlp.gate",
+            "model.layers.25.self_attn.q_a_layernorm",
+            "model.layers.63.mlp.gate.e_score_correction_bias",
+            "model.layers.66.post_attention_layernorm",
+            "model.layers.76.mlp.gate",
+            "model.embed_tokens",
+            "model.layers.67.self_attn.kv_a_layernorm",
+            "model.layers.67.mlp.gate.e_score_correction_bias",
+            "model.layers.26.self_attn.kv_a_layernorm",
+            "model.layers.31.mlp.gate",
+            "model.layers.18.self_attn.kv_a_layernorm",
+            "model.layers.34.mlp.gate",
+            "model.layers.55.post_attention_layernorm",
+            "model.layers.30.input_layernorm",
+            "model.layers.50.mlp.gate",
+            "model.layers.63.input_layernorm",
+            "model.layers.11.self_attn.kv_a_layernorm",
+            "model.layers.24.self_attn.kv_a_layernorm",
+            "model.layers.75.mlp.gate.e_score_correction_bias",
+            "model.layers.10.post_attention_layernorm",
+            "model.layers.1.self_attn.indexers_proj",
+            "model.layers.42.self_attn.indexers_proj",
+            "model.layers.46.input_layernorm",
+            "model.layers.23.self_attn.q_a_layernorm",
+            "model.layers.63.self_attn.q_a_layernorm",
+            "model.layers.14.self_attn.indexer.k_norm",
+            "model.layers.14.self_attn.indexers_proj",
+            "model.layers.60.mlp.gate",
+            "model.layers.70.mlp.gate.e_score_correction_bias",
+            "model.layers.53.self_attn.q_a_layernorm",
+            "model.layers.0.post_attention_layernorm",
+            "model.layers.35.mlp.gate.e_score_correction_bias",
+            "model.layers.75.self_attn.kv_a_layernorm",
+            "model.layers.1.input_layernorm",
+            "model.layers.42.post_attention_layernorm",
+            "model.layers.37.input_layernorm",
+            "model.layers.9.mlp.gate.e_score_correction_bias",
+            "model.layers.46.post_attention_layernorm",
+            "model.layers.26.mlp.gate",
+            "model.layers.65.mlp.gate.e_score_correction_bias",
+            "model.layers.67.self_attn.q_a_layernorm",
+            "model.layers.44.mlp.gate.e_score_correction_bias",
+            "model.layers.33.mlp.gate",
+            "model.layers.29.input_layernorm",
+            "model.layers.18.post_attention_layernorm",
+            "model.layers.75.post_attention_layernorm",
+            "model.layers.44.self_attn.q_a_layernorm",
+            "model.layers.10.mlp.gate",
+            "model.layers.21.mlp.gate",
+            "model.layers.58.mlp.gate.e_score_correction_bias",
+            "model.layers.7.post_attention_layernorm",
+            "model.layers.50.self_attn.q_a_layernorm",
+            "model.layers.9.self_attn.q_a_layernorm",
+            "model.layers.2.self_attn.indexers_proj",
+            "model.layers.0.self_attn.indexer.k_norm.bias",
+            "model.layers.74.self_attn.kv_a_layernorm",
+            "model.layers.74.mlp.gate.e_score_correction_bias",
+            "model.layers.49.mlp.gate.e_score_correction_bias",
+            "model.layers.62.post_attention_layernorm",
+            "model.layers.57.self_attn.kv_a_layernorm",
+            "model.layers.40.input_layernorm",
+            "model.layers.69.mlp.gate.e_score_correction_bias",
+            "model.layers.35.post_attention_layernorm",
+            "model.layers.74.self_attn.indexers_proj",
+            "model.layers.55.input_layernorm",
+            "model.layers.49.input_layernorm",
+            "model.layers.40.mlp.gate.e_score_correction_bias",
+            "model.layers.25.mlp.gate",
+            "model.layers.2.self_attn.indexer.k_norm.bias",
+            "model.layers.68.self_attn.kv_a_layernorm",
+            "model.layers.51.input_layernorm",
+            "model.layers.22.self_attn.indexers_proj",
+            "model.layers.10.input_layernorm",
+            "model.layers.42.self_attn.indexer.k_norm",
+            "model.layers.56.self_attn.kv_a_layernorm",
+            "model.layers.17.self_attn.q_a_layernorm",
+            "model.layers.59.self_attn.kv_a_layernorm",
+            "model.layers.3.input_layernorm",
+            "model.layers.57.input_layernorm",
+            "model.layers.38.input_layernorm",
+            "model.layers.62.self_attn.indexer.k_norm",
+            "model.layers.20.mlp.gate",
+            "model.layers.64.mlp.gate",
+            "model.layers.28.self_attn.q_a_layernorm",
+            "model.layers.32.self_attn.kv_a_layernorm",
+            "model.layers.10.mlp.gate.e_score_correction_bias",
+            "model.layers.5.self_attn.q_a_layernorm",
+            "model.layers.37.self_attn.kv_a_layernorm"
+          ]
+        },
+        "tokenizer_config": {
+          "eos_token": "<|endoftext|>",
+          "pad_token": "<|endoftext|>"
+        },
+        "chat_template_jinja": "[gMASK]<sop>\n{%- set effective_reasoning_effort = reasoning_effort if reasoning_effort is defined and reasoning_effort in ['low', 'high'] else 'max' -%}\n{%- if effective_reasoning_effort is not none -%}<|system|>Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\n{%- set clear_thinking = clear_thinking if clear_thinking is defined else false -%}\n{%- if tools -%}\n{%- macro tool_to_json(tool) -%}\n    {%- set ns_tool = namespace(first=true) -%}\n    {{ '{' -}}\n    {%- for k, v in tool.items() -%}\n        {%- if k != 'defer_loading' and k != 'strict' -%}\n            {%- if not ns_tool.first -%}{{- ', ' -}}{%- endif -%}\n            {%- set ns_tool.first = false -%}\n            \"{{ k }}\": {{ v | tojson(ensure_ascii=False) }}\n        {%- endif -%}\n    {%- endfor -%}\n    {{- '}' -}}\n{%- endmacro -%}\n{%- macro tool_references_to_response(refs) -%}\n    {{- '<tool_response><tools>\\n' -}}\n    {%- for tr in refs -%}\n        {%- for tool in tools -%}\n            {%- if 'function' in tool -%}\n                {%- set tool = tool['function'] -%}\n            {%- endif -%}\n            {%- if tool.name == tr.name -%}\n                {{- tool_to_json(tool) + '\\n' -}}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- endfor -%}\n    {{- '</tools></tool_response>' -}}\n{%- endmacro -%}\n<|system|>\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{% for tool in tools %}\n{%- if 'function' in tool -%}\n    {%- set tool = tool['function'] -%}\n{%- endif -%}\n{% if tool.defer_loading is not defined or not tool.defer_loading %}\n{{ tool_to_json(tool) }}\n{% endif %}\n{% endfor %}\n</tools>\n\nFor each function call, output the function name and arguments within the following XML format:\n<tool_call>{function-name}<arg_key>{arg-key-1}</arg_key><arg_value>{arg-value-1}</arg_value><arg_key>{arg-key-2}</arg_key><arg_value>{arg-value-2}</arg_value>...</tool_call>{%- endif -%}\n{%- macro visible_text(content) -%}\n    {%- if content is string -%}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping -%}\n        {%- for item in content -%}\n            {%- if item is mapping and item.type == 'text' -%}\n                {{- item.text }}\n            {%- elif item is string -%}\n                {{- item }}\n            {%- elif item is mapping and item.type in ['image', 'image_url', 'video', 'video_url', 'audio', 'audio_url', 'input_audio'] -%}\n                {%- set media_type = item.type | replace('_url', '') | replace('input_', '') -%}\n                {{- \"<reminder>You are unable to process this \" ~ media_type ~ \" because you don't have multi-modal input ability. Try different methods.</reminder>\" }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- elif content is not none -%}\n        {{- content }}\n    {%- endif -%}\n{%- endmacro -%}\n{%- macro tool_response(text) -%}\n{{- '<tool_response>' + text + '</tool_response>' -}}\n{%- endmacro -%}\n{%- macro render_tool_response(m) -%}\n{%- if m.content is string -%}\n    {{- tool_response(m.content) -}}\n{%- elif m.content and m.content is not mapping and m.content.0.type == \"tool_reference\" -%}\n    {{- tool_references_to_response(m.content) -}}\n{%- elif is_list_of_outputs(m) -%}\n    {%- for tr in m.content -%}\n        {%- if tr.output is iterable and tr.output is not string and tr.output is not mapping and tr.output and tr.output.0.type == \"tool_reference\" -%}\n            {{- tool_references_to_response(tr.output) -}}\n        {%- else -%}\n            {{- tool_response(visible_text(tr.output)) -}}\n        {%- endif -%}\n    {%- endfor -%}\n{%- else -%}\n    {{- tool_response(visible_text(m.content)) -}}\n{%- endif -%}\n{%- endmacro -%}\n{%- macro id_of(obj) -%}\n    {%- if obj.tool_call_id -%}\n        {{- obj.tool_call_id -}}\n    {%- elif obj.id -%}\n        {{- obj.id -}}\n    {%- endif -%}\n{%- endmacro -%}\n{%- macro is_list_of_outputs(m) -%}\n    {%- if m.content and m.content.0.output is defined -%}1{%- endif -%}\n{%- endmacro -%}\n{%- macro has_dup_tool_result_id(lo, hi, target) -%}\n    {%- set ns_cnt = namespace(n=0) -%}\n    {%- for k in range(lo, hi + 1) -%}\n        {%- set m = messages[k] -%}\n        {%- if is_list_of_outputs(m) -%}\n            {%- for entry in m.content -%}\n                {%- if id_of(entry) == target -%}\n                    {%- set ns_cnt.n = ns_cnt.n + 1 -%}\n                {%- endif -%}\n            {%- endfor -%}\n        {%- elif id_of(m) == target -%}\n            {%- set ns_cnt.n = ns_cnt.n + 1 -%}\n        {%- endif -%}\n        {%- if ns_cnt.n > 1 -%}{%- break -%}{%- endif -%}\n    {%- endfor -%}\n    {%- if ns_cnt.n > 1 -%}1{%- endif -%}\n{%- endmacro -%}\n{%- macro tc_id_exists(tcs, target) -%}\n    {%- set ns_f = namespace(found=false) -%}\n    {%- for tc in tcs -%}\n        {%- if id_of(tc) == target -%}\n            {%- set ns_f.found = true -%}\n            {%- break -%}\n        {%- endif -%}\n    {%- endfor -%}\n    {%- if ns_f.found -%}1{%- endif -%}\n{%- endmacro -%}\n{%- set ns = namespace(last_user_index=-1) -%}\n{%- for m in messages %}\n    {%- if m.role == 'user' %}\n        {%- set ns.last_user_index = loop.index0 -%}\n    {%- endif %}\n{%- endfor %}\n{%- for m in messages -%}\n{%- if m.role == 'user' -%}<|user|>{{ visible_text(m.content) }}\n{%- elif m.role == 'assistant' -%}\n<|assistant|>\n{%- set content = visible_text(m.content) %}\n{%- if m.reasoning_content is string %}\n    {%- set reasoning_content = m.reasoning_content %}\n{%- elif '</think>' in content %}\n    {%- set reasoning_content = content.split('</think>')[0].split('<think>')[-1] %}\n    {%- set content = content.split('</think>')[-1] %}\n{%- endif %}\n{%- if (not clear_thinking or loop.index0 > ns.last_user_index) and reasoning_content is defined -%}\n{{ '<think>' + reasoning_content +  '</think>'}}\n{%- else -%}\n{{ '<think></think>' }}\n{%- endif -%}\n{%- if content.strip() -%}\n{{ content.strip() }}\n{%- endif -%}\n{% if m.tool_calls %}\n{% for tc in m.tool_calls %}\n{%- if tc.function %}\n    {%- set tc = tc.function %}\n{%- endif %}\n{{- '<tool_call>' + tc.name -}}\n{% set _args = tc.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_value>{{ v | tojson(ensure_ascii=False) if v is not string else v }}</arg_value>{% endfor %}</tool_call>{% endfor %}\n{% endif %}\n{%- elif m.role == 'tool' -%}\n{%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n    {{- '<|observation|>' -}}\n    {%- set block_start = loop.index0 -%}\n    {%- set ns_blk = namespace(end=block_start) -%}\n    {%- for j in range(block_start, messages|length) -%}\n        {%- if messages[j].role == 'tool' -%}\n            {%- set ns_blk.end = j -%}\n        {%- else -%}\n            {%- break -%}\n        {%- endif -%}\n    {%- endfor -%}\n    {%- set ns_a = namespace(tool_calls=none) -%}\n    {%- if block_start > 0 and messages[block_start - 1].role == 'assistant' and messages[block_start - 1].tool_calls -%}\n        {%- set ns_a.tool_calls = messages[block_start - 1].tool_calls -%}\n    {%- endif -%}\n    {%- set ns_chk = namespace(can_sort=true) -%}\n    {%- if not ns_a.tool_calls -%}\n        {%- set ns_chk.can_sort = false -%}\n    {%- else -%}\n        {%- for k in range(block_start, ns_blk.end + 1) -%}\n            {%- if not ns_chk.can_sort -%}{%- break -%}{%- endif -%}\n            {%- set m = messages[k] -%}\n            {%- if is_list_of_outputs(m) -%}\n                {%- for entry in m.content -%}\n                    {%- if not ns_chk.can_sort -%}{%- break -%}{%- endif -%}\n                    {%- set eid = id_of(entry) -%}\n                    {%- if not eid -%}\n                        {%- set ns_chk.can_sort = false -%}\n                    {%- elif has_dup_tool_result_id(block_start, ns_blk.end, eid) -%}\n                        {%- set ns_chk.can_sort = false -%}\n                    {%- elif not tc_id_exists(ns_a.tool_calls, eid) -%}\n                        {%- set ns_chk.can_sort = false -%}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- else -%}\n                {%- set tk_id = id_of(m) -%}\n                {%- if not tk_id -%}\n                    {%- set ns_chk.can_sort = false -%}\n                {%- elif has_dup_tool_result_id(block_start, ns_blk.end, tk_id) -%}\n                    {%- set ns_chk.can_sort = false -%}\n                {%- elif not tc_id_exists(ns_a.tool_calls, tk_id) -%}\n                    {%- set ns_chk.can_sort = false -%}\n                {%- endif -%}\n            {%- endif -%}\n        {%- endfor -%}\n        {%- for i in range(ns_a.tool_calls | length) -%}\n            {%- if not ns_chk.can_sort -%}{%- break -%}{%- endif -%}\n            {%- set tc_id = id_of(ns_a.tool_calls[i]) -%}\n            {%- if not tc_id -%}\n                {%- set ns_chk.can_sort = false -%}\n            {%- endif -%}\n            {%- for j in range(i + 1, ns_a.tool_calls | length) -%}\n                {%- if id_of(ns_a.tool_calls[j]) == tc_id -%}\n                    {%- set ns_chk.can_sort = false -%}\n                    {%- break -%}\n                {%- endif -%}\n            {%- endfor -%}\n        {%- endfor -%}\n    {%- endif -%}\n    {%- if ns_chk.can_sort -%}\n        {%- for tc in ns_a.tool_calls -%}\n            {%- set tc_id = id_of(tc) -%}\n            {%- for k in range(block_start, ns_blk.end + 1) -%}\n                {%- set m = messages[k] -%}\n                {%- if is_list_of_outputs(m) -%}\n                    {%- for entry in m.content -%}\n                        {%- set eid = id_of(entry) -%}\n                        {%- if eid == tc_id -%}\n                            {%- if entry.output is iterable and entry.output is not string and entry.output is not mapping and entry.output and entry.output.0.type == \"tool_reference\" -%}\n                                {{- tool_references_to_response(entry.output) -}}\n                            {%- else -%}\n                                {{- tool_response(visible_text(entry.output)) -}}\n                            {%- endif -%}\n                        {%- endif -%}\n                    {%- endfor -%}\n                {%- else -%}\n                    {%- set tk_id = id_of(m) -%}\n                    {%- if tk_id == tc_id -%}\n                        {{- render_tool_response(m) -}}\n                    {%- endif -%}\n                {%- endif -%}\n            {%- endfor -%}\n        {%- endfor -%}\n    {%- else -%}\n        {%- for k in range(block_start, ns_blk.end + 1) -%}\n            {{- render_tool_response(messages[k]) -}}\n        {%- endfor -%}\n    {%- endif -%}\n{% endif -%}\n{%- elif m.role == 'system' -%}\n<|system|>{{ visible_text(m.content) }}\n{%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    <|assistant|>{{- '<think>' -}}\n{%- endif -%}\n"
+      },
+      "cardData": {
+        "language": [
+          "en",
+          "zh"
+        ],
+        "library_name": "transformers",
+        "license": "other",
+        "license_name": "glm-5.3",
+        "pipeline_tag": "text-generation"
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForCausalLM",
+        "pipeline_tag": "text-generation",
+        "processor": "AutoTokenizer"
+      },
+      "siblings": [
+        {
+          "rfilename": ".eval_results/deep-swe.yaml"
+        },
+        {
+          "rfilename": ".eval_results/hle.yaml"
+        },
+        {
+          "rfilename": ".eval_results/terminal-bench-2.1.yaml"
+        },
+        {
+          "rfilename": ".eval_results/terminal-bench-3.0.yaml"
+        },
+        {
+          "rfilename": ".eval_results/zai-org__GLM-5.3.yaml"
+        },
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00005-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00006-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00007-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00008-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00009-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00010-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00011-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00012-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00013-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00014-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00015-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00016-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00017-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00018-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00019-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00020-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00021-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00022-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00023-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00024-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00025-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00026-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00027-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00028-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00029-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00030-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00031-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00032-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00033-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00034-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00035-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00036-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00037-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00038-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00039-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00040-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00041-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00042-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00043-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00044-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00045-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00046-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00047-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00048-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00049-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00050-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00051-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00052-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00053-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00054-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00055-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00056-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00057-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00058-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00059-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00060-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00061-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00062-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00063-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00064-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00065-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00066-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00067-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00068-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00069-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00070-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00071-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00072-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00073-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00074-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00075-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00076-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00077-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00078-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00079-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00080-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00081-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00082-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00083-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00084-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00085-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00086-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00087-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00088-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00089-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00090-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00091-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00092-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00093-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00094-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00095-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00096-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00097-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00098-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00099-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00100-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00101-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00102-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00103-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00104-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00105-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00106-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00107-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00108-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00109-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00110-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00111-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00112-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00113-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00114-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00115-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00116-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00117-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00118-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00119-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00120-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00121-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00122-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00123-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00124-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00125-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00126-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00127-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00128-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00129-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00130-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00131-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00132-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00133-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00134-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00135-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00136-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00137-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00138-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00139-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00140-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model-00141-of-00141.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "VIDraft/global-llm-leaderboard",
+        "llamameta/glm5.3-xliberated-free",
+        "akhaliq/GLM-5.3",
+        "Jindrich3/openajaj",
+        "adamm-hf/P-NP",
+        "abonaie222263/hf-openai-proxy",
+        "Prekzursil/GLM-5.3",
+        "DeeSin/TestDeploy",
+        "SZLHOLDINGS/szl-frontier",
+        "developerjeremylive/hf-openai-proxy-etheroi",
+        "malaiwah/qfs-explorer"
       ],
       "createdAt": "2026-08-25T06:42:50.000Z",
       "safetensors": {
@@ -5645,8 +7134,8 @@
     },
     "qwen/qwen3.8-27b": {
       "id": "Qwen/Qwen3.8-27B",
-      "downloads": 6190807,
-      "likes": 14165,
+      "downloads": 6712160,
+      "likes": 14431,
       "lastModified": "2026-08-14T15:00:01.000Z",
       "tags": [
         "transformers",
@@ -5809,19 +7298,20 @@
       ],
       "spaces": [
         "JonathanColetti/Qwen3.8-27B-Uncensored-Demo",
-        "prithivMLmods/Qwen3.8-27B-Object-Detection",
         "victor/Qwen3.8-27B-free-endpoint",
-        "apathy-exe/Qwen3.8-27B",
-        "EuroEval/euroeval_leaderboard",
-        "chay123-crypto/NeetWise",
-        "Wanyamaelis/Qwen3.8-27B",
-        "mulfis238/qwen3.8-27b-uncensored-demo",
         "MaziyarPanahi/lotus-court-qwen38",
+        "EuroEval/euroeval_leaderboard",
+        "apathy-exe/Qwen3.8-27B",
+        "prithivMLmods/Qwen3.8-27B-Object-Detection",
+        "mulfis238/qwen3.8-27b-uncensored-demo",
         "dromerosm/groq-chatbot",
+        "chay123-crypto/NeetWise",
+        "lalopenguin/minimax-h3-demo",
         "DeepImagix/self-trained2",
         "DivitS/AIPoweredAnalyticsTool",
         "vrfefavr/alumini_feedback",
         "Jchamo/extractly-web-data-extraction-in-plain-english",
+        "satyaballa/YT_Summarizer_Pro",
         "teachervictor/stock-analysis-tw",
         "caio007/tati-ai-backend",
         "urielmendez-edu/cotizador.onetrip",
@@ -5829,6 +7319,7 @@
         "akhaliq/Qwen3.8-27B",
         "llamameta/qwen3.8-27b-benchmaxx",
         "Lajid/Qwen3.8-27B-free-endpoint",
+        "Wanyamaelis/Qwen3.8-27B",
         "RiverRider/walk-the-space",
         "veltrixcode/pycomp",
         "Raiqts/RapidOCR",
@@ -5838,11 +7329,14 @@
         "siddhm11/prompt-engine",
         "ash001/Hybrid_RAG_Suite",
         "ash001/LangGraph_Multi-Agent_Orchestrator",
+        "omarahmed176/alzheimer-detection-api",
         "qikp/tokenizers",
         "nexusbert/Aglimate",
         "purebyteAI/backend-mood-mirror-ai",
         "manarsaber11/document-processor",
+        "KhwaishK/ChartTable-RAG",
         "goalsfloors/goals-ai-consultant",
+        "prepapierreo/Assisclic",
         "ditorress/retroalimentacion-docentes",
         "manarsaber11/rag",
         "kafagva/ytb0677",
@@ -5850,6 +7344,7 @@
         "alishba38/curemind",
         "Xameraman5022/Nova-Guides",
         "Ai-WhizKid/StudyMate",
+        "banjl4487/JARVIS_HABE_PROJECT",
         "w902287/ai-bridge",
         "AnhFeee/hcmue-handbook-rag-api",
         "atif977/hvac-voice-backend",
@@ -5858,6 +7353,7 @@
         "seanpedrickcase/agentic_document_redaction",
         "ahadprogamer/omni_ai",
         "Maanviiii/ConvoQL-backend",
+        "bangaa35/chatbottm",
         "Omhugginggface/netguard-ai-backend",
         "mussarat123shamsher/porfolio-backend",
         "Prashantk5/Lesscartpay-Private",
@@ -5868,11 +7364,11 @@
         "krishiawasthi/company-research-agent",
         "A-D-H-I/ai-career-assistant-rag-service",
         "Deeploopinnovations/decaymate-backend",
-        "falahfahrur/LawLens",
         "iamfebin/algospaced-dsa",
         "jhasomanshu/pitchperfect-api",
         "Zeeskylaw/axirapp",
         "atalahabid19/edusight",
+        "usamahassan965/findociq-demo",
         "Aaditeya/the-stacks-brain",
         "One2SkipAfew/tutormina-ai",
         "eskaykaushik/kaushix-api",
@@ -5900,14 +7396,7 @@
         "zhanwenchen/chronotope-report",
         "konvursions/qwen38-27b-uncensored-mlx-demo",
         "hugging-science/Qwen3.8-27B",
-        "pilotvar/Qwen3.8-27B-VL-Chat",
-        "angiekh/ai-art-curator",
-        "gguhf/Qwen3.8-27B",
-        "nani78/gaia-final-agent",
-        "ArushBuilds/CHATLMZEROGPU",
-        "Techbitforge/gemma-4-12b-it",
-        "Yasha1990/Qwen3.8-27B-Uncensored-MLX-Demo",
-        "Fedemushi/qwen38-27b-demo"
+        "pilotvar/Qwen3.8-27B-VL-Chat"
       ],
       "createdAt": "2026-08-05T08:22:59.000Z",
       "safetensors": {
@@ -5921,8 +7410,8 @@
     },
     "qwen/qwen3.8-2.4t-a95b": {
       "id": "Qwen/Qwen3.8-2.4T-A95B",
-      "downloads": 51714,
-      "likes": 1204,
+      "downloads": 52672,
+      "likes": 1206,
       "lastModified": "2026-08-12T10:24:04.000Z",
       "tags": [
         "transformers",
@@ -6662,8 +8151,8 @@
         }
       ],
       "spaces": [
-        "pollen-robotics/reachy-mini-text-to-motion",
         "llamameta/glm5.3-xliberated-free",
+        "pollen-robotics/reachy-mini-text-to-motion",
         "wayneworkman2012/ww2-dialog-collector",
         "llamameta/Kiana-Qwen-New-Mystery-Model",
         "llamameta/qwen3.8-27b-benchmaxx",
@@ -6683,8 +8172,8 @@
     },
     "qwen/qwen3.8-2.4t-a95b:batch": {
       "id": "Qwen/Qwen3.8-2.4T-A95B",
-      "downloads": 51714,
-      "likes": 1204,
+      "downloads": 52672,
+      "likes": 1206,
       "lastModified": "2026-08-12T10:24:04.000Z",
       "tags": [
         "transformers",
@@ -7424,8 +8913,8 @@
         }
       ],
       "spaces": [
-        "pollen-robotics/reachy-mini-text-to-motion",
         "llamameta/glm5.3-xliberated-free",
+        "pollen-robotics/reachy-mini-text-to-motion",
         "wayneworkman2012/ww2-dialog-collector",
         "llamameta/Kiana-Qwen-New-Mystery-Model",
         "llamameta/qwen3.8-27b-benchmaxx",
@@ -7445,8 +8934,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "downloads": 154525,
-      "likes": 807,
+      "downloads": 164699,
+      "likes": 812,
       "lastModified": "2026-08-13T16:28:28.000Z",
       "tags": [
         "transformers",
@@ -7814,8 +9303,8 @@
       "spaces": [
         "Jindrich3/openajaj",
         "adamm-hf/P-NP",
-        "abonaie222263/hf-openai-proxy",
         "mikedorian369/deepseek-v4-pro-0813-showcase",
+        "abonaie222263/hf-openai-proxy",
         "dherain24/sandbox-6e4eb356",
         "llamameta/deepseek",
         "rahulthespy/deepseek-v4-pro-0813-demo",
@@ -7841,8 +9330,8 @@
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "downloads": 154525,
-      "likes": 807,
+      "downloads": 164699,
+      "likes": 812,
       "lastModified": "2026-08-13T16:28:28.000Z",
       "tags": [
         "transformers",
@@ -8210,8 +9699,8 @@
       "spaces": [
         "Jindrich3/openajaj",
         "adamm-hf/P-NP",
-        "abonaie222263/hf-openai-proxy",
         "mikedorian369/deepseek-v4-pro-0813-showcase",
+        "abonaie222263/hf-openai-proxy",
         "dherain24/sandbox-6e4eb356",
         "llamameta/deepseek",
         "rahulthespy/deepseek-v4-pro-0813-demo",
@@ -8237,8 +9726,8 @@
     },
     "deepseek/deepseek-v4-flash-0731": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "downloads": 4486631,
-      "likes": 3893,
+      "downloads": 4425802,
+      "likes": 3914,
       "lastModified": "2026-08-01T03:07:41.000Z",
       "tags": [
         "transformers",
@@ -8555,17 +10044,17 @@
         "VIDraft/global-llm-leaderboard",
         "adamm-hf/P-NP",
         "osolmaz/microquack",
-        "abonaie222263/hf-openai-proxy",
         "victor/DeepSeek-V4-Flash-0731-free-endpoint",
         "gacorsedunia/deepseek-v4-flash-demo",
         "amisima/MiniMax-Music3",
         "XXXMARK/MiniMax-Music3",
+        "abonaie222263/hf-openai-proxy",
         "Malaji71/Prompteador",
         "wootdafook11/chat_backend",
         "wewe1/chat_backend",
-        "Shivlal6660jyoti/RJS_VIDEO",
         "dherain24/claude-proxy",
         "dherain24/sandbox-6e4eb356",
+        "Shivlal6660jyoti/MTTS",
         "Bob3432433/DeepSeek-V4-Flash",
         "ku2407u702/clipflow-demo",
         "abhay1704/content-generator-rsi",
@@ -8601,6 +10090,8 @@
         "Shivlal6660jyotiloveshiv/sks",
         "1990two/PROJECT92-v2",
         "mohamedtsou/devfolio-ai-rag-static",
+        "ChandraPrakashBathula/show-the-wire",
+        "St3phen/CSDS553-CaseStudy1-4",
         "developerjeremylive/hf-openai-proxy-etheroi",
         "smartdigitalnetworks/generative_songs"
       ],
@@ -8620,8 +10111,8 @@
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "downloads": 4486631,
-      "likes": 3893,
+      "downloads": 4425802,
+      "likes": 3914,
       "lastModified": "2026-08-01T03:07:41.000Z",
       "tags": [
         "transformers",
@@ -8938,17 +10429,17 @@
         "VIDraft/global-llm-leaderboard",
         "adamm-hf/P-NP",
         "osolmaz/microquack",
-        "abonaie222263/hf-openai-proxy",
         "victor/DeepSeek-V4-Flash-0731-free-endpoint",
         "gacorsedunia/deepseek-v4-flash-demo",
         "amisima/MiniMax-Music3",
         "XXXMARK/MiniMax-Music3",
+        "abonaie222263/hf-openai-proxy",
         "Malaji71/Prompteador",
         "wootdafook11/chat_backend",
         "wewe1/chat_backend",
-        "Shivlal6660jyoti/RJS_VIDEO",
         "dherain24/claude-proxy",
         "dherain24/sandbox-6e4eb356",
+        "Shivlal6660jyoti/MTTS",
         "Bob3432433/DeepSeek-V4-Flash",
         "ku2407u702/clipflow-demo",
         "abhay1704/content-generator-rsi",
@@ -8984,6 +10475,8 @@
         "Shivlal6660jyotiloveshiv/sks",
         "1990two/PROJECT92-v2",
         "mohamedtsou/devfolio-ai-rag-static",
+        "ChandraPrakashBathula/show-the-wire",
+        "St3phen/CSDS553-CaseStudy1-4",
         "developerjeremylive/hf-openai-proxy-etheroi",
         "smartdigitalnetworks/generative_songs"
       ],
@@ -9003,8 +10496,8 @@
     },
     "moonshotai/kimi-k3": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 2460430,
-      "likes": 11220,
+      "downloads": 2380448,
+      "likes": 11243,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -9461,13 +10954,13 @@
         }
       ],
       "spaces": [
-        "pollen-robotics/reachy-mini-text-to-motion",
         "akhaliq/Kimi-K3",
-        "cw-105/kimi-k3-gguf-demo",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "HapppyHooochie/Kimi-K3-Abliterated-Demo",
         "adamm-hf/P-NP",
         "lalopenguin/kimi-k3-chat",
-        "HapppyHooochie/Kimi-K3-Abliterated-Demo",
         "Alireza1913/HuggingShield-Kimi-Drop",
+        "cw-105/kimi-k3-gguf-demo",
         "jbsong/clt805",
         "rexprimematrix/RiShreAICoder",
         "lulavc/llama-3.2-1b-instruct-demo",
@@ -9509,8 +11002,10 @@
         "ravinsan/my_new_agent",
         "1990two/PROJECT92-v2",
         "leprograms/kimi-k3-demo",
+        "SZLHOLDINGS/szl-frontier",
         "labylun/kimi-k3-demo",
-        "vissu27/kimi-k3-thinking"
+        "vissu27/kimi-k3-thinking",
+        "R-Kentaren/OpenCHAT-mini2"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -9526,8 +11021,8 @@
     },
     "moonshotai/kimi-k3:batch": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 2460430,
-      "likes": 11220,
+      "downloads": 2380448,
+      "likes": 11243,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -9984,13 +11479,13 @@
         }
       ],
       "spaces": [
-        "pollen-robotics/reachy-mini-text-to-motion",
         "akhaliq/Kimi-K3",
-        "cw-105/kimi-k3-gguf-demo",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "HapppyHooochie/Kimi-K3-Abliterated-Demo",
         "adamm-hf/P-NP",
         "lalopenguin/kimi-k3-chat",
-        "HapppyHooochie/Kimi-K3-Abliterated-Demo",
         "Alireza1913/HuggingShield-Kimi-Drop",
+        "cw-105/kimi-k3-gguf-demo",
         "jbsong/clt805",
         "rexprimematrix/RiShreAICoder",
         "lulavc/llama-3.2-1b-instruct-demo",
@@ -10032,8 +11527,10 @@
         "ravinsan/my_new_agent",
         "1990two/PROJECT92-v2",
         "leprograms/kimi-k3-demo",
+        "SZLHOLDINGS/szl-frontier",
         "labylun/kimi-k3-demo",
-        "vissu27/kimi-k3-thinking"
+        "vissu27/kimi-k3-thinking",
+        "R-Kentaren/OpenCHAT-mini2"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -10049,7 +11546,7 @@
     },
     "cohere/north-mini-code:free": {
       "id": "CohereLabs/North-Mini-Code-1.0",
-      "downloads": 10794,
+      "downloads": 10469,
       "likes": 564,
       "lastModified": "2026-06-15T04:32:41.000Z",
       "tags": [
@@ -10331,7 +11828,7 @@
     },
     "z-ai/glm-5.2": {
       "id": "zai-org/GLM-5.2",
-      "downloads": 997060,
+      "downloads": 965254,
       "likes": 5076,
       "lastModified": "2026-09-01T11:36:01.000Z",
       "tags": [
@@ -11292,13 +12789,12 @@
         "huggingface/ai-deadlines",
         "smolagents/ml-intern",
         "pollen-robotics/reachy-mini-text-to-motion",
-        "lvwerra/agent-artifacts",
         "adamm-hf/P-NP",
-        "abonaie222263/hf-openai-proxy",
         "akhaliq/GLM-5.2",
         "ICML-2026-agent-repro/logbook-judge",
         "zoom-ai/hle-leaderboard",
         "angelorovatti/zai-org-GLM-5.2",
+        "lvwerra/agent-artifacts",
         "fffiloni/agentic-space-factory-UI-public",
         "LordofMonarchs/Agentic_SRE",
         "rpalaani30/ChatwithPal",
@@ -11308,6 +12804,1078 @@
         "shruhood/zai-org-GLM-5.2",
         "kirandebbarma70/zai-org-GLM-5.2",
         "YUGOROU/gyoza-demo",
+        "abonaie222263/hf-openai-proxy",
+        "Malaji71/Prompteador",
+        "helmfridsson/systeminforande",
+        "bep40/ml-intern",
+        "bep40/Space-Mutiverse-Control",
+        "ghetto9912/zai-org-GLM-5.2",
+        "junjiek/zai-org-GLM-5.2",
+        "Stepan006present/zai-org-GLM-5.2",
+        "akbrzz/zai-org-GLM-5.2",
+        "lolganteng/zai-org-GLM-5.3",
+        "d1noz/zai-org-GLM-5.2",
+        "ratah/zai-org-GLM-5.2",
+        "Kalanthor/zai-org-GLM-5.2",
+        "xcvgfd/zai-org-GLM-5.2",
+        "Sheuc8ig/zai-org-GLM-5.2",
+        "Astrok/GLM-5.2",
+        "fuadfakhruzz/zai-org-GLM-5.2",
+        "marzukiberg/zai-org-GLM-5.2",
+        "redhat2/zai-org-GLM-5.2",
+        "VeryOnly123/zai-org-GLM-5.2",
+        "macmdq/GLM-5.2",
+        "Muzzamm/zai-org-GLM-5.2",
+        "developerjeremylive/GLM-5.2-etheroi",
+        "Sandre98/zai-org-GLM-5.2",
+        "GeneWildest/zai-org-GLM-5.2",
+        "sfdsdfdhjss/zai-org-GLM-5.2",
+        "sofyanbonit/iptvmyapp",
+        "TestABC1/test3",
+        "Timothy1996/zai-org-GLM-5.2",
+        "imbecome/zai-org-GLM-5.2",
+        "EchoVoid1234/zai-org-GLM-5.2",
+        "Adieva-15/networkbot",
+        "AAALEGENDS2/AAA",
+        "rohanchand21/freellmapi",
+        "Anirudha-b-s/ai-talent-matcher-api",
+        "Alpha0958/zai-org-GLM-5.2",
+        "xx911121/zai-org-GLM-5.2",
+        "clawceshi/zai-org-GLM-5.2",
+        "kiwoo31/zai-org-GLM-5.2",
+        "nookzi/dev123",
+        "bbytop4/bbytop-glm5.2",
+        "AyoobAlShamary/THUNDERR_AI_BY_AYOOB_ALSHAMARY",
+        "enterbox/zai-org-GLM-5.2",
+        "coppinaphil/gitlikeme5.2",
+        "MikeLorw/zai-org-GLM-5.2",
+        "ServerX/glm-5-chat",
+        "Niceguymo/zai-org-GLM-5.2",
+        "Alexanderusiii/zai-org-GLM-5.2",
+        "fraland42/zai-org-GLM-5.2",
+        "Kakashiix26/appsmith-api",
+        "Eric-jxl/zai-org-GLM-5.2",
+        "DachaWongphop/zai-org-GLM-5.2",
+        "omegaodin/zai-org-GLM-5.2",
+        "CuriousArpit/zai-org-GLM-5.2",
+        "mx-llms/test",
+        "krakon101/agents-course",
+        "TacoManAI/zai-org-GLM-5.2",
+        "Codexcoder/sovereign-3-0-0-chat-ui",
+        "mohmmed5787/zai-org-GLM-5.2",
+        "mmrech/ml-intern",
+        "Suwahas321/zai-org-GLM-5.2",
+        "almbarmg/zai-org-GLM-5.2",
+        "powerfuladder/Terminal-Mind",
+        "Mp3Wav/Sky-AI",
+        "Aryansoni27/GLM-5.2",
+        "nxnikhil7/zai-org-GLM-5.2",
+        "avzkaiq/zai-org-GLM-5.200",
+        "subjectid/GLM-5.2",
+        "SKU1/zai-org-GLM-5.2",
+        "one-no/zai-org-GLM-5.2",
+        "Krtvy/free-proxy",
+        "Nischalmandal/zai-org-GLM-5.2",
+        "Pq234/zai-org-GLM-5.2",
+        "areebsatin/zai-org-GLM-5.2",
+        "sanaweb/zai-org-GLM-5.2",
+        "Chris4K/ml-intern",
+        "vivekchakraverty/digital-marketer",
+        "finpy1789/agentic-financial-analyst",
+        "catalinulwu1234/zai-org-GLM-5.2",
+        "samayhuf/zai-org-GLM-5.2",
+        "ajit9504/zai-org-GLM-5.2"
+      ],
+      "createdAt": "2026-06-16T07:39:20.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 753329921024,
+          "F32": 19456
+        },
+        "total": 753329940480
+      },
+      "inference": "warm",
+      "usedStorage": 1506689458421
+    },
+    "z-ai/glm-5.2:batch": {
+      "id": "zai-org/GLM-5.2",
+      "downloads": 965254,
+      "likes": 5076,
+      "lastModified": "2026-09-01T11:36:01.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "glm_moe_dsa",
+        "text-generation",
+        "conversational",
+        "en",
+        "zh",
+        "arxiv:2602.15763",
+        "arxiv:2603.12201",
+        "license:mit",
+        "eval-results",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "pipeline_tag": "text-generation",
+      "_id": "6a30fda88514bfa5f01a33b6",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "zai-org/GLM-5.2",
+      "author": "zai-org",
+      "sha": "cf457fa734ab149ffef225f80893eb38c6ff5cdc",
+      "gated": false,
+      "disabled": false,
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "GlmMoeDsaForCausalLM"
+        ],
+        "model_type": "glm_moe_dsa",
+        "num_experts_per_tok": 8,
+        "tokenizer_config": {
+          "eos_token": "<|endoftext|>",
+          "pad_token": "<|endoftext|>"
+        },
+        "chat_template_jinja": "[gMASK]<sop>\n{%- set effective_reasoning_effort = 'high' if reasoning_effort is defined and reasoning_effort == 'high' else 'max' -%}\n{%- if (enable_thinking is not defined or enable_thinking) and effective_reasoning_effort is not none -%}<|system|>Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\n{%- if tools -%}\n{%- macro tool_to_json(tool) -%}\n    {%- set ns_tool = namespace(first=true) -%}\n    {{ '{' -}}\n    {%- for k, v in tool.items() -%}\n        {%- if k != 'defer_loading' and k != 'strict' -%}\n            {%- if not ns_tool.first -%}{{- ', ' -}}{%- endif -%}\n            {%- set ns_tool.first = false -%}\n            \"{{ k }}\": {{ v | tojson(ensure_ascii=False) }}\n        {%- endif -%}\n    {%- endfor -%}\n    {{- '}' -}}\n{%- endmacro -%}\n<|system|>\n# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{% for tool in tools %}\n{%- if 'function' in tool -%}\n    {%- set tool = tool['function'] -%}\n{%- endif -%}\n{% if tool.defer_loading is not defined or not tool.defer_loading %}\n{{ tool_to_json(tool) }}\n{% endif %}\n{% endfor %}\n</tools>\n\nFor each function call, output the function name and arguments within the following XML format:\n<tool_call>{function-name}<arg_key>{arg-key-1}</arg_key><arg_value>{arg-value-1}</arg_value><arg_key>{arg-key-2}</arg_key><arg_value>{arg-value-2}</arg_value>...</tool_call>{%- endif -%}\n{%- macro visible_text(content) -%}\n    {%- if content is string -%}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping -%}\n        {%- for item in content -%}\n            {%- if item is mapping and item.type == 'text' -%}\n                {{- item.text }}\n            {%- elif item is string -%}\n                {{- item }}\n            {%- elif item is mapping and item.type in ['image', 'image_url', 'video', 'video_url', 'audio', 'audio_url', 'input_audio'] -%}\n                {%- set media_type = item.type | replace('_url', '') | replace('input_', '') -%}\n                {{- \"<reminder>You are unable to process this \" ~ media_type ~ \" because you don't have multi-modal input ability. Try different methods.</reminder>\" }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{- content }}\n    {%- endif -%}\n{%- endmacro -%}\n{%- set ns = namespace(last_user_index=-1) -%}\n{%- for m in messages %}\n    {%- if m.role == 'user' %}\n        {%- set ns.last_user_index = loop.index0 -%}\n    {%- endif %}\n{%- endfor %}\n{%- for m in messages -%}\n{%- if m.role == 'user' -%}<|user|>{{ visible_text(m.content) }}\n{%- elif m.role == 'assistant' -%}\n<|assistant|>\n{%- set content = visible_text(m.content) %}\n{%- if m.reasoning_content is string %}\n    {%- set reasoning_content = m.reasoning_content %}\n{%- elif '</think>' in content %}\n    {%- set reasoning_content = content.split('</think>')[0].split('<think>')[-1] %}\n    {%- set content = content.split('</think>')[-1] %}\n{%- endif %}\n{%- if ((clear_thinking is defined and not clear_thinking) or loop.index0 > ns.last_user_index) and reasoning_content is defined -%}\n{{ '<think>' + reasoning_content +  '</think>'}}\n{%- else -%}\n{{ '<think></think>' }}\n{%- endif -%}\n{%- if content.strip() -%}\n{{ content.strip() }}\n{%- endif -%}\n{% if m.tool_calls %}\n{% for tc in m.tool_calls %}\n{%- if tc.function %}\n    {%- set tc = tc.function %}\n{%- endif %}\n{{- '<tool_call>' + tc.name -}}\n{% set _args = tc.arguments %}{% for k, v in _args.items() %}<arg_key>{{ k }}</arg_key><arg_value>{{ v | tojson(ensure_ascii=False) if v is not string else v }}</arg_value>{% endfor %}</tool_call>{% endfor %}\n{% endif %}\n{%- elif m.role == 'tool' -%}\n{%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n    {{- '<|observation|>' -}}\n{%- endif %}\n{%- if m.content is string -%}\n    {{- '<tool_response>' + m.content + '</tool_response>' -}}\n{%- elif m.content is iterable and m.content is not mapping and m.content and m.content.0.type == \"tool_reference\" -%}\n    {{- '<tool_response><tools>\\n' -}}\n    {% for tr in m.content %}\n        {%- for tool in tools -%}\n            {%- if 'function' in tool -%}\n                {%- set tool = tool['function'] -%}\n            {%- endif -%}\n            {%- if tool.name == tr.name -%}\n                {{- tool_to_json(tool) + '\\n' -}}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- endfor -%}\n    {{- '</tools></tool_response>' -}}\n{%- elif m.content is iterable and m.content is not mapping and m.content and m.content.0 is mapping and m.content.0.output is defined -%}\n    {%- for tr in m.content -%}\n        {{- '<tool_response>' + tr.output + '</tool_response>' -}}\n    {%- endfor -%}\n{%- else -%}\n    {{- '<tool_response>' + visible_text(m.content) + '</tool_response>' -}}\n{% endif -%}\n{%- elif m.role == 'system' -%}\n<|system|>{{ visible_text(m.content) }}\n{%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n    <|assistant|>{{- '<think></think>' if (enable_thinking is defined and not enable_thinking) else '<think>' -}}\n{%- endif -%}\n"
+      },
+      "cardData": {
+        "language": [
+          "en",
+          "zh"
+        ],
+        "library_name": "transformers",
+        "license": "mit",
+        "pipeline_tag": "text-generation",
+        "new_version": "zai-org/GLM-5.3-BF16"
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForCausalLM",
+        "pipeline_tag": "text-generation",
+        "processor": "AutoTokenizer"
+      },
+      "siblings": [
+        {
+          "rfilename": ".eval_results/deep-swe.yaml"
+        },
+        {
+          "rfilename": ".eval_results/gpqa.yaml"
+        },
+        {
+          "rfilename": ".eval_results/hle.yaml"
+        },
+        {
+          "rfilename": ".eval_results/swe-bench_pro.yaml"
+        },
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "LICENSE"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00003-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00004-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00005-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00006-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00007-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00008-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00009-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00010-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00011-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00012-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00013-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00014-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00015-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00016-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00017-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00018-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00019-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00020-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00021-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00022-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00023-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00024-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00025-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00026-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00027-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00028-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00029-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00030-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00031-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00032-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00033-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00034-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00035-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00036-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00037-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00038-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00039-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00040-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00041-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00042-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00043-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00044-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00045-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00046-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00047-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00048-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00049-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00050-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00051-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00052-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00053-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00054-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00055-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00056-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00057-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00058-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00059-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00060-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00061-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00062-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00063-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00064-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00065-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00066-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00067-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00068-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00069-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00070-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00071-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00072-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00073-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00074-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00075-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00076-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00077-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00078-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00079-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00080-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00081-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00082-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00083-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00084-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00085-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00086-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00087-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00088-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00089-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00090-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00091-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00092-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00093-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00094-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00095-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00096-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00097-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00098-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00099-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00100-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00101-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00102-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00103-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00104-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00105-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00106-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00107-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00108-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00109-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00110-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00111-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00112-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00113-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00114-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00115-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00116-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00117-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00118-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00119-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00120-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00121-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00122-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00123-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00124-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00125-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00126-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00127-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00128-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00129-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00130-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00131-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00132-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00133-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00134-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00135-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00136-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00137-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00138-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00139-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00140-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00141-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00142-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00143-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00144-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00145-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00146-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00147-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00148-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00149-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00150-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00151-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00152-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00153-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00154-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00155-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00156-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00157-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00158-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00159-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00160-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00161-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00162-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00163-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00164-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00165-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00166-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00167-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00168-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00169-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00170-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00171-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00172-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00173-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00174-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00175-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00176-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00177-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00178-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00179-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00180-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00181-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00182-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00183-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00184-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00185-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00186-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00187-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00188-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00189-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00190-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00191-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00192-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00193-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00194-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00195-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00196-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00197-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00198-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00199-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00200-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00201-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00202-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00203-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00204-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00205-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00206-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00207-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00208-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00209-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00210-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00211-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00212-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00213-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00214-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00215-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00216-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00217-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00218-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00219-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00220-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00221-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00222-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00223-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00224-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00225-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00226-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00227-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00228-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00229-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00230-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00231-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00232-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00233-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00234-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00235-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00236-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00237-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00238-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00239-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00240-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00241-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00242-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00243-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00244-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00245-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00246-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00247-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00248-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00249-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00250-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00251-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00252-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00253-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00254-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00255-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00256-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00257-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00258-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00259-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00260-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00261-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00262-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00263-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00264-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00265-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00266-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00267-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00268-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00269-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00270-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00271-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00272-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00273-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00274-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00275-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00276-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00277-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00278-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00279-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00280-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00281-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model-00282-of-00282.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "VIDraft/global-llm-leaderboard",
+        "huggingface/ai-deadlines",
+        "smolagents/ml-intern",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "adamm-hf/P-NP",
+        "akhaliq/GLM-5.2",
+        "ICML-2026-agent-repro/logbook-judge",
+        "zoom-ai/hle-leaderboard",
+        "angelorovatti/zai-org-GLM-5.2",
+        "lvwerra/agent-artifacts",
+        "fffiloni/agentic-space-factory-UI-public",
+        "LordofMonarchs/Agentic_SRE",
+        "rpalaani30/ChatwithPal",
+        "3VVM/GLLM2",
+        "antares2/zai-org-GLM-5.2",
+        "luizfelipelima/zai-org-GLM-5.2",
+        "shruhood/zai-org-GLM-5.2",
+        "kirandebbarma70/zai-org-GLM-5.2",
+        "YUGOROU/gyoza-demo",
+        "abonaie222263/hf-openai-proxy",
         "Malaji71/Prompteador",
         "helmfridsson/systeminforande",
         "bep40/ml-intern",
@@ -11402,8 +13970,8 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "id": "moonshotai/Kimi-K2.7-Code",
-      "downloads": 215519,
-      "likes": 1382,
+      "downloads": 207403,
+      "likes": 1384,
       "lastModified": "2026-06-15T07:49:29.000Z",
       "tags": [
         "transformers",
@@ -11805,7 +14373,8 @@
         "Sekirosekai/kimi-k2-code-demo",
         "kirikir13/dr_studios_dreammachine_v3pro",
         "RespawnerzStudioz/BlockSmith-Minecraft",
-        "aayu-outdooragi/contextcruxbench"
+        "aayu-outdooragi/contextcruxbench",
+        "R-Kentaren/OpenCHAT-mini2"
       ],
       "createdAt": "2026-06-11T07:51:47.000Z",
       "safetensors": {
@@ -11821,8 +14390,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "id": "Qwen/Qwen3.6-35B-A3B",
-      "downloads": 4299521,
-      "likes": 2783,
+      "downloads": 4243308,
+      "likes": 2792,
       "lastModified": "2026-04-24T02:53:42.000Z",
       "tags": [
         "transformers",
@@ -12010,6 +14579,7 @@
       ],
       "spaces": [
         "curtburk/vLLM_on_NVIDIA_GB10",
+        "hugging-apps/enoki-hallucination-detector",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "KyleHessling1/qwopus36-35b-a3b-eval",
         "davanstrien/dataset-lineage-explorer",
@@ -12075,7 +14645,8 @@
         "doibungdidao/mt-eval-leaderboard",
         "kirikir13/dr_studios_dreammachine_v3pro",
         "vnoboa/qwen3-6-35b-a3b-demo",
-        "harsheyzz/parakh-misinformation-detector"
+        "harsheyzz/parakh-misinformation-detector",
+        "aleada/reasoning-parser-advisor"
       ],
       "createdAt": "2026-04-15T05:59:19.000Z",
       "safetensors": {
@@ -12089,8 +14660,8 @@
     },
     "qwen/qwen3.6-27b": {
       "id": "Qwen/Qwen3.6-27B",
-      "downloads": 5123849,
-      "likes": 2286,
+      "downloads": 4876260,
+      "likes": 2287,
       "lastModified": "2026-04-24T02:39:16.000Z",
       "tags": [
         "transformers",
@@ -12244,7 +14815,6 @@
         }
       ],
       "spaces": [
-        "hugging-apps/minimax-h3-prompt-rewriter",
         "EuroEval/euroeval_leaderboard",
         "favouritegamer/Jarvis-Omni-Core",
         "dromerosm/groq-chatbot",
@@ -12267,6 +14837,7 @@
         "build-small-hackathon/nutrilens",
         "build-small-hackathon/stage-whisper",
         "asusevski/dota-draft",
+        "rajivranjan3961/Rag",
         "DeepImagix/self-trained2",
         "DivitS/AIPoweredAnalyticsTool",
         "Mnkhoma/Yaza",
@@ -12290,9 +14861,11 @@
         "ld57/qwen3.6",
         "CarlosDiazSalazar/TranscribeAI",
         "johncenaqweewewwe/neuroResearch",
+        "satyaballa/YT_Summarizer_Pro",
         "ayush0202Mishra/nidan-ai-backend",
         "build-small-hackathon/inside-out",
         "build-small-hackathon/open_Deep-Research",
+        "rizaikmal7/rag-ekonomi-indonesia",
         "build-small-hackathon/thousand-token-terrarium",
         "build-small-hackathon/dota-draft",
         "adonairlariva/asistenteGodot",
@@ -12329,6 +14902,7 @@
         "junaid17/cortex",
         "Tej7278/second-brain-backend",
         "aliahsan08/TaxPilot",
+        "addyjeddy/book-chatbot-better",
         "TyzonAk/GEN-AI-RESUME-SUMMARIZER",
         "Miaaiassistant/geology-professor",
         "mfaisalr29/Advisor-Financial",
@@ -12340,10 +14914,7 @@
         "abcs-noob/Uploadfiles",
         "nSanthosh/bill_extractor",
         "DiomedesWines/EVO",
-        "Ayan8901/exam-notes-ocr",
-        "swapna7899/prognosai-fastapi-backend-1",
-        "artistica-004/ai-assistant-live",
-        "koushik4475/openagent"
+        "Ayan8901/exam-notes-ocr"
       ],
       "createdAt": "2026-04-21T07:50:43.000Z",
       "safetensors": {
@@ -12357,8 +14928,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
-      "downloads": 634620,
-      "likes": 5507,
+      "downloads": 623492,
+      "likes": 5514,
       "lastModified": "2026-06-22T12:12:50.000Z",
       "tags": [
         "transformers",
@@ -12838,8 +15409,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
-      "downloads": 1757120,
-      "likes": 2187,
+      "downloads": 1779052,
+      "likes": 2195,
       "lastModified": "2026-06-22T12:12:13.000Z",
       "tags": [
         "transformers",
@@ -13154,7 +15725,6 @@
         "crusoeai/foundry-model-arena",
         "Jindrich3/openajaj",
         "adamm-hf/P-NP",
-        "abonaie222263/hf-openai-proxy",
         "zoom-ai/hle-leaderboard",
         "osolmaz/leaderboard",
         "bluemoonsoldout/llm-cal",
@@ -13168,6 +15738,7 @@
         "ovokeomovie/agentic-leverage-hub",
         "Wimmboo2/OpenAIProxy",
         "sanderland/claude-tokenizer",
+        "abonaie222263/hf-openai-proxy",
         "x1001000/YouTube-Comments-Analyzer",
         "StudentCompanion/alu-chatbot",
         "Malaji71/Prompteador",
@@ -13267,7 +15838,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "id": "moonshotai/Kimi-K2.6",
-      "downloads": 599946,
+      "downloads": 562212,
       "likes": 1602,
       "lastModified": "2026-05-19T09:01:54.000Z",
       "tags": [
@@ -13771,7 +16342,7 @@
     },
     "z-ai/glm-5.1": {
       "id": "zai-org/GLM-5.1",
-      "downloads": 86751,
+      "downloads": 81880,
       "likes": 1841,
       "lastModified": "2026-05-13T08:10:58.000Z",
       "tags": [
@@ -14837,8 +17408,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 8307671,
-      "likes": 1481,
+      "downloads": 8588468,
+      "likes": 1484,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
         "transformers",
@@ -14949,7 +17520,7 @@
       "spaces": [
         "EuroEval/euroeval_leaderboard",
         "favouritegamer/Jarvis-Omni-Core",
-        "abonaie222263/hf-openai-proxy",
+        "rvguha/HFNLWebDemo",
         "FINAL-Bench/POCKET-26B-CPU",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "FINAL-Bench/Gemma-4-Multi",
@@ -14997,6 +17568,7 @@
         "uday62/MedDiagnose-AI-Xai",
         "PromptYASH/Medifindx",
         "javier8306/Socrates",
+        "abonaie222263/hf-openai-proxy",
         "seanpedrickcase/llm_topic_modelling",
         "Kunal5678/myresume",
         "anik1970/llm-nlp-api",
@@ -15045,8 +17617,7 @@
         "Tyn38/gemma-4-E4B-it-server",
         "atudor/google-gemma-4-26B-A4B-it",
         "Truthseeker87/solarhive",
-        "InsomaniacElf/taplus",
-        "isaacattuah/linkedin-post-generator-gemma4"
+        "InsomaniacElf/taplus"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -15060,8 +17631,8 @@
     },
     "google/gemma-4-26b-a4b-it:free": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 8307671,
-      "likes": 1481,
+      "downloads": 8588468,
+      "likes": 1484,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
         "transformers",
@@ -15172,7 +17743,7 @@
       "spaces": [
         "EuroEval/euroeval_leaderboard",
         "favouritegamer/Jarvis-Omni-Core",
-        "abonaie222263/hf-openai-proxy",
+        "rvguha/HFNLWebDemo",
         "FINAL-Bench/POCKET-26B-CPU",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "FINAL-Bench/Gemma-4-Multi",
@@ -15220,6 +17791,7 @@
         "uday62/MedDiagnose-AI-Xai",
         "PromptYASH/Medifindx",
         "javier8306/Socrates",
+        "abonaie222263/hf-openai-proxy",
         "seanpedrickcase/llm_topic_modelling",
         "Kunal5678/myresume",
         "anik1970/llm-nlp-api",
@@ -15268,8 +17840,7 @@
         "Tyn38/gemma-4-E4B-it-server",
         "atudor/google-gemma-4-26B-A4B-it",
         "Truthseeker87/solarhive",
-        "InsomaniacElf/taplus",
-        "isaacattuah/linkedin-post-generator-gemma4"
+        "InsomaniacElf/taplus"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -15283,8 +17854,8 @@
     },
     "google/gemma-4-31b-it": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8283566,
-      "likes": 3734,
+      "downloads": 8672440,
+      "likes": 3745,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -15393,15 +17964,15 @@
         }
       ],
       "spaces": [
-        "smolagents/hf-realtime-voice",
         "pollen-robotics/reachy-mini-3d-voice",
-        "pollen-robotics/reachy-mini-text-to-motion",
+        "smolagents/hf-realtime-voice",
+        "EuroEval/euroeval_leaderboard",
         "huggingface-projects/gemma-4-31b-it",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "EuroEval/euroeval_leaderboard",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "A-Mahla/test",
         "facebook/omnilingual-gaia2",
         "favouritegamer/Jarvis-Omni-Core",
-        "abonaie222263/hf-openai-proxy",
         "victor/gemma-avatar",
         "multimodalart/krea2-lora-trainer",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -15425,7 +17996,6 @@
         "kirimdata369/ai-hacking-team",
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/trolley-driver",
-        "A-Mahla/test",
         "antonios-makro/hf-realtime-voice-avatar",
         "ArtFix0/speech-to-speech-dashboard",
         "xyanglu/resume-agent-chatbot",
@@ -15489,6 +18059,7 @@
         "Adilmar/gemma-avatar",
         "Baragi-AI/Munche-768",
         "RiverRider/srt-cxr14-probe",
+        "abonaie222263/hf-openai-proxy",
         "edmiranda2301/Energy_gt_demo",
         "mfahadkhan/research_hive",
         "Saeed/MLATE",
@@ -15506,8 +18077,8 @@
     },
     "google/gemma-4-31b-it:batch": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8283566,
-      "likes": 3734,
+      "downloads": 8672440,
+      "likes": 3745,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -15616,15 +18187,15 @@
         }
       ],
       "spaces": [
-        "smolagents/hf-realtime-voice",
         "pollen-robotics/reachy-mini-3d-voice",
-        "pollen-robotics/reachy-mini-text-to-motion",
+        "smolagents/hf-realtime-voice",
+        "EuroEval/euroeval_leaderboard",
         "huggingface-projects/gemma-4-31b-it",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "EuroEval/euroeval_leaderboard",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "A-Mahla/test",
         "facebook/omnilingual-gaia2",
         "favouritegamer/Jarvis-Omni-Core",
-        "abonaie222263/hf-openai-proxy",
         "victor/gemma-avatar",
         "multimodalart/krea2-lora-trainer",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -15648,7 +18219,6 @@
         "kirimdata369/ai-hacking-team",
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/trolley-driver",
-        "A-Mahla/test",
         "antonios-makro/hf-realtime-voice-avatar",
         "ArtFix0/speech-to-speech-dashboard",
         "xyanglu/resume-agent-chatbot",
@@ -15712,6 +18282,7 @@
         "Adilmar/gemma-avatar",
         "Baragi-AI/Munche-768",
         "RiverRider/srt-cxr14-probe",
+        "abonaie222263/hf-openai-proxy",
         "edmiranda2301/Energy_gt_demo",
         "mfahadkhan/research_hive",
         "Saeed/MLATE",
@@ -15729,8 +18300,8 @@
     },
     "google/gemma-4-31b-it:free": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8283566,
-      "likes": 3734,
+      "downloads": 8672440,
+      "likes": 3745,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -15839,15 +18410,15 @@
         }
       ],
       "spaces": [
-        "smolagents/hf-realtime-voice",
         "pollen-robotics/reachy-mini-3d-voice",
-        "pollen-robotics/reachy-mini-text-to-motion",
+        "smolagents/hf-realtime-voice",
+        "EuroEval/euroeval_leaderboard",
         "huggingface-projects/gemma-4-31b-it",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "EuroEval/euroeval_leaderboard",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "A-Mahla/test",
         "facebook/omnilingual-gaia2",
         "favouritegamer/Jarvis-Omni-Core",
-        "abonaie222263/hf-openai-proxy",
         "victor/gemma-avatar",
         "multimodalart/krea2-lora-trainer",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -15871,7 +18442,6 @@
         "kirimdata369/ai-hacking-team",
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/trolley-driver",
-        "A-Mahla/test",
         "antonios-makro/hf-realtime-voice-avatar",
         "ArtFix0/speech-to-speech-dashboard",
         "xyanglu/resume-agent-chatbot",
@@ -15935,6 +18505,7 @@
         "Adilmar/gemma-avatar",
         "Baragi-AI/Munche-768",
         "RiverRider/srt-cxr14-probe",
+        "abonaie222263/hf-openai-proxy",
         "edmiranda2301/Energy_gt_demo",
         "mfahadkhan/research_hive",
         "Saeed/MLATE",
@@ -15952,7 +18523,7 @@
     },
     "mistralai/mistral-small-2603": {
       "id": "mistralai/Mistral-Small-4-119B-2603",
-      "downloads": 56631,
+      "downloads": 56192,
       "likes": 421,
       "lastModified": "2026-07-15T12:23:29.000Z",
       "tags": [
@@ -16171,8 +18742,8 @@
     },
     "qwen/qwen3.5-9b": {
       "id": "Qwen/Qwen3.5-9B",
-      "downloads": 11772488,
-      "likes": 1905,
+      "downloads": 11389211,
+      "likes": 1913,
       "lastModified": "2026-03-02T00:51:43.000Z",
       "tags": [
         "transformers",
@@ -16293,9 +18864,9 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "EuroEval/euroeval_leaderboard",
         "ginigen-ai/smol-worldcup",
         "finebooks/bhl-ocr-leaderboard",
-        "EuroEval/euroeval_leaderboard",
         "FINAL-Bench/all-bench-leaderboard",
         "artificialguybr/qwen-chat-demo",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -16406,8 +18977,8 @@
     },
     "qwen/qwen3.5-9b:batch": {
       "id": "Qwen/Qwen3.5-9B",
-      "downloads": 11772488,
-      "likes": 1905,
+      "downloads": 11389211,
+      "likes": 1913,
       "lastModified": "2026-03-02T00:51:43.000Z",
       "tags": [
         "transformers",
@@ -16528,9 +19099,9 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "EuroEval/euroeval_leaderboard",
         "ginigen-ai/smol-worldcup",
         "finebooks/bhl-ocr-leaderboard",
-        "EuroEval/euroeval_leaderboard",
         "FINAL-Bench/all-bench-leaderboard",
         "artificialguybr/qwen-chat-demo",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -16641,7 +19212,7 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "id": "Qwen/Qwen3.5-35B-A3B",
-      "downloads": 2357238,
+      "downloads": 2290236,
       "likes": 1500,
       "lastModified": "2026-04-24T02:38:38.000Z",
       "tags": [
@@ -16887,8 +19458,8 @@
     },
     "qwen/qwen3.5-27b": {
       "id": "Qwen/Qwen3.5-27B",
-      "downloads": 2317755,
-      "likes": 1040,
+      "downloads": 2296792,
+      "likes": 1041,
       "lastModified": "2026-04-24T02:54:49.000Z",
       "tags": [
         "transformers",
@@ -17104,8 +19675,8 @@
     },
     "qwen/qwen3.5-122b-a10b": {
       "id": "Qwen/Qwen3.5-122B-A10B",
-      "downloads": 669619,
-      "likes": 615,
+      "downloads": 667848,
+      "likes": 616,
       "lastModified": "2026-04-24T03:55:23.000Z",
       "tags": [
         "transformers",
@@ -17395,8 +19966,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "id": "Qwen/Qwen3.5-397B-A17B",
-      "downloads": 172439,
-      "likes": 1556,
+      "downloads": 173365,
+      "likes": 1557,
       "lastModified": "2026-04-24T05:51:23.000Z",
       "tags": [
         "transformers",
@@ -17897,7 +20468,7 @@
     },
     "z-ai/glm-5": {
       "id": "zai-org/GLM-5",
-      "downloads": 64771,
+      "downloads": 62763,
       "likes": 2119,
       "lastModified": "2026-08-11T07:36:34.000Z",
       "tags": [
@@ -18981,8 +21552,8 @@
     },
     "qwen/qwen3-coder-next": {
       "id": "Qwen/Qwen3-Coder-Next",
-      "downloads": 408899,
-      "likes": 1630,
+      "downloads": 401572,
+      "likes": 1631,
       "lastModified": "2026-02-03T16:16:38.000Z",
       "tags": [
         "transformers",
@@ -19209,6 +21780,7 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "akhaliq/anycoder",
+        "LeafCat79/Game_Builder_Pro",
         "hadadxyz/ai",
         "hfmlsoc/different-flops",
         "fffiloni/agentic-space-factory-UI-public",
@@ -19222,13 +21794,13 @@
         "ZENLLC/anycoder",
         "Dex-prachi/yoo",
         "Divyatmaj/Scalar_Hackathon_Space_1",
-        "LeafCat79/Game_Builder_Pro",
         "PARZ2344/PNGTECH",
         "Rikishini/anycoder",
         "chddddq/any",
         "Superwolff/anycoder",
         "almsms/Qwen-Qwen3-Coder-Next",
         "Chinook416/test_caracat_code",
+        "Erinaldorodrigues/Cpuonly",
         "Edenbaba/First_agent_template",
         "Wacboss/First_agent_template",
         "yazdaniwp/Qwen-Qwen3-Coder-Next",
@@ -19305,8 +21877,7 @@
         "MsFlo/Qwen-Qwen3-Coder-Next",
         "ompravassahoo/My-Elite-Coder",
         "Cgjgj/anycoder123",
-        "Easywealth/anycoder",
-        "ahmeddw/Qwen-Qwen3-Coder-Next"
+        "Easywealth/anycoder"
       ],
       "createdAt": "2026-01-30T15:08:18.000Z",
       "safetensors": {
@@ -19320,8 +21891,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/Kimi-K2.5",
-      "downloads": 472466,
-      "likes": 2867,
+      "downloads": 424279,
+      "likes": 2868,
       "lastModified": "2026-04-30T03:56:40.000Z",
       "tags": [
         "transformers",
@@ -19799,8 +22370,8 @@
     },
     "z-ai/glm-4.7-flash": {
       "id": "zai-org/GLM-4.7-Flash",
-      "downloads": 1915940,
-      "likes": 1832,
+      "downloads": 1896071,
+      "likes": 1837,
       "lastModified": "2026-01-29T08:06:19.000Z",
       "tags": [
         "transformers",
@@ -20047,8 +22618,8 @@
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
-        "ginigen-ai/smol-worldcup",
         "EuroEval/euroeval_leaderboard",
+        "ginigen-ai/smol-worldcup",
         "huggingface-projects/ai-video-composer",
         "hfmlsoc/different-flops",
         "SpyC0der77/zai-org-GLM-4.7-Flash",
@@ -20158,7 +22729,7 @@
     },
     "z-ai/glm-4.7": {
       "id": "zai-org/GLM-4.7",
-      "downloads": 59938,
+      "downloads": 65178,
       "likes": 2054,
       "lastModified": "2026-01-29T08:05:58.000Z",
       "tags": [
@@ -20655,7 +23226,7 @@
     },
     "mistralai/devstral-2512": {
       "id": "mistralai/Devstral-2-123B-Instruct-2512",
-      "downloads": 19254,
+      "downloads": 18642,
       "likes": 338,
       "lastModified": "2026-07-15T12:19:49.000Z",
       "tags": [
@@ -20975,7 +23546,7 @@
     },
     "z-ai/glm-4.6v": {
       "id": "zai-org/GLM-4.6V",
-      "downloads": 3525,
+      "downloads": 3470,
       "likes": 396,
       "lastModified": "2025-12-09T05:34:59.000Z",
       "tags": [
@@ -21297,8 +23868,8 @@
     },
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/Ministral-3-14B-Instruct-2512",
-      "downloads": 305861,
-      "likes": 320,
+      "downloads": 352127,
+      "likes": 319,
       "lastModified": "2026-07-15T12:20:59.000Z",
       "tags": [
         "vllm",
@@ -21455,7 +24026,7 @@
     },
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "downloads": 120115,
+      "downloads": 124110,
       "likes": 200,
       "lastModified": "2026-07-15T12:22:08.000Z",
       "tags": [
@@ -21610,8 +24181,8 @@
     },
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/Ministral-3-3B-Instruct-2512",
-      "downloads": 321163,
-      "likes": 278,
+      "downloads": 302951,
+      "likes": 279,
       "lastModified": "2026-07-15T12:21:35.000Z",
       "tags": [
         "vllm",
@@ -21768,7 +24339,7 @@
     },
     "deepseek/deepseek-v3.2": {
       "id": "deepseek-ai/DeepSeek-V3.2",
-      "downloads": 1555091,
+      "downloads": 1579570,
       "likes": 1474,
       "lastModified": "2025-12-01T11:04:59.000Z",
       "tags": [
@@ -22554,8 +25125,8 @@
     },
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/Kimi-K2-Thinking",
-      "downloads": 45685,
-      "likes": 1713,
+      "downloads": 46356,
+      "likes": 1712,
       "lastModified": "2026-01-30T04:49:39.000Z",
       "tags": [
         "transformers",
@@ -23000,8 +25571,8 @@
     },
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/Voxtral-Small-24B-2507",
-      "downloads": 160318,
-      "likes": 523,
+      "downloads": 148426,
+      "likes": 524,
       "lastModified": "2025-12-20T23:34:49.000Z",
       "tags": [
         "vllm",
@@ -23125,10 +25696,10 @@
         }
       ],
       "spaces": [
-        "elmresearchcenter/open_universal_arabic_asr_leaderboard",
         "EuroEval/euroeval_leaderboard",
-        "MohamedRashad/Voxtral",
+        "elmresearchcenter/open_universal_arabic_asr_leaderboard",
         "RyeAI/danish-asr-leaderboard",
+        "MohamedRashad/Voxtral",
         "yangzhang33/GreekMMLU-Leaderboard",
         "VincentGOURBIN/MeetingNotes-Voxtral-Analysis",
         "opedromartins/open_asr_leaderboard_ptbr",
@@ -23156,8 +25727,8 @@
     },
     "qwen/qwen3-vl-32b-instruct": {
       "id": "Qwen/Qwen3-VL-32B-Instruct",
-      "downloads": 454380,
-      "likes": 236,
+      "downloads": 401012,
+      "likes": 238,
       "lastModified": "2025-10-21T18:26:34.000Z",
       "tags": [
         "transformers",
@@ -23338,7 +25909,6 @@
         "AbstractPhil/qwen-caption-array",
         "Ano-Nimus/qwen3-vl-32b-chat",
         "AlanaSky/Cosmos3-Action-Viewer",
-        "theGratefulQuad/Qwen-VL-Object-Detection",
         "mfontana355/paper-code-grounding",
         "ozdentarikcan/ConvDeck"
       ],
@@ -23354,7 +25924,7 @@
     },
     "qwen/qwen3-vl-8b-thinking": {
       "id": "Qwen/Qwen3-VL-8B-Thinking",
-      "downloads": 109571,
+      "downloads": 113916,
       "likes": 222,
       "lastModified": "2025-11-26T13:18:14.000Z",
       "tags": [
@@ -23498,8 +26068,8 @@
     },
     "qwen/qwen3-vl-8b-instruct": {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "downloads": 13859514,
-      "likes": 1082,
+      "downloads": 15231494,
+      "likes": 1085,
       "lastModified": "2025-10-15T16:16:59.000Z",
       "tags": [
         "transformers",
@@ -23619,10 +26189,10 @@
         }
       ],
       "spaces": [
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
-        "nvidia/Cosmos3-Action-Viewer",
         "Gameyguy/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "hugging-apps/minimax-h3-prompt-rewriter-lora-8b",
+        "alaub/uqied",
         "prithivMLmods/Qwen3-VL-Outpost",
         "smolagents/computer-use-agent",
         "artificialguybr/qwen-vl",
@@ -23631,6 +26201,7 @@
         "baohuynhbk14/Qwen3-VL-Demo",
         "wjbmattingly/caracal",
         "Lakonik/AsymFLUX.2-klein",
+        "nvidia/Cosmos3-Action-Viewer",
         "prithivMLmods/Qwen3-VL-HF-Demo",
         "dmorawiec/Qwen-VL-Object-Detection",
         "burtenshaw/qwen-atari",
@@ -23671,6 +26242,7 @@
         "FOQ/mage-flow",
         "hugging-apps/retoken-visual-retrieval",
         "hugging-apps/openearthagent-demo",
+        "ibyteohdear/miniMAX",
         "hugging-apps/unispace-gen-edit",
         "yl4300/tau-agent-traffic-anomaly",
         "seed-image-ai/image_ai",
@@ -23716,9 +26288,7 @@
         "jena-shreyas/Video-Inference-Demo",
         "jblast94/Qwen-Qwen3-VL-8B-Instruct",
         "1krog/space1",
-        "1krog/space2",
-        "1krog/space3",
-        "1krog/space4"
+        "1krog/space2"
       ],
       "createdAt": "2025-10-11T07:23:39.000Z",
       "safetensors": {
@@ -23732,7 +26302,7 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "downloads": 12917,
+      "downloads": 12657,
       "likes": 200,
       "lastModified": "2025-11-26T13:18:00.000Z",
       "tags": [
@@ -23903,8 +26473,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
-      "downloads": 377007,
-      "likes": 599,
+      "downloads": 378022,
+      "likes": 600,
       "lastModified": "2025-11-26T13:18:04.000Z",
       "tags": [
         "transformers",
@@ -24049,8 +26619,9 @@
         }
       ],
       "spaces": [
-        "nvidia/Cosmos3-Action-Viewer",
+        "alaub/uqied",
         "smolagents/computer-use-agent",
+        "nvidia/Cosmos3-Action-Viewer",
         "davanstrien/vllm-index-card-extractor",
         "build-small-hackathon/sema-dyslexic-assistant",
         "ford442/ChronoEdit",
@@ -24076,6 +26647,7 @@
         "GheeButter/Z-Image-Turbo-Comfort",
         "ruoxi01/chat-helper",
         "lhy9672954/Qwen-Qwen3-VL-30B-A3B-Instruct",
+        "omarahmed176/alzheimer-detection-api",
         "LogitCode/FlexChat",
         "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
@@ -24104,14 +26676,15 @@
         "AbstractPhil/qwen-caption-array",
         "ssdataanalysis/hebrew-ocr-comparator",
         "sergiopaniego/pelican-svg-env",
-        "alaub/uqied",
         "andrii-cherep/andrii-gaia-final-ag",
         "marialangat/yourbench-editable-config",
         "AlanaSky/Cosmos3-Action-Viewer",
         "marialangat/leaderboard_yourbench_marialangat_kamusibench",
         "megHANA20000000/multilingual-id-translator",
         "HuggingEnvs/watercolour-env",
-        "ozdentarikcan/ConvDeck"
+        "ozdentarikcan/ConvDeck",
+        "aleada/reasoning-parser-advisor",
+        "mmq/ttb-label-demo"
       ],
       "createdAt": "2025-09-30T10:52:01.000Z",
       "safetensors": {
@@ -24125,7 +26698,7 @@
     },
     "z-ai/glm-4.6": {
       "id": "zai-org/GLM-4.6",
-      "downloads": 17422,
+      "downloads": 17940,
       "likes": 1234,
       "lastModified": "2025-09-30T10:17:45.000Z",
       "tags": [
@@ -24613,7 +27186,7 @@
     },
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
-      "downloads": 64295,
+      "downloads": 60099,
       "likes": 999,
       "lastModified": "2025-11-18T02:39:54.000Z",
       "tags": [
@@ -25363,7 +27936,7 @@
     },
     "qwen/qwen3-vl-235b-a22b-thinking": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
-      "downloads": 9299,
+      "downloads": 9537,
       "likes": 403,
       "lastModified": "2025-11-26T13:18:17.000Z",
       "tags": [
@@ -25757,9 +28330,9 @@
         }
       ],
       "spaces": [
-        "nvidia/Cosmos3-Action-Viewer",
         "hadadxyz/ai",
         "umint/ai",
+        "nvidia/Cosmos3-Action-Viewer",
         "Ropz30/Qwen-Qwen3-VL-235B-A22B-Thinking",
         "agricopilot/AgriCopilot",
         "ZysOfficial/Qwen-Qwen3-VL-235B-A22B-Thinking",
@@ -25838,7 +28411,7 @@
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
-      "downloads": 598170,
+      "downloads": 528410,
       "likes": 415,
       "lastModified": "2025-11-26T13:18:18.000Z",
       "tags": [
@@ -26233,10 +28806,10 @@
         }
       ],
       "spaces": [
-        "nvidia/Cosmos3-Action-Viewer",
         "hadadxyz/ai",
         "umint/ai",
         "smolagents/computer-use-agent",
+        "nvidia/Cosmos3-Action-Viewer",
         "burtenshaw/qwen-atari",
         "weathon/VSF",
         "Elysia-Suite/elysia-markdown-studio",
@@ -26341,7 +28914,7 @@
     },
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
-      "downloads": 16898,
+      "downloads": 17763,
       "likes": 366,
       "lastModified": "2025-09-29T01:52:07.000Z",
       "tags": [
@@ -27097,7 +29670,7 @@
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "downloads": 46538,
+      "downloads": 46262,
       "likes": 494,
       "lastModified": "2025-09-15T09:12:48.000Z",
       "tags": [
@@ -27433,8 +30006,8 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "downloads": 279721,
-      "likes": 1052,
+      "downloads": 285574,
+      "likes": 1053,
       "lastModified": "2025-09-17T06:57:40.000Z",
       "tags": [
         "transformers",
@@ -27660,9 +30233,9 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
-        "EuroEval/euroeval_leaderboard",
         "Gameyguy/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "EuroEval/euroeval_leaderboard",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "hadadxyz/ai",
         "jairwaal/image",
         "multimodalart/Qwen-Image-Relight",
@@ -27772,7 +30345,7 @@
     },
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
-      "downloads": 36773,
+      "downloads": 36067,
       "likes": 786,
       "lastModified": "2026-01-30T04:50:25.000Z",
       "tags": [
@@ -28201,7 +30774,7 @@
     },
     "qwen/qwen3-30b-a3b-thinking-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
-      "downloads": 73765,
+      "downloads": 74395,
       "likes": 380,
       "lastModified": "2025-08-17T08:20:51.000Z",
       "tags": [
@@ -28386,7 +30959,7 @@
     },
     "nousresearch/hermes-4-70b": {
       "id": "NousResearch/Hermes-4-70B",
-      "downloads": 8472,
+      "downloads": 8385,
       "likes": 215,
       "lastModified": "2025-09-02T06:40:36.000Z",
       "tags": [
@@ -28655,7 +31228,7 @@
     },
     "nousresearch/hermes-4-405b": {
       "id": "NousResearch/Hermes-4-405B",
-      "downloads": 718,
+      "downloads": 676,
       "likes": 94,
       "lastModified": "2025-09-02T04:17:04.000Z",
       "tags": [
@@ -29409,7 +31982,7 @@
     },
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek-ai/DeepSeek-V3.1",
-      "downloads": 226677,
+      "downloads": 229363,
       "likes": 829,
       "lastModified": "2025-09-05T11:30:15.000Z",
       "tags": [
@@ -30158,7 +32731,7 @@
     },
     "z-ai/glm-4.5v": {
       "id": "zai-org/GLM-4.5V",
-      "downloads": 46921,
+      "downloads": 46639,
       "likes": 721,
       "lastModified": "2025-10-25T13:20:10.000Z",
       "tags": [
@@ -30439,8 +33012,8 @@
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "downloads": 736011,
-      "likes": 1229,
+      "downloads": 720300,
+      "likes": 1232,
       "lastModified": "2025-12-03T08:05:17.000Z",
       "tags": [
         "transformers",
@@ -30706,8 +33279,8 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "downloads": 1180522,
-      "likes": 833,
+      "downloads": 1161599,
+      "likes": 834,
       "lastModified": "2025-09-17T06:56:43.000Z",
       "tags": [
         "transformers",
@@ -30948,7 +33521,7 @@
     },
     "z-ai/glm-4.5": {
       "id": "zai-org/GLM-4.5",
-      "downloads": 80940,
+      "downloads": 80274,
       "likes": 1411,
       "lastModified": "2025-08-11T13:27:03.000Z",
       "tags": [
@@ -31436,7 +34009,7 @@
     },
     "z-ai/glm-4.5-air": {
       "id": "zai-org/GLM-4.5-Air",
-      "downloads": 114206,
+      "downloads": 112541,
       "likes": 635,
       "lastModified": "2025-08-11T13:25:37.000Z",
       "tags": [
@@ -31714,7 +34287,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "downloads": 12191,
+      "downloads": 12032,
       "likes": 409,
       "lastModified": "2025-08-17T08:20:17.000Z",
       "tags": [
@@ -32246,8 +34819,8 @@
     },
     "qwen/qwen3-coder": {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "downloads": 31719,
-      "likes": 1367,
+      "downloads": 31718,
+      "likes": 1369,
       "lastModified": "2025-08-21T10:18:07.000Z",
       "tags": [
         "transformers",
@@ -33187,7 +35760,7 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "downloads": 129310,
+      "downloads": 147293,
       "likes": 796,
       "lastModified": "2025-09-17T06:52:55.000Z",
       "tags": [
@@ -33649,7 +36222,6 @@
       "spaces": [
         "burtenshaw/karpathy-llm-council",
         "furaidosu/krea2-turbo-lora-dlc-nf4",
-        "linoyts/Qwen-Image-Edit-Inpaint",
         "crusoeai/foundry-model-arena",
         "furaidosu/krea2-turbo-lora-dlc",
         "hadadxyz/ai",
@@ -33657,6 +36229,7 @@
         "AiSudo/Qwen-Image-to-LoRA",
         "multimodalart/Qwen-Image-Fast",
         "aiqtech/kofaceid",
+        "linoyts/Qwen-Image-Edit-Inpaint",
         "zerogpu-aoti/Qwen-Image-Edit-Outpaint",
         "InstantX/Qwen-Image-ControlNet-Inpainting",
         "Nymbo/Character-Generator",
@@ -33760,7 +36333,7 @@
     },
     "moonshotai/kimi-k2": {
       "id": "moonshotai/Kimi-K2-Instruct",
-      "downloads": 160774,
+      "downloads": 163680,
       "likes": 2377,
       "lastModified": "2026-04-23T02:08:36.000Z",
       "tags": [
@@ -34200,7 +36773,7 @@
     },
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "downloads": 123464,
+      "downloads": 127888,
       "likes": 610,
       "lastModified": "2025-12-22T10:16:55.000Z",
       "tags": [
@@ -34363,7 +36936,6 @@
         "bhutesh65/jupiter-faq-bot",
         "bhutesh65/Jupiter-FAQ-streamlit",
         "Bharatkori/text_to_image_mistral_small_3.2",
-        "cronjob-python/backend",
         "mojtabaghollama/taste",
         "mojtabaghollama/taste2",
         "ariG23498/mistral-embed",
@@ -34399,7 +36971,7 @@
     },
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek-ai/DeepSeek-R1-0528",
-      "downloads": 213477,
+      "downloads": 218142,
       "likes": 2460,
       "lastModified": "2025-05-29T11:37:44.000Z",
       "tags": [
@@ -35134,7 +37706,7 @@
     },
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/Llama-Guard-4-12B",
-      "downloads": 56626,
+      "downloads": 54760,
       "likes": 121,
       "lastModified": "2025-04-29T18:14:44.000Z",
       "tags": [
@@ -35413,8 +37985,8 @@
     },
     "qwen/qwen3-30b-a3b": {
       "id": "Qwen/Qwen3-30B-A3B",
-      "downloads": 2147543,
-      "likes": 936,
+      "downloads": 2097577,
+      "likes": 939,
       "lastModified": "2025-07-26T03:45:17.000Z",
       "tags": [
         "transformers",
@@ -35567,10 +38139,10 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
-        "Qwen/Qwen3-Demo",
         "Intel/low_bit_open_llm_leaderboard",
         "EuroEval/euroeval_leaderboard",
         "maufadel/wattgpu",
+        "Qwen/Qwen3-Demo",
         "eduagarcia/open_pt_llm_leaderboard",
         "MaziyarPanahi/FACTS-Leaderboard",
         "ISEEKYAN/megatron_memory_estimator",
@@ -35596,7 +38168,6 @@
         "lvwerra/ai-news",
         "yangminded/Final_Assignment_Template",
         "Jpete20001/Fygh",
-        "sizzlebop/ZeroGPU-LLM-Inference",
         "asifHuggingFace/webui",
         "Shabah2000/Qwen44-Demo",
         "Mohaddz/RND1-Base-0910",
@@ -35664,7 +38235,8 @@
         "mrbeast4/test",
         "dalynbutler/Qwen3-Demo",
         "SaritMeshesha/langraph-llm-data-analyst-agent",
-        "mkhatcha/CUA"
+        "mkhatcha/CUA",
+        "KaiquanMah/agents-customer-service-chatbot-v3"
       ],
       "createdAt": "2025-04-27T03:43:05.000Z",
       "safetensors": {
@@ -35678,8 +38250,8 @@
     },
     "qwen/qwen3-8b": {
       "id": "Qwen/Qwen3-8B",
-      "downloads": 13209969,
-      "likes": 1351,
+      "downloads": 13046829,
+      "likes": 1359,
       "lastModified": "2025-07-26T03:49:13.000Z",
       "tags": [
         "transformers",
@@ -35801,15 +38373,13 @@
         "hugging-apps/sensenova-sensenova-u1-5-8b-mot",
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
-        "Qwen/Qwen3-Demo",
-        "multimodalart/self-forcing",
+        "EuroEval/euroeval_leaderboard",
+        "hugging-apps/enoki-hallucination-detector",
         "nvidia/kvpress-leaderboard",
         "ginigen-ai/smol-worldcup",
-        "EuroEval/euroeval_leaderboard",
-        "qgallouedec/finetune-studio",
-        "Jacobo/zetema",
-        "abonaie222263/hf-openai-proxy",
         "maufadel/wattgpu",
+        "Qwen/Qwen3-Demo",
+        "multimodalart/self-forcing",
         "tencent/HY-Motion-1.0",
         "eduagarcia/open_pt_llm_leaderboard",
         "Heartsync/VEO3-RealTime",
@@ -35850,6 +38420,7 @@
         "bartduis/modality_forcing",
         "build-small-hackathon/lingo-shadow-daily-language-practice",
         "build-small-hackathon/through-their-eyes-empathy-simulator",
+        "qgallouedec/finetune-studio",
         "tsi-org/pixio-video-stream",
         "mozilla-ai/wasm-agents-blueprint",
         "dvpearl/REFRAME",
@@ -35873,7 +38444,6 @@
         "build-small-hackathon/the_shape_of_words",
         "build-small-hackathon/PocketAccountant",
         "GiacomoDeLuca/orrery-demo",
-        "sizzlebop/ZeroGPU-LLM-Inference",
         "ThaboMarvin/Sentiment-Analyzer",
         "wynai/Wan-AI-Wan2.1-T2V-1.3B",
         "asifHuggingFace/webui",
@@ -35897,7 +38467,9 @@
         "Deadmon/obliteratus",
         "wan9yu/argus-me",
         "LazyHuman/plexi",
-        "Nightreigners/COEnv"
+        "Nightreigners/COEnv",
+        "Uncensored72828/Tony3838",
+        "daniel8919/limbic-reasoning-agent"
       ],
       "createdAt": "2025-04-27T03:42:21.000Z",
       "safetensors": {
@@ -35911,8 +38483,8 @@
     },
     "qwen/qwen3-14b": {
       "id": "Qwen/Qwen3-14B",
-      "downloads": 1734782,
-      "likes": 460,
+      "downloads": 1703411,
+      "likes": 463,
       "lastModified": "2025-07-26T03:49:23.000Z",
       "tags": [
         "transformers",
@@ -36040,8 +38612,8 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "Qwen/Qwen3-Demo",
         "EuroEval/euroeval_leaderboard",
+        "Qwen/Qwen3-Demo",
         "eduagarcia/open_pt_llm_leaderboard",
         "ISEEKYAN/megatron_memory_estimator",
         "aiqtech/LLM-Token-Visual",
@@ -36064,7 +38636,6 @@
         "build-small-hackathon/rift-chronicles",
         "Anshini/DataSciene_ChatBot",
         "Nurisslam/nurislam-chatbot",
-        "sizzlebop/ZeroGPU-LLM-Inference",
         "asifHuggingFace/webui",
         "Shabah2000/Qwen44-Demo",
         "sassil/maverick-engineer",
@@ -36138,7 +38709,8 @@
         "tuandunghcmut/Qwen314-Private",
         "masi98/heart_ai",
         "masi98/new_space",
-        "fouriertransform/megatron_memory_estimator"
+        "fouriertransform/megatron_memory_estimator",
+        "Mohit0199/chatrouter"
       ],
       "createdAt": "2025-04-27T03:42:45.000Z",
       "safetensors": {
@@ -36152,7 +38724,7 @@
     },
     "qwen/qwen3-32b": {
       "id": "Qwen/Qwen3-32B",
-      "downloads": 5153212,
+      "downloads": 5156288,
       "likes": 743,
       "lastModified": "2025-07-26T03:45:22.000Z",
       "tags": [
@@ -36305,10 +38877,10 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
-        "Qwen/Qwen3-Demo",
         "EuroEval/euroeval_leaderboard",
         "Jindrich3/openajaj",
         "TA25-RSA/travel-agent-smolagents-demo",
+        "Qwen/Qwen3-Demo",
         "eduagarcia/open_pt_llm_leaderboard",
         "fdaudens/podcast-jobs",
         "m-ric/ai-travel-planner",
@@ -36335,13 +38907,13 @@
         "mgbam/builder",
         "Haseeb-001/AstraCode",
         "Agents-MCP-Hackathon/MultiAgent_System_for_Screenplay_Creation",
+        "saketh1201/quartermaster-env",
         "AIgoose/money-printer-studio-v3",
         "build-small-hackathon/ContextForge",
         "Agents-MCP-Hackathon/Clip-Search-Agent",
         "BeyondHsueh/ReliableMath-Leaderboard",
         "CultriX/Generate-Knowledge-Graphs",
         "MCP-1st-Birthday/LifeFlow-AI",
-        "saketh1201/quartermaster-env",
         "osolmaz/leaderboard",
         "saja55/smart-advisor",
         "dromerosm/groq-moa",
@@ -36370,7 +38942,6 @@
         "Anshini/DataSciene_ChatBot",
         "Tonic/leaderboard_yourbench_Tonic_ESMA-Auto-Bench",
         "Agents-MCP-Hackathon/AI-art-director",
-        "sizzlebop/ZeroGPU-LLM-Inference",
         "javierlinked/Final_Assignment_Template",
         "sdeery/fitness-app",
         "SSonic/Demo-0",
@@ -36402,7 +38973,8 @@
         "DaRkAnon1mous/sfcollab-ai-proxy",
         "dromero14521/obliteratus",
         "kicfk/obliteratus",
-        "aaahmet/obliteratus"
+        "aaahmet/obliteratus",
+        "SurendraKumarDhaka/AI-Account-Intelligence-and-Enrichment-System"
       ],
       "createdAt": "2025-04-27T03:52:59.000Z",
       "safetensors": {
@@ -36416,8 +38988,8 @@
     },
     "qwen/qwen3-235b-a22b": {
       "id": "Qwen/Qwen3-235B-A22B",
-      "downloads": 328696,
-      "likes": 1110,
+      "downloads": 330184,
+      "likes": 1111,
       "lastModified": "2025-07-26T03:45:13.000Z",
       "tags": [
         "transformers",
@@ -36872,8 +39444,8 @@
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "Agents-MCP-Hackathon/TinyCodeAgent",
-        "Qwen/Qwen3-Demo",
         "EuroEval/euroeval_leaderboard",
+        "Qwen/Qwen3-Demo",
         "enzostvs/qwensite",
         "hadadrjt/ai",
         "Nymbo/Serverless-TextGen-Hub",
@@ -36922,7 +39494,6 @@
         "Agents-MCP-Hackathon/AI-art-director",
         "Agents-MCP-Hackathon/FinFLow",
         "Agents-MCP-Hackathon/CSV-2-SQLAgent",
-        "sizzlebop/ZeroGPU-LLM-Inference",
         "SarowarSaurav/Finetuned-SLM",
         "asifHuggingFace/webui",
         "huggingfaceramki/Ramkiran_searchgpt",
@@ -36968,7 +39539,8 @@
         "joseph6x/Final_Assignment_Template",
         "AdcloseNN/Qwen-Qwen3-235B-A22B",
         "Aabbhishekk/MCP_Playground",
-        "maharjaved/Qwen-Qwen3-235B-A22B"
+        "maharjaved/Qwen-Qwen3-235B-A22B",
+        "mbaneshi/Qwen-Qwen3-235B-A22B"
       ],
       "createdAt": "2025-04-27T03:53:46.000Z",
       "safetensors": {
@@ -36982,7 +39554,7 @@
     },
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-      "downloads": 10442,
+      "downloads": 10449,
       "likes": 507,
       "lastModified": "2025-05-22T23:46:12.000Z",
       "tags": [
@@ -37419,7 +39991,7 @@
     },
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "downloads": 162521,
+      "downloads": 164468,
       "likes": 1343,
       "lastModified": "2025-05-22T23:44:50.000Z",
       "tags": [
@@ -37729,14 +40301,11 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "EuroEval/euroeval_leaderboard",
         "ginigen-ai/smol-worldcup",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "EuroEval/euroeval_leaderboard",
-        "jai9955/Voice-Activated-RAG-System",
-        "chay123-crypto/NeetWise",
         "Jindrich3/openajaj",
-        "Perizinto/Mirror",
-        "Palvannan55/DataBot-AI-Agent",
+        "alaub/uqied",
         "eduagarcia/open_pt_llm_leaderboard",
         "FINAL-Bench/all-bench-leaderboard",
         "hadadrjt/ai",
@@ -37769,6 +40338,7 @@
         "Nymbo/Groq-Gradio",
         "Ed-Stark/MediSight",
         "arpit13/Memory_Magic_Studio",
+        "jai9955/Voice-Activated-RAG-System",
         "mcjhn/ai",
         "HugMilo/MiloMusic_YuEGP",
         "Jakob08/moneychatbot",
@@ -37777,7 +40347,6 @@
         "Shaikhsarib/EatlyticApp",
         "Tasawar-prog1/dermaai-pakistan-v2",
         "bohmian/esg_countries_chatbot",
-        "dromerosm/groq-moa",
         "abidlabs/smol-arena",
         "arpit13/AI_Workshop_for_Image_Tool",
         "aakashaldankar/NewsLetter",
@@ -37797,6 +40366,7 @@
         "bunnh1234/chat_bot0039",
         "omkarkudalkar23/citationEdge",
         "HiteshiAglawe0505/safespace-ai",
+        "chay123-crypto/NeetWise",
         "Tasawar-prog1/MedReason-RAG",
         "Nafayy04/AI-Transcript-Strategist",
         "brk9999/bal-chatbot",
@@ -37827,7 +40397,9 @@
         "shivace007/ImageCommentary",
         "Tonic/leaderboard_yourbench_Tonic_ESMA-Auto-Bench",
         "Yinchun/Travel_Assistant",
-        "Agents-MCP-Hackathon/mcp_drawittome"
+        "Agents-MCP-Hackathon/mcp_drawittome",
+        "grohiit/llm_evaluator",
+        "sachinbareth/AI-Doctor-vision-voice"
       ],
       "createdAt": "2025-04-02T13:34:17.000Z",
       "safetensors": {
@@ -37841,8 +40413,8 @@
     },
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek-ai/DeepSeek-V3-0324",
-      "downloads": 996915,
-      "likes": 3167,
+      "downloads": 986034,
+      "likes": 3169,
       "lastModified": "2025-03-27T04:01:53.000Z",
       "tags": [
         "transformers",
@@ -38572,7 +41144,7 @@
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-      "downloads": 197802,
+      "downloads": 240578,
       "likes": 1378,
       "lastModified": "2025-12-22T10:15:41.000Z",
       "tags": [
@@ -38752,10 +41324,10 @@
         }
       ],
       "spaces": [
-        "pliny-the-prompter/obliteratus",
         "overhead520/LLM-Settings-Guide",
-        "eduagarcia/multilingual-tokenizer-leaderboard",
+        "pliny-the-prompter/obliteratus",
         "EuroEval/euroeval_leaderboard",
+        "eduagarcia/multilingual-tokenizer-leaderboard",
         "openfree/AI-Podcast",
         "whitecircle/circle-guard-bench",
         "ginigen/Mistral-Perflexity",
@@ -38865,8 +41437,8 @@
     },
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
-      "downloads": 1622803,
-      "likes": 1474,
+      "downloads": 1645991,
+      "likes": 1476,
       "lastModified": "2025-03-21T20:20:53.000Z",
       "tags": [
         "transformers",
@@ -39015,7 +41587,7 @@
       ],
       "spaces": [
         "EuroEval/euroeval_leaderboard",
-        "Jasmineame/detect-LLM-tokens",
+        "alaub/uqied",
         "ginigen/VEO3-Free",
         "eduagarcia/open_pt_llm_leaderboard",
         "ginigen/VEO3-Directors",
@@ -39037,6 +41609,7 @@
         "konieshadow/podcast-transcriber",
         "stiv14/pdf-multilanguage-qa-role",
         "team-wonders/wonders-prolific-test",
+        "Jasmineame/detect-LLM-tokens",
         "nutrientdocs/form-field-vlm-leaderboard",
         "hanzla/PlaygroundGemma3",
         "halfacupoftea/Gemma_Calorai",
@@ -39071,7 +41644,6 @@
         "swechaap/Telugu_Vocab_Evaluation",
         "rzvn/Medieval-Village-AI",
         "huggingfaceramki/Ramkiran_searchgpt",
-        "Wesleykkkk/Blabal",
         "itsasutosha/SmartScribe",
         "Sajib796/Veo3Ai",
         "timothytzkung/SFU-IT-Chatbot-V2",
@@ -39127,8 +41699,8 @@
     },
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
-      "downloads": 742412,
-      "likes": 818,
+      "downloads": 732847,
+      "likes": 819,
       "lastModified": "2025-03-21T20:28:56.000Z",
       "tags": [
         "transformers",
@@ -39285,14 +41857,12 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
-        "ginigen-ai/smol-worldcup",
         "EuroEval/euroeval_leaderboard",
+        "ginigen-ai/smol-worldcup",
         "crusoeai/foundry-model-arena",
-        "Jasmineame/detect-LLM-tokens",
         "Jindrich3/openajaj",
-        "Jacobo/zetema",
-        "hugging-apps/joyai-echo",
         "hugging-apps/temporal-context-routing",
+        "alaub/uqied",
         "eduagarcia/open_pt_llm_leaderboard",
         "huggingface-projects/gemma-3-12b-it",
         "build-small-hackathon/claim-ready",
@@ -39312,6 +41882,7 @@
         "Tomoniai/gemma-3-chat",
         "kitab-bench/KITAB-Bench-Leaderboard",
         "bebechien/hollow-knight-helper",
+        "Jasmineame/detect-LLM-tokens",
         "Agents-MCP-Hackathon/AutoReadmeAgent",
         "Legal-Assistant/LawBot",
         "Vigneshsaminathan/VQA",
@@ -39356,11 +41927,13 @@
         "vinhAIO/chatAIO",
         "ajsbsd/image2video",
         "xota1999/MedPlain",
+        "Jacobo/zetema",
         "joeygambino/joyai-echo-ltx23-surgical",
         "RavichandranJ/obliteratus",
         "S-Dreamer/obliteratus",
         "AlanaSky/asgaard",
         "marchkamal51/obliteratus",
+        "hugging-apps/joyai-echo",
         "CognitiveScience/gemma-3-chat",
         "fickya87/fic_gemma-3-12b-it",
         "Himanshu806/gemma-3-12b-it",
@@ -39380,7 +41953,6 @@
         "jhonnygomez88/hevy_analytics",
         "doropiza/chatbot",
         "CamilleBorrett/model-demo",
-        "ivangabriele/trl-sandbox",
         "ALQAMARI/Alqamari-Medical-AI",
         "Toast312/gemma-3-12b-it",
         "nfel/infherno"
@@ -39397,7 +41969,7 @@
     },
     "cohere/command-a": {
       "id": "CohereLabs/c4ai-command-a-03-2025",
-      "downloads": 2290,
+      "downloads": 2327,
       "likes": 395,
       "lastModified": "2025-10-30T06:37:15.000Z",
       "tags": [
@@ -39731,8 +42303,8 @@
     },
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
-      "downloads": 374507,
-      "likes": 2022,
+      "downloads": 371391,
+      "likes": 2023,
       "lastModified": "2025-03-21T20:29:02.000Z",
       "tags": [
         "transformers",
@@ -39911,9 +42483,10 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
-        "eduagarcia/multilingual-tokenizer-leaderboard",
         "EuroEval/euroeval_leaderboard",
+        "eduagarcia/multilingual-tokenizer-leaderboard",
         "Jindrich3/openajaj",
+        "alaub/uqied",
         "eduagarcia/open_pt_llm_leaderboard",
         "hadadrjt/ai",
         "TIGER-Lab/MEGA-Bench",
@@ -40008,8 +42581,7 @@
         "Xhaheen/Phoenikzz_Apartsearch",
         "ss900371tw/H",
         "angel-born-in-hell/clinical-workstation",
-        "saitejas/CS553-Case-Study-1",
-        "passrawot/TextPhantom_OCR_API2_t1"
+        "saitejas/CS553-Case-Study-1"
       ],
       "createdAt": "2025-03-01T19:10:19.000Z",
       "safetensors": {
@@ -40023,7 +42595,7 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "downloads": 173144,
+      "downloads": 168451,
       "likes": 651,
       "lastModified": "2025-06-06T02:48:50.000Z",
       "tags": [
@@ -40255,15 +42827,16 @@
         }
       ],
       "spaces": [
-        "Memfice/Qwen-Image-Edit-next-scene",
-        "Yellowbox2026/Qwen-Image-Edit-2511-AnyPose",
-        "linoyts/Qwen-Image-Edit-2511-Fast",
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
-        "linoyts/Qwen-Image-Edit-2511-AnyPose",
-        "linoyts/Qwen-Image-Edit-next-scene",
         "Gameyguy/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "Yellowbox2026/Qwen-Image-Edit-2511-AnyPose",
+        "linoyts/Qwen-Image-Edit-2511-AnyPose",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "Memfice/Qwen-Image-Edit-next-scene",
+        "alaub/uqied",
         "smolagents/computer-agent",
+        "linoyts/Qwen-Image-Edit-2511-Fast",
         "eduagarcia/open_pt_llm_leaderboard",
+        "linoyts/Qwen-Image-Edit-next-scene",
         "linoyts/Qwen-Image-Edit-2509-Fast",
         "JournalistsonHF/ai-toolkit",
         "FINAL-Bench/all-bench-leaderboard",
@@ -40353,8 +42926,7 @@
         "kanekirwan/kanekirwan",
         "alluppercase/computer-agent-2",
         "Cvabds/A",
-        "cndoit18/computer-agent",
-        "wBfvtNqNhb/SAM"
+        "cndoit18/computer-agent"
       ],
       "createdAt": "2025-01-27T04:12:04.000Z",
       "safetensors": {
@@ -40368,8 +42940,8 @@
     },
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "downloads": 43317,
-      "likes": 966,
+      "downloads": 44051,
+      "likes": 967,
       "lastModified": "2025-07-28T17:26:22.000Z",
       "tags": [
         "vllm",
@@ -40508,12 +43080,12 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "EuroEval/euroeval_leaderboard",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "eduagarcia/open_pt_llm_leaderboard",
         "KBaba7/Quant",
         "Agents-MCP-Hackathon/KGB-mcp",
         "McLoviniTtt/Reasoner4All",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "ruslanmv/convert_to_gguf",
@@ -40618,8 +43190,8 @@
     },
     "deepseek/deepseek-r1-distill-llama-70b": {
       "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "downloads": 81732,
-      "likes": 798,
+      "downloads": 79657,
+      "likes": 800,
       "lastModified": "2025-02-24T03:31:15.000Z",
       "tags": [
         "transformers",
@@ -40784,6 +43356,7 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "EuroEval/euroeval_leaderboard",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "eduagarcia/open_pt_llm_leaderboard",
         "hadadrjt/ai",
@@ -40793,7 +43366,6 @@
         "ruslanmv/DeepSeek-R1-Chatbot",
         "ngebodh/SimpleChatbot",
         "McLoviniTtt/Reasoner4All",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
         "bhaskartripathi/LLM_Quantization",
@@ -40804,7 +43376,6 @@
         "umint/openwebui",
         "awacke1/Deepseek-HPC-GPU-KEDA",
         "totolook/Quant",
-        "simone-papicchio/qatch-demo",
         "openfree/DeepSeek-R1-32b-api",
         "K00B404/LLM_Quantization",
         "mcjhn/ai",
@@ -40881,7 +43452,8 @@
         "happyhaplu/DeepSeek-R1-Chatbot",
         "9845jriiouert89/deepseek-ai-DeepSeek-R1-Distill-Llama-70B",
         "krsnewwave/blades-helper",
-        "victor739/deepseek-ai-DeepSeek-R1-Distill-Llama-70B"
+        "victor739/deepseek-ai-DeepSeek-R1-Distill-Llama-70B",
+        "PyScoutAI/PyscoutAI"
       ],
       "createdAt": "2025-01-20T09:13:33.000Z",
       "safetensors": {
@@ -40895,8 +43467,8 @@
     },
     "deepseek/deepseek-r1": {
       "id": "deepseek-ai/DeepSeek-R1",
-      "downloads": 792860,
-      "likes": 13616,
+      "downloads": 776744,
+      "likes": 13618,
       "lastModified": "2025-03-27T04:01:59.000Z",
       "tags": [
         "transformers",
@@ -41518,8 +44090,8 @@
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
+        "FallnAI/Quantize-HF-Models",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "abonaie222263/hf-openai-proxy",
         "seawolf2357/LLM_Quantization",
         "llamameta/DeepSeek-R1-Chat-Assistant-Web-Search",
         "FINAL-Bench/all-bench-leaderboard",
@@ -41535,7 +44107,6 @@
         "HPAI-BSC/TuRTLe-Leaderboard",
         "McLoviniTtt/Reasoner4All",
         "bartar/tokenizers",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "jairwaal/image",
         "bhaskartripathi/LLM_Quantization",
@@ -41614,7 +44185,8 @@
         "chipling/api",
         "AmirFARES/Datamir-Hub-Assistant",
         "niuzi66/deepseek-ai-DeepSeek-R1",
-        "ZzHh3/friend-ai-space"
+        "ZzHh3/friend-ai-space",
+        "European-UN-CorpInternational-UNION/deepseek-ai-DeepSeek-R1"
       ],
       "createdAt": "2025-01-20T03:46:07.000Z",
       "safetensors": {
@@ -41630,7 +44202,7 @@
     },
     "deepseek/deepseek-chat": {
       "id": "deepseek-ai/DeepSeek-V3",
-      "downloads": 1032638,
+      "downloads": 1046365,
       "likes": 4180,
       "lastModified": "2025-03-27T04:01:45.000Z",
       "tags": [
@@ -42283,10 +44855,11 @@
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
-        "acvlab/abot-world-interactive",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "gokaygokay/Chroma",
         "Oysiyl/AI-QR-code-generator",
+        "acvlab/abot-world-interactive",
         "FINAL-Bench/all-bench-leaderboard",
         "barunsaha/slide-deck-ai",
         "blanchon/HiDream-ai-full",
@@ -42299,7 +44872,6 @@
         "mikeee/open-deep-research",
         "2025-ai-timeline/2025-ai-timeline",
         "ISEEKYAN/megatron_memory_estimator_old",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "ZongqianLi/ReasonGraph",
@@ -42395,8 +44967,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
-      "downloads": 844566,
-      "likes": 3005,
+      "downloads": 859430,
+      "likes": 3011,
       "lastModified": "2024-12-21T18:28:01.000Z",
       "tags": [
         "transformers",
@@ -42676,10 +45248,12 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "flowers-team/StickToYourRoleLeaderboard",
         "EuroEval/euroeval_leaderboard",
+        "flowers-team/StickToYourRoleLeaderboard",
+        "FallnAI/Quantize-HF-Models",
         "crusoeai/foundry-model-arena",
         "Jindrich3/openajaj",
+        "adityabharti/factlayer",
         "seawolf2357/LLM_Quantization",
         "gabrielchua/open-notebooklm",
         "featherless-ai/try-this-model",
@@ -42694,7 +45268,6 @@
         "newmindai/Mezura",
         "llamameta/Reflection-Llama-3.3-70B",
         "HPAI-BSC/TuRTLe-Leaderboard",
-        "FallnAI/Quantize-HF-Models",
         "bilgeyucel/captionate",
         "bethgelab/lm-similarity",
         "openfree/LLM_Quantization",
@@ -42773,8 +45346,7 @@
         "Shasidharyadavr/netweaver_sre",
         "Anbu-00001/adaptive-crisis-env",
         "saxenalakshya/customer_support_env",
-        "Architect8999/rhodawk-ai-devops-engine",
-        "Saiyam0211/polyglot-redteam"
+        "Architect8999/rhodawk-ai-devops-engine"
       ],
       "createdAt": "2024-11-26T16:08:47.000Z",
       "safetensors": {
@@ -42788,8 +45360,8 @@
     },
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "downloads": 1647978,
-      "likes": 2126,
+      "downloads": 1603991,
+      "likes": 2128,
       "lastModified": "2025-01-12T02:02:22.000Z",
       "tags": [
         "transformers",
@@ -42954,13 +45526,15 @@
         "VIDraft/global-llm-leaderboard",
         "agents-course/First_agent_template",
         "bigcode/bigcode-models-leaderboard",
-        "innoai/ai-video-editor",
+        "Vokturz/can-it-run-llm",
+        "FallnAI/Quantize-HF-Models",
         "eduagarcia/multilingual-tokenizer-leaderboard",
+        "YashashviAlva/codeSentry",
+        "lmattingly/github_pr_review_agent",
         "Jindrich3/openajaj",
         "vazeta/simple-agent-fires-pt",
         "tursuntalha/First_agent_template",
         "seawolf2357/LLM_Quantization",
-        "Vokturz/can-it-run-llm",
         "eduagarcia/open_pt_llm_leaderboard",
         "NeurixYUFI/imggen",
         "m-ric/agent-data-analyst",
@@ -42975,14 +45549,13 @@
         "Kuberwastaken/resume-roaster",
         "agents-course/First_agent",
         "mikeee/open-deep-research",
+        "innoai/ai-video-editor",
         "AiActivity/AI-Assistant",
         "HPAI-BSC/TuRTLe-Leaderboard",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "evangelosmeklis/deepdrone",
         "bhaskartripathi/LLM_Quantization",
         "wasmdashai/LAHJA-AI",
-        "YashashviAlva/codeSentry",
         "MINEOGO/pro-zephyr-coder",
         "fdaudens/my-news-agent",
         "ruslanmv/convert_to_gguf",
@@ -43018,7 +45591,6 @@
         "Ferocious0xide/First_agent_template",
         "cast42/agent_to_ask_about_repo",
         "m-ric/agent_push",
-        "lmattingly/github_pr_review_agent",
         "rahulnamdev/First_agent_template_RN",
         "matthewfranglen/weather-picture-agent",
         "Thorfast/first_agent",
@@ -43064,8 +45636,8 @@
     },
     "qwen/qwen-2.5-7b-instruct": {
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "downloads": 10599224,
-      "likes": 1585,
+      "downloads": 10440548,
+      "likes": 1586,
       "lastModified": "2025-01-12T02:10:10.000Z",
       "tags": [
         "transformers",
@@ -43188,22 +45760,21 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "pliny-the-prompter/obliteratus",
-        "multimodalart/self-forcing",
         "alexnasa/Wan2.2-Animate-ZEROGPU",
+        "pliny-the-prompter/obliteratus",
         "flowers-team/StickToYourRoleLeaderboard",
         "fffiloni/Wan2.1",
+        "FallnAI/Quantize-HF-Models",
         "Agnuxo/OpenCLAW-Agent",
         "Hypxr7/legal-aid-rag",
-        "charlesyapai/polypharm-ddi-agent",
         "Pinolin/Final_Assignment_Template",
         "JoshDa-OrionAI/Orion",
-        "abonaie222263/hf-openai-proxy",
         "Ayobamisalau/Personalized_Chatbot",
         "maufadel/wattgpu",
         "seawolf2357/LLM_Quantization",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
+        "multimodalart/self-forcing",
         "fffiloni/Meigen-MultiTalk",
         "eduagarcia/open_pt_llm_leaderboard",
         "Heartsync/VEO3-RealTime",
@@ -43219,7 +45790,6 @@
         "ginigen/Wan-2.2-Enhanced",
         "fffiloni/Reward-Forcing",
         "HPAI-BSC/TuRTLe-Leaderboard",
-        "FallnAI/Quantize-HF-Models",
         "lablab-ai-amd-developer-hackathon/atlasops",
         "KwabsHug/GameConfigIdea",
         "openfree/LLM_Quantization",
@@ -43286,7 +45856,9 @@
         "ZalzalaKhan/disaster-rag",
         "Prajwal782007/Gridmind",
         "agarwalanu3103/clarify-rl",
-        "lablab-ai-amd-developer-hackathon/BrainConnect-ASD"
+        "lablab-ai-amd-developer-hackathon/BrainConnect-ASD",
+        "build-small-hackathon/gitopadesh",
+        "build-small-hackathon/podify"
       ],
       "createdAt": "2024-09-16T11:55:40.000Z",
       "safetensors": {
@@ -43300,8 +45872,8 @@
     },
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "downloads": 6010185,
-      "likes": 1610,
+      "downloads": 6107196,
+      "likes": 1611,
       "lastModified": "2024-10-24T15:07:51.000Z",
       "tags": [
         "transformers",
@@ -43458,8 +46030,10 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "ginigen-ai/smol-worldcup",
         "EuroEval/euroeval_leaderboard",
+        "ginigen-ai/smol-worldcup",
+        "FallnAI/Quantize-HF-Models",
+        "abgunaydin/zero-tvm",
         "maufadel/wattgpu",
         "seawolf2357/LLM_Quantization",
         "HuggingFaceH4/blogpost-scaling-test-time-compute",
@@ -43474,7 +46048,6 @@
         "aizip-dev/SLM-RAG-Arena",
         "algorithmicsuperintelligence/OptiLLM",
         "AiActivity/AI-Assistant",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "ruslanmv/convert_to_gguf",
@@ -43555,8 +46128,7 @@
         "exploitz3r0bbd/Quantize-HF-Models",
         "dzmitro/carcassonne-ai",
         "OrangeDev/Narravy-Dream-Oracle",
-        "dArk-ang3L/Nucleus-rag",
-        "patolojiai/pathology-report-checker-skill"
+        "dArk-ang3L/Nucleus-rag"
       ],
       "createdAt": "2024-09-18T15:12:47.000Z",
       "safetensors": {
@@ -43570,8 +46142,8 @@
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "downloads": 1476568,
-      "likes": 2524,
+      "downloads": 1529751,
+      "likes": 2536,
       "lastModified": "2024-10-24T15:07:29.000Z",
       "tags": [
         "transformers",
@@ -43738,8 +46310,8 @@
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "EuroEval/euroeval_leaderboard",
+        "FallnAI/Quantize-HF-Models",
         "madarauchihagmailcom/My",
-        "abonaie222263/hf-openai-proxy",
         "seawolf2357/LLM_Quantization",
         "cvachet/pdf-chatbot",
         "jupyter-agent/jupyter-agent",
@@ -43759,7 +46331,6 @@
         "ysharma/Llama3-2_with_Gradio-5",
         "AiActivity/AI-Assistant",
         "newmindai/Mezura",
-        "FallnAI/Quantize-HF-Models",
         "KwabsHug/GameConfigIdea",
         "openfree/LLM_Quantization",
         "jairwaal/image",
@@ -43834,7 +46405,8 @@
         "Pioneer37/Stickman-Arena",
         "build-small-hackathon/kazakh-summarization-TinyAutoScientist",
         "Riswan-Nopiyar/Chat-Bot-Indonesia-Nopiyar.my.id",
-        "eidoc/HMA"
+        "eidoc/HMA",
+        "Wedyan2023/Data_Generation_LabelingCopy"
       ],
       "createdAt": "2024-09-18T15:19:20.000Z",
       "safetensors": {
@@ -43848,7 +46420,7 @@
     },
     "qwen/qwen-2.5-72b-instruct": {
       "id": "Qwen/Qwen2.5-72B-Instruct",
-      "downloads": 439080,
+      "downloads": 440609,
       "likes": 982,
       "lastModified": "2025-01-12T02:07:38.000Z",
       "tags": [
@@ -44072,10 +46644,10 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "Intel/low_bit_open_llm_leaderboard",
-        "flowers-team/StickToYourRoleLeaderboard",
         "EuroEval/euroeval_leaderboard",
+        "flowers-team/StickToYourRoleLeaderboard",
+        "FallnAI/Quantize-HF-Models",
         "Hypxr7/legal-aid-rag",
-        "Tarun21W/MetaAI",
         "pradeepchengada/mining_shuttle",
         "seawolf2357/LLM_Quantization",
         "gokaygokay/FLUX-Prompt-Generator",
@@ -44097,7 +46669,6 @@
         "HPAI-BSC/TuRTLe-Leaderboard",
         "agent-zero/meta-ads-attribution-env",
         "bartar/tokenizers",
-        "FallnAI/Quantize-HF-Models",
         "lablab-ai-amd-developer-hackathon/atlasops",
         "Nymbo/Qwen-2.5-72B-Instruct",
         "openfree/LLM_Quantization",
@@ -44133,8 +46704,11 @@
         "totolook/Quant",
         "roameoandjulijet/final_project_code",
         "Bitebot/bitebot_app",
+        "Adityashinde0/customer-support-openenv",
         "praveen81/claimwatch",
         "Destiny04/digital-forensics-lab",
+        "vaibhavpai/supply-chain",
+        "aditya25shah/customer_support_ops_env",
         "kdcyberdude/HARvestGym",
         "jaymeen1405/text2sql-ai-agent",
         "K00B404/HugChatWrap",
@@ -44149,17 +46723,15 @@
         "jsdosanj/SikhLibrarian",
         "yaswanth169/data-janitor-env",
         "ArtelTaleb/hello-3d-world",
-        "Adityashinde0/customer-support-openenv",
         "abhinavgautam01/my-env",
         "souller/email-triage-env",
         "Anuj2209/openenv-customer-support",
         "Casp1an/TradeX",
         "meet25284/pothole-repair-env",
         "NITISHRG15102007/rag-context-optimizer",
-        "vaibhavpai/supply-chain",
+        "Tarun21W/MetaAI",
         "thecodebeast/Clinical-Note-Scribe",
         "meta-rl/pnp-gtm-strategy-optimizer",
-        "aditya25shah/customer_support_ops_env",
         "nensi1311/ScholarEnv",
         "phamngoctukts/assistant",
         "xzyun2011/wulewule",
@@ -44183,7 +46755,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-70b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-70B",
-      "downloads": 2773,
+      "downloads": 2865,
       "likes": 138,
       "lastModified": "2024-09-08T07:51:00.000Z",
       "tags": [
@@ -44484,7 +47056,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "downloads": 1138,
+      "downloads": 1147,
       "likes": 273,
       "lastModified": "2024-10-08T08:01:44.000Z",
       "tags": [
@@ -45326,8 +47898,8 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
-      "downloads": 313793,
-      "likes": 972,
+      "downloads": 291707,
+      "likes": 973,
       "lastModified": "2024-12-15T01:55:33.000Z",
       "tags": [
         "transformers",
@@ -45599,8 +48171,9 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
-        "flowers-team/StickToYourRoleLeaderboard",
         "EuroEval/euroeval_leaderboard",
+        "flowers-team/StickToYourRoleLeaderboard",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "KingNish/OpenGPT-4o",
         "gokaygokay/FLUX-Prompt-Generator",
@@ -45622,7 +48195,6 @@
         "davidberenstein1957/text-to-sql-hub-datasets",
         "AiActivity/AI-Assistant",
         "newmindai/Mezura",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "evangelosmeklis/deepdrone",
         "MCP-1st-Birthday/DETERMINATOR",
@@ -45710,8 +48282,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "downloads": 5571962,
-      "likes": 6808,
+      "downloads": 5644039,
+      "likes": 6848,
       "lastModified": "2024-09-25T17:00:57.000Z",
       "tags": [
         "transformers",
@@ -45882,16 +48454,16 @@
       "spaces": [
         "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
+        "EuroEval/euroeval_leaderboard",
         "suraj291/Survival_Island_Game",
         "nvidia/kvpress-leaderboard",
         "flowers-team/StickToYourRoleLeaderboard",
         "ginigen-ai/smol-worldcup",
+        "FallnAI/Quantize-HF-Models",
         "eduagarcia/multilingual-tokenizer-leaderboard",
-        "EuroEval/euroeval_leaderboard",
         "mariannoah/synapse",
         "Gautam0898/crisiscompute",
         "Jindrich3/openajaj",
-        "abonaie222263/hf-openai-proxy",
         "maufadel/wattgpu",
         "seawolf2357/LLM_Quantization",
         "KingNish/OpenGPT-4o",
@@ -45928,7 +48500,6 @@
         "VIDraft/ThinkFlow-llama",
         "newmindai/Mezura",
         "panuthept/thai_sentence_embedding_benchmark",
-        "FallnAI/Quantize-HF-Models",
         "bethgelab/lm-similarity",
         "openfree/LLM_Quantization",
         "evangelosmeklis/deepdrone",
@@ -45979,7 +48550,8 @@
         "awacke1/ChatStreamlitMultiplayer",
         "argilla/distilabel-argilla-labeller",
         "gaverfraxz/Weight_Comparator",
-        "totolook/Quant"
+        "totolook/Quant",
+        "stiv14/pdf-multilanguage-qa-role"
       ],
       "createdAt": "2024-07-18T08:56:00.000Z",
       "safetensors": {
@@ -45993,8 +48565,8 @@
     },
     "mistralai/mistral-nemo": {
       "id": "mistralai/Mistral-Nemo-Instruct-2407",
-      "downloads": 353461,
-      "likes": 1696,
+      "downloads": 353995,
+      "likes": 1699,
       "lastModified": "2025-07-28T17:16:02.000Z",
       "tags": [
         "vllm",
@@ -46116,10 +48688,11 @@
         }
       ],
       "spaces": [
-        "pliny-the-prompter/obliteratus",
         "overhead520/LLM-Settings-Guide",
-        "eduagarcia/multilingual-tokenizer-leaderboard",
+        "pliny-the-prompter/obliteratus",
         "EuroEval/euroeval_leaderboard",
+        "FallnAI/Quantize-HF-Models",
+        "eduagarcia/multilingual-tokenizer-leaderboard",
         "seawolf2357/LLM_Quantization",
         "KingNish/OpenGPT-4o",
         "featherless-ai/try-this-model",
@@ -46135,7 +48708,6 @@
         "K00B404/FluxCapacitor",
         "Neopix/Mistral-Nemo-Uncensored",
         "McLoviniTtt/Reasoner4All",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "Shreyas094/SearchGPT",
@@ -46228,7 +48800,7 @@
     },
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
-      "downloads": 33570,
+      "downloads": 31249,
       "likes": 573,
       "lastModified": "2024-08-27T19:41:54.000Z",
       "tags": [
@@ -46390,8 +48962,9 @@
         }
       ],
       "spaces": [
-        "flowers-team/StickToYourRoleLeaderboard",
         "EuroEval/euroeval_leaderboard",
+        "flowers-team/StickToYourRoleLeaderboard",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "eduagarcia/open_pt_llm_leaderboard",
         "gokaygokay/Gemma-2-llamacpp",
@@ -46406,7 +48979,6 @@
         "poscye/google-go",
         "fsadeek/gemma-fine-tuning",
         "AiActivity/AI-Assistant",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "phyloforfun/VoucherVision",
@@ -46459,13 +49031,13 @@
         "TaskeenJafri/gemma-2-9b-it",
         "Reza2002/google-gemma-2-27b-it",
         "meidkad/test5",
-        "ChadLee/google-gemma-2-27b-it",
         "meidkad/test6",
+        "ChadLee/google-gemma-2-27b-it",
         "yayablaze/google-gemma-2-27b-it",
         "ehristoforu/gemma-2-9b-it",
         "rajivmehtapy/llama-cpp-agent",
-        "twn39/starship",
         "Sergeysedikh/gemma-2-9b-it",
+        "twn39/starship",
         "isl-research/KCE_NVIDIA",
         "powerstone/google-gemma-2-27b-it",
         "daniellp/HFLLMs",
@@ -46503,7 +49075,7 @@
     },
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-      "downloads": 25694,
+      "downloads": 24702,
       "likes": 757,
       "lastModified": "2025-07-24T16:41:56.000Z",
       "tags": [
@@ -46775,6 +49347,7 @@
       "spaces": [
         "HuggingFaceFW/blogpost-fineweb-v1",
         "flowers-team/StickToYourRoleLeaderboard",
+        "FallnAI/Quantize-HF-Models",
         "seawolf2357/LLM_Quantization",
         "reach-vb/2024-ai-timeline",
         "eduagarcia/open_pt_llm_leaderboard",
@@ -46784,7 +49357,6 @@
         "CZLC/BenCzechMark",
         "allenai/BaseChat",
         "AiActivity/AI-Assistant",
-        "FallnAI/Quantize-HF-Models",
         "openfree/LLM_Quantization",
         "bhaskartripathi/LLM_Quantization",
         "ZongqianLi/ReasonGraph",
