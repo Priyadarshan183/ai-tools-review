@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-10-23T08:24:13.981Z",
+  "fetched_at": "2026-10-25T08:16:02.270Z",
   "data": {
     "deepseek/deepseek-v4.1-flash-1017": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "downloads": 51911,
-      "likes": 2435,
+      "downloads": 73215,
+      "likes": 2845,
       "lastModified": "2026-10-17T05:46:55.000Z",
       "tags": [
         "transformers",
@@ -340,10 +340,10 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "lalopenguin/deepseek-v4-1-flash-demo",
         "3htbe/deepseek-v41-uncensored-demo",
         "Shadowsun2069/deepseek-v41-uncensored-demo",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "quantid/measurement-lab",
         "uplinkswitch/llm-api-price-comparison",
@@ -351,10 +351,9 @@
         "ariellephan/deepseek-v41-flash-1017-demo",
         "b4ph/toks-windows-benchmark",
         "marksenlit/deepseek-sonar",
-        "BIGJUTT/model-pulse",
-        "Nonamenofacce/deepseek-v41-flash-demo",
         "Prince837/deepseek-v41-flash-demo",
-        "alphabell/DeepSeek-Prompt-Parity"
+        "alphabell/DeepSeek-Prompt-Parity",
+        "cmpatino/flock-run-viewer"
       ],
       "createdAt": "2026-10-17T02:40:38.000Z",
       "safetensors": {
@@ -371,8 +370,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "downloads": 1488213,
-      "likes": 4711,
+      "downloads": 1569981,
+      "likes": 4731,
       "lastModified": "2026-10-16T09:27:28.000Z",
       "tags": [
         "transformers",
@@ -733,9 +732,9 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "BIGJUTT/model-pulse",
         "VIDraft/global-llm-leaderboard",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
@@ -793,9 +792,8 @@
         "westas/deepseek-v41-flash-demo",
         "thomwolf/hub-dollars",
         "hmb/deepseek-vs-kimi",
-        "hmb/minimax-m31-flash-arena",
-        "BIGJUTT/model-pulse",
-        "alphabell/DeepSeek-Prompt-Parity"
+        "alphabell/DeepSeek-Prompt-Parity",
+        "hmb/m31-vs-deepseek"
       ],
       "createdAt": "2026-09-10T02:17:58.000Z",
       "safetensors": {
@@ -812,8 +810,8 @@
     },
     "deepseek/deepseek-v4.1-flash:batch": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "downloads": 1488213,
-      "likes": 4711,
+      "downloads": 1569981,
+      "likes": 4731,
       "lastModified": "2026-10-16T09:27:28.000Z",
       "tags": [
         "transformers",
@@ -1174,9 +1172,9 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "BIGJUTT/model-pulse",
         "VIDraft/global-llm-leaderboard",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
@@ -1234,9 +1232,8 @@
         "westas/deepseek-v41-flash-demo",
         "thomwolf/hub-dollars",
         "hmb/deepseek-vs-kimi",
-        "hmb/minimax-m31-flash-arena",
-        "BIGJUTT/model-pulse",
-        "alphabell/DeepSeek-Prompt-Parity"
+        "alphabell/DeepSeek-Prompt-Parity",
+        "hmb/m31-vs-deepseek"
       ],
       "createdAt": "2026-09-10T02:17:58.000Z",
       "safetensors": {
@@ -1253,8 +1250,8 @@
     },
     "qwen/qwen3.8-flash": {
       "id": "Qwen/Qwen3.8-Flash-Next",
-      "downloads": 2706809,
-      "likes": 6421,
+      "downloads": 3035077,
+      "likes": 6470,
       "lastModified": "2026-08-27T05:03:36.000Z",
       "tags": [
         "transformers",
@@ -1752,8 +1749,9 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "victor/Qwen3.8-Flash-Next-free-endpoint",
         "apathy-exe/Qwen3.8-Flash-Next",
@@ -1770,8 +1768,7 @@
         "donaldJJ/llm-vram-calculator",
         "BoldingBuilds/helping-qwen-finish-thinking",
         "quaedra/best-local-llm-for-your-gpu",
-        "thomwolf/hub-dollars",
-        "BIGJUTT/model-pulse"
+        "thomwolf/hub-dollars"
       ],
       "createdAt": "2026-08-24T08:24:59.000Z",
       "safetensors": {
@@ -1786,8 +1783,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 6421899,
-      "likes": 2924,
+      "downloads": 6377661,
+      "likes": 2942,
       "lastModified": "2026-10-15T06:32:52.000Z",
       "tags": [
         "transformers",
@@ -3593,13 +3590,13 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
-        "fastgpu/vram-and-gpu-cost-calculator",
         "FineEnvs/simulation-rl-environments",
         "earakely-scale/rea-environments",
-        "joelniklaus/harness-leaderboard",
+        "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/GLM-5.3-Flash",
@@ -3613,6 +3610,7 @@
         "abonaie222263/hf-openai-proxy",
         "yash-711/glm-5-3-flash-api-prices",
         "Infergauge-load/llm-performance-and-load",
+        "joelniklaus/harness-leaderboard",
         "uplinkswitch/llm-api-price-comparison",
         "mmrech/NeuroSAM3",
         "qikp/tokenizers",
@@ -3629,8 +3627,8 @@
         "developerjeremylive/hf-openai-proxy-etheroi",
         "Dhshshd/Ninqggoai",
         "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX",
-        "Auenchanters/Orionwest",
         "malaiwah/qfs-explorer",
+        "Auenchanters/Orionwest",
         "abelardo8574/GAIA_Agent",
         "shyampatadia22/hazardlens-ai",
         "yanjunchen/discollm",
@@ -3650,7 +3648,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "b4ph/toks-windows-benchmark",
         "drinkYourOJ/glm-5.3-flash-demo",
-        "BIGJUTT/model-pulse"
+        "cmpatino/flock-run-viewer"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -3666,8 +3664,8 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 6421899,
-      "likes": 2924,
+      "downloads": 6377661,
+      "likes": 2942,
       "lastModified": "2026-10-15T06:32:52.000Z",
       "tags": [
         "transformers",
@@ -5473,13 +5471,13 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
-        "fastgpu/vram-and-gpu-cost-calculator",
         "FineEnvs/simulation-rl-environments",
         "earakely-scale/rea-environments",
-        "joelniklaus/harness-leaderboard",
+        "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/GLM-5.3-Flash",
@@ -5493,6 +5491,7 @@
         "abonaie222263/hf-openai-proxy",
         "yash-711/glm-5-3-flash-api-prices",
         "Infergauge-load/llm-performance-and-load",
+        "joelniklaus/harness-leaderboard",
         "uplinkswitch/llm-api-price-comparison",
         "mmrech/NeuroSAM3",
         "qikp/tokenizers",
@@ -5530,7 +5529,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "b4ph/toks-windows-benchmark",
         "drinkYourOJ/glm-5.3-flash-demo",
-        "BIGJUTT/model-pulse"
+        "cmpatino/flock-run-viewer"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -5546,8 +5545,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "downloads": 385843,
-      "likes": 959,
+      "downloads": 345806,
+      "likes": 958,
       "lastModified": "2026-09-01T09:22:10.000Z",
       "tags": [
         "transformers",
@@ -5911,8 +5910,8 @@
     },
     "z-ai/glm-5.3": {
       "id": "zai-org/GLM-5.3",
-      "downloads": 1937342,
-      "likes": 2294,
+      "downloads": 2043783,
+      "likes": 2305,
       "lastModified": "2026-10-14T12:22:48.000Z",
       "tags": [
         "transformers",
@@ -6998,11 +6997,11 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
-        "fastgpu/vram-and-gpu-cost-calculator",
         "FineEnvs/simulation-rl-environments",
+        "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "zoom-ai/hle-leaderboard",
@@ -7031,7 +7030,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "MPtraining/GLM_for_GPT",
         "Stubbs0x/ampro-n2259x-preview",
-        "BIGJUTT/model-pulse"
+        "oravianando/glm-5-3-playground"
       ],
       "createdAt": "2026-08-25T06:42:50.000Z",
       "safetensors": {
@@ -7047,8 +7046,8 @@
     },
     "z-ai/glm-5.3:batch": {
       "id": "zai-org/GLM-5.3",
-      "downloads": 1937342,
-      "likes": 2294,
+      "downloads": 2043783,
+      "likes": 2305,
       "lastModified": "2026-10-14T12:22:48.000Z",
       "tags": [
         "transformers",
@@ -8134,11 +8133,11 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
-        "fastgpu/vram-and-gpu-cost-calculator",
         "FineEnvs/simulation-rl-environments",
+        "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "zoom-ai/hle-leaderboard",
@@ -8167,7 +8166,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "MPtraining/GLM_for_GPT",
         "Stubbs0x/ampro-n2259x-preview",
-        "BIGJUTT/model-pulse"
+        "oravianando/glm-5-3-playground"
       ],
       "createdAt": "2026-08-25T06:42:50.000Z",
       "safetensors": {
@@ -8183,8 +8182,8 @@
     },
     "qwen/qwen3.8-27b": {
       "id": "Qwen/Qwen3.8-27B",
-      "downloads": 7758670,
-      "likes": 18238,
+      "downloads": 7851161,
+      "likes": 18358,
       "lastModified": "2026-08-14T15:00:01.000Z",
       "tags": [
         "transformers",
@@ -8346,22 +8345,23 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "RioShiina/ImageGen",
-        "FineEnvs/RL-Explorer",
         "JonathanColetti/Qwen3.8-27B-Uncensored-Demo",
         "embedl/hfviewer",
-        "fastgpu/vram-and-gpu-cost-calculator",
+        "Gramlin/ImageGennew",
         "FineEnvs/simulation-rl-environments",
+        "fastgpu/vram-and-gpu-cost-calculator",
+        "alxander84/ImageGen-32",
         "PrinceAlhassanNasamu/tekyerema-lang",
-        "e12ex2/herbert-demo",
+        "FineEnvs/RL-Explorer",
+        "finerobotics/annotation-studio",
         "prajwalpujari16/menmo-backend",
         "Chikamso-ICE/AgroAI-Diagnostic-Center",
-        "SujalChhajed925/MetaGen",
         "FineEnvs/PortSimEnv",
-        "Gramlin/ImageGennew",
         "Aniruddha7/QueryLensV2b",
+        "Or1290/LP12",
         "Cheurteen/bonsai-2-ablated-measured",
+        "BIGJUTT/model-pulse",
         "skpranav22/legal-ai-platform",
         "victor/Qwen3.8-27B-free-endpoint",
         "apathy-exe/Qwen3.8-27B",
@@ -8370,12 +8370,10 @@
         "dromerosm/groq-chatbot",
         "prithivMLmods/Qwen3.8-27B-Object-Detection",
         "emanforhelp/model-pulse",
-        "alxander84/ImageGen-32",
         "plan291037/TextPhantom-v4.0.0",
         "ArtShumov/Whyx-PROmpTea",
         "MaziyarPanahi/lotus-court-qwen38",
         "idkhungle/Qwen3.8-27B-Uncensored-Demo",
-        "guillosan21/Qwen3.8-27B-Uncensored-Demo",
         "SAAZIZI/SummarizeAV",
         "idoo0/chatbot-unity",
         "aakashaldankar/NewsLetter",
@@ -8389,6 +8387,8 @@
         "abalanescu/flow2",
         "lalopenguin/minimax-h3-demo",
         "mulfis238/qwen3.8-27b-uncensored-demo",
+        "guillosan21/Qwen3.8-27B-Uncensored-Demo",
+        "e12ex2/herbert-demo",
         "aakashaldankar/Kaleidoscope",
         "inria-chile/llaca-datathon",
         "kevinkal/stx",
@@ -8419,8 +8419,10 @@
         "harshal-g/chatbot",
         "zaheer140/RagAgent",
         "BrocoAI/trikal-darshi-api",
+        "SujalChhajed925/MetaGen",
         "iSushant/aggroso",
         "teachervictor/stock-analysis-tw",
+        "Joshijii/Sherpa_Engine",
         "ICSAC-Institute/editorial-system",
         "josegm61/arxiv-rag",
         "NadevA23/Kronumos-2-Kairos",
@@ -8442,10 +8444,7 @@
         "juuh/Qwen3.8-27B-Uncensored-Demo",
         "pazborriello/Qwen3.8-27B-Uncensored-Demo",
         "St3phen/CSDS553-CaseStudy1-4",
-        "maufadel/wattgpu",
-        "paridhidchoudhary/steering_demo",
-        "Wanyamaelis/Qwen3.8-27B",
-        "RiverRider/walk-the-space"
+        "maufadel/wattgpu"
       ],
       "createdAt": "2026-08-05T08:22:59.000Z",
       "safetensors": {
@@ -8459,8 +8458,8 @@
     },
     "qwen/qwen3.8-2.4t-a95b": {
       "id": "Qwen/Qwen3.8-2.4T-A95B",
-      "downloads": 25398,
-      "likes": 1326,
+      "downloads": 25371,
+      "likes": 1328,
       "lastModified": "2026-08-12T10:24:04.000Z",
       "tags": [
         "transformers",
@@ -9200,8 +9199,8 @@
         }
       ],
       "spaces": [
-        "FineEnvs/RL-Explorer",
         "FineEnvs/simulation-rl-environments",
+        "FineEnvs/RL-Explorer",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "Svngoku/jupyter2agent",
@@ -9236,7 +9235,7 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "downloads": 152296,
+      "downloads": 150988,
       "likes": 899,
       "lastModified": "2026-08-13T16:28:28.000Z",
       "tags": [
@@ -9636,8 +9635,8 @@
     },
     "deepseek/deepseek-v4-flash-0731": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "downloads": 4297931,
-      "likes": 4085,
+      "downloads": 4315560,
+      "likes": 4088,
       "lastModified": "2026-08-01T03:07:41.000Z",
       "tags": [
         "transformers",
@@ -10019,7 +10018,8 @@
         "basyd/Music",
         "Yuta1409/Final_Assignment_Template",
         "helo-ayush/VideoGeneratorAutomation",
-        "robertbschuette/MiniMax-Music3"
+        "robertbschuette/MiniMax-Music3",
+        "afbile70/MiniMax-Music3"
       ],
       "createdAt": "2026-07-31T07:30:24.000Z",
       "safetensors": {
@@ -10037,8 +10037,8 @@
     },
     "moonshotai/kimi-k3": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 954778,
-      "likes": 11803,
+      "downloads": 909762,
+      "likes": 11822,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -10496,11 +10496,12 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
         "HapppyHooochie/Kimi-K3-Abliterated-Demo",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/Kimi-K3",
@@ -10521,12 +10522,12 @@
         "sharkyatg272/aria",
         "quantid/measurement-lab",
         "uplinkswitch/llm-api-price-comparison",
-        "Benwe2/ppp02",
-        "Xunjunaa/pp02",
         "Benwe2/ppp01",
-        "Benwe2/ppp03",
         "Xunjunaa/pp03",
         "Xunjunaa/pp01",
+        "Benwe2/ppp02",
+        "Benwe2/ppp03",
+        "Xunjunaa/pp02",
         "nougenai/NouGenShards",
         "cuivienen/synderesis-api",
         "rndashboard/rndashboard",
@@ -10538,9 +10539,9 @@
         "wuisimo/Kimi-K3-Demo",
         "llamameta/kimi-glm5.5-game-k3",
         "jiuguilaohu2026/kimi-k3",
-        "qiguanfei/Kimi-K3-Demo",
-        "HugmeDEV/kimi-k3-demo",
         "angelorovatti/kimi-k3-chat",
+        "HugmeDEV/kimi-k3-demo",
+        "qiguanfei/Kimi-K3-Demo",
         "akpsahan/kimi-glm5.5-game-k3",
         "Dorman11/kimi-k3-demo",
         "lukebanc/kimi-k3-demo",
@@ -10580,8 +10581,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "thomwolf/hub-dollars",
         "hmb/deepseek-vs-kimi",
-        "westosteel76/kimi-k3-chat",
-        "BIGJUTT/model-pulse"
+        "westosteel76/kimi-k3-chat"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -10597,8 +10597,8 @@
     },
     "moonshotai/kimi-k3:batch": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 954778,
-      "likes": 11803,
+      "downloads": 909762,
+      "likes": 11822,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -11056,11 +11056,12 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
-        "FineEnvs/RL-Explorer",
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "FineEnvs/RL-Explorer",
         "HapppyHooochie/Kimi-K3-Abliterated-Demo",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/Kimi-K3",
@@ -11140,8 +11141,7 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "thomwolf/hub-dollars",
         "hmb/deepseek-vs-kimi",
-        "westosteel76/kimi-k3-chat",
-        "BIGJUTT/model-pulse"
+        "westosteel76/kimi-k3-chat"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -11157,8 +11157,8 @@
     },
     "cohere/north-mini-code:free": {
       "id": "CohereLabs/North-Mini-Code-1.0",
-      "downloads": 7213,
-      "likes": 582,
+      "downloads": 7325,
+      "likes": 583,
       "lastModified": "2026-06-15T04:32:41.000Z",
       "tags": [
         "transformers",
@@ -11442,8 +11442,8 @@
     },
     "z-ai/glm-5.2": {
       "id": "zai-org/GLM-5.2",
-      "downloads": 345417,
-      "likes": 5182,
+      "downloads": 322731,
+      "likes": 5185,
       "lastModified": "2026-09-01T11:36:01.000Z",
       "tags": [
         "transformers",
@@ -12438,18 +12438,18 @@
         "ratah/zai-org-GLM-5.2",
         "Kalanthor/zai-org-GLM-5.2",
         "xcvgfd/zai-org-GLM-5.2",
-        "fuadfakhruzz/zai-org-GLM-5.2",
         "marzukiberg/zai-org-GLM-5.2",
+        "fuadfakhruzz/zai-org-GLM-5.2",
         "macmdq/GLM-5.2",
         "Muzzamm/zai-org-GLM-5.2",
         "redhat2/zai-org-GLM-5.2",
         "developerjeremylive/GLM-5.2-etheroi",
         "Timothy1996/zai-org-GLM-5.2",
-        "Sandre98/zai-org-GLM-5.2",
         "GeneWildest/zai-org-GLM-5.2",
+        "Sandre98/zai-org-GLM-5.2",
         "imbecome/zai-org-GLM-5.2",
-        "VeryOnly123/zai-org-GLM-5.2",
         "EchoVoid1234/zai-org-GLM-5.2",
+        "VeryOnly123/zai-org-GLM-5.2",
         "Adieva-15/networkbot",
         "AAALEGENDS2/AAA",
         "rohanchand21/freellmapi",
@@ -12464,13 +12464,13 @@
         "xx911121/zai-org-GLM-5.2",
         "omegaodin/zai-org-GLM-5.2",
         "clawceshi/zai-org-GLM-5.2",
-        "mx-llms/test",
         "CuriousArpit/zai-org-GLM-5.2",
         "Suwahas321/zai-org-GLM-5.2",
-        "enterbox/zai-org-GLM-5.2",
+        "mx-llms/test",
         "kiwoo31/zai-org-GLM-5.2",
-        "coppinaphil/gitlikeme5.2",
+        "enterbox/zai-org-GLM-5.2",
         "krakon101/agents-course",
+        "coppinaphil/gitlikeme5.2",
         "MikeLorw/zai-org-GLM-5.2",
         "ServerX/glm-5-chat",
         "TacoManAI/zai-org-GLM-5.2",
@@ -12513,7 +12513,7 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "id": "moonshotai/Kimi-K2.7-Code",
-      "downloads": 93533,
+      "downloads": 90601,
       "likes": 1424,
       "lastModified": "2026-06-15T07:49:29.000Z",
       "tags": [
@@ -12898,10 +12898,10 @@
         "developerjeremylive/Kimi-K2.7-Code-etheroi",
         "rayline-ai/rayline-router-trainer",
         "rohanchand21/freellmapi",
-        "vijayreddylol/astria",
-        "gamanimpex/astria",
-        "gamansai/astria",
         "aparanjani232/astria",
+        "vijayreddylol/astria",
+        "gamansai/astria",
+        "gamanimpex/astria",
         "Frsbk/moonshotai-Kimi-K2.7-Code",
         "Juanito01013/moonshotai-Kimi-K2.7-Code",
         "steve20400/moonshotai-Kimi-K2.7-Code",
@@ -12938,8 +12938,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "id": "Qwen/Qwen3.6-35B-A3B",
-      "downloads": 3717569,
-      "likes": 3025,
+      "downloads": 3928413,
+      "likes": 3029,
       "lastModified": "2026-04-24T02:53:42.000Z",
       "tags": [
         "transformers",
@@ -13223,8 +13223,8 @@
     },
     "qwen/qwen3.6-27b": {
       "id": "Qwen/Qwen3.6-27B",
-      "downloads": 2350861,
-      "likes": 2335,
+      "downloads": 2406225,
+      "likes": 2336,
       "lastModified": "2026-04-24T02:39:16.000Z",
       "tags": [
         "transformers",
@@ -13380,6 +13380,8 @@
       "spaces": [
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "finerobotics/annotation-studio",
+        "testaibuilder/pc-builder-bot",
         "ginigen-ai/open-router-leaderboard",
         "dromerosm/groq-chatbot",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
@@ -13475,9 +13477,7 @@
         "Miaaiassistant/geology-professor",
         "ash001/LangGraph_Multi-Agent_Orchestrator",
         "abcs-noob/Uploadfiles",
-        "ash001/Hybrid_RAG_Suite",
-        "nSanthosh/bill_extractor",
-        "swapna7899/prognosai-fastapi-backend-1"
+        "ash001/Hybrid_RAG_Suite"
       ],
       "createdAt": "2026-04-21T07:50:43.000Z",
       "safetensors": {
@@ -13491,8 +13491,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
-      "downloads": 354943,
-      "likes": 5671,
+      "downloads": 361083,
+      "likes": 5677,
       "lastModified": "2026-06-22T12:12:50.000Z",
       "tags": [
         "transformers",
@@ -13896,7 +13896,6 @@
         "aisvarya-adeseye/hes1",
         "Rox-Turbo/API",
         "Zekgi/AI",
-        "taemin1980/shadowbrain",
         "arnhuggingface/deepseek-ai-DeepSeek-V4-Pro",
         "Redkahaja/deepseek-ai-DeepSeek-V4-Pro",
         "Sanya2025/centaurus",
@@ -13926,25 +13925,25 @@
         "Mikaildolu/deepseek-ai-DeepSeek-V4-Pro",
         "MoDrakM/deepseek-ai-DeepSeek-V4-Pro",
         "nayonayo999/deepseek-ai-DeepSeek-V4-Pro",
-        "Mikaildolu/DeepSeek-V4-Proaaa",
-        "Mikaildolu/DeepSeek-V4-Pro",
         "Mikaildolu/DeepSeek-V4-Promanya",
+        "Mikaildolu/DeepSeek-V4-Pro",
+        "Mikaildolu/DeepSeek-V4-Proaaa",
         "lolganteng/deepseek-ai-DeepSeek-V8pro-max",
         "Manup1212/deepseek-ai-DeepSeek-V4-Pro",
         "cruzer23/deepseek-ai-DeepSeek-V4-Pro",
         "Kaiman1122/deepseek-ai-DeepSeek-V4-Pro",
         "Sphahh222/Spha-deepseek-ai-DeepSeek-V4-Pro",
         "manok54/deepseek-ai-DeepSeek-V4-Pro",
-        "DAVPANA/VoxloAI",
         "DAVPANA/Voxlo_AI",
+        "DAVPANA/VoxloAI",
         "Hacerbeni61/assistant_ia",
         "lolganteng/DeepSeek-V4-Pro",
         "hoangthazh/deepseek-ai-DeepSeek-V4-Pro",
         "ammarad/deepseek-ai-DeepSeek-V4-Pro",
         "saha240878/deepseek-ai-DeepSeek-V4-Pro",
         "dkay/deepseek-ai-DeepSeek-V4-Pro",
-        "lovegold/deepseek-ai-DeepSeek-V4-Pro",
         "lionsandmoons/deepseek-ai-DeepSeek-V4-Pro",
+        "lovegold/deepseek-ai-DeepSeek-V4-Pro",
         "Ekoshow/deepseek-ai-DeepSeek-V4-Pro",
         "amwolf36/deepseek-ai-DeepSeek-V4-Pro",
         "onchezz/deepseek-ai-DeepSeek-V4-Pro",
@@ -13952,8 +13951,9 @@
         "luqman-beepilot/deepseek-ai-DeepSeek-V4-Pro",
         "Ado926/deepseek-ai-DeepSeek-V4-Pro",
         "Anujj07/deepseek-ai-DeepSeek-V4-Pro",
-        "su12300/deepseek-ai-DeepSeek-V4-Pro",
         "AADIT-KUMAR/deepseek-ai-DeepSeek-V4-Pro",
+        "su12300/deepseek-ai-DeepSeek-V4-Pro",
+        "munijee/deepseek-ai-DeepSeek-V4-Pro",
         "samx00007/deepseek-ai-DeepSeek-V4-Pro"
       ],
       "createdAt": "2026-04-22T06:04:45.000Z",
@@ -13972,8 +13972,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
-      "downloads": 802002,
-      "likes": 2335,
+      "downloads": 880327,
+      "likes": 2341,
       "lastModified": "2026-06-22T12:12:13.000Z",
       "tags": [
         "transformers",
@@ -14400,7 +14400,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "id": "moonshotai/Kimi-K2.6",
-      "downloads": 352478,
+      "downloads": 348192,
       "likes": 1636,
       "lastModified": "2026-05-19T09:01:54.000Z",
       "tags": [
@@ -14820,7 +14820,6 @@
         "samir12321/negoptim-promotion-predictor",
         "bhavesh122/super_AI",
         "Infinityecs1/infinityllm",
-        "taemin1980/shadowbrain",
         "Teddysugar/moonshotai-Kimi-K2.6",
         "verymehari/ML-intern",
         "Yusuf313133/anox-ai-test",
@@ -14888,7 +14887,8 @@
         "Ademhi090/ml-intern",
         "samir12321/negoptimAi",
         "Pavlishenku/PCP-Assistant-v4",
-        "SumitOza/CodeForge"
+        "SumitOza/CodeForge",
+        "edcode-ai/First_agent_template"
       ],
       "createdAt": "2026-04-14T04:23:36.000Z",
       "safetensors": {
@@ -14904,7 +14904,7 @@
     },
     "z-ai/glm-5.1": {
       "id": "zai-org/GLM-5.1",
-      "downloads": 598053,
+      "downloads": 702151,
       "likes": 1850,
       "lastModified": "2026-05-13T08:10:58.000Z",
       "tags": [
@@ -15900,8 +15900,8 @@
         "siddham-jain/multi-channel-exec-env",
         "sabbir23m/zai-org-GLM-5.1",
         "apexlions16/zai-org-GLM-5.1",
-        "syt94210/zai-org-GLM-5.1",
         "elmorshedyahmed/glm-5-1-lab",
+        "syt94210/zai-org-GLM-5.1",
         "designfailure/zai-org-GLM-5.1",
         "Vinayaka464/zai-org-GLM-5.1",
         "gdjd2314/zai-org-GLM-5.1",
@@ -15920,8 +15920,8 @@
         "arsh12355555/zai-org-GLM-5.1",
         "aidn/HF-LLM-Playground",
         "kouson/zai-org-GLM-5.1",
-        "Kingkong2354/zai-org-GLM-5.1",
         "helixiansheng/amazon-listing-generator",
+        "Kingkong2354/zai-org-GLM-5.1",
         "verymehari/ML-intern",
         "sky96300/zai-org-GLM-5.1",
         "JigarSRajput/Simple-Question-Answer-App",
@@ -15972,8 +15972,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 9441586,
-      "likes": 1696,
+      "downloads": 8613438,
+      "likes": 1700,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
         "transformers",
@@ -16083,10 +16083,10 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
-        "SujalChhajed925/MetaGen",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "FINAL-Bench/POCKET-26B-CPU",
         "ginigen-ai/open-router-leaderboard",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -16116,6 +16116,7 @@
         "evaleval/best-model-finder",
         "Nirmal-Patel/PitchGrill",
         "Shaurya-Noodle/Supplymind",
+        "suifenglexiaoyao/ClawBot",
         "pratinavseth/cricket-captain-llm",
         "AGH-PLR/AGH-PLR",
         "jar85/Gita-advisor",
@@ -16126,6 +16127,7 @@
         "build-small-hackathon/inside-out",
         "build-small-hackathon/paperlens-lab",
         "ENC-PSL/lrec2026-llm-annotator",
+        "SujalChhajed925/MetaGen",
         "coldouglas888/gemma-4-26b-a4b-it",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
@@ -16152,7 +16154,6 @@
         "Tanishka-1004/myChatbot",
         "tog/GPUguesstimator",
         "avtak/depression-detection",
-        "ifieryarrows/copper-mind",
         "ai-tl/dkr-rag-app",
         "marvin-cusm-chatbot/champ-chatbot",
         "Or4cl3-2/Architech",
@@ -16181,8 +16182,7 @@
         "Ashfaque94/inference-gateway-5",
         "blackboxise/blackboxai-api",
         "dedlepexa/webmessegercalls",
-        "MattDean/HawkEyeApiSpace",
-        "awaisriaz/NeuroTutor"
+        "MattDean/HawkEyeApiSpace"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -16196,8 +16196,8 @@
     },
     "google/gemma-4-26b-a4b-it:free": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 9441586,
-      "likes": 1696,
+      "downloads": 8613438,
+      "likes": 1700,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
         "transformers",
@@ -16307,10 +16307,10 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
-        "SujalChhajed925/MetaGen",
+        "finerobotics/annotation-studio",
+        "BIGJUTT/model-pulse",
         "FINAL-Bench/POCKET-26B-CPU",
         "ginigen-ai/open-router-leaderboard",
         "ginigen-ai/Metacognition-Leaderboard-Space",
@@ -16340,6 +16340,7 @@
         "evaleval/best-model-finder",
         "Nirmal-Patel/PitchGrill",
         "Shaurya-Noodle/Supplymind",
+        "suifenglexiaoyao/ClawBot",
         "pratinavseth/cricket-captain-llm",
         "AGH-PLR/AGH-PLR",
         "jar85/Gita-advisor",
@@ -16350,6 +16351,7 @@
         "build-small-hackathon/inside-out",
         "build-small-hackathon/paperlens-lab",
         "ENC-PSL/lrec2026-llm-annotator",
+        "SujalChhajed925/MetaGen",
         "coldouglas888/gemma-4-26b-a4b-it",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
@@ -16376,7 +16378,6 @@
         "Tanishka-1004/myChatbot",
         "tog/GPUguesstimator",
         "avtak/depression-detection",
-        "ifieryarrows/copper-mind",
         "ai-tl/dkr-rag-app",
         "marvin-cusm-chatbot/champ-chatbot",
         "Or4cl3-2/Architech",
@@ -16405,8 +16406,7 @@
         "Ashfaque94/inference-gateway-5",
         "blackboxise/blackboxai-api",
         "dedlepexa/webmessegercalls",
-        "MattDean/HawkEyeApiSpace",
-        "awaisriaz/NeuroTutor"
+        "MattDean/HawkEyeApiSpace"
       ],
       "createdAt": "2026-03-11T21:25:57.000Z",
       "safetensors": {
@@ -16420,8 +16420,8 @@
     },
     "google/gemma-4-31b-it": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8630477,
-      "likes": 4181,
+      "downloads": 8512907,
+      "likes": 4196,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -16531,16 +16531,17 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "smolagents/hf-realtime-voice",
-        "multimodalart/krea2-lora-trainer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "finerobotics/annotation-studio",
         "VADITYA307/vertex-engine",
         "infinitylogesh/GUI-Decisions",
         "Steveeeeeeen/phonon-speech-to-speech",
+        "BIGJUTT/model-pulse",
         "tattrongvu/jeffan-31b-1710",
         "victor/gemma-avatar",
+        "multimodalart/krea2-lora-trainer",
         "huggingface-projects/gemma-4-31b-it",
         "ginigen-ai/open-router-leaderboard",
         "Nymbo/overthink-1",
@@ -16598,6 +16599,7 @@
         "cpulido/NDE-NARRATIVES-ANALYSIS",
         "aidn/Gemma-4-Caveman",
         "xuxuxu8052/google-gemma-4-31B-it",
+        "suifenglexiaoyao/ClawBot",
         "pratyushjdhv/mocktest",
         "work-dwivediishivam/runway-zero",
         "RehamAAhmed/Ai_Inspection_System",
@@ -16628,9 +16630,7 @@
         "Shaurya04289/iWEBIFY",
         "DreamsHunter/erp-ai-procurement-assistant-using-langgraph",
         "yahiadeveloper5106/erirebots",
-        "praiseogooluwa118/youtube-bot",
-        "Hscsgs/ilova_kodini_beruvchi",
-        "Samra82/ubl-saathi-api"
+        "praiseogooluwa118/youtube-bot"
       ],
       "createdAt": "2026-03-11T18:22:36.000Z",
       "safetensors": {
@@ -16644,8 +16644,8 @@
     },
     "google/gemma-4-31b-it:free": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8630477,
-      "likes": 4181,
+      "downloads": 8512907,
+      "likes": 4196,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -16755,16 +16755,17 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "smolagents/hf-realtime-voice",
-        "multimodalart/krea2-lora-trainer",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "finerobotics/annotation-studio",
         "VADITYA307/vertex-engine",
         "infinitylogesh/GUI-Decisions",
         "Steveeeeeeen/phonon-speech-to-speech",
+        "BIGJUTT/model-pulse",
         "tattrongvu/jeffan-31b-1710",
         "victor/gemma-avatar",
+        "multimodalart/krea2-lora-trainer",
         "huggingface-projects/gemma-4-31b-it",
         "ginigen-ai/open-router-leaderboard",
         "Nymbo/overthink-1",
@@ -16817,11 +16818,12 @@
         "Flickinshots/EmailMaestro",
         "Otter21/OPENENV_RL_01",
         "ayushKishor/PR_Review_Negotiation_Environment",
-        "aidn/caveman",
         "devani18/industri-fix-rag",
+        "aidn/caveman",
         "cpulido/NDE-NARRATIVES-ANALYSIS",
         "aidn/Gemma-4-Caveman",
         "xuxuxu8052/google-gemma-4-31B-it",
+        "suifenglexiaoyao/ClawBot",
         "pratyushjdhv/mocktest",
         "work-dwivediishivam/runway-zero",
         "RehamAAhmed/Ai_Inspection_System",
@@ -16852,9 +16854,7 @@
         "Shaurya04289/iWEBIFY",
         "DreamsHunter/erp-ai-procurement-assistant-using-langgraph",
         "yahiadeveloper5106/erirebots",
-        "praiseogooluwa118/youtube-bot",
-        "Hscsgs/ilova_kodini_beruvchi",
-        "h4sch/gemma-4-31b-it"
+        "praiseogooluwa118/youtube-bot"
       ],
       "createdAt": "2026-03-11T18:22:36.000Z",
       "safetensors": {
@@ -16868,8 +16868,8 @@
     },
     "mistralai/mistral-small-2603": {
       "id": "mistralai/Mistral-Small-4-119B-2603",
-      "downloads": 69720,
-      "likes": 456,
+      "downloads": 67908,
+      "likes": 458,
       "lastModified": "2026-07-15T12:23:29.000Z",
       "tags": [
         "safetensors",
@@ -17087,8 +17087,8 @@
     },
     "mistralai/mistral-small-2603:batch": {
       "id": "mistralai/Mistral-Small-4-119B-2603",
-      "downloads": 69720,
-      "likes": 456,
+      "downloads": 67908,
+      "likes": 458,
       "lastModified": "2026-07-15T12:23:29.000Z",
       "tags": [
         "safetensors",
@@ -17306,8 +17306,8 @@
     },
     "qwen/qwen3.5-9b": {
       "id": "Qwen/Qwen3.5-9B",
-      "downloads": 6689005,
-      "likes": 2224,
+      "downloads": 6291933,
+      "likes": 2237,
       "lastModified": "2026-03-02T00:51:43.000Z",
       "tags": [
         "transformers",
@@ -17427,23 +17427,22 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "hugging-apps/moss-image-8-step-dmd",
         "hugging-apps/kromoss",
         "embedl/hfviewer",
+        "finebooks/bhl-ocr-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
         "pliny-the-prompter/obliteratus",
         "ginigen-ai/smol-worldcup",
-        "finebooks/bhl-ocr-leaderboard",
-        "FineEnvs/geoguesser-env",
+        "kandinskylab/Kandinsky-6.0-Pro-distill-5s",
         "docling-project/DeskForge",
+        "BIGJUTT/model-pulse",
         "autotrust/jev-9b-decision-demo",
         "FINAL-Bench/all-bench-leaderboard",
         "artificialguybr/qwen-chat-demo",
         "ginigen-ai/open-router-leaderboard",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "prithivMLmods/NAVA-Text-to-Video",
-        "kandinskylab/Kandinsky-6.0-Pro-distill-5s",
         "lablab-ai-amd-developer-hackathon/OncoAgent",
         "CalvinU/writing-prototypes",
         "sean96t/flux2-try-on",
@@ -17451,6 +17450,7 @@
         "emanforhelp/model-pulse",
         "arudradey/all-bench-leaderboard",
         "KyleHessling1/jackrong-deepseek-9b-eval",
+        "FineEnvs/geoguesser-env",
         "hugging-apps/bespoke-nimble-9b-demo",
         "huggingface-projects/trace-reports",
         "plan291037/TextPhantom-v4.0.0",
@@ -17541,8 +17541,8 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "id": "Qwen/Qwen3.5-35B-A3B",
-      "downloads": 1410542,
-      "likes": 1544,
+      "downloads": 1472670,
+      "likes": 1545,
       "lastModified": "2026-04-24T02:38:38.000Z",
       "tags": [
         "transformers",
@@ -17790,8 +17790,8 @@
     },
     "qwen/qwen3.5-27b": {
       "id": "Qwen/Qwen3.5-27B",
-      "downloads": 1689285,
-      "likes": 1072,
+      "downloads": 1710507,
+      "likes": 1073,
       "lastModified": "2026-04-24T02:54:49.000Z",
       "tags": [
         "transformers",
@@ -18009,8 +18009,8 @@
     },
     "qwen/qwen3.5-122b-a10b": {
       "id": "Qwen/Qwen3.5-122B-A10B",
-      "downloads": 733227,
-      "likes": 643,
+      "downloads": 806832,
+      "likes": 644,
       "lastModified": "2026-04-24T03:55:23.000Z",
       "tags": [
         "transformers",
@@ -18302,7 +18302,7 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "id": "Qwen/Qwen3.5-397B-A17B",
-      "downloads": 645561,
+      "downloads": 733478,
       "likes": 1580,
       "lastModified": "2026-04-24T05:51:23.000Z",
       "tags": [
@@ -18690,8 +18690,8 @@
         }
       ],
       "spaces": [
-        "FineEnvs/RL-Explorer",
         "pliny-the-prompter/obliteratus",
+        "FineEnvs/RL-Explorer",
         "hadadxyz/ai",
         "FINAL-Bench/all-bench-leaderboard",
         "ginigen-ai/open-router-leaderboard",
@@ -18731,9 +18731,9 @@
         "teja292004/Qwen-Qwen3.5",
         "ridhzz9/Qwen",
         "jyujiaf/AI",
-        "Ganesh1411/nvidia-proxy-hf-nvm-google",
         "arunachalam0606/nvidia-proxy-hf-nvm-google",
         "radin98/Qwen-Qwen3.5-397B-A17B",
+        "Ganesh1411/nvidia-proxy-hf-nvm-google",
         "Kamal9597/nvidia-proxy-hf-nvm-google",
         "graphimoon9123/Qwen-Qwen3.5-397B-A17B",
         "Kiadee/Qwen-Qwen3.5-397B-A17B",
@@ -18746,32 +18746,32 @@
         "Kamalkshs82/Qwen-Qwen3.5-397B-A17Bkamal",
         "guduffra10/Qwen-Qwen3.5-397B-A17B",
         "COUNTfrogula/count-frogula-ai-integration",
-        "Saksak65/ai",
         "Saksak65/Chat",
         "cw4444/obliteratus",
+        "Saksak65/ai",
         "kalmuahlaunda/obliteratus",
         "sub314xxl/obliteratus",
         "iamarobot3030/Qwen-Qwen3.5-397B-A17B",
         "mastodonitis/obliteratus",
         "Djebbi/Qwen-Qwen3.5-397B-A17B",
         "qwendashcoder/nvidiaclass2",
-        "GrozniMilitq/obliteratus",
         "Sagarks07/Qwen-Qwen3.5-397B-A17B",
+        "GrozniMilitq/obliteratus",
         "liminal4423/obliteratus",
         "duarffodog/obliteratus",
         "LogitCode/FlexChat",
         "shrads78/vc_gemini_v0",
         "cypher109/obliteratus",
         "giarom/Pundit_Feynman",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
-        "mayafree/EXAM-FINALBENCH5",
+        "mayafree/EXAM-FINALBENCH3",
+        "mayafree/EXAM-FINALBENCH2",
         "mayafree/EXAM-FINALBENCH",
         "mayafree/EXAM-FINALBENCH4",
-        "mayafree/EXAM-FINALBENCH2",
-        "mayafree/EXAM-FINALBENCH3",
+        "mayafree/EXAM-FINALBENCH5",
         "Cjy8s/Final_Assignment_Template",
         "milkygingers/obliteratus",
         "XiaoXiaoSheng/Qwen-Qwen3.5-397B-A17B",
@@ -18804,7 +18804,7 @@
     },
     "z-ai/glm-5": {
       "id": "zai-org/GLM-5",
-      "downloads": 977411,
+      "downloads": 1138007,
       "likes": 2139,
       "lastModified": "2026-08-11T07:36:34.000Z",
       "tags": [
@@ -19788,8 +19788,8 @@
         "ai-coscientist/ablation-bench",
         "dumbordumber/obliteratus",
         "Kodacoda/obliteratus",
-        "akhaliq/inferenceprovidersrankings",
         "Djebbi/zai-org-GLM-5",
+        "akhaliq/inferenceprovidersrankings",
         "doyonji/glm",
         "YuZijie123/myyy-woof",
         "ausntmarzi/final-bench-Proprietary",
@@ -19831,15 +19831,15 @@
         "VA000/zai-org-GLM-5",
         "onewayto/water",
         "onewayto/water2",
-        "fantos/Leaderboard",
         "ginipick/Leaderboard",
         "openfree/Leaderboard",
+        "fantos/Leaderboard",
         "Linacre/anycoder",
         "stukgum/zai-org-GLM-5",
         "onewayto/water3",
-        "arunachalam0606/nvidia-proxy-hf-nvm-google",
         "Ganesh1411/nvidia-proxy-hf-nvm-google",
         "BikoRiko/anycoder",
+        "arunachalam0606/nvidia-proxy-hf-nvm-google",
         "Kamal9597/nvidia-proxy-hf-nvm-google",
         "Rashmi252/zai-org-GLM-5",
         "HankforHuggingface/zai-org-GLM-5",
@@ -19847,17 +19847,17 @@
         "YUOH988/zai-org-GLM-5",
         "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/anycoder",
         "radinbest2/zai-org-GLM-5",
-        "Kamalkshs82/zai-org-GLM-5odie",
         "Kamalkshs82/zai-org-GLM-5",
+        "Kamalkshs82/zai-org-GLM-5odie",
         "COUNTfrogula/count-frogula-ai-integration",
         "Laurent-67370/zai-org-GLM-5",
         "zhangzhanh/zai-org-GLM-5",
         "andlic/zai-org-GLM-5",
         "crabander/anycoder",
         "Galaxydude2/anycoder",
+        "Saksak65/ai",
         "Saksak65/Chat",
         "cw4444/obliteratus",
-        "Saksak65/ai",
         "kalmuahlaunda/obliteratus",
         "mayafree/all-bench",
         "sub314xxl/obliteratus",
@@ -19888,8 +19888,8 @@
     },
     "qwen/qwen3-coder-next": {
       "id": "Qwen/Qwen3-Coder-Next",
-      "downloads": 516351,
-      "likes": 1706,
+      "downloads": 515608,
+      "likes": 1708,
       "lastModified": "2026-02-03T16:16:38.000Z",
       "tags": [
         "transformers",
@@ -20157,8 +20157,8 @@
         "WCY520/Qwen-Qwen3-Coder-Next",
         "uolivares/Qwen-Qwen3-Coder-Next",
         "kovinape/Qwen-Qwen3-Coder-Next",
-        "VLADIMIROFF777/Qwen-Qwen3-Coder-Next",
         "zxc4wewewe/Qwen-Qwen3-Coder-Next",
+        "VLADIMIROFF777/Qwen-Qwen3-Coder-Next",
         "VikVib/ai",
         "MadhavRupala/anycoder",
         "new421/Qwen-Qwen3-Coder-Next",
@@ -20175,37 +20175,37 @@
         "Galaxydude2/anycoder",
         "bugdegh3/Qwen-Qwen3-Coder-Next",
         "maretes/Qwen-Qwen3-Coder-Next",
-        "Saksak65/Chat",
         "Saksak65/ai",
+        "Saksak65/Chat",
         "manarsaber11/faq-rag-assistant",
         "LogitCode/FlexChat",
         "bassetone/anycoder",
-        "LogitCode/FlexChat-terminal",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-Gold",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-terminal",
         "LogitCode/FlexChat-blue",
         "InnarV/Qwen-Qwen3-Coder-Next",
         "AJ3S/anycoder",
         "HA178/Qwen-Qwen3-Coder-Next",
         "siu5/ccp",
-        "DeusaVE/Qwen-Qwen3-Coder-Next",
         "JTTTU/Qwen-Qwen3-Coder-Next",
+        "DeusaVE/Qwen-Qwen3-Coder-Next",
         "Krissukas/Qwen-Qwen3-Coder-Next",
         "aiclass2026/anycoder",
-        "ankur030685/coder1",
         "ashlarch100/anycoder",
+        "ankur030685/coder1",
         "ankur030685/anycoder",
-        "AIMLAtul/anycoder",
-        "ashlarch100/anycoder2",
         "binsmat/anycoder",
+        "ashlarch100/anycoder2",
+        "AIMLAtul/anycoder",
         "ahsan0786/qwen3_coder",
         "baraasallout/live1",
         "Nana92/Qwen-Qwen3-Coder-Next",
         "margelle/Qwen-Qwen3-Coder-Next",
         "Lx4n/anycoder",
         "ssanjay22/anycoder",
-        "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/VOODOO.CO.OLDOlIUX",
         "jesmart/Qwen-Qwen3-Coder-Next",
+        "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/VOODOO.CO.OLDOlIUX",
         "yuan111556/ai",
         "chatun813/agent_course_demo01",
         "yobro4619/quant-research-env",
@@ -20227,7 +20227,7 @@
     },
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/Kimi-K2.5",
-      "downloads": 304286,
+      "downloads": 313641,
       "likes": 2893,
       "lastModified": "2026-04-30T03:56:40.000Z",
       "tags": [
@@ -20660,7 +20660,7 @@
         "JanickVision/career_conversations",
         "reflectiveattention/prompt-prix",
         "AlekseyCalvin/LYRICAL_Chain_of_Translations",
-        "TejAndrewsACC/Jeff",
+        "TejAndrewsACC/Jefff",
         "torxytonnicker/moltbot-brain",
         "brijeshbabariya30/moonshotai-Kimi-K2.5",
         "asdadsd233/anycoder",
@@ -20706,7 +20706,7 @@
     },
     "z-ai/glm-4.7-flash": {
       "id": "zai-org/GLM-4.7-Flash",
-      "downloads": 1009048,
+      "downloads": 977416,
       "likes": 1888,
       "lastModified": "2026-01-29T08:06:19.000Z",
       "tags": [
@@ -20951,8 +20951,8 @@
         }
       ],
       "spaces": [
-        "embedl/hfviewer",
         "akhaliq/anycoder",
+        "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
         "pliny-the-prompter/obliteratus",
         "ginigen-ai/smol-worldcup",
@@ -21000,9 +21000,9 @@
         "Sebestianmek/J_AI_J1",
         "Sanyam400/zai-org-GLM-4.7-Flash",
         "Motam/zai-org-GLM-4.7-Flash",
-        "cassianrook/anycoder",
-        "Rahik24/zai-org-GLM-4.7-Flash",
         "aichein/zai-org-GLM-4.7-Flash",
+        "Rahik24/zai-org-GLM-4.7-Flash",
+        "cassianrook/anycoder",
         "asdadsd233/anycoder",
         "indianboyz/anycoder",
         "IZONE1712/zai-org-GLM-4.7-Flash",
@@ -21045,12 +21045,12 @@
         "kirikir13/obliteratus",
         "aiclass2026/anycoder",
         "RaccoonStampede/obliteratus",
-        "ankur030685/coder1",
         "ashlarch100/anycoder",
+        "ankur030685/coder1",
         "ankur030685/anycoder",
-        "AIMLAtul/anycoder",
+        "binsmat/anycoder",
         "ashlarch100/anycoder2",
-        "binsmat/anycoder"
+        "AIMLAtul/anycoder"
       ],
       "createdAt": "2026-01-19T06:28:10.000Z",
       "safetensors": {
@@ -21065,7 +21065,7 @@
     },
     "z-ai/glm-4.7": {
       "id": "zai-org/GLM-4.7",
-      "downloads": 82915,
+      "downloads": 79869,
       "likes": 2072,
       "lastModified": "2026-01-29T08:05:58.000Z",
       "tags": [
@@ -21450,10 +21450,10 @@
       "spaces": [
         "akhaliq/anycoder",
         "pliny-the-prompter/obliteratus",
-        "Nymbo/Tools",
         "enzostvs/deepsite",
         "hadadxyz/ai",
         "FINAL-Bench/Leaderboard",
+        "Nymbo/Tools",
         "quantid/huggingface-official-benchmark-leaderboards",
         "ginigen-ai/open-router-leaderboard",
         "Svngoku/jupyter2agent",
@@ -21562,8 +21562,8 @@
     },
     "mistralai/devstral-2512": {
       "id": "mistralai/Devstral-2-123B-Instruct-2512",
-      "downloads": 5338,
-      "likes": 355,
+      "downloads": 5421,
+      "likes": 356,
       "lastModified": "2026-07-15T12:19:49.000Z",
       "tags": [
         "vllm",
@@ -21836,8 +21836,8 @@
         "ramirosolis/ai",
         "inigovaldorin/ai",
         "tariqimani/ai",
-        "hikapi/ai",
         "DamianRoss/ai",
+        "hikapi/ai",
         "siakatara/ai",
         "wilsonses/ai",
         "hekergod11/AI-Playground",
@@ -21858,8 +21858,8 @@
         "VikVib/ai",
         "AdarshJi/IMGDEPLOY",
         "Shiva-teja-chary/auto",
-        "Saksak65/ai",
         "Saksak65/Chat",
+        "Saksak65/ai",
         "qwendashcoder/nvidiaclass2",
         "NeerajCodz/scrapeRL",
         "yuan111556/ai",
@@ -21883,7 +21883,7 @@
     },
     "z-ai/glm-4.6v": {
       "id": "zai-org/GLM-4.6V",
-      "downloads": 3697,
+      "downloads": 3877,
       "likes": 398,
       "lastModified": "2025-12-09T05:34:59.000Z",
       "tags": [
@@ -22092,6 +22092,7 @@
       ],
       "spaces": [
         "akhaliq/anycoder",
+        "MediumArt/Judge-My",
         "hadadxyz/ai",
         "ginigen-ai/open-router-leaderboard",
         "librarian-bots/dataset-card-drafter",
@@ -22108,8 +22109,8 @@
         "weiyi0119/DeepOperateAI",
         "aitekphsoftware/zai-org-GLM-4.6V",
         "shivay00001/codeasy",
-        "AleksKola874/anycoder",
         "carlosdimare/zai-org-GLM-4.6V",
+        "AleksKola874/anycoder",
         "AlexanderOG/anycoder",
         "vakilrathod67/ai",
         "KN3AUX-CODE/anycoder",
@@ -22135,8 +22136,8 @@
         "inigovaldorin/ai",
         "AnyCoderaw/anycoder",
         "tariqimani/ai",
-        "hikapi/ai",
         "DamianRoss/ai",
+        "hikapi/ai",
         "siakatara/ai",
         "wilsonses/ai",
         "hekergod11/AI-Playground",
@@ -22173,24 +22174,23 @@
         "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/anycoder",
         "crabander/anycoder",
         "Galaxydude2/anycoder",
-        "Saksak65/ai",
         "Saksak65/Chat",
+        "Saksak65/ai",
         "bassetone/anycoder",
         "AJ3S/anycoder",
         "siu5/ccp",
         "aiclass2026/anycoder",
-        "ashlarch100/anycoder",
         "ankur030685/coder1",
+        "ashlarch100/anycoder",
         "ankur030685/anycoder",
-        "binsmat/anycoder",
-        "ashlarch100/anycoder2",
         "AIMLAtul/anycoder",
+        "ashlarch100/anycoder2",
+        "binsmat/anycoder",
         "Lx4n/anycoder",
         "ssanjay22/anycoder",
         "z4iXsECHS6ND-heighTSAI-INSEGCSyX6T-SYS-ROD/VOODOO.CO.OLDOlIUX",
         "yuan111556/ai",
-        "duyet/anycoder",
-        "Cgjgj/anycoder123"
+        "duyet/anycoder"
       ],
       "createdAt": "2025-12-07T07:20:45.000Z",
       "safetensors": {
@@ -22205,8 +22205,8 @@
     },
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/Ministral-3-14B-Instruct-2512",
-      "downloads": 124279,
-      "likes": 347,
+      "downloads": 124580,
+      "likes": 349,
       "lastModified": "2026-07-15T12:20:59.000Z",
       "tags": [
         "vllm",
@@ -22362,8 +22362,8 @@
     },
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "downloads": 105162,
-      "likes": 230,
+      "downloads": 86317,
+      "likes": 231,
       "lastModified": "2026-07-15T12:22:08.000Z",
       "tags": [
         "vllm",
@@ -22516,8 +22516,8 @@
     },
     "mistralai/ministral-8b-2512:batch": {
       "id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "downloads": 105162,
-      "likes": 230,
+      "downloads": 86317,
+      "likes": 231,
       "lastModified": "2026-07-15T12:22:08.000Z",
       "tags": [
         "vllm",
@@ -22670,8 +22670,8 @@
     },
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/Ministral-3-3B-Instruct-2512",
-      "downloads": 95815,
-      "likes": 310,
+      "downloads": 92438,
+      "likes": 312,
       "lastModified": "2026-07-15T12:21:35.000Z",
       "tags": [
         "vllm",
@@ -22826,7 +22826,7 @@
     },
     "deepseek/deepseek-v3.2": {
       "id": "deepseek-ai/DeepSeek-V3.2",
-      "downloads": 5461313,
+      "downloads": 5571243,
       "likes": 1587,
       "lastModified": "2025-12-01T11:04:59.000Z",
       "tags": [
@@ -23551,18 +23551,18 @@
         "dominiconorton/Simple-Analogy-App",
         "Martial667/aigchat",
         "aA1513/deepseek-ai-DeepSeek-V3.2",
-        "network01/deepseek-ai-DeepSeek-V3.2",
         "datdanniac/deepseek-ai-DeepSeek-V3.2",
+        "network01/deepseek-ai-DeepSeek-V3.2",
         "arts1986/arts",
         "kelyanfgr/deepseek-chatbot",
         "joio9/MedQuAD-RAG",
         "rbrtbmnglg/guardrailsanalysis",
         "abckundra/trading",
         "Adedoyinjames/Eco-AI",
-        "ArthurCleron/deepseek-ai-DeepSeek-V3.2",
         "Genganeseidu/deepseek-ai-DeepSeek-V3.2",
-        "ricsrdocasro/FoddaciTronBackend",
+        "ArthurCleron/deepseek-ai-DeepSeek-V3.2",
         "vakilrathod67/ai",
+        "ricsrdocasro/FoddaciTronBackend",
         "sufian7755/deepseek-ai-DeepSeek-V3.2",
         "codebytaaron/deepseek-ai-DeepSeek-V3.2",
         "Kurshinator/deepseek-ai-DeepSeek-V3.2",
@@ -23594,8 +23594,8 @@
         "toxmost/deepseek-localizer",
         "jmankani/deepseek-ai-DeepSeek-V3.2",
         "tariqimani/ai",
-        "hikapi/ai",
-        "DamianRoss/ai"
+        "DamianRoss/ai",
+        "hikapi/ai"
       ],
       "createdAt": "2025-12-01T02:34:49.000Z",
       "safetensors": {
@@ -23611,8 +23611,8 @@
     },
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/Kimi-K2-Thinking",
-      "downloads": 48645,
-      "likes": 1731,
+      "downloads": 47717,
+      "likes": 1730,
       "lastModified": "2026-01-30T04:49:39.000Z",
       "tags": [
         "transformers",
@@ -24057,8 +24057,8 @@
     },
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/Voxtral-Small-24B-2507",
-      "downloads": 18479,
-      "likes": 549,
+      "downloads": 17307,
+      "likes": 553,
       "lastModified": "2025-12-20T23:34:49.000Z",
       "tags": [
         "vllm",
@@ -24215,8 +24215,8 @@
     },
     "qwen/qwen3-vl-8b-instruct": {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "downloads": 4785534,
-      "likes": 1218,
+      "downloads": 5227079,
+      "likes": 1219,
       "lastModified": "2025-10-15T16:16:59.000Z",
       "tags": [
         "transformers",
@@ -24337,17 +24337,16 @@
       ],
       "spaces": [
         "embedl/hfviewer",
-        "modelscope/modelscope-studio",
         "fastgpu/vram-and-gpu-cost-calculator",
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "modelscope/modelscope-studio",
         "nvidia/Cosmos3-Action-Viewer",
-        "FineEnvs/geoguesser-env",
-        "hugging-apps/dk-vlm",
+        "hugging-apps/unispace-gen-edit",
         "ibyteohdear/Q-2.1",
         "prithivMLmods/Qwen3-VL-Outpost",
         "smolagents/computer-use-agent",
         "artificialguybr/qwen-vl",
         "microsoft/mage-flow",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "baohuynhbk14/Qwen3-VL-Demo",
         "wjbmattingly/caracal",
         "Lakonik/AsymFLUX.2-klein",
@@ -24369,6 +24368,7 @@
         "emanforhelp/model-pulse",
         "build-small-hackathon/sema-dyslexic-assistant",
         "alaub/uqied",
+        "FineEnvs/geoguesser-env",
         "ford442/ChronoEdit",
         "build-small-hackathon/bureaucat",
         "hugging-apps/minimax-h3-prompt-rewriter-lora-8b",
@@ -24397,11 +24397,11 @@
         "FOQ/mage-flow",
         "hugging-apps/openearthagent-demo",
         "yl4300/tau-agent-traffic-anomaly",
-        "hugging-apps/unispace-gen-edit",
         "hugging-apps/saga-microdrama-vlm",
         "jkorstad/daggr-studio",
         "AdithyaSK/NayanaOCRBench",
         "pockyitachi/Q-Reflector",
+        "hugging-apps/dk-vlm",
         "seed-image-ai/image_ai",
         "DIPEN7/Qwen-Qwen3-VL-8B-Instruct",
         "Praneshkriz/Qwen-Qwen3-VL-8B-Instruct",
@@ -24449,7 +24449,7 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "downloads": 16213,
+      "downloads": 15305,
       "likes": 207,
       "lastModified": "2025-11-26T13:18:00.000Z",
       "tags": [
@@ -24621,8 +24621,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
-      "downloads": 277219,
-      "likes": 622,
+      "downloads": 303500,
+      "likes": 623,
       "lastModified": "2025-11-26T13:18:04.000Z",
       "tags": [
         "transformers",
@@ -24801,9 +24801,9 @@
         "lhy9672954/Qwen-Qwen3-VL-30B-A3B-Instruct",
         "ruoxi01/chat-helper",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-terminal",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-Gold",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-terminal",
         "LogitCode/FlexChat-blue",
         "hanabhi/gridworld-env",
         "kartikaneja5/incident-response-env",
@@ -24843,7 +24843,8 @@
         "WitneyWW/holi-spatial-hdepic-walkthrough",
         "ahmedlodhi/credit-copilot",
         "WitneyWW/weekly-1008",
-        "Roeselert/gradio-dms"
+        "Roeselert/gradio-dms",
+        "TBob23/Final_Assignment_Template"
       ],
       "createdAt": "2025-09-30T10:52:01.000Z",
       "safetensors": {
@@ -24857,8 +24858,8 @@
     },
     "z-ai/glm-4.6": {
       "id": "zai-org/GLM-4.6",
-      "downloads": 21039,
-      "likes": 1245,
+      "downloads": 22433,
+      "likes": 1246,
       "lastModified": "2025-09-30T10:17:45.000Z",
       "tags": [
         "transformers",
@@ -25260,8 +25261,8 @@
         "Superwolff/anycoder",
         "bor/counting_words",
         "banyiee/deepsite",
-        "ajajjajajaja/glm4.6-free-unlimited-chatbot",
         "Humbl3m33/vibecoderv3",
+        "ajajjajajaja/glm4.6-free-unlimited-chatbot",
         "acecalisto3/Gollm",
         "deivissonfloriano/fyla-gpt-4.6",
         "Rizzky/zai-org-GLM-4.6",
@@ -25279,9 +25280,9 @@
         "rsah3798/zai-org-GLM-4.6-mount-everest-submit",
         "mefistoz/zai-org-GLM-4.6",
         "abdullah8844/deepsite",
-        "Fretful/glm4.6-free-unlimited-chatbot",
         "Fretful/GLM-4.6-Vers",
         "Fretful/Image-Generator-Free",
+        "Fretful/glm4.6-free-unlimited-chatbot",
         "aymenhhh/deepsite-copy",
         "Realmeas/deepsite",
         "Open-Hat-Lab/Paint-Simulator",
@@ -25326,8 +25327,8 @@
         "AlexanderOG/anycoder",
         "vakilrathod67/ai",
         "KN3AUX-CODE/anycoder",
-        "mikaelJ46/helpme",
         "NirmalMandal/anycoder",
+        "mikaelJ46/helpme",
         "superfluz/ai",
         "637366heh/anycoder",
         "Dar1us-Khan/ai"
@@ -25345,7 +25346,7 @@
     },
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
-      "downloads": 45041,
+      "downloads": 40373,
       "likes": 1024,
       "lastModified": "2025-11-18T02:39:54.000Z",
       "tags": [
@@ -26095,7 +26096,7 @@
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
-      "downloads": 289002,
+      "downloads": 289988,
       "likes": 428,
       "lastModified": "2025-11-26T13:18:18.000Z",
       "tags": [
@@ -26492,6 +26493,7 @@
       "spaces": [
         "black-forest-labs/flux-3-image-klein",
         "nvidia/Cosmos3-Action-Viewer",
+        "finerobotics/annotation-studio",
         "hadadxyz/ai",
         "umint/ai",
         "smolagents/computer-use-agent",
@@ -26588,8 +26590,7 @@
         "ykumar2020/gaia-final-assignment",
         "AlanaSky/Cosmos3-Action-Viewer",
         "AleGrisafi/Final_Assignment_Template",
-        "abugb/Case-Study-1",
-        "hugging-apps/design-as-code-demo"
+        "abugb/Case-Study-1"
       ],
       "createdAt": "2025-09-22T03:54:32.000Z",
       "safetensors": {
@@ -26603,7 +26604,7 @@
     },
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
-      "downloads": 13901,
+      "downloads": 12966,
       "likes": 385,
       "lastModified": "2025-09-29T01:52:07.000Z",
       "tags": [
@@ -27361,7 +27362,7 @@
     },
     "qwen/qwen3-next-80b-a3b-thinking": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-      "downloads": 38766,
+      "downloads": 39598,
       "likes": 502,
       "lastModified": "2025-09-15T09:12:48.000Z",
       "tags": [
@@ -27623,14 +27624,14 @@
         "gerardo3/AlfredAgent",
         "LaoDja/AlfredAgent",
         "nt0616/agentic_rag_hf",
-        "imekenye/AlfredAgent",
-        "kalbuld/AlfredAgent",
         "vikramthakur788/AlfredAgent",
+        "kalbuld/AlfredAgent",
+        "imekenye/AlfredAgent",
         "roni-shternberg/AlfredAgent",
         "GilbertoEwaldFilho/Final_Assignment_Template",
         "safwanshamsir/AlfredAgent",
-        "laodao2000/LaodaoAgent",
         "laodao2000/MyPartyAgent",
+        "laodao2000/LaodaoAgent",
         "Bhavi-Go1/AlfredAgent",
         "Paperbag/AlfredAgent",
         "patricktiu1205/AlfredAgent",
@@ -27642,8 +27643,8 @@
         "Hwoub/Alfred-the-Butler-Agent",
         "CatoG/CG_AskPDF",
         "NaturalSelection2/ShivamAlfredAgent",
-        "bangadu/AlfredAgent",
         "daleellwood/AlfredAgent",
+        "bangadu/AlfredAgent",
         "FrederGambe/AlfredAgent",
         "scottsterling/First_agent_template",
         "ibsenmelo/agent_course",
@@ -27654,23 +27655,23 @@
         "InoNao/AlfredAgent",
         "BiggChunguss/code_agent",
         "king612/AlfredAgent",
-        "ruixianxue/AlfredAgent",
         "stlinko/First_agent_template",
+        "ruixianxue/AlfredAgent",
         "appleBananasaUCE/AlfredAgent",
         "PacoBelso/AlfredAgent",
         "Ninomi12138/AlfredAgent",
         "gogorun12/AlfredAgent",
         "sweinger/AlfredAgent",
         "AbelOsaretin/AlfredAgent",
-        "eightzerofoursix/cluas_huginn",
-        "huggingfacebibe/First_agent_template",
         "ykl910/AlfredAgent",
+        "huggingfacebibe/First_agent_template",
+        "eightzerofoursix/cluas_huginn",
         "Emk4797/AlfredAgent",
         "devarajannagarajan/AlfredAgent",
         "devarajannagarajan/VineyardFactAgent",
         "ArnaudBrun/AlfredAgent",
-        "pablomaya/AlfredAgent",
         "vietz22/test",
+        "pablomaya/AlfredAgent",
         "viralbhuptani/partyplanner",
         "Janak04/PartyPlanner",
         "vakilrathod67/ai",
@@ -27678,8 +27679,8 @@
         "mfrade13/mikeAgent",
         "henryosei/AlfredHub",
         "Junghalia/AlfredAgent",
-        "DawnR0270/AlfredAgent",
         "CameronG/AlfredAgent",
+        "DawnR0270/AlfredAgent",
         "superfluz/ai",
         "Walker1111/AlfredAgent",
         "Hugging-face-momo/AlfredAgent",
@@ -27697,7 +27698,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "downloads": 163542,
+      "downloads": 153515,
       "likes": 1069,
       "lastModified": "2025-09-17T06:57:40.000Z",
       "tags": [
@@ -27923,8 +27924,8 @@
         }
       ],
       "spaces": [
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "hadadxyz/ai",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "mayafree/typed-decision-leaderboard",
         "ginigen-ai/open-router-leaderboard",
         "jairwaal/image",
@@ -28036,7 +28037,7 @@
     },
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
-      "downloads": 35732,
+      "downloads": 28849,
       "likes": 790,
       "lastModified": "2026-01-30T04:50:25.000Z",
       "tags": [
@@ -28350,7 +28351,6 @@
         }
       ],
       "spaces": [
-        "segoedu/valuelens",
         "enzostvs/deepsite",
         "hadadxyz/ai",
         "umint/ai",
@@ -28371,6 +28371,7 @@
         "PrinceZaman/DeepSeek_Coder",
         "minhan6559/Log-Analysis-MultiAgent",
         "Abhayshinde/OPENENV_RL_08_04",
+        "segoedu/valuelens",
         "Shirochi/Glossarion",
         "Merunes/HW_4",
         "Shubham-10000/RAG-enabled-AI-assistant",
@@ -28465,7 +28466,7 @@
     },
     "nousresearch/hermes-4-405b": {
       "id": "NousResearch/Hermes-4-405B",
-      "downloads": 1190,
+      "downloads": 1354,
       "likes": 97,
       "lastModified": "2025-09-02T04:17:04.000Z",
       "tags": [
@@ -29201,9 +29202,9 @@
         "Humbl3m33/NousResearch-Hermes-4-405B",
         "KELVINUM071102/NousResearch-Hermes-4-405B",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-terminal",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-Gold",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-terminal",
         "LogitCode/FlexChat-blue",
         "shmr90661/haven-ai-backend",
         "C2MV/letxinet",
@@ -29222,7 +29223,7 @@
     },
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek-ai/DeepSeek-V3.1",
-      "downloads": 324985,
+      "downloads": 316077,
       "likes": 863,
       "lastModified": "2025-09-05T11:30:15.000Z",
       "tags": [
@@ -29925,7 +29926,6 @@
         "Rahul2298/FinanceBot1",
         "Gu70z/Vioxx",
         "ColaMachines1/deepseek-ai-DeepSeek-V3.1",
-        "NovaCorp/Mi-modelo",
         "Nasre123/newproject",
         "saraivaai/criadordesite",
         "BrendonP/deepsite",
@@ -29955,7 +29955,8 @@
         "KilersBotz/deepseek-ai-DeepSeek-V3.1",
         "abdullah8844/deepsite",
         "aymenhhh/deepsite-copy",
-        "Realmeas/deepsite"
+        "Realmeas/deepsite",
+        "d4ru5/deepsite"
       ],
       "createdAt": "2025-08-21T02:37:52.000Z",
       "safetensors": {
@@ -29971,8 +29972,8 @@
     },
     "z-ai/glm-4.5v": {
       "id": "zai-org/GLM-4.5V",
-      "downloads": 27133,
-      "likes": 725,
+      "downloads": 25208,
+      "likes": 726,
       "lastModified": "2025-10-25T13:20:10.000Z",
       "tags": [
         "transformers",
@@ -30216,7 +30217,6 @@
         "stackway-ai/openwebui",
         "alzidy/zai-org-GLM-4.5V",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "onurcopur/tattoo_search_engine",
         "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
         "shashu4121/ai2",
@@ -30255,8 +30255,8 @@
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "downloads": 602923,
-      "likes": 1304,
+      "downloads": 699963,
+      "likes": 1306,
       "lastModified": "2025-12-03T08:05:17.000Z",
       "tags": [
         "transformers",
@@ -30522,7 +30522,7 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "downloads": 1083290,
+      "downloads": 1091162,
       "likes": 850,
       "lastModified": "2025-09-17T06:56:43.000Z",
       "tags": [
@@ -30772,7 +30772,7 @@
     },
     "z-ai/glm-4.5": {
       "id": "zai-org/GLM-4.5",
-      "downloads": 117101,
+      "downloads": 113824,
       "likes": 1419,
       "lastModified": "2025-08-11T13:27:03.000Z",
       "tags": [
@@ -31193,7 +31193,6 @@
         "dshamika/zai-org-GLM-4.5",
         "Sundram5955a/zai-org-GLM-4.5",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "shrenik1205/zai-org-GLM-4.5",
         "ltnpro/zai-org-GLM-4.5",
         "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
@@ -31245,7 +31244,8 @@
         "kakatys2009/zai-org-GLM-4.5",
         "123dad/GLM-4.5",
         "armaansingh752k1/Image_generator_Docker",
-        "Wrzzzrzr/MeinKleinerAssi"
+        "Wrzzzrzr/MeinKleinerAssi",
+        "augustkarl2030/MeinKleinerAssi"
       ],
       "createdAt": "2025-07-20T03:25:36.000Z",
       "safetensors": {
@@ -31255,11 +31255,12 @@
         },
         "total": 358337791296
       },
+      "inference": "warm",
       "usedStorage": 716701364832
     },
     "z-ai/glm-4.5-air": {
       "id": "zai-org/GLM-4.5-Air",
-      "downloads": 817559,
+      "downloads": 943281,
       "likes": 647,
       "lastModified": "2025-08-11T13:25:37.000Z",
       "tags": [
@@ -31511,7 +31512,6 @@
         "Yauheniya/ai-assistant",
         "stackway-ai/openwebui",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "unsafezero/zai-org-GLM-4.5-Air",
         "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
         "shashu4121/ai2",
@@ -31539,7 +31539,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "downloads": 17355,
+      "downloads": 14791,
       "likes": 418,
       "lastModified": "2025-08-17T08:20:17.000Z",
       "tags": [
@@ -32015,8 +32015,8 @@
         "akiko19191/Better_tool_calling",
         "lucaslingle/HF_Agents_Final_Assignment",
         "Elias-CIC/Final_Assignment_Template",
-        "zaihonguyen/Qwen-Qwen3-235B-A22B-Thinking-2507",
         "hmtuanzz002/Qwen-Qwen3-235B-A22B-Thinking-2507",
+        "zaihonguyen/Qwen-Qwen3-235B-A22B-Thinking-2507",
         "alekgomez/advanced14aug",
         "piyush-p256/bajaj",
         "gizzums/Qwen-Qwen3-235B-A22B-Thinking-2507",
@@ -32027,7 +32027,6 @@
         "stackway-ai/openwebui",
         "nkjoy/Ai",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "nilden/psycho100",
         "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
         "shashu4121/ai2",
@@ -32047,9 +32046,9 @@
         "1yahoo/Autogen-multy-agent",
         "Ensarioglu/NoxBall",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
         "armaansingh752k1/Image_generator_Docker",
         "gpu2grid/live",
@@ -32072,7 +32071,7 @@
     },
     "qwen/qwen3-coder": {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "downloads": 53730,
+      "downloads": 55681,
       "likes": 1384,
       "lastModified": "2025-08-21T10:18:07.000Z",
       "tags": [
@@ -32965,10 +32964,10 @@
         "Dmitriy-Egorov/Qwen-Qwen3-Coder-480B-A35B-Instruct",
         "albibozha12/Qwen-Qwen3-Coder-480B-A35B-Instruct",
         "b2129123551/First_agent_template",
-        "midnitefirefly93/MyNewChatApp",
         "ritzy88/MyNewChatApp",
-        "JLYK/Sustainability",
         "keithpng/MyNewChatApp",
+        "JLYK/Sustainability",
+        "midnitefirefly93/MyNewChatApp",
         "Raghavaa36/Qwen-Qwen3-Coder-480B-A35B-Instruct",
         "paiut/Qwen-Qwen3-Coder-480B-A35B-Instruct",
         "nexagency88/Qwen-Qwen3-Coder-480B-A35B-Instruct",
@@ -32992,14 +32991,14 @@
         "nkjoy/Ai",
         "Riy777/My_spece",
         "shubhwithai/jupyter-agent-2",
-        "Ai-Bharti/deepsite_Ai3",
         "Ai-Bharti/deepsite_3",
+        "Ai-Bharti/deepsite_Ai3",
         "khoaliamle/EdSummariser",
         "Rahul2298/FinanceBot1",
         "Gu70z/Vioxx",
-        "NovaCorp/Mi-modelo",
         "Nasre123/newproject",
-        "saraivaai/criadordesite"
+        "saraivaai/criadordesite",
+        "BrendonP/deepsite"
       ],
       "createdAt": "2025-07-22T14:52:38.000Z",
       "safetensors": {
@@ -33013,7 +33012,7 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "downloads": 146600,
+      "downloads": 139396,
       "likes": 813,
       "lastModified": "2025-09-17T06:52:55.000Z",
       "tags": [
@@ -33473,9 +33472,9 @@
         }
       ],
       "spaces": [
+        "mcp-tools/Qwen-Image-Fast",
         "multimodalart/Qwen-Image-Edit-Fast",
         "Nymbo/Character-Generator",
-        "mcp-tools/Qwen-Image-Fast",
         "hadadxyz/ai",
         "AiSudo/Qwen-Image-to-LoRA",
         "burtenshaw/karpathy-llm-council",
@@ -33566,13 +33565,13 @@
         "nkjoy/Ai",
         "sunny1997/Qwen-Image-Edit-Fast",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "bep40/Qwen-Image-Edit-Multi-Image",
         "chengzhigang/Qwen-Image-Edit_Fast-Presets01",
         "chengzhigang/Qwen-Image-Edit-Fast-02",
         "svjack/Qwen-Image-Edit-Inpaint",
         "WeVi/AI-Image-Generator",
-        "bep40/Qwen-Image-Edit-Inpaint"
+        "bep40/Qwen-Image-Edit-Inpaint",
+        "Aman-ali/Try-Image"
       ],
       "createdAt": "2025-07-21T06:46:56.000Z",
       "safetensors": {
@@ -33586,7 +33585,7 @@
     },
     "moonshotai/kimi-k2": {
       "id": "moonshotai/Kimi-K2-Instruct",
-      "downloads": 361262,
+      "downloads": 343227,
       "likes": 3007,
       "lastModified": "2026-04-23T02:08:36.000Z",
       "tags": [
@@ -34026,7 +34025,7 @@
     },
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "downloads": 193909,
+      "downloads": 185507,
       "likes": 640,
       "lastModified": "2025-12-22T10:16:55.000Z",
       "tags": [
@@ -34225,7 +34224,7 @@
     },
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek-ai/DeepSeek-R1-0528",
-      "downloads": 166405,
+      "downloads": 165207,
       "likes": 2490,
       "lastModified": "2025-05-29T11:37:44.000Z",
       "tags": [
@@ -34846,6 +34845,7 @@
       ],
       "spaces": [
         "ongudidan/deepsite-v2",
+        "kebeliu/KVCacheSizeCalculator",
         "umint/ai",
         "hadadrjt/ai",
         "ginigen/deepseek-r1-0528-API",
@@ -34872,7 +34872,6 @@
         "crusoeai/foundry-model-arena",
         "codelion/safety-copilot",
         "Agents-MCP-Hackathon/MultiAgent_System_for_Screenplay_Creation",
-        "kebeliu/KVCacheSizeCalculator",
         "Agents-MCP-Hackathon/Agentic_Inkwell",
         "Onurb35/deepseek-ai-DeepSeek-R1-0528",
         "BeyondHsueh/ReliableMath-Leaderboard",
@@ -34960,7 +34959,7 @@
     },
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/Llama-Guard-4-12B",
-      "downloads": 44083,
+      "downloads": 42384,
       "likes": 133,
       "lastModified": "2025-04-29T18:14:44.000Z",
       "tags": [
@@ -35159,15 +35158,15 @@
         "IvanStudent/PredictiveMLGenAI",
         "suhail-chand/nutri-care",
         "rpantangi/my-bert-finetuned",
-        "Sasori56/meta-llama-Llama-Guard-4-12B",
         "SherryAnalyst/Agentic_AI",
+        "Sasori56/meta-llama-Llama-Guard-4-12B",
         "smwatson1975/nutritionbot",
         "ilsa15/Resume-Analyzer",
         "cheremnm/SpiritualAssistant",
         "AliSiyyal/Ai",
         "mdotti/NutriBot",
-        "Anshini/MitraVerse",
         "hiteshbwankhede/LLMComparsion",
+        "Anshini/MitraVerse",
         "kaftab/simple",
         "hphari/nutrition_disorder_bot",
         "cavanab9/greatlearning_proj3",
@@ -35177,8 +35176,8 @@
         "kaftab/NutritionChatBot-1",
         "kaftab/NutritionChatBot3",
         "vkerri/custom-chatbot",
-        "kaftab/NutritionChatBot4",
         "penguinvanillabean/GL_Project3",
+        "kaftab/NutritionChatBot4",
         "Anshini/AGENT",
         "resolano/gl_nlp_project3",
         "jigneshah/custom-chatbot",
@@ -35204,28 +35203,28 @@
         "Sanjito/Nutrition_Bot_Demo",
         "madhan2211/DHS_test",
         "vamc5/nutrition-chatbot",
-        "mcarsell/Hello_World",
         "rishabhTTN/nutrition_bot",
+        "mcarsell/Hello_World",
         "sher-somas/dhs-2025",
         "abhigyanshivam/nutrition_bot",
         "karthikeyansam/nutritional_bot",
-        "bhaskarjit/nutrition_bot",
-        "Saravanamuniraj/nutrition_bot_2",
-        "praveen030970/Nutrition",
-        "Saravanamuniraj/nut-bot",
-        "aakar04/nutrition_bot",
-        "shobyzach/nutrition_bot",
-        "vinodkodakandla/nutrition_bot_dhs_arag_2025",
-        "SenganML/nutrition_bot",
-        "msudhar/nutritionbot",
-        "Sampath-123/DATAHACKSUMMIT",
         "Virupakshi/nutrition_bot",
-        "priyanethiran/AgentOPS",
-        "sarvesh629/DHS_Workshop2",
+        "Saravanamuniraj/nut-bot",
+        "harshajv/DHS_Nutrition",
+        "Sampath-123/DATAHACKSUMMIT",
         "MirzaAI/nutrition_bot",
-        "look4suman/nutrition_bot",
-        "ApurvaSaumya/nutrition_bot",
-        "sarvesh629/DHS_Workshop"
+        "bhaskarjit/nutrition_bot",
+        "vinodkodakandla/nutrition_bot_dhs_arag_2025",
+        "Saravanamuniraj/nutrition_bot_2",
+        "Shabhitham/nutrition_bot",
+        "praveen030970/Nutrition",
+        "sarvesh629/DHS_Workshop",
+        "ravillahari/NutritionBot",
+        "Murali/Nutri_Bot",
+        "SandeshSan/DHS2025Workshop",
+        "ChethanG/dhs2025",
+        "trrtrr/nutrition_bot",
+        "anindyaparida/nutrition_bot"
       ],
       "createdAt": "2025-04-23T11:30:25.000Z",
       "safetensors": {
@@ -35239,7 +35238,7 @@
     },
     "qwen/qwen3-30b-a3b": {
       "id": "Qwen/Qwen3-30B-A3B",
-      "downloads": 1010878,
+      "downloads": 1005143,
       "likes": 973,
       "lastModified": "2025-07-26T03:45:17.000Z",
       "tags": [
@@ -35395,6 +35394,8 @@
         "Qwen/Qwen3-Demo",
         "pliny-the-prompter/obliteratus",
         "ISEEKYAN/megatron_memory_estimator",
+        "HathoraResearch/LLM-KV-cache-calculator",
+        "Genrius-AI/llm-vram-calculator",
         "MaziyarPanahi/FACTS-Leaderboard",
         "ginigen-ai/open-router-leaderboard",
         "aiqtech/LLM-Token-Visual",
@@ -35404,7 +35405,6 @@
         "nyamberekimeu/Qwen3-Token-Counter",
         "Agents-MCP-Hackathon/NoCoMind-Dynamic-Customizable-AI-Agent-Systems",
         "ginipick/Qwen3-30B-A3B",
-        "HathoraResearch/LLM-KV-cache-calculator",
         "Agents-MCP-Hackathon/Clip-Search-Agent",
         "dvpearl/REFRAME",
         "omarkamali/llm-scope",
@@ -35489,8 +35489,7 @@
         "KaiquanMah/agents-customer-service-chatbot-v3",
         "lokeessshhhh/Qwen3-Demo",
         "nihar-sarkar/Qwen3-chat",
-        "mkhatcha/CUA",
-        "espnet/SingingSDS"
+        "mkhatcha/CUA"
       ],
       "createdAt": "2025-04-27T03:43:05.000Z",
       "safetensors": {
@@ -35504,8 +35503,8 @@
     },
     "qwen/qwen3-14b": {
       "id": "Qwen/Qwen3-14B",
-      "downloads": 9401416,
-      "likes": 516,
+      "downloads": 10001942,
+      "likes": 519,
       "lastModified": "2025-07-26T03:49:23.000Z",
       "tags": [
         "transformers",
@@ -35633,11 +35632,12 @@
       ],
       "spaces": [
         "HuggingFaceBio/Carbon-X-Release",
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "fastgpu/vram-and-gpu-cost-calculator",
         "Qwen/Qwen3-Demo",
         "ISEEKYAN/megatron_memory_estimator",
+        "BIGJUTT/model-pulse",
+        "Genrius-AI/llm-vram-calculator",
         "ginigen-ai/open-router-leaderboard",
         "aiqtech/LLM-Token-Visual",
         "newmindai/Mezura",
@@ -35728,10 +35728,9 @@
         "kxr3n/agent",
         "tuandunghcmut/Qwen314-Private",
         "alx-d/dox",
-        "masi98/new_space",
         "masi98/heart_ai",
-        "JoeSanchez1213/Qwen-Qwen3-14B-1",
-        "yyyy-yyy/Qwen-Qwen3-14B-1"
+        "masi98/new_space",
+        "JoeSanchez1213/Qwen-Qwen3-14B-1"
       ],
       "createdAt": "2025-04-27T03:42:45.000Z",
       "safetensors": {
@@ -35745,7 +35744,7 @@
     },
     "qwen/qwen3-32b": {
       "id": "Qwen/Qwen3-32B",
-      "downloads": 2750187,
+      "downloads": 2880776,
       "likes": 772,
       "lastModified": "2025-07-26T03:45:22.000Z",
       "tags": [
@@ -35901,7 +35900,8 @@
         "Qwen/Qwen3-Demo",
         "pliny-the-prompter/obliteratus",
         "ISEEKYAN/megatron_memory_estimator",
-        "segoedu/valuelens",
+        "Steveeeeeeen/smallest-s2s",
+        "Genrius-AI/llm-vram-calculator",
         "fdaudens/podcast-jobs",
         "m-ric/ai-travel-planner",
         "yourbench/advanced",
@@ -35963,6 +35963,7 @@
         "Nymbo/groq_playground",
         "Berzelius255/Areo-AI",
         "singnyorita/Qwen3-32B",
+        "segoedu/valuelens",
         "coolsajan/mygreatfoodbuddie",
         "Tonic/leaderboard_yourbench_Tonic_ESMA-Auto-Bench",
         "Anshini/DataSciene_ChatBot",
@@ -35993,9 +35994,7 @@
         "papadaan099/alpha-hunter-server",
         "Asif1743/Agriculture_Chatbot",
         "hmqid03/vietqa-api",
-        "avgengineer/chatbot-with-tools",
-        "AdarshJi/FALTU_ADARSH",
-        "yashAI007/Chatbot"
+        "avgengineer/chatbot-with-tools"
       ],
       "createdAt": "2025-04-27T03:52:59.000Z",
       "safetensors": {
@@ -36009,7 +36008,7 @@
     },
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-      "downloads": 9163,
+      "downloads": 9730,
       "likes": 517,
       "lastModified": "2025-05-22T23:46:12.000Z",
       "tags": [
@@ -36335,7 +36334,6 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
-        "segoedu/valuelens",
         "FINAL-Bench/all-bench-leaderboard",
         "openfree/Llama-4-Maverick-17B-Research",
         "hadadrjt/ai",
@@ -36367,6 +36365,7 @@
         "LVKinyanjui/FastInferenceChat",
         "nachodele/Fluxo",
         "viraj-zaveri/figma-ux-assistance",
+        "segoedu/valuelens",
         "impreritsingh/AI_Postmate",
         "GetSoloTech/VLMVibeEval",
         "grohiit/llm_evaluator",
@@ -36447,8 +36446,8 @@
     },
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "downloads": 144941,
-      "likes": 1378,
+      "downloads": 133972,
+      "likes": 1379,
       "lastModified": "2025-05-22T23:44:50.000Z",
       "tags": [
         "transformers",
@@ -36758,7 +36757,7 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "ginigen-ai/smol-worldcup",
-        "segoedu/valuelens",
+        "Karthikp1703/Vektor",
         "FINAL-Bench/all-bench-leaderboard",
         "hadadrjt/ai",
         "openfree/Llama-4-Scout-17B-Research",
@@ -36841,6 +36840,7 @@
         "jayjhaveri9/stock-app",
         "viraj-zaveri/figma-ux-assistance",
         "impreritsingh/AI_Calorie_Tracker",
+        "segoedu/valuelens",
         "HagarEQAP99/AGRI_AGENT",
         "chansung/novita-preview-playground",
         "christelleNc/cars.py",
@@ -36854,8 +36854,7 @@
         "Agents-MCP-Hackathon/mcp_drawittome",
         "shivace007/ImageCommentary",
         "grohiit/llm_evaluator",
-        "RameshJ/Invoices_to_Table",
-        "sachinbareth/AI-Doctor-vision-voice"
+        "RameshJ/Invoices_to_Table"
       ],
       "createdAt": "2025-04-02T13:34:17.000Z",
       "safetensors": {
@@ -36869,8 +36868,8 @@
     },
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek-ai/DeepSeek-V3-0324",
-      "downloads": 734285,
-      "likes": 3222,
+      "downloads": 631701,
+      "likes": 3223,
       "lastModified": "2025-03-27T04:01:53.000Z",
       "tags": [
         "transformers",
@@ -37487,6 +37486,7 @@
       "spaces": [
         "ongudidan/deepsite-v2",
         "fastgpu/vram-and-gpu-cost-calculator",
+        "kebeliu/KVCacheSizeCalculator",
         "enzostvs/deepsite",
         "openfree/Deepseek-v3-0324-Research",
         "hadadrjt/ai",
@@ -37494,7 +37494,6 @@
         "linusorii/deepsite-v2",
         "VIDraft/global-llm-leaderboard",
         "akhaliq/deepsearch",
-        "Greff3/deepsite",
         "clem/deepseek-ai-DeepSeek-V3-0324",
         "dropkickJesus999/deepsiteV3",
         "Rubenhugging/deepsite",
@@ -37517,7 +37516,6 @@
         "burtenshaw/inference-providers-mcp",
         "mgbam/builder",
         "crusoeai/foundry-model-arena",
-        "kebeliu/KVCacheSizeCalculator",
         "CUHKLPL/stimuli_generator",
         "adamm-hf/DeepSeek-V3-0324",
         "mcjhn/ai",
@@ -37584,7 +37582,8 @@
         "crusoeai/doc_analysis",
         "Rafidmondal/raxzen_aiagent",
         "ErikWrwg/meridian-air-decision-tool",
-        "crusoeai/snake-battle-ai"
+        "crusoeai/snake-battle-ai",
+        "tillu-AI/tillu-unified"
       ],
       "createdAt": "2025-03-24T09:28:22.000Z",
       "safetensors": {
@@ -37600,7 +37599,7 @@
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-      "downloads": 245597,
+      "downloads": 223802,
       "likes": 1406,
       "lastModified": "2025-12-22T10:15:41.000Z",
       "tags": [
@@ -37862,7 +37861,6 @@
         "bgaultier/First_agent_template",
         "stackway-ai/openwebui",
         "Rahul2298/FinanceBot1",
-        "NovaCorp/Mi-modelo",
         "Tabbby/Chou-AI-server",
         "malekradwan130/EbWFsZWtyYWR3YW4xMzBAZ21haWwuY",
         "shashu4121/ai2",
@@ -37879,7 +37877,8 @@
         "Gemini899/mistral-text-encoder",
         "AlsuGibadullina/TestRefactoringModels",
         "cw4444/obliteratus",
-        "kalmuahlaunda/obliteratus"
+        "kalmuahlaunda/obliteratus",
+        "sub314xxl/obliteratus"
       ],
       "createdAt": "2025-03-11T17:04:58.000Z",
       "safetensors": {
@@ -37893,8 +37892,8 @@
     },
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
-      "downloads": 994526,
-      "likes": 1594,
+      "downloads": 970319,
+      "likes": 1596,
       "lastModified": "2025-03-21T20:20:53.000Z",
       "tags": [
         "transformers",
@@ -38044,6 +38043,7 @@
       "spaces": [
         "fastgpu/vram-and-gpu-cost-calculator",
         "aizip-dev/SLM-RAG-Arena",
+        "Genrius-AI/llm-vram-calculator",
         "ginigen/VEO3-Free",
         "ginigen/VEO3-Directors",
         "hadadrjt/ai",
@@ -38140,8 +38140,7 @@
         "maycodes/Gemma-ID-Image-extracter",
         "mayukhpankaj/Gemma-ID-extraction",
         "iryahayri/gemma32",
-        "fcervan/leitor-cnh",
-        "saa231/MutimodalVisionAssistant"
+        "fcervan/leitor-cnh"
       ],
       "createdAt": "2025-02-20T21:20:07.000Z",
       "safetensors": {
@@ -38155,8 +38154,8 @@
     },
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
-      "downloads": 331881,
-      "likes": 882,
+      "downloads": 329716,
+      "likes": 883,
       "lastModified": "2025-03-21T20:28:56.000Z",
       "tags": [
         "transformers",
@@ -38314,6 +38313,7 @@
       "spaces": [
         "pliny-the-prompter/obliteratus",
         "ginigen-ai/smol-worldcup",
+        "Genrius-AI/llm-vram-calculator",
         "huggingface-projects/gemma-3-12b-it",
         "build-small-hackathon/claim-ready",
         "TIGER-Lab/MEGA-Bench",
@@ -38351,9 +38351,9 @@
         "beta3/Gemma_Hub_Explorer",
         "joeygambino/joyai-echo-ltx23-surgical",
         "ashmib/green-city-finder",
+        "PegasusPedal/gemma-examples",
         "Bruno/gemma-3-12b-pt-br",
         "Rohit1412/AirGPT1.04b",
-        "PegasusPedal/gemma-examples",
         "mohitkumarrajbadi/Finetune_Gemma_Model",
         "HiTZ/Critical_Questions_Leaderboard",
         "AC2513/gemma-demo",
@@ -38410,8 +38410,7 @@
         "jhonnygomez88/hevy_analytics",
         "doropiza/chatbot",
         "CamilleBorrett/model-demo",
-        "k3ybladewielder/cloudwalk_chatbot",
-        "ALQAMARI/Alqamari-Medical-AI"
+        "k3ybladewielder/cloudwalk_chatbot"
       ],
       "createdAt": "2025-03-01T19:11:34.000Z",
       "safetensors": {
@@ -38425,7 +38424,7 @@
     },
     "cohere/command-a": {
       "id": "CohereLabs/c4ai-command-a-03-2025",
-      "downloads": 1494,
+      "downloads": 1516,
       "likes": 398,
       "lastModified": "2025-10-30T06:37:15.000Z",
       "tags": [
@@ -38760,8 +38759,8 @@
     },
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
-      "downloads": 343631,
-      "likes": 2057,
+      "downloads": 341827,
+      "likes": 2058,
       "lastModified": "2025-03-21T20:29:02.000Z",
       "tags": [
         "transformers",
@@ -38940,7 +38939,7 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
-        "bentoso/shiftguard",
+        "Genrius-AI/llm-vram-calculator",
         "hadadrjt/ai",
         "TIGER-Lab/MEGA-Bench",
         "yourbench/advanced",
@@ -39052,8 +39051,8 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "downloads": 89270,
-      "likes": 663,
+      "downloads": 95538,
+      "likes": 664,
       "lastModified": "2025-06-06T02:48:50.000Z",
       "tags": [
         "transformers",
@@ -39286,14 +39285,14 @@
       "spaces": [
         "Yellowbox2026/Qwen-Image-Edit-2511-AnyPose",
         "linoyts/Qwen-Image-Edit-2511-AnyPose",
-        "ysharma/Workflow1111",
         "smolagents/computer-agent",
-        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
+        "ysharma/Workflow1111",
         "rl74/Qwen-Image-Edit-2511-AnyPose",
         "linoyts/Qwen-Image-Edit-2511-Fast",
         "linoyts/Qwen-Image-Edit-next-scene",
         "linoyts/Qwen-Image-Edit-2509-Fast",
         "JournalistsonHF/ai-toolkit",
+        "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "FINAL-Bench/all-bench-leaderboard",
         "hadadrjt/ai",
         "zerogpu-aoti/Qwen-Image-Edit-Relight",
@@ -39397,7 +39396,7 @@
     },
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "downloads": 73988,
+      "downloads": 75361,
       "likes": 987,
       "lastModified": "2025-07-28T17:26:22.000Z",
       "tags": [
@@ -39536,6 +39535,7 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "Genrius-AI/llm-vram-calculator",
         "ginigen-ai/open-router-leaderboard",
         "Agents-MCP-Hackathon/KGB-mcp",
         "McLoviniTtt/Reasoner4All",
@@ -39566,9 +39566,9 @@
         "AlanaSky/asgaard",
         "marchkamal51/obliteratus",
         "BostjanSpar/remote",
+        "bchud/neiro",
         "bchud/pizda",
         "bchud/neiroset",
-        "bchud/neiro",
         "tonybur/null",
         "Bhaskar2611/Mistral_24B",
         "Davi-Co/demo-quote-generator",
@@ -39629,12 +39629,11 @@
         "Merlintxu/leaderboard_yourbench_Merlintxu_yourbench",
         "tsphan/llm-token-counter",
         "Laurie/leaderboard_yourbench_Laurie_yourbench",
-        "Trelis/leaderboard_yourbench_Trelis_yourbench-ait",
         "fangyali/leaderboard_yourbench_fangyali_yourbench",
         "ronanarraig/leaderboard_yourbench_ronanarraig_yourbench",
+        "Trelis/leaderboard_yourbench_Trelis_yourbench-ait",
         "Trelis/leaderboard_yourbench_Trelis_yourbench-ait2",
-        "grahamom/leaderboard_yourbench_grahamom_yourbench-rc-doc-demo",
-        "Natchapat/leaderboard_yourbench_Natchapat_yourbench"
+        "grahamom/leaderboard_yourbench_grahamom_yourbench-rc-doc-demo"
       ],
       "createdAt": "2025-01-28T13:30:13.000Z",
       "safetensors": {
@@ -39647,8 +39646,8 @@
     },
     "deepseek/deepseek-chat": {
       "id": "deepseek-ai/DeepSeek-V3",
-      "downloads": 1344492,
-      "likes": 4449,
+      "downloads": 1431735,
+      "likes": 4452,
       "lastModified": "2025-03-27T04:01:45.000Z",
       "tags": [
         "transformers",
@@ -40412,8 +40411,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
-      "downloads": 209625,
-      "likes": 3155,
+      "downloads": 300174,
+      "likes": 3161,
       "lastModified": "2024-12-21T18:28:01.000Z",
       "tags": [
         "transformers",
@@ -40805,8 +40804,8 @@
     },
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "downloads": 545627,
-      "likes": 2184,
+      "downloads": 552411,
+      "likes": 2187,
       "lastModified": "2025-01-12T02:02:22.000Z",
       "tags": [
         "transformers",
@@ -40971,7 +40970,7 @@
         "agents-course/First_agent_template",
         "fastgpu/vram-and-gpu-cost-calculator",
         "Vokturz/can-it-run-llm",
-        "RiverLi1024/First_agent_template",
+        "adishu/auto_jailbreak",
         "bigcode/bigcode-models-leaderboard",
         "NeurixYUFI/imggen",
         "m-ric/agent-data-analyst",
@@ -41038,7 +41037,6 @@
         "yetessam/ContentAgent",
         "drdro1/First_agent_template",
         "oort/First_agent_template",
-        "preslaff/linkedin_job_search_agent",
         "AaronShih/First_agent_template",
         "autodidacte228/my_first_agent",
         "piotrekgrl/smolagents-local-python-debugger-tool",
@@ -41067,7 +41065,8 @@
         "maiurilorenzo/data_detective",
         "harishraju7/CharacterInAScene-Image-Gen",
         "S-Dreamer/EnsembleAppBuilder",
-        "thanhkt/text2manim"
+        "thanhkt/text2manim",
+        "delightfulrachel/salesforce-migration-assistant"
       ],
       "createdAt": "2024-11-06T07:49:50.000Z",
       "safetensors": {
@@ -41081,8 +41080,8 @@
     },
     "qwen/qwen-2.5-7b-instruct": {
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "downloads": 6369723,
-      "likes": 2453,
+      "downloads": 5732337,
+      "likes": 2458,
       "lastModified": "2025-01-12T02:10:10.000Z",
       "tags": [
         "transformers",
@@ -41204,13 +41203,18 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
         "alexnasa/Wan2.2-Animate-ZEROGPU",
         "fastgpu/vram-and-gpu-cost-calculator",
         "pliny-the-prompter/obliteratus",
         "0xfei/crypto-price-predict",
+        "ArrheniusC/Wan2.1",
+        "Piyush-Official/granny",
         "i-chan/Neurodegenerative_Clinical_QA_LLM",
+        "teja0566/Ai_health_assisstant",
+        "BIGJUTT/model-pulse",
+        "Shree-Lms-Developers2025/NovaAI",
+        "Genrius-AI/llm-vram-calculator",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
         "multimodalart/self-forcing",
@@ -41298,12 +41302,7 @@
         "build-small-hackathon/podify",
         "build-small-hackathon/gitopadesh",
         "CASP77/CASP_College_AI",
-        "wellverse/WellVerse",
-        "plan291037/TextPhantom-v4.0.0",
-        "build-small-hackathon/feelin",
-        "build-small-hackathon/piper-assistant",
-        "kode-with-klossy/2.7-groupA2-capstone",
-        "kode-with-klossy/2.3-groupC4-capstone"
+        "wellverse/WellVerse"
       ],
       "createdAt": "2024-09-16T11:55:40.000Z",
       "safetensors": {
@@ -41317,8 +41316,8 @@
     },
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "downloads": 3970913,
-      "likes": 1883,
+      "downloads": 3488705,
+      "likes": 1888,
       "lastModified": "2024-10-24T15:07:51.000Z",
       "tags": [
         "transformers",
@@ -41479,6 +41478,8 @@
         "ginigen-ai/smol-worldcup",
         "aizip-dev/SLM-RAG-Arena",
         "congyuxiaoyoudao/CRAB",
+        "Steveeeeeeen/smallest-s2s",
+        "Genrius-AI/llm-vram-calculator",
         "HuggingFaceH4/blogpost-scaling-test-time-compute",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
@@ -41571,9 +41572,7 @@
         "imdg/api-app-foodies",
         "jeeya-ahuja05/skill-graph-adaptive-env",
         "Rushhaabhhh/HONEST-RL-Calibrator",
-        "gowtham-sai-yadav/viveka-env",
-        "anotheruserishere/Cartogemma",
-        "abgunaydin/zero-tvm"
+        "gowtham-sai-yadav/viveka-env"
       ],
       "createdAt": "2024-09-18T15:12:47.000Z",
       "safetensors": {
@@ -41587,8 +41586,8 @@
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "downloads": 1112418,
-      "likes": 2854,
+      "downloads": 1106217,
+      "likes": 2872,
       "lastModified": "2024-10-24T15:07:29.000Z",
       "tags": [
         "transformers",
@@ -41755,6 +41754,8 @@
         "fastgpu/vram-and-gpu-cost-calculator",
         "pliny-the-prompter/obliteratus",
         "aizip-dev/SLM-RAG-Arena",
+        "ErenAta00/turkish-slm-leaderboard",
+        "Genrius-AI/llm-vram-calculator",
         "cvachet/pdf-chatbot",
         "jupyter-agent/jupyter-agent",
         "baconnier/prompt-plus-plus",
@@ -41849,9 +41850,7 @@
         "Wedyan2023/Data_Generation_LabelingCopy",
         "wendellast/GUI",
         "xMBx/meta-llama-Llama-3.2-3B-Instruct",
-        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct",
-        "khushwant04/meta-llama-Llama-3.2-3B-Instruct",
-        "Hashim-dotcom/new-space"
+        "aakshkr10/meta-llama-Llama-3.2-3B-Instruct"
       ],
       "createdAt": "2024-09-18T15:19:20.000Z",
       "safetensors": {
@@ -41865,8 +41864,8 @@
     },
     "qwen/qwen-2.5-72b-instruct": {
       "id": "Qwen/Qwen2.5-72B-Instruct",
-      "downloads": 232348,
-      "likes": 1020,
+      "downloads": 217238,
+      "likes": 1023,
       "lastModified": "2025-01-12T02:07:38.000Z",
       "tags": [
         "transformers",
@@ -42087,8 +42086,10 @@
         }
       ],
       "spaces": [
+        "yangd05/radiology_report_optimizer",
         "manuelaschrittwieser/Cryptosentinator-v3",
         "gokaygokay/FLUX-Prompt-Generator",
+        "HathoraResearch/LLM-KV-cache-calculator",
         "allenai/reward-bench",
         "baconnier/prompt-plus-plus",
         "JournalistsonHF/ai-scraper",
@@ -42128,7 +42129,6 @@
         "asigalov61/MIDI-Identification",
         "JeCabrera/anychat",
         "filbench/filbench-leaderboard",
-        "HathoraResearch/LLM-KV-cache-calculator",
         "pollen-robotics/reachy-sticker-generator",
         "ChanMeng666/interactive-story-generator",
         "GoBuddy/kwk_final_project",
@@ -42185,8 +42185,7 @@
         "akra35567/akira",
         "varunv12/VacayAI",
         "Speedofmastery/orynxml-backend",
-        "MCP-1st-Birthday/Gnosis",
-        "mahimairaja/geo-spatial-multi-vector-search"
+        "MCP-1st-Birthday/Gnosis"
       ],
       "createdAt": "2024-09-16T11:56:31.000Z",
       "safetensors": {
@@ -42200,7 +42199,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-70b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-70B",
-      "downloads": 2075,
+      "downloads": 2135,
       "likes": 144,
       "lastModified": "2024-09-08T07:51:00.000Z",
       "tags": [
@@ -42506,7 +42505,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "downloads": 1327,
+      "downloads": 1458,
       "likes": 276,
       "lastModified": "2024-10-08T08:01:44.000Z",
       "tags": [
@@ -43292,8 +43291,8 @@
         "jackmichael/contravaulthvnkz",
         "ziadsameh32/ContiAI-v4",
         "Matthias0828282/rebelai-chaos-unleashed",
-        "lurito/MyAIchat",
         "lurito/Aaa",
+        "lurito/MyAIchat",
         "CiscsoPonce/PrimoGreedy-Agent",
         "Veilukanthal/mediaguide-assistant",
         "Veilukanthal/domain-chatbot-assistant",
@@ -43302,9 +43301,9 @@
         "London1977/sikhi-library",
         "bdaibyazad/BDAi-By-Azad",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
         "mohanvannemreddy7/genvideoqa",
         "mohanvannemreddy7/aivideoqa",
@@ -43349,7 +43348,7 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
-      "downloads": 87784,
+      "downloads": 89815,
       "likes": 1012,
       "lastModified": "2024-12-15T01:55:33.000Z",
       "tags": [
@@ -43622,6 +43621,8 @@
       "spaces": [
         "gokaygokay/FLUX-Prompt-Generator",
         "pliny-the-prompter/obliteratus",
+        "HathoraResearch/LLM-KV-cache-calculator",
+        "Genrius-AI/llm-vram-calculator",
         "KingNish/OpenGPT-4o",
         "allenai/reward-bench",
         "jupyter-agent/jupyter-agent",
@@ -43654,7 +43655,6 @@
         "airtrain-ai/hf-dataset-chat-to-sql",
         "Deddy/Smart_Idea_Generator",
         "filbench/filbench-leaderboard",
-        "HathoraResearch/LLM-KV-cache-calculator",
         "MCP-1st-Birthday/gitrepo_inspector_mcp",
         "Csplk/SoftwareTeam",
         "Agents-MCP-Hackathon/job-hunting-ai",
@@ -43718,8 +43718,7 @@
         "Agents-MCP-Hackathon/AI-Lawyer",
         "WD101/Gradio_chat",
         "Agents-MCP-Hackathon/enterprise-architecture-for-all",
-        "FarhaanAli/multi-model-consensus",
-        "aaleya-5/Such.AI"
+        "FarhaanAli/multi-model-consensus"
       ],
       "createdAt": "2024-07-16T16:07:46.000Z",
       "safetensors": {
@@ -43733,8 +43732,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "downloads": 4864172,
-      "likes": 8563,
+      "downloads": 4833514,
+      "likes": 8595,
       "lastModified": "2024-09-25T17:00:57.000Z",
       "tags": [
         "transformers",
@@ -43903,19 +43902,21 @@
         }
       ],
       "spaces": [
-        "tardellirs/model-pulse",
         "embedl/hfviewer",
-        "pollen-robotics/Reachy_Mini",
-        "suraj291/Survival_Island_Game",
         "fastgpu/vram-and-gpu-cost-calculator",
         "pliny-the-prompter/obliteratus",
+        "pollen-robotics/Reachy_Mini",
         "ginigen-ai/smol-worldcup",
+        "HathoraResearch/LLM-KV-cache-calculator",
+        "BIGJUTT/model-pulse",
         "trigent09/ai-backend",
+        "Shree-Lms-Developers2025/NovaAI",
         "KingNish/OpenGPT-4o",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
         "jupyter-agent/jupyter-agent",
         "baconnier/prompt-plus-plus",
+        "suraj291/Survival_Island_Game",
         "xingyuanzhao/nocode-workflow",
         "hadadrjt/ai",
         "blanchon/HiDream-ai-full",
@@ -43981,7 +43982,6 @@
         "Agents-MCP-Hackathon/rss-mcp-server",
         "liaoch/open-ai-co-scientist",
         "umint/openwebui",
-        "HathoraResearch/LLM-KV-cache-calculator",
         "kode-with-klossy/3.3-groupA2-capstone",
         "merve/gradio-tgi-2",
         "davidberenstein1957/llm-human-feedback-collector-chat-interface-kto",
@@ -44001,8 +44001,7 @@
         "nvidia/Plan2Align-NV",
         "Agents-MCP-Hackathon/Basic-Gradio-FFMPEG-MCP-Agent",
         "uc-ctds/llama-data-model-generator-demo",
-        "fmarky/youtube-video-summary",
-        "MCP-1st-Birthday/cluas_huginn_by_eightzerofoursix"
+        "fmarky/youtube-video-summary"
       ],
       "createdAt": "2024-07-18T08:56:00.000Z",
       "safetensors": {
@@ -44016,8 +44015,8 @@
     },
     "mistralai/mistral-nemo": {
       "id": "mistralai/Mistral-Nemo-Instruct-2407",
-      "downloads": 191347,
-      "likes": 1736,
+      "downloads": 178317,
+      "likes": 1735,
       "lastModified": "2025-07-28T17:16:02.000Z",
       "tags": [
         "vllm",
@@ -44251,7 +44250,7 @@
     },
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
-      "downloads": 19598,
+      "downloads": 20286,
       "likes": 577,
       "lastModified": "2024-08-27T19:41:54.000Z",
       "tags": [
@@ -44472,9 +44471,9 @@
         "locorene1000/gemma-2-9b-it",
         "0ppxnhximxr/google-gemma-2-27b-it",
         "TaskeenJafri/gemma-2-9b-it",
+        "Reza2002/google-gemma-2-27b-it",
         "ChadLee/google-gemma-2-27b-it",
         "yayablaze/google-gemma-2-27b-it",
-        "Reza2002/google-gemma-2-27b-it",
         "meidkad/test6",
         "meidkad/test5",
         "ehristoforu/gemma-2-9b-it",
@@ -44482,8 +44481,8 @@
         "jerukperas/chatbot",
         "FayikSuhail/LLMIntro",
         "twn39/starship",
-        "Sergeysedikh/gemma-2-9b-it",
         "pvanand/specialized-agents-api",
+        "Sergeysedikh/gemma-2-9b-it",
         "nymanromeo123/gemma-2-9b-it",
         "isl-research/KCE_NVIDIA",
         "powerstone/google-gemma-2-27b-it",
@@ -44526,7 +44525,7 @@
     },
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-      "downloads": 46472,
+      "downloads": 47570,
       "likes": 777,
       "lastModified": "2025-07-24T16:41:56.000Z",
       "tags": [
@@ -44863,11 +44862,11 @@
         "Kaelan/bitext_cs",
         "rrdesai/rrdesai_gst_ai",
         "Xhaheen/AI_safety_testing",
-        "NCTCMumbai/Adwitiya_chat_and_quizbot",
         "srinuksv/Main",
+        "NCTCMumbai/Adwitiya_chat_and_quizbot",
         "nsm553/ByndChatGPT",
-        "AbrarAhmed10/LLM_Project",
         "AbrarAhmed10/LLM_model",
+        "AbrarAhmed10/LLM_Project",
         "prabaerode/CBSE-10-science",
         "datacipen/dashskills",
         "RAMYASRI-39/SocLinguaBot22-10std",
@@ -44882,8 +44881,8 @@
         "API-Handler/test_api",
         "neelumsoft/Document-QA-bot",
         "RAMYASRI-39/to_workout",
-        "4d0T/mistralai-Mixtral-8x22B-Instruct-v0.1",
         "Mackintoshj/anychat",
+        "4d0T/mistralai-Mixtral-8x22B-Instruct-v0.1",
         "yalotaibii/anychat",
         "ilovemystagename/anychat",
         "jagadeshwaran/Mutlilinguabot_science_10",
