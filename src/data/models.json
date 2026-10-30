@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T09:40:59.786Z",
+  "generated_at": "2026-10-30T09:47:25.551Z",
   "openrouter_source": "fresh",
-  "count": 464,
+  "count": 463,
   "models": [
     {
       "slug": "claude-mythos-preview",
@@ -66,7 +66,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -141,7 +141,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "free",
@@ -216,7 +216,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -290,7 +290,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -357,9 +357,9 @@
           "source": null
         }
       },
-      "hf_downloads": 302537,
+      "hf_downloads": 269938,
       "hf_likes": 1639,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -429,7 +429,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "long_context",
@@ -496,9 +496,9 @@
           "source": "https://www.clickrank.ai/llm-leaderboard/"
         }
       },
-      "hf_downloads": 6102505,
+      "hf_downloads": 6295973,
       "hf_likes": 1591,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -544,7 +544,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -586,7 +586,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": []
     },
@@ -626,7 +626,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -669,7 +669,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": []
     },
@@ -710,7 +710,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -747,7 +747,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -808,7 +808,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -829,7 +829,7 @@
       "is_open_weight": false,
       "license": null,
       "context_window": 2000000,
-      "max_output_tokens": null,
+      "max_output_tokens": 65536,
       "modality": [
         "text",
         "file",
@@ -842,9 +842,10 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
+        "max_completion_tokens",
         "max_tokens",
         "min_p",
-        "prediction",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -860,7 +861,7 @@
         "top_k",
         "top_logprobs",
         "top_p",
-        "web_search_options"
+        "verbosity"
       ],
       "pricing": {
         "input_per_million": -1000000,
@@ -872,7 +873,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -929,7 +930,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -963,7 +964,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -1010,7 +1011,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1059,7 +1060,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1107,7 +1108,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1155,7 +1156,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1204,7 +1205,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1253,7 +1254,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1302,7 +1303,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1351,7 +1352,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1400,7 +1401,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1450,7 +1451,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -1497,7 +1498,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1543,7 +1544,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1592,7 +1593,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1639,7 +1640,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -1690,7 +1691,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1740,7 +1741,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1788,7 +1789,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1837,7 +1838,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1885,7 +1886,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1934,7 +1935,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -1983,7 +1984,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2031,7 +2032,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2079,7 +2080,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2128,7 +2129,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2177,7 +2178,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2226,7 +2227,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2296,7 +2297,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -2345,7 +2346,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2394,7 +2395,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2443,7 +2444,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2491,7 +2492,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2540,7 +2541,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2590,7 +2591,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -2638,7 +2639,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -2682,7 +2683,7 @@
       "benchmarks": {},
       "hf_downloads": 1543,
       "hf_likes": 398,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -2731,7 +2732,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2779,7 +2780,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2826,7 +2827,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -2870,7 +2871,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -2919,7 +2920,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -2966,9 +2967,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1625629,
+      "hf_downloads": 1692278,
       "hf_likes": 4453,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3013,9 +3014,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 371477,
+      "hf_downloads": 297246,
       "hf_likes": 3223,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3067,9 +3068,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 289213,
+      "hf_downloads": 283333,
       "hf_likes": 864,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3118,8 +3119,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.0146,
-        "output_per_million": 1.46,
+        "input_per_million": 0.0339,
+        "output_per_million": 1.14,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -3127,7 +3128,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3175,7 +3176,7 @@
       ],
       "pricing": {
         "input_per_million": 0.1035,
-        "output_per_million": 8,
+        "output_per_million": 4,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -3183,7 +3184,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3235,9 +3236,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 161887,
+      "hf_downloads": 165905,
       "hf_likes": 2492,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3266,7 +3267,6 @@
         "max_tokens",
         "reasoning",
         "response_format",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -3282,9 +3282,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 12164,
+      "hf_downloads": 12083,
       "hf_likes": 386,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3328,9 +3328,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 43426,
+      "hf_downloads": 43323,
       "hf_likes": 1025,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3386,9 +3386,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1851983,
-      "hf_likes": 4783,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1966271,
+      "hf_likes": 4797,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3446,9 +3446,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 116770,
-      "hf_likes": 3665,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 131062,
+      "hf_likes": 3915,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3504,9 +3504,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1851983,
-      "hf_likes": 4783,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1966271,
+      "hf_likes": 4797,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3563,9 +3563,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 992906,
+      "hf_downloads": 1024065,
       "hf_likes": 2359,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3621,9 +3621,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 3403432,
+      "hf_downloads": 3395056,
       "hf_likes": 4092,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3672,8 +3672,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.0475,
-        "output_per_million": 0.1568,
+        "input_per_million": 0.0314,
+        "output_per_million": 0.1677,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -3681,7 +3681,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -3735,9 +3735,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 276862,
-      "hf_likes": 960,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 241523,
+      "hf_likes": 961,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3786,16 +3786,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.95526,
-        "output_per_million": 1.91052,
+        "input_per_million": 0.816234,
+        "output_per_million": 1.632468,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 370341,
-      "hf_likes": 5683,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 368547,
+      "hf_likes": 5684,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3849,9 +3849,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 149742,
+      "hf_downloads": 150475,
       "hf_likes": 905,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3896,9 +3896,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 6054,
-      "hf_likes": 359,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6090,
+      "hf_likes": 360,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -3941,7 +3941,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -3985,7 +3985,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -4041,7 +4041,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4079,7 +4079,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -4127,7 +4127,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -4183,7 +4183,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -4228,7 +4228,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4271,7 +4271,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4315,7 +4315,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4349,7 +4349,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4399,7 +4399,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4445,7 +4445,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4496,7 +4496,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4548,7 +4548,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4599,7 +4599,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -4646,7 +4646,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4692,7 +4692,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4744,7 +4744,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4798,7 +4798,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4845,7 +4845,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4896,7 +4896,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -4950,7 +4950,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -5003,7 +5003,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5056,7 +5056,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -5109,7 +5109,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -5162,7 +5162,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5216,7 +5216,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5268,7 +5268,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5322,7 +5322,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5374,7 +5374,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5428,7 +5428,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5480,7 +5480,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5534,7 +5534,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5586,7 +5586,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5661,7 +5661,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "free",
@@ -5717,7 +5717,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5771,7 +5771,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -5821,7 +5821,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5866,7 +5866,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -5917,7 +5917,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -5970,7 +5970,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6024,7 +6024,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6073,7 +6073,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -6124,7 +6124,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -6168,9 +6168,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 21506,
+      "hf_downloads": 21671,
       "hf_likes": 577,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6219,9 +6219,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 343612,
-      "hf_likes": 894,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 349062,
+      "hf_likes": 896,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6273,9 +6273,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 338879,
-      "hf_likes": 2062,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 344890,
+      "hf_likes": 2061,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6325,9 +6325,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 955853,
-      "hf_likes": 1603,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 950453,
+      "hf_likes": 1606,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6383,9 +6383,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 7070055,
-      "hf_likes": 1714,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6341224,
+      "hf_likes": 1719,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6431,9 +6431,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 7070055,
-      "hf_likes": 1714,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6341224,
+      "hf_likes": 1719,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6490,9 +6490,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 8466559,
-      "hf_likes": 4231,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 8453913,
+      "hf_likes": 4243,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6538,9 +6538,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 8466559,
-      "hf_likes": 4231,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 8453913,
+      "hf_likes": 4243,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6598,7 +6598,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -6641,9 +6641,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 109342,
+      "hf_downloads": 108584,
       "hf_likes": 1438,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6689,9 +6689,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1256593,
+      "hf_downloads": 1363758,
       "hf_likes": 649,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6739,9 +6739,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 22286,
+      "hf_downloads": 21343,
       "hf_likes": 726,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6792,9 +6792,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 25481,
+      "hf_downloads": 25505,
       "hf_likes": 1247,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6843,9 +6843,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 4577,
+      "hf_downloads": 4589,
       "hf_likes": 398,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -6913,9 +6913,9 @@
           "source": null
         }
       },
-      "hf_downloads": 74105,
+      "hf_downloads": 73598,
       "hf_likes": 2076,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -6968,9 +6968,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 962032,
-      "hf_likes": 1889,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 984063,
+      "hf_likes": 1890,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7020,9 +7020,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1527526,
+      "hf_downloads": 1668026,
       "hf_likes": 2141,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7074,9 +7074,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 883871,
+      "hf_downloads": 1033380,
       "hf_likes": 1852,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight"
@@ -7129,9 +7129,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 285322,
-      "hf_likes": 5192,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 274668,
+      "hf_likes": 5193,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7179,16 +7179,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.0699,
-        "output_per_million": 1.4,
+        "input_per_million": 0.08,
+        "output_per_million": 3.6,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2302735,
-      "hf_likes": 2336,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 2507023,
+      "hf_likes": 2346,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7240,9 +7240,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2302735,
-      "hf_likes": 2336,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 2507023,
+      "hf_likes": 2346,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7262,7 +7262,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 1048576,
-      "max_output_tokens": 131072,
+      "max_output_tokens": 943717,
       "modality": [
         "text",
         "video",
@@ -7292,16 +7292,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.0457,
-        "output_per_million": 0.0742,
+        "input_per_million": 0.15,
+        "output_per_million": 0.5,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 6417099,
-      "hf_likes": 2975,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6374655,
+      "hf_likes": 2985,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7359,9 +7359,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 6417099,
-      "hf_likes": 2975,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6374655,
+      "hf_likes": 2985,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -7411,7 +7411,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7464,7 +7464,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context"
@@ -7507,7 +7507,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": []
     },
@@ -7550,7 +7550,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -7599,8 +7599,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.0457,
-        "output_per_million": 0.0742,
+        "input_per_million": 0.0313,
+        "output_per_million": 0.0823,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -7608,7 +7608,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7666,7 +7666,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7715,7 +7715,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7765,7 +7765,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -7812,7 +7812,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -7857,7 +7857,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -7903,7 +7903,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7951,7 +7951,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -7998,7 +7998,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8045,7 +8045,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8092,7 +8092,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8144,7 +8144,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8198,7 +8198,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8250,7 +8250,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8304,7 +8304,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8357,7 +8357,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8410,7 +8410,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8464,7 +8464,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8518,7 +8518,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8572,7 +8572,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8621,7 +8621,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8669,7 +8669,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8716,7 +8716,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8763,7 +8763,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8809,7 +8809,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8855,7 +8855,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8904,7 +8904,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -8951,7 +8951,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -8996,7 +8996,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9042,7 +9042,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9089,7 +9089,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9136,7 +9136,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9184,7 +9184,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9232,7 +9232,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9280,7 +9280,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9328,7 +9328,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -9376,7 +9376,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9424,7 +9424,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9473,7 +9473,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9521,7 +9521,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9570,7 +9570,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9618,7 +9618,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9666,7 +9666,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9714,7 +9714,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9762,7 +9762,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -9811,7 +9811,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9860,7 +9860,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9910,7 +9910,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -9959,7 +9959,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10009,7 +10009,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10057,7 +10057,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10106,7 +10106,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10154,7 +10154,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10203,7 +10203,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10251,7 +10251,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10301,7 +10301,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10349,7 +10349,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10398,7 +10398,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10447,7 +10447,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -10495,7 +10495,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -10563,7 +10563,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "budget",
@@ -10612,7 +10612,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10661,7 +10661,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10709,7 +10709,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10757,7 +10757,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -10804,7 +10804,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -10852,7 +10852,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10900,7 +10900,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -10950,7 +10950,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -10998,7 +10998,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11048,7 +11048,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11097,7 +11097,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11147,7 +11147,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11196,7 +11196,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11246,7 +11246,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11294,7 +11294,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11343,7 +11343,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11391,7 +11391,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11440,7 +11440,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11489,7 +11489,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11539,7 +11539,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11588,7 +11588,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11638,7 +11638,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11686,7 +11686,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11736,7 +11736,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11784,7 +11784,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11834,7 +11834,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -11884,7 +11884,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "multimodal",
@@ -11934,7 +11934,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -11978,7 +11978,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -12026,7 +12026,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12075,7 +12075,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12131,7 +12131,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12184,7 +12184,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12239,7 +12239,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12292,7 +12292,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12338,7 +12338,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12386,7 +12386,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12434,7 +12434,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12490,7 +12490,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -12538,7 +12538,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12586,7 +12586,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12636,7 +12636,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12686,7 +12686,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12737,7 +12737,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12789,7 +12789,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12839,7 +12839,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12888,7 +12888,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -12938,7 +12938,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -12984,9 +12984,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1618,
+      "hf_downloads": 1645,
       "hf_likes": 276,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13031,9 +13031,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2177,
+      "hf_downloads": 2155,
       "hf_likes": 145,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13079,9 +13079,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1977,
+      "hf_downloads": 2011,
       "hf_likes": 97,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13125,7 +13125,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13163,7 +13163,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13203,7 +13203,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13243,7 +13243,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13296,7 +13296,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13339,7 +13339,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -13395,7 +13395,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13447,7 +13447,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13497,7 +13497,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -13553,7 +13553,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13603,7 +13603,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -13625,7 +13625,7 @@
       "is_open_weight": false,
       "license": null,
       "context_window": 1000000,
-      "max_output_tokens": 64000,
+      "max_output_tokens": 65536,
       "modality": [
         "text",
         "file",
@@ -13669,7 +13669,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -13715,9 +13715,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 324589,
+      "hf_downloads": 321177,
       "hf_likes": 3008,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13763,9 +13763,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 16980,
+      "hf_downloads": 14148,
       "hf_likes": 790,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13818,9 +13818,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 394895,
+      "hf_downloads": 414090,
       "hf_likes": 2896,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13875,9 +13875,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 92217,
+      "hf_downloads": 92678,
       "hf_likes": 1426,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13926,9 +13926,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 45893,
+      "hf_downloads": 45795,
       "hf_likes": 1731,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -13978,16 +13978,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.239,
-        "output_per_million": 10.8,
+        "input_per_million": 0.192,
+        "output_per_million": 15,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 854823,
-      "hf_likes": 11870,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 861499,
+      "hf_likes": 11878,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14040,7 +14040,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -14094,9 +14094,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 854823,
-      "hf_likes": 11870,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 861499,
+      "hf_likes": 11878,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14148,8 +14148,8 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.1824,
-        "output_per_million": 9.3388,
+        "input_per_million": 0.17,
+        "output_per_million": 9.75,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
@@ -14157,7 +14157,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14206,7 +14206,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14255,7 +14255,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14295,7 +14295,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14336,7 +14336,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -14377,7 +14377,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14417,7 +14417,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -14471,7 +14471,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14523,7 +14523,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -14576,7 +14576,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14628,7 +14628,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -14681,7 +14681,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14736,7 +14736,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -14784,9 +14784,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 93780,
-      "hf_likes": 1019,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 94235,
+      "hf_likes": 1023,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14836,9 +14836,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 4787809,
-      "hf_likes": 8665,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 4704398,
+      "hf_likes": 8685,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14882,9 +14882,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2736286,
-      "hf_likes": 1916,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 2405633,
+      "hf_likes": 1922,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14931,9 +14931,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1123251,
-      "hf_likes": 2903,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1086162,
+      "hf_likes": 2905,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -14983,9 +14983,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 380184,
-      "hf_likes": 3174,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 377663,
+      "hf_likes": 3176,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15035,9 +15035,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 10595,
+      "hf_downloads": 10622,
       "hf_likes": 517,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15111,9 +15111,9 @@
           "note": "tokens per second"
         }
       },
-      "hf_downloads": 109303,
+      "hf_downloads": 107717,
       "hf_likes": 1381,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -15162,9 +15162,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 59683,
+      "hf_downloads": 74174,
       "hf_likes": 135,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -15215,7 +15215,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15257,7 +15257,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -15302,7 +15302,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -15356,7 +15356,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": []
     },
@@ -15398,7 +15398,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15442,7 +15442,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15486,7 +15486,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15538,7 +15538,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15587,7 +15587,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15645,7 +15645,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15702,7 +15702,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15754,7 +15754,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -15794,7 +15794,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15843,7 +15843,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -15885,7 +15885,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15927,7 +15927,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -15980,7 +15980,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16030,7 +16030,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16067,7 +16067,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16122,7 +16122,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16181,7 +16181,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16228,9 +16228,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 146245,
+      "hf_downloads": 147243,
       "hf_likes": 350,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16276,9 +16276,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 80806,
-      "hf_likes": 314,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 79685,
+      "hf_likes": 315,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16324,9 +16324,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 94031,
+      "hf_downloads": 101053,
       "hf_likes": 234,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16374,7 +16374,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -16420,7 +16420,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "writing"
@@ -16467,7 +16467,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16536,7 +16536,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "vision",
@@ -16552,7 +16552,7 @@
       "api_docs": null,
       "openrouter_id": "mistralai/mistral-large-4-0",
       "release_date": "2026-10-06",
-      "is_open_weight": false,
+      "is_open_weight": true,
       "license": null,
       "context_window": 1048576,
       "max_output_tokens": 262144,
@@ -16579,18 +16579,20 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 1.36,
-        "output_per_million": 4.18,
+        "input_per_million": 0.7,
+        "output_per_million": 2.1,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": null,
-      "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 278,
+      "hf_likes": 1266,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
+        "open_weight",
+        "budget",
         "long_context",
         "vision",
         "writing"
@@ -16637,7 +16639,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16685,7 +16687,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16736,7 +16738,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -16786,7 +16788,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -16836,9 +16838,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 151536,
+      "hf_downloads": 144458,
       "hf_likes": 1740,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16886,7 +16888,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -16931,9 +16933,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 83645,
+      "hf_downloads": 85644,
       "hf_likes": 989,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -16981,9 +16983,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 66306,
-      "hf_likes": 463,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 64572,
+      "hf_likes": 464,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -17034,9 +17036,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 205739,
+      "hf_downloads": 194580,
       "hf_likes": 1407,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -17088,9 +17090,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 132630,
+      "hf_downloads": 130308,
       "hf_likes": 643,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -17136,9 +17138,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 48239,
+      "hf_downloads": 47242,
       "hf_likes": 781,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight"
@@ -17179,7 +17181,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17221,7 +17223,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17263,7 +17265,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17304,7 +17306,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17357,7 +17359,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17407,7 +17409,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -17458,7 +17460,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -17509,7 +17511,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17561,7 +17563,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -17612,7 +17614,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17673,7 +17675,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -17725,7 +17727,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -17777,7 +17779,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17825,7 +17827,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -17867,7 +17869,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -17922,7 +17924,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -17964,7 +17966,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -18021,7 +18023,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18070,7 +18072,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -18126,7 +18128,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -18171,7 +18173,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -18228,7 +18230,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18281,7 +18283,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -18324,7 +18326,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -18371,7 +18373,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18419,7 +18421,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18464,9 +18466,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 8118,
+      "hf_downloads": 7998,
       "hf_likes": 582,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -18514,7 +18516,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18558,7 +18560,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18599,7 +18601,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -18640,7 +18642,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -18682,7 +18684,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18727,7 +18729,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -18772,7 +18774,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18817,7 +18819,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18862,7 +18864,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision",
@@ -18907,7 +18909,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18948,7 +18950,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -18989,7 +18991,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19032,7 +19034,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -19090,7 +19092,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19131,7 +19133,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19187,7 +19189,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19234,7 +19236,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19285,7 +19287,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19334,7 +19336,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -19381,9 +19383,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 203275,
-      "hf_likes": 1031,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 197874,
+      "hf_likes": 1033,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19430,9 +19432,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 5748250,
-      "hf_likes": 2469,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 5350289,
+      "hf_likes": 2470,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19477,9 +19479,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 451837,
-      "hf_likes": 2196,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 464385,
+      "hf_likes": 2198,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19544,7 +19546,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -19595,7 +19597,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -19643,9 +19645,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 100700,
+      "hf_downloads": 100022,
       "hf_likes": 666,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19698,9 +19700,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 12353242,
+      "hf_downloads": 12798105,
       "hf_likes": 526,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19750,9 +19752,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 126888,
+      "hf_downloads": 125053,
       "hf_likes": 814,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19796,9 +19798,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 12143,
+      "hf_downloads": 12407,
       "hf_likes": 419,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19848,9 +19850,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1038220,
+      "hf_downloads": 1054794,
       "hf_likes": 977,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19899,9 +19901,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1090157,
+      "hf_downloads": 1092465,
       "hf_likes": 851,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -19928,6 +19930,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -19940,7 +19943,9 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_a",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "pricing": {
@@ -19951,9 +19956,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2872657,
+      "hf_downloads": 2942974,
       "hf_likes": 791,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20007,9 +20012,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 953231,
-      "hf_likes": 648,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1058736,
+      "hf_likes": 649,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20065,9 +20070,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1842719,
-      "hf_likes": 1079,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1834131,
+      "hf_likes": 1080,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20123,9 +20128,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 1629321,
-      "hf_likes": 1549,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 1753970,
+      "hf_likes": 1550,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20181,9 +20186,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 888179,
+      "hf_downloads": 1018738,
       "hf_likes": 1581,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20240,9 +20245,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 6373410,
-      "hf_likes": 2270,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 6584947,
+      "hf_likes": 2276,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20295,7 +20300,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20350,7 +20355,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20405,7 +20410,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20426,7 +20431,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 262144,
-      "max_output_tokens": 65536,
+      "max_output_tokens": 81920,
       "modality": [
         "text",
         "video",
@@ -20454,16 +20459,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.45,
-        "output_per_million": 2.7,
+        "input_per_million": 0.32,
+        "output_per_million": 3.2,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 2374428,
-      "hf_likes": 2341,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 2348385,
+      "hf_likes": 2342,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20519,9 +20524,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 4415423,
-      "hf_likes": 3050,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 4727394,
+      "hf_likes": 3057,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20576,7 +20581,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20631,7 +20636,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20682,7 +20687,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20735,7 +20740,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context"
@@ -20786,7 +20791,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20839,7 +20844,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -20858,7 +20863,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 1048576,
-      "max_output_tokens": 909000,
+      "max_output_tokens": 131072,
       "modality": [
         "text"
       ],
@@ -20892,9 +20897,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 25602,
-      "hf_likes": 1340,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 25944,
+      "hf_likes": 1343,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -20913,7 +20918,7 @@
       "is_open_weight": true,
       "license": null,
       "context_window": 1000000,
-      "max_output_tokens": 65536,
+      "max_output_tokens": 235929,
       "modality": [
         "text",
         "video",
@@ -20943,16 +20948,16 @@
         "top_p"
       ],
       "pricing": {
-        "input_per_million": 0.039,
-        "output_per_million": 1.25,
+        "input_per_million": 0.15,
+        "output_per_million": 1.875,
         "currency": "USD",
         "has_free_tier": false,
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 7515620,
-      "hf_likes": 18651,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 7624809,
+      "hf_likes": 18703,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21006,9 +21011,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 3637182,
-      "hf_likes": 6631,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 4137335,
+      "hf_likes": 6650,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21065,7 +21070,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -21120,7 +21125,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "long_context",
@@ -21175,7 +21180,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -21225,9 +21230,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 58892,
+      "hf_downloads": 58931,
       "hf_likes": 1386,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21270,9 +21275,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 895249,
-      "hf_likes": 1312,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 928425,
+      "hf_likes": 1313,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21339,7 +21344,7 @@
       },
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": "2026-05-17",
       "categories": [
         "open_weight",
@@ -21388,7 +21393,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -21437,9 +21442,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 436233,
-      "hf_likes": 1716,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "hf_downloads": 434326,
+      "hf_likes": 1719,
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21489,9 +21494,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 143206,
+      "hf_downloads": 143974,
       "hf_likes": 1072,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21542,9 +21547,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 285354,
+      "hf_downloads": 284729,
       "hf_likes": 429,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21596,9 +21601,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 411815,
+      "hf_downloads": 419671,
       "hf_likes": 627,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21644,9 +21649,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 15468,
+      "hf_downloads": 16058,
       "hf_likes": 208,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21697,9 +21702,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 6650352,
+      "hf_downloads": 6767045,
       "hf_likes": 1232,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -21750,7 +21755,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -21799,7 +21804,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -21836,7 +21841,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -21878,7 +21883,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -21928,7 +21933,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -21971,7 +21976,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22019,7 +22024,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -22066,7 +22071,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -22113,7 +22118,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22162,7 +22167,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22212,7 +22217,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22262,7 +22267,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22312,7 +22317,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22361,7 +22366,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22411,7 +22416,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -22458,58 +22463,11 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
         "long_context"
-      ]
-    },
-    {
-      "slug": "solar-pro-3",
-      "name": "Upstage: Solar Pro 3",
-      "provider": "Upstage",
-      "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
-      "website": null,
-      "api_docs": null,
-      "openrouter_id": "upstage/solar-pro-3",
-      "release_date": "2026-01-27",
-      "is_open_weight": false,
-      "license": null,
-      "context_window": 131072,
-      "max_output_tokens": 117964,
-      "modality": [
-        "text"
-      ],
-      "supported_features": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "parallel_tool_calls",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "pricing": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6,
-        "currency": "USD",
-        "has_free_tier": false,
-        "source": null
-      },
-      "benchmarks": {},
-      "hf_downloads": null,
-      "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
-      "last_verified": null,
-      "categories": [
-        "budget"
       ]
     },
     {
@@ -22553,7 +22511,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22596,7 +22554,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22640,7 +22598,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": []
     },
@@ -22680,7 +22638,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -22725,7 +22683,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -22769,7 +22727,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "vision"
@@ -22812,7 +22770,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -22866,7 +22824,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22885,7 +22843,7 @@
       "release_date": "2026-10-08",
       "is_open_weight": false,
       "license": null,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "max_output_tokens": 64000,
       "modality": [
         "text",
@@ -22923,7 +22881,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -22963,7 +22921,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
@@ -22999,7 +22957,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -23053,7 +23011,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -23106,7 +23064,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -23155,7 +23113,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -23203,7 +23161,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget",
@@ -23249,9 +23207,9 @@
         "source": null
       },
       "benchmarks": {},
-      "hf_downloads": 16026,
+      "hf_downloads": 15375,
       "hf_likes": 556,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "open_weight",
@@ -23302,7 +23260,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "budget"
@@ -23352,7 +23310,7 @@
       "benchmarks": {},
       "hf_downloads": null,
       "hf_likes": null,
-      "last_updated": "2026-10-29T09:40:59.786Z",
+      "last_updated": "2026-10-30T09:47:25.551Z",
       "last_verified": null,
       "categories": [
         "free",
