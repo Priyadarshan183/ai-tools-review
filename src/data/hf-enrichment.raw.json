@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-01T10:17:08.275Z",
+  "fetched_at": "2026-11-02T10:45:32.144Z",
   "data": {
     "deepseek/deepseek-v4.1-flash-1017": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "downloads": 170353,
-      "likes": 4150,
+      "downloads": 177009,
+      "likes": 4473,
       "lastModified": "2026-10-17T05:46:55.000Z",
       "tags": [
         "transformers",
@@ -69,6 +69,7 @@
             "rstrip": false,
             "single_word": false
           },
+          "unk_token": null,
           "pad_token": {
             "__type": "AddedToken",
             "content": "<｜end▁of▁sentence｜>",
@@ -76,8 +77,7 @@
             "normalized": true,
             "rstrip": false,
             "single_word": false
-          },
-          "unk_token": null
+          }
         }
       },
       "cardData": {
@@ -343,15 +343,21 @@
       "spaces": [
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
-        "skbhati199/deepseek-v41-flash-demo",
         "quantid/huggingface-official-benchmark-leaderboards",
+        "skbhati199/deepseek-v41-flash-demo",
+        "kivilaid/deepseek-v41-uncensored-demo",
         "lalopenguin/deepseek-v4-1-flash-demo",
         "quantid/measurement-lab",
         "uplinkswitch/llm-api-price-comparison",
         "3htbe/deepseek-v41-uncensored-demo",
         "Shadowsun2069/deepseek-v41-uncensored-demo",
+        "AnhFeee/chatbotHCMHUHU",
         "ariellephan/deepseek-v41-flash-1017-demo",
+        "600me/llm-gpu-cost-calculator",
         "b4ph/toks-windows-benchmark",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "marksenlit/deepseek-sonar",
         "Prince837/deepseek-v41-flash-demo",
         "alphabell/DeepSeek-Prompt-Parity",
@@ -370,7 +376,12 @@
         "bbbbeeeezzz/deepseek-v41-flash-1017",
         "faugo/deepseek-v41-flash-demo",
         "xdLocutus/Smaug-Flash-Explorer",
-        "amitnaik07/beam-data-desk"
+        "amitnaik07/beam-data-desk",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator",
+        "Rj2pO/deepseek-v4-1-flash-demo",
+        "IAMShadowRoots/deepseek-v41-flash-1017-demo",
+        "wangye2022/refusal-lab-deepseek-v41-obliterated"
       ],
       "createdAt": "2026-10-17T02:40:38.000Z",
       "safetensors": {
@@ -383,12 +394,12 @@
         "total": 763205315794
       },
       "inference": "warm",
-      "usedStorage": 510296920807
+      "usedStorage": 510750942072
     },
     "mistralai/mistral-large-4-0": {
       "id": "mistralai/Mistral-Large-4-1T-A52B",
-      "downloads": 4576,
-      "likes": 1414,
+      "downloads": 5500,
+      "likes": 1470,
       "lastModified": "2026-10-29T14:51:07.000Z",
       "tags": [
         "transformers",
@@ -766,8 +777,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "downloads": 2127615,
-      "likes": 4829,
+      "downloads": 2144269,
+      "likes": 4839,
       "lastModified": "2026-10-16T09:27:28.000Z",
       "tags": [
         "transformers",
@@ -1128,17 +1139,16 @@
         }
       ],
       "spaces": [
-        "joelniklaus/harness-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
-        "VIDraft/global-llm-leaderboard",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
+        "townbox/deepseek-profile-guide",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "Sambhav-New/Tradley",
+        "VIDraft/global-llm-leaderboard",
         "ginigen-ai/open-router-leaderboard",
         "zoom-ai/hle-leaderboard",
-        "townbox/deepseek-profile-guide",
         "bagegegegw/DeepSeek-V4.1-Flash-UNCENSORED-Demo",
         "ArtShumov/Whyx-PROmpTea",
         "akhaliq/DeepSeek-V4.1-Flash",
@@ -1155,6 +1165,7 @@
         "mzubair-dh/loagaeth-extractor",
         "Bob3432433/DeepSeek-V4-Flash",
         "fitzpatrick9/jade-meadow-5791",
+        "LLbros/trans4",
         "Mullernorth/Klaw",
         "ArabicNewsAnalyzer/Chat-Service",
         "BhDirty555/OmniForge-AI",
@@ -1181,6 +1192,7 @@
         "rahulc0990/final_agents_course_project",
         "TorkeHub/torki-2-benchmarks",
         "Cenzer0/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "Vuahung/testAI",
         "quaedra/best-local-llm-for-your-gpu",
         "GongCS/First_agent_template",
@@ -1190,13 +1202,19 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "westas/deepseek-v41-flash-demo",
         "thomwolf/hub-dollars",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
         "hmb/deepseek-vs-kimi",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "alphabell/DeepSeek-Prompt-Parity",
         "alphabell/Model-Observatory",
         "hmb/m31-vs-deepseek",
         "DibaAi/Decho",
         "irenesolaiman/flagship-model-drops",
-        "hprooshani/Cachalot-Lab"
+        "hprooshani/Cachalot-Lab",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-09-10T02:17:58.000Z",
       "safetensors": {
@@ -1213,8 +1231,8 @@
     },
     "deepseek/deepseek-v4.1-flash:batch": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "downloads": 2127615,
-      "likes": 4829,
+      "downloads": 2144269,
+      "likes": 4839,
       "lastModified": "2026-10-16T09:27:28.000Z",
       "tags": [
         "transformers",
@@ -1575,17 +1593,16 @@
         }
       ],
       "spaces": [
-        "joelniklaus/harness-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
-        "VIDraft/global-llm-leaderboard",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
+        "townbox/deepseek-profile-guide",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "Sambhav-New/Tradley",
+        "VIDraft/global-llm-leaderboard",
         "ginigen-ai/open-router-leaderboard",
         "zoom-ai/hle-leaderboard",
-        "townbox/deepseek-profile-guide",
         "bagegegegw/DeepSeek-V4.1-Flash-UNCENSORED-Demo",
         "ArtShumov/Whyx-PROmpTea",
         "akhaliq/DeepSeek-V4.1-Flash",
@@ -1602,6 +1619,7 @@
         "mzubair-dh/loagaeth-extractor",
         "Bob3432433/DeepSeek-V4-Flash",
         "fitzpatrick9/jade-meadow-5791",
+        "LLbros/trans4",
         "Mullernorth/Klaw",
         "ArabicNewsAnalyzer/Chat-Service",
         "BhDirty555/OmniForge-AI",
@@ -1628,6 +1646,7 @@
         "rahulc0990/final_agents_course_project",
         "TorkeHub/torki-2-benchmarks",
         "Cenzer0/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "Vuahung/testAI",
         "quaedra/best-local-llm-for-your-gpu",
         "GongCS/First_agent_template",
@@ -1637,13 +1656,19 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "westas/deepseek-v41-flash-demo",
         "thomwolf/hub-dollars",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
         "hmb/deepseek-vs-kimi",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "alphabell/DeepSeek-Prompt-Parity",
         "alphabell/Model-Observatory",
         "hmb/m31-vs-deepseek",
         "DibaAi/Decho",
         "irenesolaiman/flagship-model-drops",
-        "hprooshani/Cachalot-Lab"
+        "hprooshani/Cachalot-Lab",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-09-10T02:17:58.000Z",
       "safetensors": {
@@ -1660,8 +1685,8 @@
     },
     "qwen/qwen3.8-flash": {
       "id": "Qwen/Qwen3.8-Flash-Next",
-      "downloads": 4029520,
-      "likes": 6679,
+      "downloads": 3929164,
+      "likes": 6701,
       "lastModified": "2026-08-27T05:03:36.000Z",
       "tags": [
         "transformers",
@@ -2180,10 +2205,16 @@
         "donaldJJ/llm-vram-calculator",
         "quaedra/best-local-llm-for-your-gpu",
         "thomwolf/hub-dollars",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "joeWorld/qwen38-flash-next",
         "irenesolaiman/flagship-model-drops",
         "ejg5214/qwen38-flash-next-demo",
-        "huggingface-mic/mic-coverage"
+        "huggingface-mic/mic-coverage",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-24T08:24:59.000Z",
       "safetensors": {
@@ -2198,8 +2229,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 6329724,
-      "likes": 3001,
+      "downloads": 6313299,
+      "likes": 3018,
       "lastModified": "2026-10-15T06:32:52.000Z",
       "tags": [
         "transformers",
@@ -4005,19 +4036,19 @@
         }
       ],
       "spaces": [
-        "joelniklaus/harness-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
+        "TTS-AGI/voice-acting-arena",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
-        "TTS-AGI/voice-acting-arena",
+        "joelniklaus/harness-leaderboard",
         "dabeljo/glm53-flash-on-one-5090",
         "octooai/llm-vram-calculator",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/GLM-5.3-Flash",
+        "FineEnvs/simulation-rl-environments",
         "emanforhelp/model-pulse",
         "finerobotics/annotation-studio",
         "ArtShumov/Whyx-PROmpTea",
@@ -4031,6 +4062,7 @@
         "uplinkswitch/llm-api-price-comparison",
         "mmrech/NeuroSAM3",
         "qikp/tokenizers",
+        "purebyteAI/backend-mood-mirror-ai",
         "bep40/Space-Mutiverse-Control",
         "helo-ayush/Compiler3",
         "rjviswha/cosr",
@@ -4044,8 +4076,8 @@
         "developerjeremylive/hf-openai-proxy-etheroi",
         "Dhshshd/Ninqggoai",
         "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX",
-        "Auenchanters/Orionwest",
         "malaiwah/qfs-explorer",
+        "Auenchanters/Orionwest",
         "abelardo8574/GAIA_Agent",
         "shyampatadia22/hazardlens-ai",
         "yanjunchen/discollm",
@@ -4056,16 +4088,23 @@
         "yanjunchen/atlas-explorer",
         "donaldJJ/llm-vram-calculator",
         "yeeeeezus/inference",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "quaedra/best-local-llm-for-your-gpu",
         "aenzerxo/glm-5.3-flash-playground",
         "helo-ayush/VideoGeneratorAutomation",
         "githubtailscaleduplicity342/RL-Explorer",
+        "600me/llm-gpu-cost-calculator",
         "b4ph/toks-windows-benchmark",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "drinkYourOJ/glm-5.3-flash-demo",
         "cmpatino/flock-run-viewer",
         "RyabovIvan/alfa-news-analytics",
         "HuggingFaceSwarms/chatbot-dashboard",
-        "huggingface-mic/mic-coverage"
+        "huggingface-mic/mic-coverage",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -4081,8 +4120,8 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "id": "zai-org/GLM-5.3-Flash",
-      "downloads": 6329724,
-      "likes": 3001,
+      "downloads": 6313299,
+      "likes": 3018,
       "lastModified": "2026-10-15T06:32:52.000Z",
       "tags": [
         "transformers",
@@ -5888,19 +5927,19 @@
         }
       ],
       "spaces": [
-        "joelniklaus/harness-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
+        "TTS-AGI/voice-acting-arena",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
-        "TTS-AGI/voice-acting-arena",
+        "joelniklaus/harness-leaderboard",
         "dabeljo/glm53-flash-on-one-5090",
         "octooai/llm-vram-calculator",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/GLM-5.3-Flash",
+        "FineEnvs/simulation-rl-environments",
         "emanforhelp/model-pulse",
         "finerobotics/annotation-studio",
         "ArtShumov/Whyx-PROmpTea",
@@ -5914,6 +5953,7 @@
         "uplinkswitch/llm-api-price-comparison",
         "mmrech/NeuroSAM3",
         "qikp/tokenizers",
+        "purebyteAI/backend-mood-mirror-ai",
         "bep40/Space-Mutiverse-Control",
         "helo-ayush/Compiler3",
         "rjviswha/cosr",
@@ -5927,8 +5967,8 @@
         "developerjeremylive/hf-openai-proxy-etheroi",
         "Dhshshd/Ninqggoai",
         "clarkpalmer/GLM-5.3-Flash-Uncensored-MLX",
-        "Auenchanters/Orionwest",
         "malaiwah/qfs-explorer",
+        "Auenchanters/Orionwest",
         "abelardo8574/GAIA_Agent",
         "shyampatadia22/hazardlens-ai",
         "yanjunchen/discollm",
@@ -5939,16 +5979,23 @@
         "yanjunchen/atlas-explorer",
         "donaldJJ/llm-vram-calculator",
         "yeeeeezus/inference",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "quaedra/best-local-llm-for-your-gpu",
         "aenzerxo/glm-5.3-flash-playground",
         "helo-ayush/VideoGeneratorAutomation",
         "githubtailscaleduplicity342/RL-Explorer",
+        "600me/llm-gpu-cost-calculator",
         "b4ph/toks-windows-benchmark",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "drinkYourOJ/glm-5.3-flash-demo",
         "cmpatino/flock-run-viewer",
         "RyabovIvan/alfa-news-analytics",
         "HuggingFaceSwarms/chatbot-dashboard",
-        "huggingface-mic/mic-coverage"
+        "huggingface-mic/mic-coverage",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-25T06:43:14.000Z",
       "safetensors": {
@@ -5964,8 +6011,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "downloads": 215777,
-      "likes": 961,
+      "downloads": 202229,
+      "likes": 962,
       "lastModified": "2026-09-01T09:22:10.000Z",
       "tags": [
         "transformers",
@@ -6307,7 +6354,6 @@
         }
       ],
       "spaces": [
-        "VIDraft/global-llm-leaderboard",
         "ginigen-ai/open-router-leaderboard",
         "uplinkswitch/llm-api-price-comparison",
         "ava161/deepseek-v4-flash-vision-exp-demo",
@@ -6329,8 +6375,8 @@
     },
     "z-ai/glm-5.3": {
       "id": "zai-org/GLM-5.3",
-      "downloads": 2473851,
-      "likes": 2358,
+      "downloads": 2406057,
+      "likes": 2366,
       "lastModified": "2026-10-14T12:22:48.000Z",
       "tags": [
         "transformers",
@@ -7420,10 +7466,10 @@
         "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "ginigen-ai/open-router-leaderboard",
+        "FineEnvs/simulation-rl-environments",
         "zoom-ai/hle-leaderboard",
         "llamameta/glm5.3-xliberated-free",
         "akhaliq/GLM-5.3",
@@ -7436,6 +7482,7 @@
         "irenesolaiman/most-liked-models-timeline",
         "sharkyatg272/aria",
         "uplinkswitch/llm-api-price-comparison",
+        "purebyteAI/backend-mood-mirror-ai",
         "Prekzursil/GLM-5.3",
         "SZLHOLDINGS/szl-frontier",
         "QueenFi/Dredge-Echo",
@@ -7446,14 +7493,21 @@
         "yanjunchen/discollm",
         "yanjunchen/atlas-explorer",
         "sergiopaniego/tau2-env",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "quaedra/best-local-llm-for-your-gpu",
         "githubtailscaleduplicity342/RL-Explorer",
         "MPtraining/GLM_for_GPT",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "Stubbs0x/ampro-n2259x-preview",
         "oravianando/glm-5-3-playground",
         "irenesolaiman/flagship-model-drops",
         "amitnaik07/beam-data-desk",
-        "huggingface-mic/mic-coverage"
+        "huggingface-mic/mic-coverage",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-25T06:42:50.000Z",
       "safetensors": {
@@ -7469,8 +7523,8 @@
     },
     "z-ai/glm-5.3:batch": {
       "id": "zai-org/GLM-5.3",
-      "downloads": 2473851,
-      "likes": 2358,
+      "downloads": 2406057,
+      "likes": 2366,
       "lastModified": "2026-10-14T12:22:48.000Z",
       "tags": [
         "transformers",
@@ -8560,10 +8614,10 @@
         "BIGJUTT/model-pulse",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "ginigen-ai/open-router-leaderboard",
+        "FineEnvs/simulation-rl-environments",
         "zoom-ai/hle-leaderboard",
         "llamameta/glm5.3-xliberated-free",
         "akhaliq/GLM-5.3",
@@ -8576,6 +8630,7 @@
         "irenesolaiman/most-liked-models-timeline",
         "sharkyatg272/aria",
         "uplinkswitch/llm-api-price-comparison",
+        "purebyteAI/backend-mood-mirror-ai",
         "Prekzursil/GLM-5.3",
         "SZLHOLDINGS/szl-frontier",
         "QueenFi/Dredge-Echo",
@@ -8586,14 +8641,21 @@
         "yanjunchen/discollm",
         "yanjunchen/atlas-explorer",
         "sergiopaniego/tau2-env",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "quaedra/best-local-llm-for-your-gpu",
         "githubtailscaleduplicity342/RL-Explorer",
         "MPtraining/GLM_for_GPT",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "Stubbs0x/ampro-n2259x-preview",
         "oravianando/glm-5-3-playground",
         "irenesolaiman/flagship-model-drops",
         "amitnaik07/beam-data-desk",
-        "huggingface-mic/mic-coverage"
+        "huggingface-mic/mic-coverage",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-25T06:42:50.000Z",
       "safetensors": {
@@ -8609,8 +8671,8 @@
     },
     "qwen/qwen3.8-27b": {
       "id": "Qwen/Qwen3.8-27B",
-      "downloads": 7892866,
-      "likes": 18883,
+      "downloads": 7915637,
+      "likes": 18963,
       "lastModified": "2026-08-14T15:00:01.000Z",
       "tags": [
         "transformers",
@@ -8656,10 +8718,10 @@
         "model_type": "qwen3_5",
         "tokenizer_config": {
           "bos_token": null,
-          "chat_template": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set reasoning_instructions = '' %}\n{%- if enable_thinking is undefined or enable_thinking is true %}\n    {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %}\n    {%- if resolved_reasoning_effort not in ('xhigh', 'medium', 'low') %}\n        {{- raise_exception('Unexpected reasoning effort ' ~ reasoning_effort ~ '. Supported types are xhigh (default), medium, and low.') }}\n    {%- endif %}\n    {%- if resolved_reasoning_effort == 'xhigh' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.' %}\n    {%- elif resolved_reasoning_effort == 'low' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to low. Keep your thinking brief and focused, moving directly to the conclusion without unnecessary elaboration.' %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if reasoning_instructions %}\n        {{- reasoning_instructions + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '\\n\\n' + content }}\n        {%- endif %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '<|im_start|>system\\n' + (reasoning_instructions + '\\n\\n' if reasoning_instructions else '')  + content + '<|im_end|>\\n' }}\n        {%- elif reasoning_instructions %}\n            {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- elif reasoning_instructions %}\n        {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if ns.multi_step_tool %}\n    {{- raise_exception('No user query found in messages.') }}\n{%- endif %}\n{%- for message in messages %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" %}\n        {%- if not loop.first %}\n            {{- raise_exception('System message must be at the beginning.') }}\n        {%- endif %}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if preserve_thinking is undefined or preserve_thinking is true or loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is defined and tool_call.arguments != '' %}\n                    {%- for args_name, args_value in tool_call.arguments|items %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | string if args_value is string else args_value | tojson | safe %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}",
           "eos_token": "<|im_end|>",
+          "unk_token": null,
           "pad_token": "<|endoftext|>",
-          "unk_token": null
+          "chat_template": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set reasoning_instructions = '' %}\n{%- if enable_thinking is undefined or enable_thinking is true %}\n    {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %}\n    {%- if resolved_reasoning_effort not in ('xhigh', 'medium', 'low') %}\n        {{- raise_exception('Unexpected reasoning effort ' ~ reasoning_effort ~ '. Supported types are xhigh (default), medium, and low.') }}\n    {%- endif %}\n    {%- if resolved_reasoning_effort == 'xhigh' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.' %}\n    {%- elif resolved_reasoning_effort == 'low' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to low. Keep your thinking brief and focused, moving directly to the conclusion without unnecessary elaboration.' %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if reasoning_instructions %}\n        {{- reasoning_instructions + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '\\n\\n' + content }}\n        {%- endif %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '<|im_start|>system\\n' + (reasoning_instructions + '\\n\\n' if reasoning_instructions else '')  + content + '<|im_end|>\\n' }}\n        {%- elif reasoning_instructions %}\n            {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- elif reasoning_instructions %}\n        {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if ns.multi_step_tool %}\n    {{- raise_exception('No user query found in messages.') }}\n{%- endif %}\n{%- for message in messages %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" %}\n        {%- if not loop.first %}\n            {{- raise_exception('System message must be at the beginning.') }}\n        {%- endif %}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if preserve_thinking is undefined or preserve_thinking is true or loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is defined and tool_call.arguments != '' %}\n                    {%- for args_name, args_value in tool_call.arguments|items %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | string if args_value is string else args_value | tojson | safe %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}"
         },
         "chat_template_jinja": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set reasoning_instructions = '' %}\n{%- if enable_thinking is undefined or enable_thinking is true %}\n    {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %}\n    {%- if resolved_reasoning_effort not in ('xhigh', 'medium', 'low') %}\n        {{- raise_exception('Unexpected reasoning effort ' ~ reasoning_effort ~ '. Supported types are xhigh (default), medium, and low.') }}\n    {%- endif %}\n    {%- if resolved_reasoning_effort == 'xhigh' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.' %}\n    {%- elif resolved_reasoning_effort == 'low' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to low. Keep your thinking brief and focused, moving directly to the conclusion without unnecessary elaboration.' %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if reasoning_instructions %}\n        {{- reasoning_instructions + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '\\n\\n' + content }}\n        {%- endif %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '<|im_start|>system\\n' + (reasoning_instructions + '\\n\\n' if reasoning_instructions else '')  + content + '<|im_end|>\\n' }}\n        {%- elif reasoning_instructions %}\n            {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- elif reasoning_instructions %}\n        {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if ns.multi_step_tool %}\n    {{- raise_exception('No user query found in messages.') }}\n{%- endif %}\n{%- for message in messages %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" %}\n        {%- if not loop.first %}\n            {{- raise_exception('System message must be at the beginning.') }}\n        {%- endif %}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if preserve_thinking is undefined or preserve_thinking is true or loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is defined and tool_call.arguments != '' %}\n                    {%- for args_name, args_value in tool_call.arguments|items %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | string if args_value is string else args_value | tojson | safe %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}"
       },
@@ -8774,15 +8836,14 @@
       "spaces": [
         "JonathanColetti/Qwen3.8-27B-Uncensored-Demo",
         "RioShiina/ImageGen",
-        "hugging-apps/tencent-hy-nomas",
-        "Gramlin/ImageGennew",
         "ItNero/ImageGen-32",
+        "Gramlin/ImageGennew",
+        "tardellirs/typed-decisions-explorer",
         "BIGJUTT/model-pulse",
         "uv-scripts/run-on-jobs",
+        "hugging-apps/tencent-hy-nomas",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
-        "idkhungle/Qwen3.8-27B-Uncensored-Demo",
         "llamameta/qwen3.8-27b-benchmaxx",
         "Or1290/LP12",
         "BoldingBuilds/helping-qwen-finish-thinking",
@@ -8799,7 +8860,9 @@
         "ginigen-ai/open-router-leaderboard",
         "dromerosm/groq-chatbot",
         "prithivMLmods/Qwen3.8-27B-Object-Detection",
+        "FineEnvs/simulation-rl-environments",
         "emanforhelp/model-pulse",
+        "idkhungle/Qwen3.8-27B-Uncensored-Demo",
         "finerobotics/annotation-studio",
         "plan291037/TextPhantom-v4.0.0",
         "ArtShumov/Whyx-PROmpTea",
@@ -8870,8 +8933,7 @@
         "Satyam0711/marine-iq-backend",
         "urielmendez-edu/cotizador.onetrip",
         "yyouretoast/freightiq",
-        "alinawazmahar/saus-past-papers",
-        "abdhi4771/abdhi4771"
+        "alinawazmahar/saus-past-papers"
       ],
       "createdAt": "2026-08-05T08:22:59.000Z",
       "safetensors": {
@@ -8881,12 +8943,12 @@
         "total": 27781427952
       },
       "inference": "warm",
-      "usedStorage": 55615875685
+      "usedStorage": 55618036073
     },
     "qwen/qwen3.8-2.4t-a95b": {
       "id": "Qwen/Qwen3.8-2.4T-A95B",
-      "downloads": 25924,
-      "likes": 1349,
+      "downloads": 26113,
+      "likes": 1353,
       "lastModified": "2026-08-12T10:24:04.000Z",
       "tags": [
         "transformers",
@@ -9629,9 +9691,9 @@
         "fastgpu/vram-and-gpu-cost-calculator",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
-        "FineEnvs/simulation-rl-environments",
         "llamameta/qwen3.8-27b-benchmaxx",
         "ginigen-ai/open-router-leaderboard",
+        "FineEnvs/simulation-rl-environments",
         "Svngoku/jupyter2agent",
         "pollen-robotics/reachy-mini-text-to-motion",
         "llamameta/glm5.3-xliberated-free",
@@ -9650,7 +9712,13 @@
         "githubtailscaleduplicity342/RL-Explorer",
         "akhiloct006/alfred-party-agent",
         "thomwolf/hub-dollars",
-        "Mutazsy/app.py"
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
+        "Mutazsy/app.py",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-08-08T01:50:52.000Z",
       "safetensors": {
@@ -9664,8 +9732,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "downloads": 152086,
-      "likes": 907,
+      "downloads": 151866,
+      "likes": 909,
       "lastModified": "2026-08-13T16:28:28.000Z",
       "tags": [
         "transformers",
@@ -10046,7 +10114,8 @@
         "Walami/deepseek-v4-pro-demo",
         "developerjeremylive/hf-openai-proxy-etheroi",
         "Dhshshd/Ninqggoai",
-        "TorkeHub/torki-2-benchmarks"
+        "TorkeHub/torki-2-benchmarks",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026"
       ],
       "createdAt": "2026-08-13T03:05:06.000Z",
       "safetensors": {
@@ -10064,8 +10133,8 @@
     },
     "deepseek/deepseek-v4-flash-0731": {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "downloads": 3168654,
-      "likes": 4093,
+      "downloads": 3029525,
+      "likes": 4094,
       "lastModified": "2026-08-01T03:07:41.000Z",
       "tags": [
         "transformers",
@@ -10379,9 +10448,9 @@
       ],
       "spaces": [
         "MiniMaxAI/MiniMax-Music3",
-        "VIDraft/global-llm-leaderboard",
         "apathy-exe/DeepSeek-V4-Flash-0731",
         "octooai/llm-vram-calculator",
+        "VIDraft/global-llm-leaderboard",
         "embedl/hfviewer",
         "victor/DeepSeek-V4-Flash-0731-free-endpoint",
         "ginigen-ai/open-router-leaderboard",
@@ -10442,6 +10511,7 @@
         "Dhshshd/Ninqggoai",
         "Anubis136/MiniMax-Music3",
         "rahul7star/Xing4.0-29B-A4B",
+        "hfpolicy/state-of-oss-spaces-agents-oct-2026",
         "oleksiimarich2015/multi-ai-backend",
         "basyd/Music",
         "Yuta1409/Final_Assignment_Template",
@@ -10468,8 +10538,8 @@
     },
     "moonshotai/kimi-k3": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 813134,
-      "likes": 11901,
+      "downloads": 781702,
+      "likes": 11913,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -11013,9 +11083,15 @@
         "Modelflare/blog",
         "githubtailscaleduplicity342/RL-Explorer",
         "thomwolf/hub-dollars",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
         "hmb/deepseek-vs-kimi",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "westosteel76/kimi-k3-chat",
-        "irenesolaiman/flagship-model-drops"
+        "irenesolaiman/flagship-model-drops",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -11031,8 +11107,8 @@
     },
     "moonshotai/kimi-k3:batch": {
       "id": "moonshotai/Kimi-K3",
-      "downloads": 813134,
-      "likes": 11901,
+      "downloads": 781702,
+      "likes": 11913,
       "lastModified": "2026-09-02T02:22:41.000Z",
       "tags": [
         "transformers",
@@ -11517,12 +11593,12 @@
         "irenesolaiman/most-liked-models-timeline",
         "sharkyatg272/aria",
         "uplinkswitch/llm-api-price-comparison",
-        "Benwe2/ppp02",
-        "Xunjunaa/pp02",
         "Benwe2/ppp01",
-        "Benwe2/ppp03",
         "Xunjunaa/pp03",
         "Xunjunaa/pp01",
+        "Benwe2/ppp02",
+        "Benwe2/ppp03",
+        "Xunjunaa/pp02",
         "nougenai/NouGenShards",
         "cuivienen/synderesis-api",
         "rndashboard/rndashboard",
@@ -11534,9 +11610,9 @@
         "wuisimo/Kimi-K3-Demo",
         "llamameta/kimi-glm5.5-game-k3",
         "jiuguilaohu2026/kimi-k3",
-        "qiguanfei/Kimi-K3-Demo",
-        "HugmeDEV/kimi-k3-demo",
         "angelorovatti/kimi-k3-chat",
+        "HugmeDEV/kimi-k3-demo",
+        "qiguanfei/Kimi-K3-Demo",
         "akpsahan/kimi-glm5.5-game-k3",
         "Dorman11/kimi-k3-demo",
         "lukebanc/kimi-k3-demo",
@@ -11576,9 +11652,15 @@
         "Modelflare/blog",
         "githubtailscaleduplicity342/RL-Explorer",
         "thomwolf/hub-dollars",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
         "hmb/deepseek-vs-kimi",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "westosteel76/kimi-k3-chat",
-        "irenesolaiman/flagship-model-drops"
+        "irenesolaiman/flagship-model-drops",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-06-13T06:42:57.000Z",
       "safetensors": {
@@ -11594,8 +11676,8 @@
     },
     "cohere/north-mini-code:free": {
       "id": "CohereLabs/North-Mini-Code-1.0",
-      "downloads": 8123,
-      "likes": 582,
+      "downloads": 8061,
+      "likes": 583,
       "lastModified": "2026-06-15T04:32:41.000Z",
       "tags": [
         "transformers",
@@ -11854,8 +11936,8 @@
       ],
       "spaces": [
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "aquanode/gpu-vram-calculator",
         "CohereLabs/North-Mini-Code-1.0",
+        "aquanode/gpu-vram-calculator",
         "build-small-hackathon/tiny-army",
         "polats/tiny-army-bls-code-zerogpu",
         "akhaliq/North-Mini-Code-1.0",
@@ -11879,7 +11961,7 @@
     },
     "z-ai/glm-5.2": {
       "id": "zai-org/GLM-5.2",
-      "downloads": 263303,
+      "downloads": 268708,
       "likes": 5197,
       "lastModified": "2026-09-01T11:36:01.000Z",
       "tags": [
@@ -12950,7 +13032,7 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "id": "moonshotai/Kimi-K2.7-Code",
-      "downloads": 83255,
+      "downloads": 79127,
       "likes": 1427,
       "lastModified": "2026-06-15T07:49:29.000Z",
       "tags": [
@@ -13335,10 +13417,10 @@
         "developerjeremylive/Kimi-K2.7-Code-etheroi",
         "rayline-ai/rayline-router-trainer",
         "rohanchand21/freellmapi",
-        "vijayreddylol/astria",
-        "gamanimpex/astria",
-        "gamansai/astria",
         "aparanjani232/astria",
+        "vijayreddylol/astria",
+        "gamansai/astria",
+        "gamanimpex/astria",
         "Frsbk/moonshotai-Kimi-K2.7-Code",
         "Juanito01013/moonshotai-Kimi-K2.7-Code",
         "steve20400/moonshotai-Kimi-K2.7-Code",
@@ -13375,8 +13457,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "id": "Qwen/Qwen3.6-35B-A3B",
-      "downloads": 4622082,
-      "likes": 3065,
+      "downloads": 4555162,
+      "likes": 3067,
       "lastModified": "2026-04-24T02:53:42.000Z",
       "tags": [
         "transformers",
@@ -13649,9 +13731,16 @@
         "FineEnvs/DesignGym",
         "quaedra/best-local-llm-for-your-gpu",
         "Kenz13/standbai-api",
+        "600me/llm-gpu-cost-calculator",
+        "600me/rag-web-scraping-cost-calculator",
+        "600me/residential-proxy-sticky-session-calculator",
+        "600me/ai-saas-stripe-vs-mor-tax-calculator",
         "yqm1221/phaselens",
         "RyabovIvan/alfa-news-analytics",
-        "irenesolaiman/flagship-model-drops"
+        "zhenzh/zen-ai",
+        "irenesolaiman/flagship-model-drops",
+        "600me/pdf-api-cost-calculator",
+        "600me/seo-workflow-tco-calculator"
       ],
       "createdAt": "2026-04-15T05:59:19.000Z",
       "safetensors": {
@@ -13665,7 +13754,7 @@
     },
     "qwen/qwen3.6-27b": {
       "id": "Qwen/Qwen3.6-27B",
-      "downloads": 2306643,
+      "downloads": 2263609,
       "likes": 2342,
       "lastModified": "2026-04-24T02:39:16.000Z",
       "tags": [
@@ -13933,8 +14022,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
-      "downloads": 367478,
-      "likes": 5689,
+      "downloads": 357030,
+      "likes": 5691,
       "lastModified": "2026-06-22T12:12:50.000Z",
       "tags": [
         "transformers",
@@ -14298,11 +14387,11 @@
       ],
       "spaces": [
         "fastgpu/vram-and-gpu-cost-calculator",
-        "VIDraft/global-llm-leaderboard",
         "quantid/huggingface-official-benchmark-leaderboards",
         "FineEnvs/RL-Explorer",
         "SrRooT/Tokenizer-Visualizer",
         "Jwalit/ml-intern",
+        "VIDraft/global-llm-leaderboard",
         "smolagents/ml-intern",
         "ginigen-ai/open-router-leaderboard",
         "akhaliq/DeepSeek-V4-Pro",
@@ -14414,8 +14503,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
-      "downloads": 1051332,
-      "likes": 2361,
+      "downloads": 1060406,
+      "likes": 2363,
       "lastModified": "2026-06-22T12:12:13.000Z",
       "tags": [
         "transformers",
@@ -14842,7 +14931,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "id": "moonshotai/Kimi-K2.6",
-      "downloads": 249755,
+      "downloads": 246535,
       "likes": 1640,
       "lastModified": "2026-05-19T09:01:54.000Z",
       "tags": [
@@ -15346,7 +15435,7 @@
     },
     "z-ai/glm-5.1": {
       "id": "zai-org/GLM-5.1",
-      "downloads": 998572,
+      "downloads": 967007,
       "likes": 1852,
       "lastModified": "2026-05-13T08:10:58.000Z",
       "tags": [
@@ -16343,8 +16432,8 @@
         "siddham-jain/multi-channel-exec-env",
         "sabbir23m/zai-org-GLM-5.1",
         "apexlions16/zai-org-GLM-5.1",
-        "syt94210/zai-org-GLM-5.1",
         "elmorshedyahmed/glm-5-1-lab",
+        "syt94210/zai-org-GLM-5.1",
         "designfailure/zai-org-GLM-5.1",
         "Vinayaka464/zai-org-GLM-5.1",
         "gdjd2314/zai-org-GLM-5.1",
@@ -16363,8 +16452,8 @@
         "arsh12355555/zai-org-GLM-5.1",
         "aidn/HF-LLM-Playground",
         "kouson/zai-org-GLM-5.1",
-        "Kingkong2354/zai-org-GLM-5.1",
         "helixiansheng/amazon-listing-generator",
+        "Kingkong2354/zai-org-GLM-5.1",
         "verymehari/ML-intern",
         "sky96300/zai-org-GLM-5.1",
         "JigarSRajput/Simple-Question-Answer-App",
@@ -16414,7 +16503,7 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 6032823,
+      "downloads": 5944935,
       "likes": 1725,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
@@ -16528,7 +16617,6 @@
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "Dyapan7/Gemma",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "FINAL-Bench/POCKET-26B-CPU",
@@ -16575,6 +16663,7 @@
         "coldouglas888/gemma-4-26b-a4b-it",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
+        "Dyapan7/Gemma",
         "ICSAC-Institute/editorial-system",
         "rricci/iasy-acolhe",
         "build-small-hackathon/dual-lens",
@@ -16613,8 +16702,8 @@
         "chaitanya0203/shopify-auto-categorizer",
         "caiovicentino1/PolarQuant-Gemma4-26B-A4B-Chat",
         "Ashfaque94/inference-gateway",
-        "Ashfaque94/inference-gateway-3",
         "Ashfaque94/inference-gateway-2",
+        "Ashfaque94/inference-gateway-3",
         "magboola/gemma4-zerogpu",
         "theutkarshjaiswal/google-gemma-4-26B-A4B-it",
         "herokominato/gemma-4-26b-a4b-it",
@@ -16638,7 +16727,7 @@
     },
     "google/gemma-4-26b-a4b-it:free": {
       "id": "google/gemma-4-26B-A4B-it",
-      "downloads": 6032823,
+      "downloads": 5944935,
       "likes": 1725,
       "lastModified": "2026-07-20T16:42:12.000Z",
       "tags": [
@@ -16752,7 +16841,6 @@
         "fastgpu/vram-and-gpu-cost-calculator",
         "BIGJUTT/model-pulse",
         "ginigen-ai/Metacognition-Leaderboard-Space",
-        "Dyapan7/Gemma",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "embedl/hfviewer",
         "FINAL-Bench/POCKET-26B-CPU",
@@ -16799,6 +16887,7 @@
         "coldouglas888/gemma-4-26b-a4b-it",
         "build-small-hackathon/alien-riddle",
         "build-small-hackathon/thousand-token-terrarium",
+        "Dyapan7/Gemma",
         "ICSAC-Institute/editorial-system",
         "rricci/iasy-acolhe",
         "build-small-hackathon/dual-lens",
@@ -16862,8 +16951,8 @@
     },
     "google/gemma-4-31b-it": {
       "id": "google/gemma-4-31B-it",
-      "downloads": 8301351,
-      "likes": 4259,
+      "downloads": 8147734,
+      "likes": 4269,
       "lastModified": "2026-07-20T16:42:18.000Z",
       "tags": [
         "transformers",
@@ -16975,237 +17064,13 @@
       "spaces": [
         "BIGJUTT/model-pulse",
         "smolagents/hf-realtime-voice",
+        "victor/gemma-avatar",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "ArtFix0/speech-to-speech-dashboard",
         "SrRooT/Tokenizer-Visualizer",
         "shiivamchauhan/ai-interviewer",
         "Mecanical/hf-realtime-voice",
         "embedl/hfviewer",
-        "victor/gemma-avatar",
-        "multimodalart/krea2-lora-trainer",
-        "huggingface-projects/gemma-4-31b-it",
-        "ginigen-ai/open-router-leaderboard",
-        "Nymbo/overthink-1",
-        "HPAI-BSC/TuRTLe-Leaderboard",
-        "FINAL-Bench/Gemma-4-Multi",
-        "FINAL-Bench/Darwin-31B-Opus",
-        "EuroEval/euroeval_leaderboard",
-        "pollen-robotics/reachy-mini-3d-voice",
-        "Tracy146/C-Hermes-Agent",
-        "quickgrid/Tokenizer-Visualizer",
-        "pollen-robotics/reachy-mini-text-to-motion",
-        "emanforhelp/model-pulse",
-        "kdcyberdude/HARvestGym",
-        "lgusm/gemma4vramestimator",
-        "Ivan0204/krea2-lora-trainer",
-        "finerobotics/annotation-studio",
-        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
-        "ArtShumov/Whyx-PROmpTea",
-        "osolmaz/leaderboard",
-        "A-Mahla/test",
-        "RiverRider/srt-sunstone",
-        "roxopastel/krea2-lora-trainer",
-        "Imogi/DarkZone-AI",
-        "beta3/Gemma_Hub_Explorer",
-        "davidpcm/openclaw-stock-analyst",
-        "Um34ER/bazaar-bridge-ocr",
-        "lablab-ai-amd-developer-hackathon/lysos",
-        "kirimdata369/ai-hacking-team",
-        "Yash030/claude-code-proxy",
-        "Pioneer37/Stickman-Arena",
-        "build-small-hackathon/trolley-driver",
-        "sugatoray/hf-realtime-voice",
-        "Asanari/nllb-translator",
-        "antonios-makro/hf-realtime-voice-avatar",
-        "evaleval/best-model-finder",
-        "facebook/omnilingual-gaia2",
-        "DeepImagix/self-trained2",
-        "xyanglu/resume-agent-chatbot",
-        "Assem0/webcraft-ai-backend",
-        "Samarth-Health-AI/clinical-intelligence-rag",
-        "supreme-lab/AgentSkillBench",
-        "Wesleykkkk/Yeye",
-        "webmazta/contentai",
-        "alibidaran/MEDPAI",
-        "aidn/gemma-4-31B-it",
-        "Scikitlearn10801/DataPrivacyEnv",
-        "Shaurya-Noodle/Supplymind",
-        "Wesleykkkk/SrocaticIA",
-        "Flickinshots/EmailMaestro",
-        "Otter21/OPENENV_RL_01",
-        "ayushKishor/PR_Review_Negotiation_Environment",
-        "aidn/caveman",
-        "devani18/industri-fix-rag",
-        "cpulido/NDE-NARRATIVES-ANALYSIS",
-        "aidn/Gemma-4-Caveman",
-        "xuxuxu8052/google-gemma-4-31B-it",
-        "suifenglexiaoyao/ClawBot",
-        "pratyushjdhv/mocktest",
-        "work-dwivediishivam/runway-zero",
-        "RehamAAhmed/Ai_Inspection_System",
-        "Suhails001/google-gemma-4-31B-it",
-        "AwaisAli12/chatbotBackendFastAPI",
-        "lablab-ai-amd-developer-hackathon/Threat_Hunter",
-        "theamazingruby/diabete-risk-predictor",
-        "Nestroy2003/gridsense-gemma4",
-        "RehamAAhmed/Matching_and_Damage",
-        "solo-ccccccooooooxxxxxvvv-8989/google-gemma-4-31B-it",
-        "nzhenev/lysos",
-        "alibnmhmd/mubsir",
-        "GodxSlayer/Xyvelis",
-        "RehamAAhmed/inspection-website",
-        "build-small-hackathon/alien-riddle",
-        "build-small-hackathon/The-Podium",
-        "VADITYA307/vertex-engine",
-        "build-small-hackathon/InflectionLM",
-        "ICSAC-Institute/editorial-system",
-        "ansh9891/ai-shorts-clipper-api",
-        "rricci/iasy-acolhe",
-        "build-small-hackathon/letxinet-lat",
-        "Kakashiix26/sentinel-backend",
-        "vKrish14/chatbot-v2",
-        "Reja1/jee-neet-benchmark-leaderboard",
-        "souzanaHa/seluze-agent",
-        "NipuDas/PA",
-        "Shaurya04289/iWEBIFY",
-        "DreamsHunter/erp-ai-procurement-assistant-using-langgraph",
-        "yahiadeveloper5106/erirebots",
-        "praiseogooluwa118/youtube-bot",
-        "Hscsgs/ilova_kodini_beruvchi",
-        "h4sch/gemma-4-31b-it"
-      ],
-      "createdAt": "2026-03-11T18:22:36.000Z",
-      "safetensors": {
-        "parameters": {
-          "BF16": 31273088876
-        },
-        "total": 31273088876
-      },
-      "inference": "warm",
-      "usedStorage": 175739734665
-    },
-    "google/gemma-4-31b-it:free": {
-      "id": "google/gemma-4-31B-it",
-      "downloads": 8301351,
-      "likes": 4259,
-      "lastModified": "2026-07-20T16:42:18.000Z",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma4",
-        "image-text-to-text",
-        "conversational",
-        "arxiv:2607.02770",
-        "base_model:google/gemma-4-31B",
-        "base_model:finetune:google/gemma-4-31B",
-        "license:apache-2.0",
-        "eval-results",
-        "endpoints_compatible",
-        "deploy:sagemaker",
-        "deploy:azure",
-        "region:us"
-      ],
-      "pipeline_tag": "image-text-to-text",
-      "_id": "69b1b2ec895b2d5026e6bc2e",
-      "private": false,
-      "library_name": "transformers",
-      "modelId": "google/gemma-4-31B-it",
-      "author": "google",
-      "sha": "842da3794eaa0b77d5f08bae87a17459d91ff475",
-      "gated": false,
-      "disabled": false,
-      "mask_token": "<mask>",
-      "widgetData": [
-        {
-          "text": "Hi, what can you help me with?"
-        },
-        {
-          "text": "What is 84 * 3 / 2?"
-        },
-        {
-          "text": "Tell me an interesting fact about the universe!"
-        },
-        {
-          "text": "Explain quantum computing in simple terms."
-        }
-      ],
-      "model-index": null,
-      "config": {
-        "architectures": [
-          "Gemma4ForConditionalGeneration"
-        ],
-        "model_type": "gemma4",
-        "tokenizer_config": {
-          "bos_token": "<bos>",
-          "eos_token": "<eos>",
-          "mask_token": "<mask>",
-          "pad_token": "<pad>",
-          "unk_token": "<unk>"
-        },
-        "chat_template_jinja": "{#\n  Template: Google Gemma 4 Canonical Chat Template\n  Author: Google Gemma Engineering Team\n  Published: 2026-07-09\n  Context: Fixed tool-calling loops, turn closures, and thinking content-ordering.\n#}\n{%- macro format_parameters(properties, required, filter_keys=false) -%}\n    {%- set standard_keys = ['description', 'type', 'properties', 'required', 'nullable'] -%}\n    {%- set ns = namespace(found_first=false) -%}\n    {%- for key, value in properties | dictsort -%}\n        {%- set add_comma = false -%}\n        {%- if not filter_keys or key not in standard_keys -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {{ key }}:{\n            {%- if value['description'] -%}\n                description:<|\"|>{{ value['description'] }}<|\"|>\n                {%- set add_comma = true -%}\n            {%- endif -%}\n            {%- if value['type'] | upper == 'STRING' -%}\n                {%- if value['enum'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    enum:{{ format_argument(value['enum']) }}\n                {%- endif -%}\n            {%- elif value['type'] | upper == 'ARRAY' -%}\n                {%- if value['items'] is mapping and value['items'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    items:{\n                    {%- set ns_items = namespace(found_first=false) -%}\n                    {%- for item_key, item_value in value['items'] | dictsort -%}\n                        {%- if item_value is not none -%}\n                            {%- if ns_items.found_first %},{% endif -%}\n                            {%- set ns_items.found_first = true -%}\n                            {%- if item_key == 'properties' -%}\n                                properties:{\n                                {%- if item_value is mapping -%}\n                                    {{- format_parameters(item_value, value['items']['required'] | default([])) -}}\n                                {%- endif -%}\n                                }\n                            {%- elif item_key == 'required' -%}\n                                required:[\n                                {%- for req_item in item_value -%}\n                                    <|\"|>{{- req_item -}}<|\"|>\n                                    {%- if not loop.last %},{% endif -%}\n                                {%- endfor -%}\n                                ]\n                            {%- elif item_key == 'type' -%}\n                                {%- if item_value is string -%}\n                                    type:{{ format_argument(item_value | upper) }}\n                                {%- else -%}\n                                    type:{{ format_argument(item_value | map('upper') | list) }}\n                                {%- endif -%}\n                            {%- else -%}\n                                {{ item_key }}:{{ format_argument(item_value) }}\n                            {%- endif -%}\n                        {%- endif -%}\n                    {%- endfor -%}\n                    }\n                {%- endif -%}\n            {%- endif -%}\n            {%- if value['nullable'] %}\n                {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                nullable:true\n            {%- endif -%}\n            {%- if value['type'] | upper == 'OBJECT' -%}\n                {%- if value['properties'] is defined and value['properties'] is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value['properties'], value['required'] | default([])) -}}\n                    }\n                {%- elif value is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value, value['required'] | default([]), filter_keys=true) -}}\n                    }\n                {%- endif -%}\n                {%- if value['required'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    required:[\n                    {%- for item in value['required'] | default([]) -%}\n                        <|\"|>{{- item -}}<|\"|>\n                        {%- if not loop.last %},{% endif -%}\n                    {%- endfor -%}\n                    ]\n                {%- endif -%}\n            {%- endif -%}\n            {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n            type:<|\"|>{{ value['type'] | upper }}<|\"|>}\n        {%- endif -%}\n    {%- endfor -%}\n{%- endmacro -%}\n{%- macro format_function_declaration(tool_data) -%}\n    declaration:{{- tool_data['function']['name'] -}}{description:<|\"|>{{- tool_data['function']['description'] -}}<|\"|>\n    {%- set params = tool_data['function']['parameters'] -%}\n    {%- if params -%}\n        ,parameters:{\n        {%- if params['properties'] -%}\n            properties:{ {{- format_parameters(params['properties'], params['required']) -}} },\n        {%- endif -%}\n        {%- if params['required'] -%}\n            required:[\n            {%- for item in params['required'] -%}\n                <|\"|>{{- item -}}<|\"|>\n                {{- ',' if not loop.last -}}\n            {%- endfor -%}\n            ],\n        {%- endif -%}\n        {%- if params['type'] -%}\n            type:<|\"|>{{- params['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    {%- if 'response' in tool_data['function'] -%}\n        {%- set response_declaration = tool_data['function']['response'] -%}\n        ,response:{\n        {%- if response_declaration['description'] -%}\n            description:<|\"|>{{- response_declaration['description'] -}}<|\"|>,\n        {%- endif -%}\n        {%- if response_declaration['type'] | upper == 'OBJECT' -%}\n            type:<|\"|>{{- response_declaration['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    }\n{%- endmacro -%}\n{%- macro format_argument(argument, escape_keys=True) -%}\n    {%- if argument is none -%}\n        {{- 'null' -}}\n    {%- elif argument is string -%}\n        {{- '<|\"|>' + argument + '<|\"|>' -}}\n    {%- elif argument is boolean -%}\n        {{- 'true' if argument else 'false' -}}\n    {%- elif argument is mapping -%}\n        {{- '{' -}}\n        {%- set ns = namespace(found_first=false) -%}\n        {%- for key, value in argument | dictsort -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {%- if escape_keys -%}\n                {{- '<|\"|>' + key + '<|\"|>' -}}\n            {%- else -%}\n                {{- key -}}\n            {%- endif -%}\n            :{{- format_argument(value, escape_keys=escape_keys) -}}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- elif argument is sequence -%}\n        {{- '[' -}}\n        {%- for item in argument -%}\n            {{- format_argument(item, escape_keys=escape_keys) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- ']' -}}\n    {%- else -%}\n        {{- argument -}}\n    {%- endif -%}\n{%- endmacro -%}\n{%- macro strip_thinking(text) -%}\n    {%- set ns = namespace(result='') -%}\n    {%- for part in text.split('<channel|>') -%}\n        {%- if '<|channel>' in part -%}\n            {%- set ns.result = ns.result + part.split('<|channel>')[0] -%}\n        {%- else -%}\n            {%- set ns.result = ns.result + part -%}\n        {%- endif -%}\n    {%- endfor -%}\n    {{- ns.result | trim -}}\n{%- endmacro -%}\n\n{%- macro format_tool_response_block(tool_name, response) -%}\n    {{- '<|tool_response>' -}}\n    {%- if response is mapping -%}\n        {{- 'response:' + tool_name + '{' -}}\n        {%- for key, value in response | dictsort -%}\n            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- else -%}\n        {{- 'response:' + tool_name + '{value:' + format_argument(response, escape_keys=False) + '}' -}}\n    {%- endif -%}\n    {{- '<tool_response|>' -}}\n{%- endmacro -%}\n\n{#- ===== SETUP ===== -#}\n{%- set ns = namespace(prev_message_type=None, prev_non_tool_role=None) -%}\n{%- set loop_messages = messages -%}\n{%- set enable_thinking = enable_thinking | default(false) -%}\n{%- set preserve_thinking = preserve_thinking | default(false) -%}\n{{- bos_token -}}\n{#- Handle System/Tool Definitions Block -#}\n{%- if enable_thinking or tools or (messages and messages[0]['role'] in ['system', 'developer']) -%}\n    {{- '<|turn>system\\n' -}}\n    {#- Inject Thinking token at the very top of the FIRST system turn -#}\n    {%- if enable_thinking -%}\n        {{- '<|think|>\\n' -}}\n        {%- set ns.prev_message_type = 'think' -%}\n    {%- endif -%}\n    {%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n        {%- if messages[0]['content'] is string -%}\n            {{- messages[0]['content'] | trim -}}\n        {%- elif messages[0]['content'] is sequence -%}\n            {%- for item in messages[0]['content'] -%}\n                {{- item['text'] | trim + ' '-}}\n            {%- endfor -%}\n        {%- endif -%}\n        {%- set loop_messages = messages[1:] -%}\n    {%- endif -%}\n    {%- if tools -%}\n        {%- for tool in tools %}\n            {{- '<|tool>' -}}\n            {{- format_function_declaration(tool) | trim -}}\n            {{- '<tool|>' -}}\n        {%- endfor %}\n        {%- set ns.prev_message_type = 'tool' -%}\n    {%- endif -%}\n    {{- '<turn|>\\n' -}}\n{%- endif %}\n\n{#- Pre-scan: find last user message index for reasoning guard -#}\n{%- set ns_turn = namespace(last_user_idx=-1) -%}\n{%- for i in range(loop_messages | length) -%}\n    {%- if loop_messages[i]['role'] == 'user' -%}\n        {%- set ns_turn.last_user_idx = i -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{#- Loop through messages -#}\n{%- for message in loop_messages -%}\n    {%- if message['role'] != 'tool' -%}\n    {%- set ns.prev_message_type = None -%}\n    {%- set role = 'model' if message['role'] == 'assistant' else message['role'] -%}\n    {#- Detect continuation using tracked state — O(1) instead of O(n) backward scan -#}\n    {%- set continue_same_model_turn = (role == 'model' and ns.prev_non_tool_role == 'assistant') -%}\n    {%- if not continue_same_model_turn -%}\n        {{- '<|turn>' + role + '\\n' }}\n\n    {%- endif -%}\n\n    {#- Render reasoning/reasoning_content as thinking channel -#}\n    {%- set thinking_text = message.get('reasoning') or message.get('reasoning_content') -%}\n    {%- set thinking_gate = (loop.index0 > ns_turn.last_user_idx) or (preserve_thinking and message.get('tool_calls')) -%}\n    {%- if thinking_text and thinking_gate -%}\n        {{- '<|channel>thought\\n' + thinking_text + '\\n<channel|>' -}}\n    {%- endif -%}\n\n            {%- if message.get('tool_calls') -%}\n                {%- for tool_call in message.get('tool_calls') -%}\n                    {%- set function = tool_call['function'] -%}\n                    {{- '<|tool_call>call:' + function['name'] + '{' -}}\n                    {%- if function['arguments'] is mapping -%}\n                        {%- set ns_args = namespace(found_first=false) -%}\n                        {%- for key, value in function['arguments'] | dictsort -%}\n                            {%- if ns_args.found_first %},{% endif -%}\n                            {%- set ns_args.found_first = true -%}\n                            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n                        {%- endfor -%}\n                    {%- elif function['arguments'] is none -%}\n                    {%- else -%}\n                        {{- raise_exception(\n                            \"chat_template: tool_calls[].function.arguments must be a \"\n                            \"JSON object (mapping), not a string. Deserialize arguments \"\n                            \"before passing to the template.\"\n                        ) -}}\n                    {%- endif -%}\n                    {{- '}<tool_call|>' -}}\n                {%- endfor -%}\n                {%- set ns.prev_message_type = 'tool_call' -%}\n            {%- endif -%}\n\n            {%- set ns_tr_out = namespace(flag=false) -%}\n            {%- if message.get('tool_responses') -%}\n                {#- Legacy: tool_responses embedded on the assistant message (Google/Gemma native) -#}\n                {%- for tool_response in message.get('tool_responses') -%}\n                    {{- format_tool_response_block(tool_response['name'] | default('unknown', true), tool_response['response']) -}}\n                    {%- set ns_tr_out.flag = true -%}\n                    {%- set ns.prev_message_type = 'tool_response' -%}\n                {%- endfor -%}\n            {%- elif message.get('tool_calls') -%}\n                {#- OpenAI Chat Completions: forward-scan consecutive role:tool messages -#}\n                {%- set ns_tool_scan = namespace(stopped=false) -%}\n                {%- for k in range(loop.index0 + 1, loop_messages | length) -%}\n                    {%- if ns_tool_scan.stopped -%}\n                    {%- elif loop_messages[k]['role'] != 'tool' -%}\n                        {%- set ns_tool_scan.stopped = true -%}\n                    {%- else -%}\n                        {%- set follow = loop_messages[k] -%}\n                        {#- Resolve tool_call_id to function name -#}\n                        {%- set ns_tname = namespace(name=follow.get('name') or 'unknown') -%}\n                        {%- for tc in message.get('tool_calls') -%}\n                            {%- if tc.get('id') == follow.get('tool_call_id') -%}\n                                {%- set ns_tname.name = tc['function']['name'] -%}\n                            {%- endif -%}\n                        {%- endfor -%}\n                        {#- Handle content as string or content-parts array -#}\n                        {%- set tool_body = follow.get('content') -%}\n                        {%- if tool_body is string -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- elif tool_body is sequence and tool_body is not string -%}\n                            {%- set ns_txt = namespace(s='') -%}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') == 'text' -%}\n                                    {%- set ns_txt.s = ns_txt.s + (part.get('text') | default('')) -%}\n                                {%- endif -%}\n                            {%- endfor -%}\n                            {{- format_tool_response_block(ns_tname.name, ns_txt.s) -}}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') in ['image', 'image_url'] -%}\n                                    {{- '<|image|>' -}}\n                                {%- elif part.get('type') in ['audio', 'input_audio'] -%}\n                                    {{- '<|audio|>' -}}\n                                {%- elif part.get('type') == 'video' -%}\n                                    {{- '<|video|>' -}}\n                                {%- endif -%}\n                            {%- endfor -%}\n                        {%- else -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- endif -%}\n                        {%- set ns_tr_out.flag = true -%}\n                        {%- set ns.prev_message_type = 'tool_response' -%}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n\n            {%- set captured_content -%}\n            {%- if message.get('content') is string -%}\n                {%- if role == 'model' -%}\n                    {{- strip_thinking(message['content']) -}}\n                {%- else -%}\n                    {{- message['content'] | trim -}}\n                {%- endif -%}\n            {%- elif message.get('content') is sequence -%}\n                {%- for item in message['content'] -%}\n                    {%- if item.get('type') == 'text' -%}\n                        {%- if role == 'model' -%}\n                            {{- strip_thinking(item['text']) -}}\n                        {%- else -%}\n                            {{- item['text'] | trim -}}\n                        {%- endif -%}\n                    {%- elif item.get('type') in ['image', 'image_url'] -%}\n                        {{- '<|image|>' -}}\n                    {%- elif item.get('type') in ['audio', 'input_audio'] -%}\n                        {{- '<|audio|>' -}}\n                    {%- elif item.get('type') == 'video' -%}\n                        {{- '<|video|>' -}}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n            {%- endset -%}\n\n            {{- captured_content -}}\n            {%- set has_content = captured_content | trim | length > 0 -%}\n\n        {#- Forward-scan: find next non-tool message role for continuation detection -#}\n        {%- set next_nt = namespace(role=None, found=false) -%}\n        {%- for j in range(loop.index0 + 1, loop_messages | length) -%}\n            {%- if not next_nt.found -%}\n                {%- if loop_messages[j]['role'] != 'tool' -%}\n                    {%- set next_nt.role = loop_messages[j]['role'] -%}\n                    {%- set next_nt.found = true -%}\n                {%- endif -%}\n            {%- endif -%}\n        {%- endfor -%}\n\n        {%- set continues_into_next = (\n            role == 'model'\n            and next_nt.role == 'assistant'\n            and (not message.get('tool_calls') or ns_tr_out.flag)\n        ) -%}\n\n        {%- if ns.prev_message_type == 'tool_call' and not ns_tr_out.flag -%}\n            {{- '<|tool_response>' -}}\n        {%- elif continues_into_next -%}\n        {%- elif not (ns_tr_out.flag and not has_content and not next_nt.found) -%}\n            {{- '<turn|>\\n' -}}\n        {%- endif -%}\n\n    {#- Track previous non-tool role for next iteration (avoids O(n) backward scan) -#}\n    {%- set ns.prev_non_tool_role = message['role'] -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{%- if add_generation_prompt -%}\n    {%- if ns.prev_message_type != 'tool_response' and ns.prev_message_type != 'tool_call' -%}\n        {{- '<|turn>model\\n' -}}\n        {%- if not enable_thinking -%}\n            {{- '<|channel>thought\\n<channel|>' -}}\n        {%- endif -%}\n    {%- elif ns.prev_message_type == 'tool_response' and enable_thinking -%}\n        {{- '<|channel>thought\\n' -}}\n    {%- endif -%}\n{%- endif -%}\n"
-      },
-      "cardData": {
-        "library_name": "transformers",
-        "license": "apache-2.0",
-        "license_link": "https://ai.google.dev/gemma/docs/gemma_4_license",
-        "pipeline_tag": "image-text-to-text",
-        "base_model": [
-          "google/gemma-4-31B"
-        ]
-      },
-      "transformersInfo": {
-        "auto_model": "AutoModelForMultimodalLM",
-        "pipeline_tag": "image-text-to-text",
-        "processor": "AutoProcessor"
-      },
-      "siblings": [
-        {
-          "rfilename": ".eval_results/mmmu_pro.yaml"
-        },
-        {
-          "rfilename": ".gitattributes"
-        },
-        {
-          "rfilename": "README.md"
-        },
-        {
-          "rfilename": "chat_template.jinja"
-        },
-        {
-          "rfilename": "config.json"
-        },
-        {
-          "rfilename": "generation_config.json"
-        },
-        {
-          "rfilename": "model-00001-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model-00002-of-00002.safetensors"
-        },
-        {
-          "rfilename": "model.safetensors.index.json"
-        },
-        {
-          "rfilename": "processor_config.json"
-        },
-        {
-          "rfilename": "tokenizer.json"
-        },
-        {
-          "rfilename": "tokenizer_config.json"
-        }
-      ],
-      "spaces": [
-        "BIGJUTT/model-pulse",
-        "smolagents/hf-realtime-voice",
-        "ginigen-ai/Metacognition-Leaderboard-Space",
-        "ArtFix0/speech-to-speech-dashboard",
-        "SrRooT/Tokenizer-Visualizer",
-        "shiivamchauhan/ai-interviewer",
-        "Mecanical/hf-realtime-voice",
-        "embedl/hfviewer",
-        "victor/gemma-avatar",
         "multimodalart/krea2-lora-trainer",
         "huggingface-projects/gemma-4-31b-it",
         "ginigen-ai/open-router-leaderboard",
@@ -17308,10 +17173,234 @@
       "inference": "warm",
       "usedStorage": 175739734665
     },
+    "google/gemma-4-31b-it:free": {
+      "id": "google/gemma-4-31B-it",
+      "downloads": 8147734,
+      "likes": 4269,
+      "lastModified": "2026-07-20T16:42:18.000Z",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma4",
+        "image-text-to-text",
+        "conversational",
+        "arxiv:2607.02770",
+        "base_model:google/gemma-4-31B",
+        "base_model:finetune:google/gemma-4-31B",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:sagemaker",
+        "deploy:azure",
+        "region:us"
+      ],
+      "pipeline_tag": "image-text-to-text",
+      "_id": "69b1b2ec895b2d5026e6bc2e",
+      "private": false,
+      "library_name": "transformers",
+      "modelId": "google/gemma-4-31B-it",
+      "author": "google",
+      "sha": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "gated": false,
+      "disabled": false,
+      "mask_token": "<mask>",
+      "widgetData": [
+        {
+          "text": "Hi, what can you help me with?"
+        },
+        {
+          "text": "What is 84 * 3 / 2?"
+        },
+        {
+          "text": "Tell me an interesting fact about the universe!"
+        },
+        {
+          "text": "Explain quantum computing in simple terms."
+        }
+      ],
+      "model-index": null,
+      "config": {
+        "architectures": [
+          "Gemma4ForConditionalGeneration"
+        ],
+        "model_type": "gemma4",
+        "tokenizer_config": {
+          "bos_token": "<bos>",
+          "eos_token": "<eos>",
+          "mask_token": "<mask>",
+          "pad_token": "<pad>",
+          "unk_token": "<unk>"
+        },
+        "chat_template_jinja": "{#\n  Template: Google Gemma 4 Canonical Chat Template\n  Author: Google Gemma Engineering Team\n  Published: 2026-07-09\n  Context: Fixed tool-calling loops, turn closures, and thinking content-ordering.\n#}\n{%- macro format_parameters(properties, required, filter_keys=false) -%}\n    {%- set standard_keys = ['description', 'type', 'properties', 'required', 'nullable'] -%}\n    {%- set ns = namespace(found_first=false) -%}\n    {%- for key, value in properties | dictsort -%}\n        {%- set add_comma = false -%}\n        {%- if not filter_keys or key not in standard_keys -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {{ key }}:{\n            {%- if value['description'] -%}\n                description:<|\"|>{{ value['description'] }}<|\"|>\n                {%- set add_comma = true -%}\n            {%- endif -%}\n            {%- if value['type'] | upper == 'STRING' -%}\n                {%- if value['enum'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    enum:{{ format_argument(value['enum']) }}\n                {%- endif -%}\n            {%- elif value['type'] | upper == 'ARRAY' -%}\n                {%- if value['items'] is mapping and value['items'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    items:{\n                    {%- set ns_items = namespace(found_first=false) -%}\n                    {%- for item_key, item_value in value['items'] | dictsort -%}\n                        {%- if item_value is not none -%}\n                            {%- if ns_items.found_first %},{% endif -%}\n                            {%- set ns_items.found_first = true -%}\n                            {%- if item_key == 'properties' -%}\n                                properties:{\n                                {%- if item_value is mapping -%}\n                                    {{- format_parameters(item_value, value['items']['required'] | default([])) -}}\n                                {%- endif -%}\n                                }\n                            {%- elif item_key == 'required' -%}\n                                required:[\n                                {%- for req_item in item_value -%}\n                                    <|\"|>{{- req_item -}}<|\"|>\n                                    {%- if not loop.last %},{% endif -%}\n                                {%- endfor -%}\n                                ]\n                            {%- elif item_key == 'type' -%}\n                                {%- if item_value is string -%}\n                                    type:{{ format_argument(item_value | upper) }}\n                                {%- else -%}\n                                    type:{{ format_argument(item_value | map('upper') | list) }}\n                                {%- endif -%}\n                            {%- else -%}\n                                {{ item_key }}:{{ format_argument(item_value) }}\n                            {%- endif -%}\n                        {%- endif -%}\n                    {%- endfor -%}\n                    }\n                {%- endif -%}\n            {%- endif -%}\n            {%- if value['nullable'] %}\n                {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                nullable:true\n            {%- endif -%}\n            {%- if value['type'] | upper == 'OBJECT' -%}\n                {%- if value['properties'] is defined and value['properties'] is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value['properties'], value['required'] | default([])) -}}\n                    }\n                {%- elif value is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value, value['required'] | default([]), filter_keys=true) -}}\n                    }\n                {%- endif -%}\n                {%- if value['required'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    required:[\n                    {%- for item in value['required'] | default([]) -%}\n                        <|\"|>{{- item -}}<|\"|>\n                        {%- if not loop.last %},{% endif -%}\n                    {%- endfor -%}\n                    ]\n                {%- endif -%}\n            {%- endif -%}\n            {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n            type:<|\"|>{{ value['type'] | upper }}<|\"|>}\n        {%- endif -%}\n    {%- endfor -%}\n{%- endmacro -%}\n{%- macro format_function_declaration(tool_data) -%}\n    declaration:{{- tool_data['function']['name'] -}}{description:<|\"|>{{- tool_data['function']['description'] -}}<|\"|>\n    {%- set params = tool_data['function']['parameters'] -%}\n    {%- if params -%}\n        ,parameters:{\n        {%- if params['properties'] -%}\n            properties:{ {{- format_parameters(params['properties'], params['required']) -}} },\n        {%- endif -%}\n        {%- if params['required'] -%}\n            required:[\n            {%- for item in params['required'] -%}\n                <|\"|>{{- item -}}<|\"|>\n                {{- ',' if not loop.last -}}\n            {%- endfor -%}\n            ],\n        {%- endif -%}\n        {%- if params['type'] -%}\n            type:<|\"|>{{- params['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    {%- if 'response' in tool_data['function'] -%}\n        {%- set response_declaration = tool_data['function']['response'] -%}\n        ,response:{\n        {%- if response_declaration['description'] -%}\n            description:<|\"|>{{- response_declaration['description'] -}}<|\"|>,\n        {%- endif -%}\n        {%- if response_declaration['type'] | upper == 'OBJECT' -%}\n            type:<|\"|>{{- response_declaration['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    }\n{%- endmacro -%}\n{%- macro format_argument(argument, escape_keys=True) -%}\n    {%- if argument is none -%}\n        {{- 'null' -}}\n    {%- elif argument is string -%}\n        {{- '<|\"|>' + argument + '<|\"|>' -}}\n    {%- elif argument is boolean -%}\n        {{- 'true' if argument else 'false' -}}\n    {%- elif argument is mapping -%}\n        {{- '{' -}}\n        {%- set ns = namespace(found_first=false) -%}\n        {%- for key, value in argument | dictsort -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {%- if escape_keys -%}\n                {{- '<|\"|>' + key + '<|\"|>' -}}\n            {%- else -%}\n                {{- key -}}\n            {%- endif -%}\n            :{{- format_argument(value, escape_keys=escape_keys) -}}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- elif argument is sequence -%}\n        {{- '[' -}}\n        {%- for item in argument -%}\n            {{- format_argument(item, escape_keys=escape_keys) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- ']' -}}\n    {%- else -%}\n        {{- argument -}}\n    {%- endif -%}\n{%- endmacro -%}\n{%- macro strip_thinking(text) -%}\n    {%- set ns = namespace(result='') -%}\n    {%- for part in text.split('<channel|>') -%}\n        {%- if '<|channel>' in part -%}\n            {%- set ns.result = ns.result + part.split('<|channel>')[0] -%}\n        {%- else -%}\n            {%- set ns.result = ns.result + part -%}\n        {%- endif -%}\n    {%- endfor -%}\n    {{- ns.result | trim -}}\n{%- endmacro -%}\n\n{%- macro format_tool_response_block(tool_name, response) -%}\n    {{- '<|tool_response>' -}}\n    {%- if response is mapping -%}\n        {{- 'response:' + tool_name + '{' -}}\n        {%- for key, value in response | dictsort -%}\n            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- else -%}\n        {{- 'response:' + tool_name + '{value:' + format_argument(response, escape_keys=False) + '}' -}}\n    {%- endif -%}\n    {{- '<tool_response|>' -}}\n{%- endmacro -%}\n\n{#- ===== SETUP ===== -#}\n{%- set ns = namespace(prev_message_type=None, prev_non_tool_role=None) -%}\n{%- set loop_messages = messages -%}\n{%- set enable_thinking = enable_thinking | default(false) -%}\n{%- set preserve_thinking = preserve_thinking | default(false) -%}\n{{- bos_token -}}\n{#- Handle System/Tool Definitions Block -#}\n{%- if enable_thinking or tools or (messages and messages[0]['role'] in ['system', 'developer']) -%}\n    {{- '<|turn>system\\n' -}}\n    {#- Inject Thinking token at the very top of the FIRST system turn -#}\n    {%- if enable_thinking -%}\n        {{- '<|think|>\\n' -}}\n        {%- set ns.prev_message_type = 'think' -%}\n    {%- endif -%}\n    {%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n        {%- if messages[0]['content'] is string -%}\n            {{- messages[0]['content'] | trim -}}\n        {%- elif messages[0]['content'] is sequence -%}\n            {%- for item in messages[0]['content'] -%}\n                {{- item['text'] | trim + ' '-}}\n            {%- endfor -%}\n        {%- endif -%}\n        {%- set loop_messages = messages[1:] -%}\n    {%- endif -%}\n    {%- if tools -%}\n        {%- for tool in tools %}\n            {{- '<|tool>' -}}\n            {{- format_function_declaration(tool) | trim -}}\n            {{- '<tool|>' -}}\n        {%- endfor %}\n        {%- set ns.prev_message_type = 'tool' -%}\n    {%- endif -%}\n    {{- '<turn|>\\n' -}}\n{%- endif %}\n\n{#- Pre-scan: find last user message index for reasoning guard -#}\n{%- set ns_turn = namespace(last_user_idx=-1) -%}\n{%- for i in range(loop_messages | length) -%}\n    {%- if loop_messages[i]['role'] == 'user' -%}\n        {%- set ns_turn.last_user_idx = i -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{#- Loop through messages -#}\n{%- for message in loop_messages -%}\n    {%- if message['role'] != 'tool' -%}\n    {%- set ns.prev_message_type = None -%}\n    {%- set role = 'model' if message['role'] == 'assistant' else message['role'] -%}\n    {#- Detect continuation using tracked state — O(1) instead of O(n) backward scan -#}\n    {%- set continue_same_model_turn = (role == 'model' and ns.prev_non_tool_role == 'assistant') -%}\n    {%- if not continue_same_model_turn -%}\n        {{- '<|turn>' + role + '\\n' }}\n\n    {%- endif -%}\n\n    {#- Render reasoning/reasoning_content as thinking channel -#}\n    {%- set thinking_text = message.get('reasoning') or message.get('reasoning_content') -%}\n    {%- set thinking_gate = (loop.index0 > ns_turn.last_user_idx) or (preserve_thinking and message.get('tool_calls')) -%}\n    {%- if thinking_text and thinking_gate -%}\n        {{- '<|channel>thought\\n' + thinking_text + '\\n<channel|>' -}}\n    {%- endif -%}\n\n            {%- if message.get('tool_calls') -%}\n                {%- for tool_call in message.get('tool_calls') -%}\n                    {%- set function = tool_call['function'] -%}\n                    {{- '<|tool_call>call:' + function['name'] + '{' -}}\n                    {%- if function['arguments'] is mapping -%}\n                        {%- set ns_args = namespace(found_first=false) -%}\n                        {%- for key, value in function['arguments'] | dictsort -%}\n                            {%- if ns_args.found_first %},{% endif -%}\n                            {%- set ns_args.found_first = true -%}\n                            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n                        {%- endfor -%}\n                    {%- elif function['arguments'] is none -%}\n                    {%- else -%}\n                        {{- raise_exception(\n                            \"chat_template: tool_calls[].function.arguments must be a \"\n                            \"JSON object (mapping), not a string. Deserialize arguments \"\n                            \"before passing to the template.\"\n                        ) -}}\n                    {%- endif -%}\n                    {{- '}<tool_call|>' -}}\n                {%- endfor -%}\n                {%- set ns.prev_message_type = 'tool_call' -%}\n            {%- endif -%}\n\n            {%- set ns_tr_out = namespace(flag=false) -%}\n            {%- if message.get('tool_responses') -%}\n                {#- Legacy: tool_responses embedded on the assistant message (Google/Gemma native) -#}\n                {%- for tool_response in message.get('tool_responses') -%}\n                    {{- format_tool_response_block(tool_response['name'] | default('unknown', true), tool_response['response']) -}}\n                    {%- set ns_tr_out.flag = true -%}\n                    {%- set ns.prev_message_type = 'tool_response' -%}\n                {%- endfor -%}\n            {%- elif message.get('tool_calls') -%}\n                {#- OpenAI Chat Completions: forward-scan consecutive role:tool messages -#}\n                {%- set ns_tool_scan = namespace(stopped=false) -%}\n                {%- for k in range(loop.index0 + 1, loop_messages | length) -%}\n                    {%- if ns_tool_scan.stopped -%}\n                    {%- elif loop_messages[k]['role'] != 'tool' -%}\n                        {%- set ns_tool_scan.stopped = true -%}\n                    {%- else -%}\n                        {%- set follow = loop_messages[k] -%}\n                        {#- Resolve tool_call_id to function name -#}\n                        {%- set ns_tname = namespace(name=follow.get('name') or 'unknown') -%}\n                        {%- for tc in message.get('tool_calls') -%}\n                            {%- if tc.get('id') == follow.get('tool_call_id') -%}\n                                {%- set ns_tname.name = tc['function']['name'] -%}\n                            {%- endif -%}\n                        {%- endfor -%}\n                        {#- Handle content as string or content-parts array -#}\n                        {%- set tool_body = follow.get('content') -%}\n                        {%- if tool_body is string -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- elif tool_body is sequence and tool_body is not string -%}\n                            {%- set ns_txt = namespace(s='') -%}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') == 'text' -%}\n                                    {%- set ns_txt.s = ns_txt.s + (part.get('text') | default('')) -%}\n                                {%- endif -%}\n                            {%- endfor -%}\n                            {{- format_tool_response_block(ns_tname.name, ns_txt.s) -}}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') in ['image', 'image_url'] -%}\n                                    {{- '<|image|>' -}}\n                                {%- elif part.get('type') in ['audio', 'input_audio'] -%}\n                                    {{- '<|audio|>' -}}\n                                {%- elif part.get('type') == 'video' -%}\n                                    {{- '<|video|>' -}}\n                                {%- endif -%}\n                            {%- endfor -%}\n                        {%- else -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- endif -%}\n                        {%- set ns_tr_out.flag = true -%}\n                        {%- set ns.prev_message_type = 'tool_response' -%}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n\n            {%- set captured_content -%}\n            {%- if message.get('content') is string -%}\n                {%- if role == 'model' -%}\n                    {{- strip_thinking(message['content']) -}}\n                {%- else -%}\n                    {{- message['content'] | trim -}}\n                {%- endif -%}\n            {%- elif message.get('content') is sequence -%}\n                {%- for item in message['content'] -%}\n                    {%- if item.get('type') == 'text' -%}\n                        {%- if role == 'model' -%}\n                            {{- strip_thinking(item['text']) -}}\n                        {%- else -%}\n                            {{- item['text'] | trim -}}\n                        {%- endif -%}\n                    {%- elif item.get('type') in ['image', 'image_url'] -%}\n                        {{- '<|image|>' -}}\n                    {%- elif item.get('type') in ['audio', 'input_audio'] -%}\n                        {{- '<|audio|>' -}}\n                    {%- elif item.get('type') == 'video' -%}\n                        {{- '<|video|>' -}}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n            {%- endset -%}\n\n            {{- captured_content -}}\n            {%- set has_content = captured_content | trim | length > 0 -%}\n\n        {#- Forward-scan: find next non-tool message role for continuation detection -#}\n        {%- set next_nt = namespace(role=None, found=false) -%}\n        {%- for j in range(loop.index0 + 1, loop_messages | length) -%}\n            {%- if not next_nt.found -%}\n                {%- if loop_messages[j]['role'] != 'tool' -%}\n                    {%- set next_nt.role = loop_messages[j]['role'] -%}\n                    {%- set next_nt.found = true -%}\n                {%- endif -%}\n            {%- endif -%}\n        {%- endfor -%}\n\n        {%- set continues_into_next = (\n            role == 'model'\n            and next_nt.role == 'assistant'\n            and (not message.get('tool_calls') or ns_tr_out.flag)\n        ) -%}\n\n        {%- if ns.prev_message_type == 'tool_call' and not ns_tr_out.flag -%}\n            {{- '<|tool_response>' -}}\n        {%- elif continues_into_next -%}\n        {%- elif not (ns_tr_out.flag and not has_content and not next_nt.found) -%}\n            {{- '<turn|>\\n' -}}\n        {%- endif -%}\n\n    {#- Track previous non-tool role for next iteration (avoids O(n) backward scan) -#}\n    {%- set ns.prev_non_tool_role = message['role'] -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{%- if add_generation_prompt -%}\n    {%- if ns.prev_message_type != 'tool_response' and ns.prev_message_type != 'tool_call' -%}\n        {{- '<|turn>model\\n' -}}\n        {%- if not enable_thinking -%}\n            {{- '<|channel>thought\\n<channel|>' -}}\n        {%- endif -%}\n    {%- elif ns.prev_message_type == 'tool_response' and enable_thinking -%}\n        {{- '<|channel>thought\\n' -}}\n    {%- endif -%}\n{%- endif -%}\n"
+      },
+      "cardData": {
+        "library_name": "transformers",
+        "license": "apache-2.0",
+        "license_link": "https://ai.google.dev/gemma/docs/gemma_4_license",
+        "pipeline_tag": "image-text-to-text",
+        "base_model": [
+          "google/gemma-4-31B"
+        ]
+      },
+      "transformersInfo": {
+        "auto_model": "AutoModelForMultimodalLM",
+        "pipeline_tag": "image-text-to-text",
+        "processor": "AutoProcessor"
+      },
+      "siblings": [
+        {
+          "rfilename": ".eval_results/mmmu_pro.yaml"
+        },
+        {
+          "rfilename": ".gitattributes"
+        },
+        {
+          "rfilename": "README.md"
+        },
+        {
+          "rfilename": "chat_template.jinja"
+        },
+        {
+          "rfilename": "config.json"
+        },
+        {
+          "rfilename": "generation_config.json"
+        },
+        {
+          "rfilename": "model-00001-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model-00002-of-00002.safetensors"
+        },
+        {
+          "rfilename": "model.safetensors.index.json"
+        },
+        {
+          "rfilename": "processor_config.json"
+        },
+        {
+          "rfilename": "tokenizer.json"
+        },
+        {
+          "rfilename": "tokenizer_config.json"
+        }
+      ],
+      "spaces": [
+        "BIGJUTT/model-pulse",
+        "smolagents/hf-realtime-voice",
+        "victor/gemma-avatar",
+        "ginigen-ai/Metacognition-Leaderboard-Space",
+        "ArtFix0/speech-to-speech-dashboard",
+        "SrRooT/Tokenizer-Visualizer",
+        "shiivamchauhan/ai-interviewer",
+        "Mecanical/hf-realtime-voice",
+        "embedl/hfviewer",
+        "multimodalart/krea2-lora-trainer",
+        "huggingface-projects/gemma-4-31b-it",
+        "ginigen-ai/open-router-leaderboard",
+        "Nymbo/overthink-1",
+        "HPAI-BSC/TuRTLe-Leaderboard",
+        "FINAL-Bench/Gemma-4-Multi",
+        "FINAL-Bench/Darwin-31B-Opus",
+        "EuroEval/euroeval_leaderboard",
+        "pollen-robotics/reachy-mini-3d-voice",
+        "Tracy146/C-Hermes-Agent",
+        "quickgrid/Tokenizer-Visualizer",
+        "pollen-robotics/reachy-mini-text-to-motion",
+        "emanforhelp/model-pulse",
+        "kdcyberdude/HARvestGym",
+        "lgusm/gemma4vramestimator",
+        "Ivan0204/krea2-lora-trainer",
+        "finerobotics/annotation-studio",
+        "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
+        "ArtShumov/Whyx-PROmpTea",
+        "osolmaz/leaderboard",
+        "A-Mahla/test",
+        "RiverRider/srt-sunstone",
+        "roxopastel/krea2-lora-trainer",
+        "Imogi/DarkZone-AI",
+        "beta3/Gemma_Hub_Explorer",
+        "davidpcm/openclaw-stock-analyst",
+        "Um34ER/bazaar-bridge-ocr",
+        "lablab-ai-amd-developer-hackathon/lysos",
+        "kirimdata369/ai-hacking-team",
+        "Yash030/claude-code-proxy",
+        "Pioneer37/Stickman-Arena",
+        "build-small-hackathon/trolley-driver",
+        "sugatoray/hf-realtime-voice",
+        "Asanari/nllb-translator",
+        "antonios-makro/hf-realtime-voice-avatar",
+        "evaleval/best-model-finder",
+        "facebook/omnilingual-gaia2",
+        "DeepImagix/self-trained2",
+        "xyanglu/resume-agent-chatbot",
+        "Assem0/webcraft-ai-backend",
+        "Samarth-Health-AI/clinical-intelligence-rag",
+        "supreme-lab/AgentSkillBench",
+        "Wesleykkkk/Yeye",
+        "webmazta/contentai",
+        "alibidaran/MEDPAI",
+        "aidn/gemma-4-31B-it",
+        "Scikitlearn10801/DataPrivacyEnv",
+        "Shaurya-Noodle/Supplymind",
+        "Wesleykkkk/SrocaticIA",
+        "Flickinshots/EmailMaestro",
+        "Otter21/OPENENV_RL_01",
+        "ayushKishor/PR_Review_Negotiation_Environment",
+        "aidn/caveman",
+        "devani18/industri-fix-rag",
+        "cpulido/NDE-NARRATIVES-ANALYSIS",
+        "aidn/Gemma-4-Caveman",
+        "xuxuxu8052/google-gemma-4-31B-it",
+        "suifenglexiaoyao/ClawBot",
+        "pratyushjdhv/mocktest",
+        "work-dwivediishivam/runway-zero",
+        "RehamAAhmed/Ai_Inspection_System",
+        "Suhails001/google-gemma-4-31B-it",
+        "AwaisAli12/chatbotBackendFastAPI",
+        "lablab-ai-amd-developer-hackathon/Threat_Hunter",
+        "theamazingruby/diabete-risk-predictor",
+        "Nestroy2003/gridsense-gemma4",
+        "RehamAAhmed/Matching_and_Damage",
+        "solo-ccccccooooooxxxxxvvv-8989/google-gemma-4-31B-it",
+        "nzhenev/lysos",
+        "alibnmhmd/mubsir",
+        "GodxSlayer/Xyvelis",
+        "RehamAAhmed/inspection-website",
+        "build-small-hackathon/alien-riddle",
+        "build-small-hackathon/The-Podium",
+        "VADITYA307/vertex-engine",
+        "build-small-hackathon/InflectionLM",
+        "ICSAC-Institute/editorial-system",
+        "ansh9891/ai-shorts-clipper-api",
+        "rricci/iasy-acolhe",
+        "build-small-hackathon/letxinet-lat",
+        "Kakashiix26/sentinel-backend",
+        "vKrish14/chatbot-v2",
+        "Reja1/jee-neet-benchmark-leaderboard",
+        "souzanaHa/seluze-agent",
+        "NipuDas/PA",
+        "Shaurya04289/iWEBIFY",
+        "DreamsHunter/erp-ai-procurement-assistant-using-langgraph",
+        "yahiadeveloper5106/erirebots",
+        "praiseogooluwa118/youtube-bot",
+        "Hscsgs/ilova_kodini_beruvchi",
+        "h4sch/gemma-4-31b-it"
+      ],
+      "createdAt": "2026-03-11T18:22:36.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 31273088876
+        },
+        "total": 31273088876
+      },
+      "inference": "warm",
+      "usedStorage": 175739734665
+    },
     "mistralai/mistral-small-2603": {
       "id": "mistralai/Mistral-Small-4-119B-2603",
-      "downloads": 59947,
-      "likes": 468,
+      "downloads": 55451,
+      "likes": 469,
       "lastModified": "2026-07-15T12:23:29.000Z",
       "tags": [
         "safetensors",
@@ -17529,8 +17618,8 @@
     },
     "qwen/qwen3.5-9b": {
       "id": "Qwen/Qwen3.5-9B",
-      "downloads": 6471053,
-      "likes": 2288,
+      "downloads": 6412961,
+      "likes": 2291,
       "lastModified": "2026-03-02T00:51:43.000Z",
       "tags": [
         "transformers",
@@ -17651,8 +17740,8 @@
       ],
       "spaces": [
         "hugging-apps/moss-image-8-step-dmd",
-        "finebooks/bhl-ocr-leaderboard",
         "BIGJUTT/model-pulse",
+        "finebooks/bhl-ocr-leaderboard",
         "pliny-the-prompter/obliteratus",
         "ginigen-ai/Metacognition-Leaderboard-Space",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
@@ -17764,7 +17853,7 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "id": "Qwen/Qwen3.5-35B-A3B",
-      "downloads": 1720099,
+      "downloads": 1691828,
       "likes": 1550,
       "lastModified": "2026-04-24T02:38:38.000Z",
       "tags": [
@@ -18013,7 +18102,7 @@
     },
     "qwen/qwen3.5-27b": {
       "id": "Qwen/Qwen3.5-27B",
-      "downloads": 1812990,
+      "downloads": 1792337,
       "likes": 1081,
       "lastModified": "2026-04-24T02:54:49.000Z",
       "tags": [
@@ -18233,8 +18322,8 @@
     },
     "qwen/qwen3.5-122b-a10b": {
       "id": "Qwen/Qwen3.5-122B-A10B",
-      "downloads": 1026056,
-      "likes": 651,
+      "downloads": 994398,
+      "likes": 652,
       "lastModified": "2026-04-24T03:55:23.000Z",
       "tags": [
         "transformers",
@@ -18526,7 +18615,7 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "id": "Qwen/Qwen3.5-397B-A17B",
-      "downloads": 980257,
+      "downloads": 946819,
       "likes": 1581,
       "lastModified": "2026-04-24T05:51:23.000Z",
       "tags": [
@@ -18956,9 +19045,9 @@
         "teja292004/Qwen-Qwen3.5",
         "ridhzz9/Qwen",
         "jyujiaf/AI",
-        "Ganesh1411/nvidia-proxy-hf-nvm-google",
         "arunachalam0606/nvidia-proxy-hf-nvm-google",
         "radin98/Qwen-Qwen3.5-397B-A17B",
+        "Ganesh1411/nvidia-proxy-hf-nvm-google",
         "Kamal9597/nvidia-proxy-hf-nvm-google",
         "graphimoon9123/Qwen-Qwen3.5-397B-A17B",
         "Kiadee/Qwen-Qwen3.5-397B-A17B",
@@ -18971,32 +19060,32 @@
         "Kamalkshs82/Qwen-Qwen3.5-397B-A17Bkamal",
         "guduffra10/Qwen-Qwen3.5-397B-A17B",
         "COUNTfrogula/count-frogula-ai-integration",
-        "Saksak65/ai",
         "Saksak65/Chat",
         "cw4444/obliteratus",
+        "Saksak65/ai",
         "kalmuahlaunda/obliteratus",
         "sub314xxl/obliteratus",
         "iamarobot3030/Qwen-Qwen3.5-397B-A17B",
         "mastodonitis/obliteratus",
         "Djebbi/Qwen-Qwen3.5-397B-A17B",
         "qwendashcoder/nvidiaclass2",
-        "GrozniMilitq/obliteratus",
         "Sagarks07/Qwen-Qwen3.5-397B-A17B",
+        "GrozniMilitq/obliteratus",
         "liminal4423/obliteratus",
         "duarffodog/obliteratus",
         "LogitCode/FlexChat",
         "shrads78/vc_gemini_v0",
         "cypher109/obliteratus",
         "giarom/Pundit_Feynman",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
-        "mayafree/EXAM-FINALBENCH5",
+        "mayafree/EXAM-FINALBENCH3",
+        "mayafree/EXAM-FINALBENCH2",
         "mayafree/EXAM-FINALBENCH",
         "mayafree/EXAM-FINALBENCH4",
-        "mayafree/EXAM-FINALBENCH2",
-        "mayafree/EXAM-FINALBENCH3",
+        "mayafree/EXAM-FINALBENCH5",
         "Cjy8s/Final_Assignment_Template",
         "milkygingers/obliteratus",
         "XiaoXiaoSheng/Qwen-Qwen3.5-397B-A17B",
@@ -19028,7 +19117,7 @@
     },
     "z-ai/glm-5": {
       "id": "zai-org/GLM-5",
-      "downloads": 1615751,
+      "downloads": 1567043,
       "likes": 2141,
       "lastModified": "2026-08-11T07:36:34.000Z",
       "tags": [
@@ -19998,9 +20087,9 @@
         }
       ],
       "spaces": [
+        "akhaliq/anycoder",
         "pliny-the-prompter/obliteratus",
         "quantid/huggingface-official-benchmark-leaderboards",
-        "akhaliq/anycoder",
         "hadadxyz/ai",
         "FINAL-Bench/all-bench-leaderboard",
         "FINAL-Bench/Leaderboard",
@@ -20112,8 +20201,8 @@
     },
     "qwen/qwen3-coder-next": {
       "id": "Qwen/Qwen3-Coder-Next",
-      "downloads": 434134,
-      "likes": 1723,
+      "downloads": 431761,
+      "likes": 1727,
       "lastModified": "2026-02-03T16:16:38.000Z",
       "tags": [
         "transformers",
@@ -20451,7 +20540,7 @@
     },
     "moonshotai/kimi-k2.5": {
       "id": "moonshotai/Kimi-K2.5",
-      "downloads": 406716,
+      "downloads": 407890,
       "likes": 2898,
       "lastModified": "2026-04-30T03:56:40.000Z",
       "tags": [
@@ -20815,9 +20904,9 @@
         }
       ],
       "spaces": [
+        "akhaliq/anycoder",
         "pliny-the-prompter/obliteratus",
         "quantid/huggingface-official-benchmark-leaderboards",
-        "akhaliq/anycoder",
         "hadadxyz/ai",
         "FINAL-Bench/Leaderboard",
         "ginigen-ai/open-router-leaderboard",
@@ -20930,7 +21019,7 @@
     },
     "z-ai/glm-4.7-flash": {
       "id": "zai-org/GLM-4.7-Flash",
-      "downloads": 968875,
+      "downloads": 951991,
       "likes": 1891,
       "lastModified": "2026-01-29T08:06:19.000Z",
       "tags": [
@@ -21175,8 +21264,8 @@
         }
       ],
       "spaces": [
-        "pliny-the-prompter/obliteratus",
         "akhaliq/anycoder",
+        "pliny-the-prompter/obliteratus",
         "huggingface-projects/ai-video-composer",
         "embedl/hfviewer",
         "ginigen-ai/smol-worldcup",
@@ -21289,7 +21378,7 @@
     },
     "z-ai/glm-4.7": {
       "id": "zai-org/GLM-4.7",
-      "downloads": 72264,
+      "downloads": 71310,
       "likes": 2076,
       "lastModified": "2026-01-29T08:05:58.000Z",
       "tags": [
@@ -21672,10 +21761,10 @@
         }
       ],
       "spaces": [
+        "akhaliq/anycoder",
         "pliny-the-prompter/obliteratus",
         "quantid/huggingface-official-benchmark-leaderboards",
         "enzostvs/deepsite",
-        "akhaliq/anycoder",
         "hadadxyz/ai",
         "FINAL-Bench/Leaderboard",
         "Nymbo/Tools",
@@ -21746,14 +21835,14 @@
         "Jemo215/anycoder2",
         "ramirosolis/ai",
         "tarunthethor/anycoder",
-        "inigovaldorin/ai",
         "ablogg/Tools",
-        "AnyCoderaw/anycoder",
+        "inigovaldorin/ai",
         "00Boobs00/Tools",
+        "AnyCoderaw/anycoder",
         "frank1313/zai-org-GLM-4.7",
         "tariqimani/ai",
-        "hikapi/ai",
         "DamianRoss/ai",
+        "hikapi/ai",
         "siakatara/ai",
         "wilsonses/ai",
         "deneme0948/zai-org-GLM-4.7",
@@ -21764,8 +21853,8 @@
         "Diehard704/anycoder",
         "Amitda/anycoder",
         "handarujati/llm_comparison",
-        "hfnz/app",
         "amanpmx/anycoder",
+        "hfnz/app",
         "Kalibro/ai",
         "SampleCraft/hi",
         "SampleCraft/ai",
@@ -21786,7 +21875,7 @@
     },
     "mistralai/devstral-2512": {
       "id": "mistralai/Devstral-2-123B-Instruct-2512",
-      "downloads": 6100,
+      "downloads": 6125,
       "likes": 360,
       "lastModified": "2026-07-15T12:19:49.000Z",
       "tags": [
@@ -22060,8 +22149,8 @@
         "ramirosolis/ai",
         "inigovaldorin/ai",
         "tariqimani/ai",
-        "hikapi/ai",
         "DamianRoss/ai",
+        "hikapi/ai",
         "siakatara/ai",
         "wilsonses/ai",
         "hekergod11/AI-Playground",
@@ -22082,8 +22171,8 @@
         "VikVib/ai",
         "AdarshJi/IMGDEPLOY",
         "Shiva-teja-chary/auto",
-        "Saksak65/ai",
         "Saksak65/Chat",
+        "Saksak65/ai",
         "qwendashcoder/nvidiaclass2",
         "NeerajCodz/scrapeRL",
         "yuan111556/ai",
@@ -22107,7 +22196,7 @@
     },
     "z-ai/glm-4.6v": {
       "id": "zai-org/GLM-4.6V",
-      "downloads": 4878,
+      "downloads": 4896,
       "likes": 398,
       "lastModified": "2025-12-09T05:34:59.000Z",
       "tags": [
@@ -22429,8 +22518,8 @@
     },
     "mistralai/ministral-14b-2512": {
       "id": "mistralai/Ministral-3-14B-Instruct-2512",
-      "downloads": 153043,
-      "likes": 350,
+      "downloads": 155356,
+      "likes": 351,
       "lastModified": "2026-07-15T12:20:59.000Z",
       "tags": [
         "vllm",
@@ -22586,7 +22675,7 @@
     },
     "mistralai/ministral-8b-2512": {
       "id": "mistralai/Ministral-3-8B-Instruct-2512",
-      "downloads": 100350,
+      "downloads": 99973,
       "likes": 235,
       "lastModified": "2026-07-15T12:22:08.000Z",
       "tags": [
@@ -22740,7 +22829,7 @@
     },
     "mistralai/ministral-3b-2512": {
       "id": "mistralai/Ministral-3-3B-Instruct-2512",
-      "downloads": 76010,
+      "downloads": 74088,
       "likes": 316,
       "lastModified": "2026-07-15T12:21:35.000Z",
       "tags": [
@@ -22897,7 +22986,7 @@
     },
     "deepseek/deepseek-v3.2": {
       "id": "deepseek-ai/DeepSeek-V3.2",
-      "downloads": 6580429,
+      "downloads": 6714508,
       "likes": 1590,
       "lastModified": "2025-12-01T11:04:59.000Z",
       "tags": [
@@ -23568,7 +23657,6 @@
       ],
       "spaces": [
         "VIDraft/global-llm-leaderboard",
-        "aquanode/gpu-vram-calculator",
         "enzostvs/deepsite",
         "hadadxyz/ai",
         "embedl/hfviewer",
@@ -23576,6 +23664,7 @@
         "ginigen-ai/open-router-leaderboard",
         "hfmlsoc/different-flops",
         "aiqtech/final-bench-Proprietary",
+        "aquanode/gpu-vram-calculator",
         "Heartsync/DeepSeek32",
         "fffiloni/agentic-space-factory-UI-public",
         "emanforhelp/model-pulse",
@@ -23682,8 +23771,8 @@
     },
     "moonshotai/kimi-k2-thinking": {
       "id": "moonshotai/Kimi-K2-Thinking",
-      "downloads": 47408,
-      "likes": 1731,
+      "downloads": 47617,
+      "likes": 1729,
       "lastModified": "2026-01-30T04:49:39.000Z",
       "tags": [
         "transformers",
@@ -24065,8 +24154,8 @@
         "codexxx/moonshotai-Kimi-K2-Thinking",
         "AlekBot/moonshotai-Kimi-K2-Thinking",
         "MCP-1st-Birthday/localai",
-        "Tiar430/moonshotai-Kimi-K2-Thinking",
         "NtombelaOzbo/moonshotai-Kimi-K2-Thinking",
+        "Tiar430/moonshotai-Kimi-K2-Thinking",
         "Cenani/moonshotai-Kimi-K2-Thinking",
         "Nybo93/moonshotai-Kimi-K2-Thinking",
         "MCP-1st-Birthday/EastSync-AI",
@@ -24128,7 +24217,7 @@
     },
     "mistralai/voxtral-small-24b-2507": {
       "id": "mistralai/Voxtral-Small-24B-2507",
-      "downloads": 13547,
+      "downloads": 12952,
       "likes": 556,
       "lastModified": "2025-12-20T23:34:49.000Z",
       "tags": [
@@ -24284,8 +24373,8 @@
     },
     "qwen/qwen3-vl-8b-instruct": {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "downloads": 6902450,
-      "likes": 1234,
+      "downloads": 6915010,
+      "likes": 1236,
       "lastModified": "2025-10-15T16:16:59.000Z",
       "tags": [
         "transformers",
@@ -24406,11 +24495,10 @@
       ],
       "spaces": [
         "nvidia/Cosmos3-Action-Viewer",
-        "ozdentarikcan/ConvDeck",
+        "artificialguybr/qwen-vl",
         "prithivMLmods/Qwen3-VL-Outpost",
         "embedl/hfviewer",
         "smolagents/computer-use-agent",
-        "artificialguybr/qwen-vl",
         "microsoft/mage-flow",
         "LPX55/Qwen-Image-Edit-2511-Turbo-Lightning",
         "modelscope/modelscope-studio",
@@ -24446,6 +24534,7 @@
         "hugging-apps/mage-flow-base",
         "FireCRT/coinve-edit-demo",
         "hugging-apps/unispace-gen-edit",
+        "ozdentarikcan/ConvDeck",
         "UoS-HGIG/HPOmapper",
         "ankandrew/Qwen2.5VL",
         "mpvasilis/CUA",
@@ -24518,7 +24607,7 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-      "downloads": 16148,
+      "downloads": 16062,
       "likes": 208,
       "lastModified": "2025-11-26T13:18:00.000Z",
       "tags": [
@@ -24690,7 +24779,7 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
-      "downloads": 435648,
+      "downloads": 441260,
       "likes": 627,
       "lastModified": "2025-11-26T13:18:04.000Z",
       "tags": [
@@ -24838,16 +24927,16 @@
       ],
       "spaces": [
         "nvidia/Cosmos3-Action-Viewer",
-        "lerobot/steer-a-robot",
-        "ozdentarikcan/ConvDeck",
         "smolagents/computer-use-agent",
         "Nymbo/Serverless-TextGen-Hub",
         "ginigen-ai/open-router-leaderboard",
+        "lerobot/steer-a-robot",
         "davanstrien/vllm-index-card-extractor",
         "build-small-hackathon/sema-dyslexic-assistant",
         "alaub/uqied",
         "ford442/ChronoEdit",
         "ArtShumov/Whyx-PROmpTea",
+        "ozdentarikcan/ConvDeck",
         "sharu/Qwen-Qwen3-VL-30B-A3B-Instruct",
         "mpvasilis/CUA",
         "Mmmma4iio/computer-use-agent",
@@ -24872,9 +24961,9 @@
         "lhy9672954/Qwen-Qwen3-VL-30B-A3B-Instruct",
         "ruoxi01/chat-helper",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
         "hanabhi/gridworld-env",
         "kartikaneja5/incident-response-env",
@@ -24913,7 +25002,6 @@
         "WitneyWW/holi-spatial-hdepic-walkthrough",
         "ahmedlodhi/credit-copilot",
         "WitneyWW/weekly-1008",
-        "Roeselert/gradio-dms",
         "flowupdown/Final_Assignment_Template",
         "TBob23/Final_Assignment_Template",
         "tarekziade/mic-fleet-candidates",
@@ -24931,7 +25019,7 @@
     },
     "z-ai/glm-4.6": {
       "id": "zai-org/GLM-4.6",
-      "downloads": 25408,
+      "downloads": 25311,
       "likes": 1247,
       "lastModified": "2025-09-30T10:17:45.000Z",
       "tags": [
@@ -25335,8 +25423,8 @@
         "irenesolaiman/most-liked-models-timeline",
         "bor/counting_words",
         "banyiee/deepsite",
-        "Humbl3m33/vibecoderv3",
         "ajajjajajaja/glm4.6-free-unlimited-chatbot",
+        "Humbl3m33/vibecoderv3",
         "acecalisto3/Gollm",
         "deivissonfloriano/fyla-gpt-4.6",
         "Rizzky/zai-org-GLM-4.6",
@@ -25354,9 +25442,9 @@
         "rsah3798/zai-org-GLM-4.6-mount-everest-submit",
         "mefistoz/zai-org-GLM-4.6",
         "abdullah8844/deepsite",
+        "Fretful/glm4.6-free-unlimited-chatbot",
         "Fretful/GLM-4.6-Vers",
         "Fretful/Image-Generator-Free",
-        "Fretful/glm4.6-free-unlimited-chatbot",
         "aymenhhh/deepsite-copy",
         "Realmeas/deepsite",
         "Open-Hat-Lab/Paint-Simulator",
@@ -25419,7 +25507,7 @@
     },
     "deepseek/deepseek-v3.2-exp": {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
-      "downloads": 42927,
+      "downloads": 42780,
       "likes": 1026,
       "lastModified": "2025-11-18T02:39:54.000Z",
       "tags": [
@@ -26054,11 +26142,11 @@
         }
       ],
       "spaces": [
-        "aquanode/gpu-vram-calculator",
         "burtenshaw/karpathy-llm-council",
         "ginigen-ai/open-router-leaderboard",
         "dropkickJesus999/deepsiteV3",
         "kalhdrawi/omnidev",
+        "aquanode/gpu-vram-calculator",
         "Daksh0505/Youtube-Chatbot",
         "Heaven-AI/Haven-Al",
         "derricka59/QhySync-DeepSite-v3",
@@ -26094,15 +26182,15 @@
         "makopin229/homework-ai-chat",
         "ohioipj/deepseek-ai-DeepSeek-V3.2-Exp",
         "FaceAce1/deepseek-ai-DeepSeek-V3.2-Exp",
+        "vatsaljain19/YoutubeRAG",
         "Ugottaloveit/deepseek-ai-DeepSeek-V3.2-Exp",
         "Nitin66666666/deepseek-ai-DeepSeek-V3.2-Exp",
-        "vatsaljain19/YoutubeRAG",
         "Prodigy16/deepseek",
-        "wailasad/deepseek-ai-DeepSeek-V3.2-Exp",
         "Xavernox/deepseek-ai-DeepSeek-V3.2-Exp",
+        "wailasad/deepseek-ai-DeepSeek-V3.2-Exp",
         "sench145/deepseek-ai-DeepSeek-V3.2-Exp",
-        "chiragtirth/deepseek-ai-DeepSeek-V3.2-Exp",
         "chiragtirth/abs",
+        "chiragtirth/deepseek-ai-DeepSeek-V3.2-Exp",
         "369KG/KAVINAPPERS",
         "qweqweqqqq/deepseek-ai-DeepSeek-V3.2-Exp",
         "AnkhLP/deepsite",
@@ -26141,12 +26229,12 @@
         "AbobusAmogus228/deepseek-ai-DeepSeek-V3.2-Exp",
         "play7284/smolagents",
         "freddyaboulton/karpathy-llm-council",
-        "hub123456/deepseek-ai-DeepSeek-V3.2-Exp",
         "guohongface/deepseek-ai-DeepSeek-V3.2-Exp",
+        "hub123456/deepseek-ai-DeepSeek-V3.2-Exp",
         "CatoG/CG_AskPDF",
         "Wftguvhidh/deepseek-ai-DeepSeek-V3.2-Exp",
-        "AiCoderv2/anycoder",
         "yijedoy688/chatbot-ac02-cs386",
+        "AiCoderv2/anycoder",
         "shoudlere/anycoder",
         "Mmdv2/deepseek-ai-DeepSeek-V3.2-Exp",
         "CodeByBB/anycoder",
@@ -26169,7 +26257,7 @@
     },
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
-      "downloads": 298296,
+      "downloads": 306495,
       "likes": 429,
       "lastModified": "2025-11-26T13:18:18.000Z",
       "tags": [
@@ -26677,7 +26765,7 @@
     },
     "deepseek/deepseek-v3.1-terminus": {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
-      "downloads": 12062,
+      "downloads": 11957,
       "likes": 386,
       "lastModified": "2025-09-29T01:52:07.000Z",
       "tags": [
@@ -27322,7 +27410,6 @@
         }
       ],
       "spaces": [
-        "aquanode/gpu-vram-calculator",
         "hadadxyz/ai",
         "ginigen-ai/open-router-leaderboard",
         "dropkickJesus999/deepsiteV3",
@@ -27330,6 +27417,7 @@
         "bilgeyucel/captionate",
         "kalhdrawi/omnidev",
         "Rud73/deepseek-ai-DeepSeek-V3.1-Terminus",
+        "aquanode/gpu-vram-calculator",
         "PrinceZaman/DeepSeek_Coder",
         "Sirxy/deepseek-ai-DeepSeek-V3.1-Terminus",
         "Ggabrann/deepseek-ai-DeepSeek-V3.1-Terminus",
@@ -27388,8 +27476,8 @@
         "PatrickRedStar/MultiAgentLogsAnalyze",
         "Exched/DeepSeek_Coder",
         "tariqimani/ai",
-        "DamianRoss/ai",
         "hikapi/ai",
+        "DamianRoss/ai",
         "siakatara/ai",
         "wilsonses/ai",
         "hekergod11/AI-Playground",
@@ -27407,8 +27495,8 @@
         "timiu999/ai",
         "aryanofficial/DeepSeek_Coder",
         "VikVib/ai",
-        "Saksak65/Chat",
         "Saksak65/ai",
+        "Saksak65/Chat",
         "GHHG10/DeepSite",
         "EATosin/axiom-engine-api",
         "yuan111556/ai",
@@ -27434,7 +27522,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "downloads": 136823,
+      "downloads": 132592,
       "likes": 1072,
       "lastModified": "2025-09-17T06:57:40.000Z",
       "tags": [
@@ -27773,7 +27861,7 @@
     },
     "moonshotai/kimi-k2-0905": {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
-      "downloads": 13375,
+      "downloads": 12571,
       "likes": 790,
       "lastModified": "2026-01-30T04:50:25.000Z",
       "tags": [
@@ -28156,23 +28244,23 @@
         "Shishircipher/LegalPulse",
         "John292910/moonshotai-Kimi-K2-Instruct-0905",
         "a766426356/moonshotai-Kimi-K2-Instruct-0905",
-        "Chingkheinganba/moonshotai-Kimi-K2-Instruct-0905",
-        "Peggy7777/moonshotai-Kimi-K2-Instruct-0905",
         "haydennnn/moonshotai-Kimi-K2-Instruct-0905",
-        "keso2000/moonshotai-Kimi-K2-Instruct-0905",
+        "Peggy7777/moonshotai-Kimi-K2-Instruct-0905",
+        "Chingkheinganba/moonshotai-Kimi-K2-Instruct-0905",
         "RainZ156/moonshotai-Kimi-K2-Instruct-0905",
+        "keso2000/moonshotai-Kimi-K2-Instruct-0905",
         "majorSeaweed/atlan",
         "banyiee/deepsite",
         "Angusbeef2007/moonshotai-Kimi-K2-Instruct-0905",
         "Humbl3m33/vibecoderv3",
-        "Riy777/moonshotai-Kimi-K2-Instruct-0905_tome",
         "smitb2005/novatra",
+        "Riy777/moonshotai-Kimi-K2-Instruct-0905_tome",
         "jarvix-studio/jarvix_studio",
         "torVik/moonshotai-Kimi-K2-Instruct-0905",
-        "AKLearn/text-summarizer",
         "svgbogdnn/UNsuccess1_agent",
-        "Mesmermooo/thedengier",
+        "AKLearn/text-summarizer",
         "369KG/KAVINAPPERS",
+        "Mesmermooo/thedengier",
         "AnkhLP/deepsite",
         "nakel-ola/deepsite",
         "abdullah8844/deepsite",
@@ -28183,8 +28271,8 @@
         "zeusrabia/deepsite-Free-v3",
         "nono81/deepsite",
         "xafar/wg",
-        "felixilars/pdf_extractor",
         "CodeHubb/deepsite",
+        "felixilars/pdf_extractor",
         "Hammad712/Virtual-try-on",
         "nareshjain2/moonshotai-Kimi-K2-Instruct-0905"
       ],
@@ -28202,7 +28290,7 @@
     },
     "nousresearch/hermes-4-405b": {
       "id": "NousResearch/Hermes-4-405B",
-      "downloads": 2065,
+      "downloads": 2098,
       "likes": 97,
       "lastModified": "2025-09-02T04:17:04.000Z",
       "tags": [
@@ -28959,7 +29047,7 @@
     },
     "deepseek/deepseek-chat-v3.1": {
       "id": "deepseek-ai/DeepSeek-V3.1",
-      "downloads": 271373,
+      "downloads": 268950,
       "likes": 864,
       "lastModified": "2025-09-05T11:30:15.000Z",
       "tags": [
@@ -29594,14 +29682,14 @@
       ],
       "spaces": [
         "pollen-robotics/microduck-arena",
-        "VIDraft/global-llm-leaderboard",
         "jairwaal/image",
-        "aquanode/gpu-vram-calculator",
         "nazdridoy/inferoxy-hub",
+        "VIDraft/global-llm-leaderboard",
         "dropkickJesus999/deepsiteV3",
         "2025-ai-timeline/2025-ai-timeline",
         "MCP-1st-Birthday/Agentic-Codenames-Arena",
         "kalhdrawi/omnidev",
+        "aquanode/gpu-vram-calculator",
         "ReallyFloppyPenguin/DeepSeek-V3.1-Superintell",
         "Jakob08/moneychatbot",
         "AbdullahKhanSherwani/BlackBox",
@@ -29708,7 +29796,7 @@
     },
     "z-ai/glm-4.5v": {
       "id": "zai-org/GLM-4.5V",
-      "downloads": 19915,
+      "downloads": 19261,
       "likes": 726,
       "lastModified": "2025-10-25T13:20:10.000Z",
       "tags": [
@@ -29942,8 +30030,8 @@
         "Jakob08/moneychatbot",
         "Vigneshsaminathan/VQA",
         "Secondprinsipal/image",
-        "huggingfaceramki/Ramkiran_searchgpt",
         "Carmenito/amazon_this_object",
+        "huggingfaceramki/Ramkiran_searchgpt",
         "Yukari831/zai-org-GLM-4.5V",
         "JayantSharma1/zai-org-GLM-4.5V",
         "userisname/zai-org-GLM-4.5V",
@@ -29991,8 +30079,8 @@
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "downloads": 1056691,
-      "likes": 1314,
+      "downloads": 1126184,
+      "likes": 1315,
       "lastModified": "2025-12-03T08:05:17.000Z",
       "tags": [
         "transformers",
@@ -30213,8 +30301,8 @@
         "feiqi33474/Qwen-Qwen3-Coder-30B-A3B-Instruct",
         "mechuko/Qwen-Image-to-LoRA",
         "rika331/Qwen-Image-to-LoRA",
-        "tyr5fi/Qwen-Qwen3-Coder-30B-A3B-Instruct",
         "sam2ai/Qwen-Image-to-LoRA",
+        "tyr5fi/Qwen-Qwen3-Coder-30B-A3B-Instruct",
         "Anish2005/NovaSearch",
         "miguelaf4/Qwen-Image-to-LoRA",
         "NubeEra/RAG-TibeENabvi",
@@ -30235,9 +30323,9 @@
         "vishaldhakad/Qwen-Qwen3-Coder-30B-A3B-Instruct",
         "LogitCode/FlexChat",
         "lilyzhng/supergeneral-env",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
         "jinyangp/Final_Assignment_Template",
         "nils-hoyer/Qwen-Qwen3-Coder-30B-A3B-Instruct",
@@ -30258,7 +30346,7 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-      "downloads": 1053046,
+      "downloads": 1033062,
       "likes": 852,
       "lastModified": "2025-09-17T06:56:43.000Z",
       "tags": [
@@ -30506,7 +30594,7 @@
     },
     "z-ai/glm-4.5": {
       "id": "zai-org/GLM-4.5",
-      "downloads": 106040,
+      "downloads": 107191,
       "likes": 1439,
       "lastModified": "2025-08-11T13:27:03.000Z",
       "tags": [
@@ -30994,7 +31082,7 @@
     },
     "z-ai/glm-4.5-air": {
       "id": "zai-org/GLM-4.5-Air",
-      "downloads": 1328974,
+      "downloads": 1295413,
       "likes": 649,
       "lastModified": "2025-08-11T13:25:37.000Z",
       "tags": [
@@ -31275,7 +31363,7 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "downloads": 10398,
+      "downloads": 10264,
       "likes": 419,
       "lastModified": "2025-08-17T08:20:17.000Z",
       "tags": [
@@ -31807,7 +31895,7 @@
     },
     "qwen/qwen3-coder": {
       "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "downloads": 58232,
+      "downloads": 57959,
       "likes": 1386,
       "lastModified": "2025-08-21T10:18:07.000Z",
       "tags": [
@@ -32748,7 +32836,7 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "downloads": 107507,
+      "downloads": 102598,
       "likes": 814,
       "lastModified": "2025-09-17T06:52:55.000Z",
       "tags": [
@@ -33321,7 +33409,7 @@
     },
     "moonshotai/kimi-k2": {
       "id": "moonshotai/Kimi-K2-Instruct",
-      "downloads": 314569,
+      "downloads": 313181,
       "likes": 3008,
       "lastModified": "2026-04-23T02:08:36.000Z",
       "tags": [
@@ -33646,10 +33734,10 @@
         }
       ],
       "spaces": [
-        "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "jairwaal/image",
         "nazdridoy/inferoxy-hub",
+        "VIDraft/global-llm-leaderboard",
         "hadadxyz/ai",
         "huggingface-projects/ai-video-composer",
         "umint/ai",
@@ -33729,8 +33817,8 @@
         "thirteen23/moonshotai-Kimi-K2-Instruct",
         "lalopenguin/kimi-guuurl",
         "Sunilash/moonshotai-Kimi-K2-Instruct",
-        "ScentEcho/moonshotai-Kimi-K2-Instruct",
         "liugddx/moonshotai-Kimi-K2-Instruct",
+        "ScentEcho/moonshotai-Kimi-K2-Instruct",
         "RaajPareet/kimi-k2-chat-demo",
         "irfankhan2213/moonshotai-Kimi-K2-Instruct",
         "sai5056499/research-agent",
@@ -33740,12 +33828,12 @@
         "Mano5108/moonshotai-Kimi-K2-Instruct",
         "charlesboyd/moonshotai-Kimi-K2-Instruct",
         "HarshShapoorji/moonshotai-Kimi-K2-Instruct",
-        "Sksamin09/moonshotai-Kimi-K2-Instruct",
         "gunp808/moonshotai-Kimi-K2-Instruct",
+        "Sksamin09/moonshotai-Kimi-K2-Instruct",
         "johnwilliamholt07/Kimi-K2-Instruct",
         "sinyormx/moonshotai-Kimi-K2-Instruct",
-        "dsantos/moonshotai-Kimi-K2-Instruct",
-        "jstone84/moonshotai-Kimi-K2-Instruct"
+        "jstone84/moonshotai-Kimi-K2-Instruct",
+        "dsantos/moonshotai-Kimi-K2-Instruct"
       ],
       "createdAt": "2025-07-11T00:55:12.000Z",
       "safetensors": {
@@ -33761,7 +33849,7 @@
     },
     "mistralai/mistral-small-3.2-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "downloads": 122835,
+      "downloads": 119985,
       "likes": 643,
       "lastModified": "2025-12-22T10:16:55.000Z",
       "tags": [
@@ -33960,7 +34048,7 @@
     },
     "deepseek/deepseek-r1-0528": {
       "id": "deepseek-ai/DeepSeek-R1-0528",
-      "downloads": 163888,
+      "downloads": 104921,
       "likes": 2493,
       "lastModified": "2025-05-29T11:37:44.000Z",
       "tags": [
@@ -34582,7 +34670,6 @@
       "spaces": [
         "jairwaal/image",
         "kebeliu/KVCacheSizeCalculator",
-        "aquanode/gpu-vram-calculator",
         "umint/ai",
         "hadadrjt/ai",
         "ginigen/deepseek-r1-0528-API",
@@ -34599,6 +34686,7 @@
         "Agents-MCP-Hackathon/f1-mcp-server",
         "Ilgmars/deepseek-ai-DeepSeek-R1-0528",
         "MCP-1st-Birthday/Vehicle-Diagnostic-Assistant",
+        "aquanode/gpu-vram-calculator",
         "umint/openwebui",
         "MCP-1st-Birthday/gitrepo_inspector_mcp",
         "dream2589632147/Dream-Image-to-Prompt-Pro",
@@ -34695,8 +34783,8 @@
     },
     "meta-llama/llama-guard-4-12b": {
       "id": "meta-llama/Llama-Guard-4-12B",
-      "downloads": 85431,
-      "likes": 135,
+      "downloads": 86781,
+      "likes": 136,
       "lastModified": "2025-04-29T18:14:44.000Z",
       "tags": [
         "transformers",
@@ -34894,15 +34982,15 @@
         "IvanStudent/PredictiveMLGenAI",
         "suhail-chand/nutri-care",
         "rpantangi/my-bert-finetuned",
-        "Sasori56/meta-llama-Llama-Guard-4-12B",
         "SherryAnalyst/Agentic_AI",
+        "Sasori56/meta-llama-Llama-Guard-4-12B",
         "smwatson1975/nutritionbot",
         "ilsa15/Resume-Analyzer",
         "cheremnm/SpiritualAssistant",
         "AliSiyyal/Ai",
         "mdotti/NutriBot",
-        "Anshini/MitraVerse",
         "hiteshbwankhede/LLMComparsion",
+        "Anshini/MitraVerse",
         "kaftab/simple",
         "hphari/nutrition_disorder_bot",
         "cavanab9/greatlearning_proj3",
@@ -34912,8 +35000,8 @@
         "kaftab/NutritionChatBot-1",
         "kaftab/NutritionChatBot3",
         "vkerri/custom-chatbot",
-        "kaftab/NutritionChatBot4",
         "penguinvanillabean/GL_Project3",
+        "kaftab/NutritionChatBot4",
         "Anshini/AGENT",
         "resolano/gl_nlp_project3",
         "jigneshah/custom-chatbot",
@@ -34939,28 +35027,28 @@
         "Sanjito/Nutrition_Bot_Demo",
         "madhan2211/DHS_test",
         "vamc5/nutrition-chatbot",
-        "mcarsell/Hello_World",
         "rishabhTTN/nutrition_bot",
+        "mcarsell/Hello_World",
         "sher-somas/dhs-2025",
         "abhigyanshivam/nutrition_bot",
         "karthikeyansam/nutritional_bot",
-        "bhaskarjit/nutrition_bot",
-        "Saravanamuniraj/nutrition_bot_2",
-        "praveen030970/Nutrition",
-        "Saravanamuniraj/nut-bot",
-        "aakar04/nutrition_bot",
-        "shobyzach/nutrition_bot",
-        "vinodkodakandla/nutrition_bot_dhs_arag_2025",
-        "SenganML/nutrition_bot",
-        "msudhar/nutritionbot",
-        "Sampath-123/DATAHACKSUMMIT",
         "Virupakshi/nutrition_bot",
-        "priyanethiran/AgentOPS",
-        "sarvesh629/DHS_Workshop2",
+        "Saravanamuniraj/nut-bot",
+        "harshajv/DHS_Nutrition",
+        "Sampath-123/DATAHACKSUMMIT",
         "MirzaAI/nutrition_bot",
-        "look4suman/nutrition_bot",
-        "ApurvaSaumya/nutrition_bot",
-        "sarvesh629/DHS_Workshop"
+        "bhaskarjit/nutrition_bot",
+        "vinodkodakandla/nutrition_bot_dhs_arag_2025",
+        "Saravanamuniraj/nutrition_bot_2",
+        "Shabhitham/nutrition_bot",
+        "praveen030970/Nutrition",
+        "sarvesh629/DHS_Workshop",
+        "ravillahari/NutritionBot",
+        "Murali/Nutri_Bot",
+        "SandeshSan/DHS2025Workshop",
+        "ChethanG/dhs2025",
+        "trrtrr/nutrition_bot",
+        "anindyaparida/nutrition_bot"
       ],
       "createdAt": "2025-04-23T11:30:25.000Z",
       "safetensors": {
@@ -34974,8 +35062,8 @@
     },
     "qwen/qwen3-30b-a3b": {
       "id": "Qwen/Qwen3-30B-A3B",
-      "downloads": 1051869,
-      "likes": 977,
+      "downloads": 1040763,
+      "likes": 979,
       "lastModified": "2025-07-26T03:45:17.000Z",
       "tags": [
         "transformers",
@@ -35174,13 +35262,13 @@
         "maufadel/wattgpu",
         "Genrius-AI/llm-vram-calculator",
         "hue13/Qwen-Qwen3-30B-A3B",
-        "IamRulo/Final_Assignment_Template",
         "ItayR31/Qwen-Qwen3-235B-A22B",
+        "IamRulo/Final_Assignment_Template",
         "24Arys11/Final_Assignment_Template",
         "xe1phix/Qwen3-Demo",
         "KraTUZen/LogicLink-Project-Space",
-        "singnyorita/Qwen3-30B-A3B",
         "kingarnica/Qwen3-Demo",
+        "singnyorita/Qwen3-30B-A3B",
         "drecokie/dre",
         "cdiogo/Final_Assignment_Template",
         "cfsandoval/Qwen-Qwen3-30B-A3B",
@@ -35239,8 +35327,8 @@
     },
     "qwen/qwen3-14b": {
       "id": "Qwen/Qwen3-14B",
-      "downloads": 13002507,
-      "likes": 529,
+      "downloads": 12988834,
+      "likes": 530,
       "lastModified": "2025-07-26T03:49:23.000Z",
       "tags": [
         "transformers",
@@ -35480,8 +35568,8 @@
     },
     "qwen/qwen3-32b": {
       "id": "Qwen/Qwen3-32B",
-      "downloads": 2934052,
-      "likes": 791,
+      "downloads": 2952541,
+      "likes": 792,
       "lastModified": "2025-07-26T03:45:22.000Z",
       "tags": [
         "transformers",
@@ -35744,7 +35832,7 @@
     },
     "meta-llama/llama-4-maverick": {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
-      "downloads": 11422,
+      "downloads": 11569,
       "likes": 519,
       "lastModified": "2025-05-22T23:46:12.000Z",
       "tags": [
@@ -36182,8 +36270,8 @@
     },
     "meta-llama/llama-4-scout": {
       "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-      "downloads": 105698,
-      "likes": 1381,
+      "downloads": 105430,
+      "likes": 1383,
       "lastModified": "2025-05-22T23:44:50.000Z",
       "tags": [
         "transformers",
@@ -36604,7 +36692,7 @@
     },
     "deepseek/deepseek-chat-v3-0324": {
       "id": "deepseek-ai/DeepSeek-V3-0324",
-      "downloads": 264894,
+      "downloads": 243910,
       "likes": 3223,
       "lastModified": "2025-03-27T04:01:53.000Z",
       "tags": [
@@ -37220,10 +37308,9 @@
         }
       ],
       "spaces": [
-        "VIDraft/global-llm-leaderboard",
         "jairwaal/image",
         "kebeliu/KVCacheSizeCalculator",
-        "aquanode/gpu-vram-calculator",
+        "VIDraft/global-llm-leaderboard",
         "enzostvs/deepsite",
         "openfree/Deepseek-v3-0324-Research",
         "hadadrjt/ai",
@@ -37244,6 +37331,7 @@
         "caiosilva1221/deepsitev2",
         "miaoge/deepseek-ai-DeepSeek-V3-0324",
         "RISINE/deepseek-ai-DeepSeek-V3-0324",
+        "aquanode/gpu-vram-calculator",
         "Agents-MCP-Hackathon/OutageOdyssey",
         "umint/openwebui",
         "dream2589632147/Dream-Image-to-Prompt-Pro",
@@ -37335,8 +37423,8 @@
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-      "downloads": 180874,
-      "likes": 1407,
+      "downloads": 179513,
+      "likes": 1408,
       "lastModified": "2025-12-22T10:15:41.000Z",
       "tags": [
         "vllm",
@@ -37628,8 +37716,8 @@
     },
     "google/gemma-3-4b-it": {
       "id": "google/gemma-3-4b-it",
-      "downloads": 955800,
-      "likes": 1611,
+      "downloads": 962830,
+      "likes": 1614,
       "lastModified": "2025-03-21T20:20:53.000Z",
       "tags": [
         "transformers",
@@ -37778,7 +37866,6 @@
       ],
       "spaces": [
         "aizip-dev/SLM-RAG-Arena",
-        "ozdentarikcan/ConvDeck",
         "jairwaal/image",
         "ginigen/VEO3-Free",
         "ginigen/VEO3-Directors",
@@ -37822,6 +37909,7 @@
         "beta3/Gemma_Hub_Explorer",
         "Lunamos/flas-demo",
         "build-small-hackathon/picklld",
+        "ozdentarikcan/ConvDeck",
         "ashmib/green-city-finder",
         "fukugawa/indiebot-arena",
         "jonaschua/gemma",
@@ -37890,8 +37978,8 @@
     },
     "google/gemma-3-12b-it": {
       "id": "google/gemma-3-12b-it",
-      "downloads": 355733,
-      "likes": 898,
+      "downloads": 357592,
+      "likes": 900,
       "lastModified": "2025-03-21T20:28:56.000Z",
       "tags": [
         "transformers",
@@ -38048,6 +38136,7 @@
       ],
       "spaces": [
         "pliny-the-prompter/obliteratus",
+        "hugging-apps/scena-audio-scene-demo",
         "huggingface-projects/gemma-3-12b-it",
         "build-small-hackathon/claim-ready",
         "ginigen-ai/smol-worldcup",
@@ -38060,7 +38149,6 @@
         "merterbak/gemma-3",
         "openfree/Gemma-3-R1984-12B",
         "valira-ai/slo-ocr-benchmark",
-        "hugging-apps/scena-audio-scene-demo",
         "MCP-1st-Birthday/learnbee_mcp",
         "alexandrainst/radial-plot-generator",
         "CalvinU/writing-prototypes",
@@ -38160,7 +38248,7 @@
     },
     "cohere/command-a": {
       "id": "CohereLabs/c4ai-command-a-03-2025",
-      "downloads": 1576,
+      "downloads": 1582,
       "likes": 398,
       "lastModified": "2025-10-30T06:37:15.000Z",
       "tags": [
@@ -38495,8 +38583,8 @@
     },
     "google/gemma-3-27b-it": {
       "id": "google/gemma-3-27b-it",
-      "downloads": 351339,
-      "likes": 2061,
+      "downloads": 355260,
+      "likes": 2063,
       "lastModified": "2025-03-21T20:29:02.000Z",
       "tags": [
         "transformers",
@@ -38787,7 +38875,7 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "id": "Qwen/Qwen2.5-VL-72B-Instruct",
-      "downloads": 98895,
+      "downloads": 99120,
       "likes": 666,
       "lastModified": "2025-06-06T02:48:50.000Z",
       "tags": [
@@ -39020,7 +39108,6 @@
       ],
       "spaces": [
         "Yellowbox2026/Qwen-Image-Edit-2511-AnyPose",
-        "ozdentarikcan/ConvDeck",
         "jairwaal/image",
         "smolagents/computer-agent",
         "linoyts/Qwen-Image-Edit-2511-AnyPose",
@@ -39067,6 +39154,7 @@
         "MySafeCode/Qwen-Image-Edit-2511-AnyPose",
         "davidpcm/openclaw-stock-analyst",
         "rl74/Qwen-Image-Edit-2511-AnyPose",
+        "ozdentarikcan/ConvDeck",
         "hcansaltik/Template_Testing",
         "Proximile/Multimodal-Remote-Chat",
         "kevinkal/stx",
@@ -39114,8 +39202,8 @@
         "wBfvtNqNhb/JJeDIkUYeCqVU7B",
         "kanekirwan/kanekirwan",
         "sandsiv/Dashboard_Narrator_Openrouter",
-        "sierrafr/test",
         "Sanjeev23oct/browser-use-sg",
+        "sierrafr/test",
         "naxwinn/Aura-2",
         "Cvabds/A",
         "cndoit18/computer-agent"
@@ -39132,7 +39220,7 @@
     },
     "mistralai/mistral-small-24b-instruct-2501": {
       "id": "mistralai/Mistral-Small-24B-Instruct-2501",
-      "downloads": 85052,
+      "downloads": 85293,
       "likes": 990,
       "lastModified": "2025-07-28T17:26:22.000Z",
       "tags": [
@@ -39382,8 +39470,8 @@
     },
     "deepseek/deepseek-chat": {
       "id": "deepseek-ai/DeepSeek-V3",
-      "downloads": 1657256,
-      "likes": 4453,
+      "downloads": 1614390,
+      "likes": 4462,
       "lastModified": "2025-03-27T04:01:45.000Z",
       "tags": [
         "transformers",
@@ -40032,11 +40120,10 @@
         }
       ],
       "spaces": [
-        "VIDraft/global-llm-leaderboard",
+        "akhaliq/anycoder",
         "pliny-the-prompter/obliteratus",
         "Oysiyl/AI-QR-code-generator",
-        "aquanode/gpu-vram-calculator",
-        "akhaliq/anycoder",
+        "VIDraft/global-llm-leaderboard",
         "gokaygokay/Chroma",
         "FINAL-Bench/all-bench-leaderboard",
         "acvlab/abot-world-interactive",
@@ -40065,6 +40152,7 @@
         "AtlaAI/LLMsOnTrial",
         "Agents-MCP-Hackathon/TDAgent",
         "qgallouedec/tito",
+        "aquanode/gpu-vram-calculator",
         "seawolf2357/LLM_Quantization",
         "CausalNLP/causal-agent",
         "awacke1/Deepseek-HPC-GPU-KEDA",
@@ -40147,8 +40235,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
-      "downloads": 370853,
-      "likes": 3181,
+      "downloads": 365518,
+      "likes": 3184,
       "lastModified": "2024-12-21T18:28:01.000Z",
       "tags": [
         "transformers",
@@ -40427,9 +40515,9 @@
         }
       ],
       "spaces": [
-        "VIDraft/global-llm-leaderboard",
         "jairwaal/image",
         "octooai/llm-vram-calculator",
+        "VIDraft/global-llm-leaderboard",
         "gabrielchua/open-notebooklm",
         "huggingface/paper-central",
         "m-ric/open-notebooklm",
@@ -40514,8 +40602,8 @@
         "bobber/lex-interviewer-chat",
         "Athric/FarmSim",
         "williyam/hallucination-detector-gym",
-        "Shasidharyadavr/netweaver_sre",
         "Anbu-00001/adaptive-crisis-env",
+        "Shasidharyadavr/netweaver_sre",
         "saxenalakshya/customer_support_env",
         "Architect8999/rhodawk-ai-devops-engine",
         "Saiyam0211/polyglot-redteam",
@@ -40540,7 +40628,7 @@
     },
     "qwen/qwen-2.5-coder-32b-instruct": {
       "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-      "downloads": 513412,
+      "downloads": 532496,
       "likes": 2202,
       "lastModified": "2025-01-12T02:02:22.000Z",
       "tags": [
@@ -40703,11 +40791,12 @@
         }
       ],
       "spaces": [
-        "agents-course/First_agent_template",
-        "bigcode/bigcode-models-leaderboard",
         "fastgpu/vram-and-gpu-cost-calculator",
-        "VedikaBansal/Travel-Planning-Agent",
+        "agents-course/First_agent_template",
+        "agents-course/unit2_smolagents_quiz",
+        "bigcode/bigcode-models-leaderboard",
         "adishu/auto_jailbreak",
+        "VedikaBansal/Travel-Planning-Agent",
         "ositamiles/Travel-Planning-Agent",
         "mcmchammer/llm_agents_basic_principles_weather_agent",
         "maubilli/best-local-model",
@@ -40715,7 +40804,6 @@
         "Vokturz/can-it-run-llm",
         "NeurixYUFI/imggen",
         "m-ric/agent-data-analyst",
-        "agents-course/unit2_smolagents_quiz",
         "Agents-MCP-Hackathon/ShallowCodeResearch",
         "Nymbo/Serverless-TextGen-Hub",
         "sergiopaniego/AlfredAgent",
@@ -40791,9 +40879,9 @@
         "Aarvee320/Short-Story-Generator",
         "cpgrant/First_agent_template",
         "Tera-Byte/Opti-Flight",
+        "m-ric/agent_toolcall2",
         "Mikasa06/AI_Agent_ChartMaster",
         "ddewaele/huggingface-agents-course-qa",
-        "m-ric/agent_toolcall2",
         "Warren-SJ/Agent_Example",
         "paulofroes/First_agent_template",
         "uasername/First_agent_uasername",
@@ -40816,8 +40904,8 @@
     },
     "qwen/qwen-2.5-7b-instruct": {
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "downloads": 5601971,
-      "likes": 2470,
+      "downloads": 5896682,
+      "likes": 2483,
       "lastModified": "2025-01-12T02:10:10.000Z",
       "tags": [
         "transformers",
@@ -40941,13 +41029,12 @@
       "spaces": [
         "galilai-group/prh_demo",
         "BIGJUTT/model-pulse",
-        "ozdentarikcan/ConvDeck",
         "pliny-the-prompter/obliteratus",
         "alexnasa/Wan2.2-Animate-ZEROGPU",
         "0xfei/crypto-price-predict",
         "tonysodano/Hallucination_Detection_for_Legal_LLM_Input_Output-CERT_vs_HHEM",
+        "WANIFAHEEM12/SINGING.COM",
         "IJ-Reynolds/AI_Intel_Tracker",
-        "saurabh0962/dcg-slag-viscosity-controller",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
@@ -40988,6 +41075,7 @@
         "Adityahars/Sanskrit-env",
         "MecCogAgenticChallenge/meccog-dashboard",
         "YinmingHuang/StableAvatar",
+        "build-small-hackathon/French-Coach",
         "filbench/filbench-leaderboard",
         "Westlake-AGI-Lab/FlowDirector",
         "Agents-MCP-Hackathon/Aura_AI_Scan",
@@ -40995,7 +41083,6 @@
         "haodongli/RollingSink",
         "pollen-robotics/reachy-sticker-generator",
         "build-small-hackathon/multi-agent-lab",
-        "build-small-hackathon/French-Coach",
         "Volkopat/arXivGPT",
         "nyax/PhyloLM",
         "wana14/Wan-2.2-5B",
@@ -41038,7 +41125,8 @@
         "build-small-hackathon/gitopadesh",
         "CASP77/CASP_College_AI",
         "wellverse/WellVerse",
-        "plan291037/TextPhantom-v4.0.0"
+        "plan291037/TextPhantom-v4.0.0",
+        "build-small-hackathon/feelin"
       ],
       "createdAt": "2024-09-16T11:55:40.000Z",
       "safetensors": {
@@ -41052,8 +41140,8 @@
     },
     "meta-llama/llama-3.2-1b-instruct": {
       "id": "meta-llama/Llama-3.2-1B-Instruct",
-      "downloads": 1899093,
-      "likes": 1930,
+      "downloads": 1826238,
+      "likes": 1934,
       "lastModified": "2024-10-24T15:07:51.000Z",
       "tags": [
         "transformers",
@@ -41210,8 +41298,8 @@
       ],
       "spaces": [
         "aizip-dev/SLM-RAG-Arena",
-        "VIDraft/global-llm-leaderboard",
         "steveo223/herb-ai-backend",
+        "VIDraft/global-llm-leaderboard",
         "HuggingFaceH4/blogpost-scaling-test-time-compute",
         "allenai/reward-bench",
         "cvachet/pdf-chatbot",
@@ -41322,8 +41410,8 @@
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "id": "meta-llama/Llama-3.2-3B-Instruct",
-      "downloads": 1031607,
-      "likes": 2919,
+      "downloads": 995167,
+      "likes": 2926,
       "lastModified": "2024-10-24T15:07:29.000Z",
       "tags": [
         "transformers",
@@ -41488,10 +41576,10 @@
       ],
       "spaces": [
         "aizip-dev/SLM-RAG-Arena",
-        "VIDraft/global-llm-leaderboard",
         "pliny-the-prompter/obliteratus",
         "jairwaal/image",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
+        "VIDraft/global-llm-leaderboard",
         "cvachet/pdf-chatbot",
         "jupyter-agent/jupyter-agent",
         "baconnier/prompt-plus-plus",
@@ -41600,8 +41688,8 @@
     },
     "qwen/qwen-2.5-72b-instruct": {
       "id": "Qwen/Qwen2.5-72B-Instruct",
-      "downloads": 192858,
-      "likes": 1035,
+      "downloads": 191498,
+      "likes": 1037,
       "lastModified": "2025-01-12T02:07:38.000Z",
       "tags": [
         "transformers",
@@ -41873,8 +41961,8 @@
         "Cooked4riyal/EntropyEnv",
         "CyranoB/search_agent",
         "muryshev/Qwen-2.5-72B-Instruct",
-        "roameoandjulijet/final_project_code",
         "Bitebot/bitebot_app",
+        "roameoandjulijet/final_project_code",
         "Adityashinde0/customer-support-openenv",
         "Destiny04/digital-forensics-lab",
         "Hypxr7/legal-aid-rag",
@@ -41899,8 +41987,8 @@
         "meet25284/pothole-repair-env",
         "souller/email-triage-env",
         "Tarun21W/MetaAI",
-        "Casp1an/TradeX",
         "Anuj2209/openenv-customer-support",
+        "Casp1an/TradeX",
         "NITISHRG15102007/rag-context-optimizer",
         "thecodebeast/Clinical-Note-Scribe",
         "meta-rl/pnp-gtm-strategy-optimizer",
@@ -41935,7 +42023,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-70b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-70B",
-      "downloads": 2175,
+      "downloads": 2146,
       "likes": 145,
       "lastModified": "2024-09-08T07:51:00.000Z",
       "tags": [
@@ -42205,17 +42293,17 @@
         "lordofc/gpt",
         "NoLev/NovelTransformer",
         "chouchouvs/ccpu",
-        "saikul/LuckyGPT",
         "saikul/LuckyAi",
+        "saikul/LuckyGPT",
         "suzmen/gpt4free",
         "megaforcing/Project1",
         "aiagentdlnk/dLNk-Agent-V2-Machine2-Training",
         "awddwaawd/dLNk-Agent-V2-Machine1-Training",
         "bdaibyazad/BDAi-By-Azad",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-terminal",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-Gold",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-terminal",
         "LogitCode/FlexChat-blue",
         "shrey77777/xyzzz",
         "Executor-Tyrant-Framework/Working-in-a-Codemine",
@@ -42241,7 +42329,7 @@
     },
     "nousresearch/hermes-3-llama-3.1-405b": {
       "id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "downloads": 1654,
+      "downloads": 1655,
       "likes": 276,
       "lastModified": "2024-10-08T08:01:44.000Z",
       "tags": [
@@ -43027,8 +43115,8 @@
         "jackmichael/contravaulthvnkz",
         "ziadsameh32/ContiAI-v4",
         "Matthias0828282/rebelai-chaos-unleashed",
-        "lurito/MyAIchat",
         "lurito/Aaa",
+        "lurito/MyAIchat",
         "CiscsoPonce/PrimoGreedy-Agent",
         "Veilukanthal/mediaguide-assistant",
         "Veilukanthal/domain-chatbot-assistant",
@@ -43037,9 +43125,9 @@
         "London1977/sikhi-library",
         "bdaibyazad/BDAi-By-Azad",
         "LogitCode/FlexChat",
-        "LogitCode/FlexChat-Gold",
-        "LogitCode/FlexChat-Warm",
         "LogitCode/FlexChat-terminal",
+        "LogitCode/FlexChat-Warm",
+        "LogitCode/FlexChat-Gold",
         "LogitCode/FlexChat-blue",
         "mohanvannemreddy7/genvideoqa",
         "mohanvannemreddy7/aivideoqa",
@@ -43084,7 +43172,7 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "id": "meta-llama/Llama-3.1-70B-Instruct",
-      "downloads": 96393,
+      "downloads": 93952,
       "likes": 1023,
       "lastModified": "2024-12-15T01:55:33.000Z",
       "tags": [
@@ -43468,8 +43556,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "id": "meta-llama/Llama-3.1-8B-Instruct",
-      "downloads": 4501381,
-      "likes": 8716,
+      "downloads": 4463539,
+      "likes": 8746,
       "lastModified": "2024-09-25T17:00:57.000Z",
       "tags": [
         "transformers",
@@ -43638,19 +43726,20 @@
         }
       ],
       "spaces": [
-        "nvidia/kvpress-leaderboard",
         "BIGJUTT/model-pulse",
-        "Huggingansuman/red_teaming_env",
-        "VIDraft/global-llm-leaderboard",
-        "pliny-the-prompter/obliteratus",
         "pollen-robotics/Reachy_Mini",
+        "nvidia/kvpress-leaderboard",
+        "pliny-the-prompter/obliteratus",
         "jairwaal/image",
+        "liaoch/open-ai-co-scientist",
         "nazdridoy/inferoxy-hub",
+        "Huggingansuman/red_teaming_env",
         "tonysodano/Hallucination_Detection_for_Legal_LLM_Input_Output-CERT_vs_HHEM",
         "rodaruu/screen-coach-rl",
         "octooai/llm-vram-calculator",
         "Infergauge-load/llm-performance-and-load-weekly-runs",
         "Ethan-WZ/ResearchPaperAgent",
+        "VIDraft/global-llm-leaderboard",
         "HathoraResearch/LLM-KV-cache-calculator",
         "KingNish/OpenGPT-4o",
         "allenai/reward-bench",
@@ -43719,7 +43808,6 @@
         "Agents-MCP-Hackathon/mcp-rag-workflow",
         "filbench/filbench-leaderboard",
         "Agents-MCP-Hackathon/rss-mcp-server",
-        "liaoch/open-ai-co-scientist",
         "umint/openwebui",
         "kode-with-klossy/3.3-groupA2-capstone",
         "merve/gradio-tgi-2",
@@ -43751,7 +43839,7 @@
     },
     "mistralai/mistral-nemo": {
       "id": "mistralai/Mistral-Nemo-Instruct-2407",
-      "downloads": 131497,
+      "downloads": 125772,
       "likes": 1740,
       "lastModified": "2025-07-28T17:16:02.000Z",
       "tags": [
@@ -43931,8 +44019,8 @@
         "ILLERRAPS/OpenGPT-4o",
         "K00B404/mistral-nemo-prompt-enhancer",
         "Shreyas094/SearchGPTTest",
-        "tsi-org/FLUX-Prompt-Generator",
         "Shreyas094/Sentinel-AI-Beta-Test",
+        "tsi-org/FLUX-Prompt-Generator",
         "tastypear/sia-chat-adapter",
         "ar08/Voice-assitant",
         "crystalai/Crystal.Ai-Nemo-Instruct-2407",
@@ -43962,8 +44050,8 @@
         "marchkamal51/obliteratus",
         "huedaya/llm-fastapi-1",
         "Niansuh/HFLLMAPI",
-        "Ctaake/FranziBot2",
         "AEUPH/brute-site",
+        "Ctaake/FranziBot2",
         "Ssdfiuheqwiufhuieir/FLUX-Prompt-Generatoruy",
         "Ssdfiuheqwiufhuieir/FLUX-Prompt-Generator",
         "Prachi03/chatbot",
@@ -43986,7 +44074,7 @@
     },
     "google/gemma-2-27b-it": {
       "id": "google/gemma-2-27b-it",
-      "downloads": 21523,
+      "downloads": 21376,
       "likes": 577,
       "lastModified": "2024-08-27T19:41:54.000Z",
       "tags": [
@@ -44208,9 +44296,9 @@
         "locorene1000/gemma-2-9b-it",
         "0ppxnhximxr/google-gemma-2-27b-it",
         "TaskeenJafri/gemma-2-9b-it",
+        "Reza2002/google-gemma-2-27b-it",
         "ChadLee/google-gemma-2-27b-it",
         "yayablaze/google-gemma-2-27b-it",
-        "Reza2002/google-gemma-2-27b-it",
         "meidkad/test6",
         "meidkad/test5",
         "ehristoforu/gemma-2-9b-it",
@@ -44218,8 +44306,8 @@
         "jerukperas/chatbot",
         "FayikSuhail/LLMIntro",
         "twn39/starship",
-        "Sergeysedikh/gemma-2-9b-it",
         "pvanand/specialized-agents-api",
+        "Sergeysedikh/gemma-2-9b-it",
         "nymanromeo123/gemma-2-9b-it",
         "isl-research/KCE_NVIDIA",
         "powerstone/google-gemma-2-27b-it",
@@ -44261,7 +44349,7 @@
     },
     "mistralai/mixtral-8x22b-instruct": {
       "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-      "downloads": 39679,
+      "downloads": 39353,
       "likes": 781,
       "lastModified": "2025-07-24T16:41:56.000Z",
       "tags": [
